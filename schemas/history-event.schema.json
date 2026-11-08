@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Multi-axis historical event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "date_text",
+    "date_precision",
+    "axis",
+    "summary",
+    "source_ids",
+    "status"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "date_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "date_precision": {
+      "enum": [
+        "day",
+        "month",
+        "year",
+        "interval",
+        "unknown"
+      ]
+    },
+    "axis": {
+      "enum": [
+        "technology",
+        "product",
+        "organization",
+        "industry",
+        "institution",
+        "patent_rights"
+      ]
+    },
+    "subject_entity_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "summary": {
+      "type": "string"
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "knowledge_as_of_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "status": {
+      "enum": [
+        "verified",
+        "provisional",
+        "disputed"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

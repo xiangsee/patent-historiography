@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Historical claim lifecycle",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "claim_id",
+    "statement",
+    "kind",
+    "status",
+    "sources",
+    "verification_next"
+  ],
+  "properties": {
+    "claim_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "statement": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "enum": [
+        "fact",
+        "data_inference",
+        "historical_interpretation"
+      ]
+    },
+    "status": {
+      "enum": [
+        "HYPOTHESIS",
+        "OBSERVED",
+        "INFERRED",
+        "INTERPRETED",
+        "CONTESTED",
+        "REJECTED"
+      ]
+    },
+    "subject_entity_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "period_start": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "period_end": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "knowledge_as_of_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "stance"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "stance": {
+            "enum": [
+              "supports",
+              "contradicts",
+              "context"
+            ]
+          },
+          "locator": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "strongest_alternative": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_claim": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "impact_type": {
+      "enum": [
+        "support",
+        "extend",
+        "revise",
+        "contradict",
+        "new",
+        "pending"
+      ]
+    },
+    "verification_next": {
+      "type": "string"
+    },
+    "last_verified_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "editorial_use": {
+      "enum": [
+        "hold",
+        "qualified",
+        "ready"
+      ]
+    }
+  }
+}

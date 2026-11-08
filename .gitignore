@@ -1,0 +1,16 @@
+# Restricted / licensed bulk data; keep public history reproducible without redistributing sources.
+data/raw/
+data/restricted/
+private/
+secrets/
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.duckdb
+.env
+.env.*
+!.env.example
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
