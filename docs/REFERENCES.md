@@ -41,3 +41,30 @@
 
 ## 研究状态与待补
 史记原篇、中文科技企业史、制度史、理论全篇、史料版本差异、历史产权证据与反方文献仍待系统核验；不可将目录摘要核验写作全文读毕。
+
+---
+
+
+## G1原典研究及新核实的学术论文（2026-11-08）
+
+原典（已核实并按章节定位关键段落；校勘本未完成对读）：
+- 《太史公自序》卷130：https://zh.wikisource.org/zh-hans/史記/卷130
+- 《秦始皇本纪》卷6：https://zh.wikisource.org/wiki/史記/卷006
+- 《项羽本纪》卷7：https://zh.wikisource.org/wiki/史記/卷007
+- 《六国年表》卷15：https://zh.wikisource.org/wiki/史記/卷015
+- 《秦楚之际月表》卷16：https://zh.wikisource.org/wiki/史記/卷016
+- 《河渠书》卷29：https://zh.wikisource.org/wiki/史記/卷029
+- 《平准书》卷30：https://zh.wikisource.org/wiki/史記/卷030
+- 《孔子世家》卷47：https://zh.wikisource.org/wiki/史記/卷047
+- 《陈涉世家》卷48：https://zh.wikisource.org/wiki/史記/卷048
+- 《刺客列传》卷86：https://zh.wikisource.org/wiki/史記/卷086
+- 《货殖列传》卷129：https://zh.wikisource.org/wiki/史記/卷129
+
+期刊权威题录与摘要（**未逐页审阅全文**）：
+- 阮芝生（1979），**《论史记五体及「太史公曰」的述与作》**，《台大历史学报》6：17–44，DOI:10.6253/ntuhistory.1979.06.02：https://toaj.stpi.niar.org.tw/index/journal/volume/article/4b1141f987544c3401878cec3ab41e76。先前文档略去“述与作”，此处补齐准确题名。
+- 阮芝生（1980），**《论史记五体的体系关联》**，《台大历史学报》7：1–30，DOI:10.6253/ntuhistory.1980.07.01：https://toaj.stpi.niar.org.tw/index/journal/volume/article/4b1141f987544c3401878ce9c66d1e56。特别重要：各体的创造 vs 五体组合为纪传体的“第二层创造”。
+- 徐建委（2025），《历史的起点：《史记》中的时间设置及其意义》，《北京大学学报（哲学社会科学版）》2025(2):117–127：https://ccj.pku.edu.cn/article/info?aid=383606151。主题：年表、历史起点、共和元年、叙事时间。
+- 应三玉（2004），《试论〈史记〉三家注的价值及其影响》，《中国典籍与文化》2004(3):17–24：https://ccj.pku.edu.cn/Article/info?aid=286662372。主题：裴骃、司马贞、张守节注本层次。
+- 汪越、徐克范《读史记十表》卷四（清代后出注解，并非原典）：https://zh.wikisource.org/zh-hans/讀史記十表/卷四。关于月表“五年”与自序“八年”的解释待版本复核。
+
+古典与现代方法转译见[原典研究](../research/04-shiji-original-reading-round1.md)。

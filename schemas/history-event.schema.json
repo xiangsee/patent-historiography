@@ -74,6 +74,74 @@
         "string",
         "null"
       ]
+    },
+    "date_as_reported": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Source's original date expression, never overwritten by normalization"
+    },
+    "date_normalized": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date",
+      "description": "Normalized date; if unavailable use null and retain original"
+    },
+    "calendar_system": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Named original or modern calendar or unknown"
+    },
+    "period_scope_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Research window and beginning/ending event; distinct scopes can coexist"
+    },
+    "temporal_granularity": {
+      "enum": [
+        "day",
+        "month",
+        "quarter",
+        "year",
+        "mixed",
+        "unknown"
+      ]
+    },
+    "narrative_anchor_entity_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Whose chronology/point of view does this original account privilege?"
+    },
+    "conversion_rule_source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_layer": {
+      "enum": [
+        "original_document",
+        "embedded_statement",
+        "narrator_interpretation",
+        "later_commentary",
+        "modern_inference",
+        "unspecified"
+      ]
+    },
+    "date_disputes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
   }
 }

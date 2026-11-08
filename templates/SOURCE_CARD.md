@@ -1,20 +1,19 @@
-# 史料卡 / Source Card
-
+# 史料卡 / Source Card v0.3
 - source_id：
-- title：
+- documentary_object（具体文件、版本、公报号与校勘本）：
 - author_or_issuing_body：
-- source_type：primary / secondary / context
-- event_date：
-- publication_date：
-- retrieved_at：
-- stable_url：
-- archive_url_or_identifier：
-- jurisdiction_or_scope：
-- permissions_and_reuse：
-- original_language：
-- content_locator：页/段/条/表/专利项
-- what_it_says：
+- source_type（文本、专利、审查、档案、采访等）：
+- document_created_date / publication_date / retrieved_at：
+- original_event_time_as_reported：
+- original_language_and_calendar：
+- stable_url / page_paragraph_claim_locator：
+- source_layer（original / embedded_statement / narrator / later_commentary / modern_inference）：
+- claim_ids_and_evidence_role_for_each（direct / reported / contextual / interpretation / contradicts / unknown）：
+- who_reports_what（谁的陈述、相对哪个事件）：
+- content_verified_level（bibliographic / key_passages / full_text / cross_verified）：
+- what_it_proves：
 - what_it_does_not_prove：
-- cross_checks：
-- quality_flags：
-- review_status：discovered / bibliographic_verified / content_verified / cross_verified
+- disputes_and_alternative_reading：
+- rights_license_and_publication_limits：
+- independent_cross_checks：
+- next_verification：

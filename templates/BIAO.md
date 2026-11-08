@@ -1,15 +1,22 @@
-# 表 / BIAO 研究卡
+# 表 / BIAO 研究卡 v0.3
+
 - unit_id：
-- historical_question：多主体、多技术与多制度的时间校验
-- scope_entity_ids 与起讫时间：
+- historical_question（跨时间/多主体/跨产业的什么问题）：
+- period_scope_id：
+- period_start_event / period_end_event：
+- temporal_granularity（year / quarter / month / day / mixed）：
+- why_this_granularity（变局频率/史料精度/比较需要）：
+- calendar_system and era/narrative_anchor（以谁为纪年的中心）：
+- original_date_text（如文献表述，不许覆盖）：
+- normalized_date + precision + conversion_rule：
+- source_versions_and_disputes（异文、不同时间范围）：
+- scope_entity_ids（含对照与同时期竞争者）：
 - claim_ids、event_ids、source_ids：
-- 核心证据：优先权/申请/公开/授权/产品/组织/制度与同期对照
-- source_coverage（原始档案、专利、独立史料）：
-- 同期竞争者与替代解释：
-- knowledge_as_of_date（当时是否可知）：
-- 关于本体例对象的独立发现：
-- 其他两种体例的cross_form_unit_ids：
-- 互见引起的校正与争议：
-- strongest_counter_evidence：
-- researcher_commentary（研究者按，事实/推断/解释分开）：
-- status（研究中/已核验/待审稿）：
+- parallel_tracks（专利优先权/申请/公开/授权、产品/组织/标准/制度/产业）：
+- knowledge_as_of_date：
+- missingness_and_coverage：
+- table_reveals（比单一主角编年多发现了什么）：
+- mutual_correction_of_other_forms：
+- counter_evidence and alternative_periodization：
+- researcher_commentary（别把数据口径写成客观天意）：
+- review_status：

@@ -1,34 +1,45 @@
-# 史料、命题与 Claim Lifecycle
+# 史料、命题与 Claim Lifecycle（v0.3）
 
-## 证据分层
-- **Primary**：专利/转让登记原文、官方监管披露、法院/行政文书、当时产品文件和可追溯的一手档案。
-- **Secondary**：同行评议论文、可靠商业史与学术著作、媒体深度调查。
-- **Context**：采访、回忆录、公司公关材料和网络内容；用于寻找线索，须注意事后选择性叙述。
-主张动机、团队内部决策和因果关系时，必须有足够独立证据，不以单件专利标题推定。
+## 原则：证据作用相对于命题
+
+不宜把某份文献永久标为Primary/Secondary就视作其所有叙述均是真实一手。文件可能是“某天申请了某项专利”的一手证据，却是“企业自主开发并推出产品”的间接甚至不足证据；《史记》是研究司马迁写法的直接文本，却是记述秦楚事件的后出史书。
+
+**每一项claim_id均需明确其source_id的evidence_role_for_claim**：direct_attestation / reported_testimony / contextual / interpretation / contradicts / unknown。
+
+参见 [史记原典与现代专利证据的对应规范](SHIJI_SOURCE_CRITICISM.md)。
+
+## 来源层次（无论古典或专利史）
+
+- documentary_object：原始文本及具体版本，确实发生何种披露。
+- embedded_statement：当事人自述、公司披露或原文记述（不自动等于真实动机）。
+- narrator_interpretation：作者/编者对原因、意义和人物的判断。
+- later_commentary：后代注释、现代论文与校勘。
+- modern_inference：本项目通过数据与跨源证据形成的推断。
+
+每一引用明确谁在何时何地说、何种版本和目的；网络版《史记》的“索隐述赞”不得当成司马迁本人论赞。专利不同阶段申请/公开/授权文本不得当成同一不变文本。
 
 ## 历史命题状态
-- **HYPOTHESIS**：待验证命题，不能作为正文事实。
-- **OBSERVED**：一手史料直接支持的可定位事实。
-- **INFERRED**：按公开、可复核方法从数据推出。
-- **INTERPRETED**：在多组史料基础上形成的可争辩历史解释。
-- **CONTESTED**：存在重大反证或不同解释。
+
+- **HYPOTHESIS**：待验证，不能写为事实。
+- **OBSERVED**：来源支持“某文档记载/某项记录存在”；注意文档记载与事件真实性不同。
+- **INFERRED**：按有审计轨迹的方法从观察推出。
+- **INTERPRETED**：在多组史料基础上产生的可争辩历史解释。
+- **CONTESTED**：重大反证、原文异文或不同解释仍存在。
 - **REJECTED**：经复核不成立，保留审计轨迹。
 
-命题变化不覆盖旧记录，应写日期、影响类型、原因和复核人/方法。
+## 《详见》 Claim Lifecycle
 
-## 对接《详见》 Claim Lifecycle
-每条高价值外部信号至少记录：
-- affected_claim：影响了哪个已有命题。
-- impact_type：support / extend / revise / contradict / new / pending。
-- verification_next：下一项实际可验证动作。
-另外为历史研究增加 **knowledge_as_of_date**，使研究者不将事后结果伪装成当时人的知识。
+affected_claim、impact_type（support/extend/revise/contradict/new/pending）、verification_next继续有效。历史研究额外记录 knowledge_as_of_date，防止事后时间倒灌；原始历法、范围差异与来源立场不许被统一数据库静默覆盖。
 
 ## 发布门槛
-1. 文中可核事实均有source_id或明确出处。
-2. 每条重大结论至少有一项非专利的独立交叉证据；否则明确降级为假设。
-3. 已检查最强替代解释、时间线冲突和归属变化。
-4. 若使用“首次”“全部”“主要”“领先”必须注明覆盖范围与判断方法。
-5. 第三方隐私、商业秘密、著作权及数据库授权必须过审。
+
+1. 重大事实有定位到版本/段落的source_id及相对于命题的证据角色。
+2. 用“已经研发成功”“决定公司命运”“首次”等必须有独立佐证，且能说明覆盖范围、反证和时间先后。
+3. 明确历史权属、技术发明、实际实施、产品利润的不同事实类型。
+4. 重要时间变换记录原文、换算方法、观察窗口和争议。
+5. 人物贡献、动机与关系不由专利署名、群传或广告宣传自动推出。
+6. 公开权利检查、版权、隐私、安全与数据库授权通过。
 
 ## 模板
-templates/CLAIM_CARD.md、templates/SOURCE_CARD.md。JSON格式见 schemas/historical-claim.schema.json。
+
+[证据卡](../templates/SOURCE_CARD.md)、[历史命题卡](../templates/CLAIM_CARD.md)，JSON见 schemas 目录。
