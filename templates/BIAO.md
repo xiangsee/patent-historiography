@@ -1,0 +1,15 @@
+# 表 / BIAO 研究卡
+- unit_id：
+- historical_question：多主体、多技术与多制度的时间校验
+- scope_entity_ids 与起讫时间：
+- claim_ids、event_ids、source_ids：
+- 核心证据：优先权/申请/公开/授权/产品/组织/制度与同期对照
+- source_coverage（原始档案、专利、独立史料）：
+- 同期竞争者与替代解释：
+- knowledge_as_of_date（当时是否可知）：
+- 关于本体例对象的独立发现：
+- 其他两种体例的cross_form_unit_ids：
+- 互见引起的校正与争议：
+- strongest_counter_evidence：
+- researcher_commentary（研究者按，事实/推断/解释分开）：
+- status（研究中/已核验/待审稿）：

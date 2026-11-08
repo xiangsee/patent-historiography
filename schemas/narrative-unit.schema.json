@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Five Form Historical Narrative Unit",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "unit_id",
+    "form",
+    "historical_question",
+    "claim_ids",
+    "event_ids",
+    "source_ids",
+    "status"
+  ],
+  "properties": {
+    "unit_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "form": {
+      "enum": [
+        "BENJI",
+        "BIAO",
+        "SHU",
+        "SHIJIA",
+        "LIEZHUAN"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "historical_question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "claim_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "event_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "scope_entity_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cross_form_unit_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "counter_evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "knowledge_as_of_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "researcher_commentary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "researching",
+        "cross_checked",
+        "draft",
+        "review",
+        "published",
+        "revised"
+      ]
+    }
+  }
+}

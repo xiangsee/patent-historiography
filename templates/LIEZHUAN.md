@@ -1,0 +1,15 @@
+# 列传 / LIEZHUAN 研究卡
+- unit_id：
+- historical_question：发明人、团队、竞争者具体行动与处境
+- scope_entity_ids 与起讫时间：
+- claim_ids、event_ids、source_ids：
+- 核心证据：可核事实、协作、非专利贡献与个人评价边界
+- source_coverage（原始档案、专利、独立史料）：
+- 同期竞争者与替代解释：
+- knowledge_as_of_date（当时是否可知）：
+- 关于本体例对象的独立发现：
+- 其他两种体例的cross_form_unit_ids：
+- 互见引起的校正与争议：
+- strongest_counter_evidence：
+- researcher_commentary（研究者按，事实/推断/解释分开）：
+- status（研究中/已核验/待审稿）：
