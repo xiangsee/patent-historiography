@@ -1,3 +1,7 @@
+> **v0.2方法论修订**：本文件描述**已进入具体企业研究后的数据工程流程**，不是完整《企业史记》方法论。启动数据母集与文章前先完成[史学理论](../research/01-shiji-historiography.md)、[专利史六组进路](../research/02-patent-history-schools.md)和[方法验收](METHODOLOGY_GATE.md)；五体联合机制详见[FIVE_FORMS.md](FIVE_FORMS.md)。以下保留v0.1技术流程。
+
+---
+
 # 方法 v0.1｜从全量专利到可复核的企业史
 
 ## 0. 提出有历史解释力的问题

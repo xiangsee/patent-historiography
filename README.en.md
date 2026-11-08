@@ -1,13 +1,11 @@
-# Corporate Annals — Patent Historiography
+# Corporate Shiji — Patent Historiography
 
-An open research project using patent documents as historical evidence to reconstruct how firms build technological capabilities, make choices, and shape industries.
+**v0.2.0 · Methodology-first research stage · November 8, 2026**
 
-**Status:** v0.1.0 research baseline (2026-11-08). **First pilot:** Google, 1996–2004. **Later candidates:** Huawei and Tencent.
+The project uses patent records plus non-patent historical evidence to reconstruct how enterprises, technology, institutions, and industries change. It adopts **all five interrelated forms** of Sima Qian's *Shiji*, not the archaic writing style: annals (本纪), tables (表), treatises (书), hereditary houses (世家), and biographies (列传).
 
-The project borrows the structure—not the classical prose—of Sima Qian's *Records of the Grand Historian*: annals (historical turning points), hereditary houses (persistent technology/organization lines), biographies (inventors and teams), treatises (institutions and standards), and tables (synchronized chronology).
+The five forms share the same source, event, entity and historical claim registry, and they test or correct each other's interpretations. Patents are neither all innovations nor definitive evidence of managerial intentions or organizational capability. Researcher commentary is kept distinct from fact and inference.
 
-A patent portfolio is not a complete company history. We distinguish invention from ownership, ownership from licensing, and technological evidence from historical interpretation. The project seeks counter-evidence and retains source provenance. Raw restricted databases and proprietary materials will not be redistributed.
+Start with [Chinese README](README.md), [Shiji historiography review](research/01-shiji-historiography.md), [six academic research approaches](research/02-patent-history-schools.md), [five-form synthesis](research/03-five-forms-synthesis.md), [compilation protocol](docs/FIVE_FORMS.md) and [methodology gate](docs/METHODOLOGY_GATE.md).
 
-Start with the [Chinese README](README.md), [research charter](docs/CHARTER.md), [method](docs/METHOD.md), [evidence policy](docs/EVIDENCE_POLICY.md), and [Google pilot](pilots/google-1996-2004/README.md).
-
-**Open access is not automatically an open license:** see [RIGHTS.md](RIGHTS.md).
+**No formal Google chapter or any other first article will be drafted until the methodological review and stress tests pass.** Data and publication licensing are separate: see [RIGHTS.md](RIGHTS.md).
