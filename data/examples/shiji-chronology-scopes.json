@@ -1,0 +1,43 @@
+{
+  "source_note": "Pedagogical BCE year-range illustration. Does not verify original calendar month-level duration or resolve textual disagreement.",
+  "scopes": [
+    {
+      "scope_id": "SHIJI-CHU-HAN-WIDE-8",
+      "source_id": "SHIJI-130",
+      "research_question": "秦楚之际变局从秦二世起算",
+      "start_event": "秦二世元年",
+      "end_event": "汉五年",
+      "calendar_system": "BCE year-label approximation (not ancient month conversion)",
+      "date_precision": "year",
+      "original_source_range": "八年之闲",
+      "bce_start_year": 209,
+      "bce_end_year": 202,
+      "inclusive_named_years": 8,
+      "interpretation_status": "scholarly_interpretation",
+      "scope_rationale": "后代注家将自序八年解释为纳入秦二世三年",
+      "counter_readings": [
+        "SHIJI-CHU-HAN-NARROW-5"
+      ],
+      "chronology_notes": "209..202 inclusive = 8 named BCE years, not exactly eight elapsed solar years."
+    },
+    {
+      "scope_id": "SHIJI-CHU-HAN-NARROW-5",
+      "source_id": "SHIJI-016",
+      "research_question": "以汉元年至汉五年描写权力转换",
+      "start_event": "汉元年",
+      "end_event": "汉五年",
+      "calendar_system": "BCE year-label approximation (not ancient month conversion)",
+      "date_precision": "year",
+      "original_source_range": "五年之闲",
+      "bce_start_year": 206,
+      "bce_end_year": 202,
+      "inclusive_named_years": 5,
+      "interpretation_status": "scholarly_interpretation",
+      "scope_rationale": "后代注家将月表五年解释为汉王受封至称帝的观察窗口",
+      "counter_readings": [
+        "SHIJI-CHU-HAN-WIDE-8"
+      ],
+      "chronology_notes": "206..202 inclusive = 5 named BCE years, not exactly five elapsed solar years."
+    }
+  ]
+}

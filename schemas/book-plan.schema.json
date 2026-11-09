@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Book blueprint: two-level Shiji architecture",
+  "description": "A whole-book historical question and ordered, interlocking five-form plan; not a list of articles.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "book_id",
+    "title",
+    "guiding_questions",
+    "periodization_scope_ids",
+    "forms",
+    "mutual_correction_plan",
+    "status"
+  ],
+  "properties": {
+    "book_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "guiding_questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "scope_entity_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "periodization_scope_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "alternative_periodization_scope_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "forms": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "BENJI",
+        "BIAO",
+        "SHU",
+        "SHIJIA",
+        "LIEZHUAN"
+      ],
+      "properties": {
+        "BENJI": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "BIAO": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "SHU": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "SHIJIA": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "LIEZHUAN": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "proposed_reading_order": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reading_order_rationale": {
+      "type": "string"
+    },
+    "excluded_units_with_reasons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "unit_title",
+          "reason"
+        ],
+        "properties": {
+          "unit_title": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "mutual_correction_plan": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "from_unit_id",
+          "to_unit_id",
+          "question"
+        ],
+        "properties": {
+          "from_unit_id": {
+            "type": "string"
+          },
+          "to_unit_id": {
+            "type": "string"
+          },
+          "question": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "competing_explanations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "claim_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "researching",
+        "cross_checked",
+        "draft",
+        "review",
+        "published",
+        "revised"
+      ]
+    }
+  }
+}

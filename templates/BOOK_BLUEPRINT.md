@@ -1,0 +1,21 @@
+# 全书研究蓝图 / Book Blueprint（v0.4）
+
+- book_id：
+- working_title / enterprise_or_industry：
+- guiding_questions（全书共同问题，不预先限定唯一结论）：
+- historian_position_and_scope：
+- subject_entity_boundary + changing_corporate_group：
+- technical_prehistory（公司成立前的技术来源、大学、合作伙伴）：
+- patent_corpus_scope + dataset_license + missingness：
+- startpoint_candidates（法人/技术/产品/制度/行业）：
+- chosen_periodization + strongest_alternative_periodization：
+- periods[].scope_id / start_event / end_event / granularity：
+- why_include_this_event_and_exclude_others：
+- BENJI[] / BIAO[] / SHU[] / SHIJIA[] / LIEZHUAN[]（各篇独立研究问题）：
+- form_order_and_reading_rationale：
+- cross_form_mutual_correction_edges：
+- key_claim_ids + evidence_sources：
+- competing_historical_explanations：
+- unknowns_and_strongest_counter_evidence：
+- author_commentary_statement / independent_review：
+- gate_status（不能把只有五种标题当成合格）：

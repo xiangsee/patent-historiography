@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Historical chronological scope",
+  "description": "Describes a chosen historical window without overwriting source-specific original chronology.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "scope_id",
+    "source_id",
+    "research_question",
+    "start_event",
+    "end_event",
+    "calendar_system",
+    "date_precision",
+    "interpretation_status",
+    "scope_rationale"
+  ],
+  "properties": {
+    "scope_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "research_question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "start_event": {
+      "type": "string",
+      "minLength": 1
+    },
+    "end_event": {
+      "type": "string",
+      "minLength": 1
+    },
+    "calendar_system": {
+      "type": "string",
+      "minLength": 1
+    },
+    "date_precision": {
+      "enum": [
+        "year",
+        "quarter",
+        "month",
+        "day",
+        "mixed",
+        "unknown"
+      ]
+    },
+    "original_source_range": {
+      "type": "string"
+    },
+    "bce_start_year": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "bce_end_year": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "inclusive_named_years": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "interpretation_status": {
+      "enum": [
+        "attested",
+        "scholarly_interpretation",
+        "provisional",
+        "contested"
+      ]
+    },
+    "scope_rationale": {
+      "type": "string",
+      "minLength": 1
+    },
+    "counter_readings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "chronology_notes": {
+      "type": "string"
+    }
+  }
+}
