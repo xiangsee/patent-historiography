@@ -33,3 +33,12 @@ source_id / entity_id / patent_record_id / application_number / publication_numb
 
 ## 数据实现
 详细数据契约见 schemas/；抽取、清洗、对账与核验依次建立，不能用两个示范专利替代母集。
+
+## v0.4｜四种历史时间与数据缺失类型
+- occurrence_time：真实技术或商业行为发生的时间或区间；通常无法仅靠专利日期确认。
+- record_time：申请、登记、档案制作或会议纪要形成时间。
+- disclosure_time：外部公众可以从公开材料获知的最早时间。
+- narrative_time：史家选择的书/篇起点、终点、阶段锚点与解释理由；不能覆盖其他时间。
+- 完整观察窗须提供scope_id、原始时间、换算规则、精度、来源与竞争起点，参见 [chronology-scope.schema.json](../schemas/chronology-scope.schema.json)。
+
+数据缺失标记建议分开：not_observed、source_lost、date_unknown、not_public、not_applicable、zero_observed、no_patent_filed。只有独立来源才能证明最后一种；未检索到专利不等于没有发明。

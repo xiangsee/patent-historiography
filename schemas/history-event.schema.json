@@ -142,6 +142,52 @@
       "items": {
         "type": "string"
       }
+    },
+    "occurrence_time": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "When the historical event occurred; may be uncertain, not automatically patent priority date"
+    },
+    "record_time": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "When the underlying document or filing was created"
+    },
+    "disclosure_time": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "When information became publicly available, if evidenced"
+    },
+    "historian_scope_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Chosen narrative scope identifier, separate from occurrence/record/disclosure"
+    },
+    "historian_alternative_scope_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "missingness_type": {
+      "enum": [
+        "none",
+        "not_observed",
+        "source_lost",
+        "date_unknown",
+        "not_public",
+        "not_applicable",
+        "zero_observed",
+        "no_patent_filed"
+      ]
     }
   }
 }

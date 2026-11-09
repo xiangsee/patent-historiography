@@ -68,3 +68,12 @@
 - 汪越、徐克范《读史记十表》卷四（清代后出注解，并非原典）：https://zh.wikisource.org/zh-hans/讀史記十表/卷四。关于月表“五年”与自序“八年”的解释待版本复核。
 
 古典与现代方法转译见[原典研究](../research/04-shiji-original-reading-round1.md)。
+
+## 第四轮：官方题录、原典与可读转载的分层核实（2026-11-09）
+- 阮芝生1979全文下载页（验证码）：https://toaj.stpi.niar.org.tw/index/journal/volume/article/4b1141f987544c3401878cec3ab41e76 。**abstract_verified**。
+- 阮芝生1980全文下载页（验证码）：https://toaj.stpi.niar.org.tw/index/journal/volume/article/4b1141f987544c3401878ce9c66d1e56 。**abstract_verified**。
+- 徐建委2025正式刊物摘要：https://ccj.pku.edu.cn/article/info?aid=383606151 ；第三方可读正文：https://www.fanshouji.com/xu-jian-wei-li-shi-de-qi-dian-shi-ji-zhong-de-shi-jian-she 。**accessible_web_transcription_read；未核正式PDF/脚注**。
+- 《史记》卷13/14/15/16/130：https://zh.wikisource.org/wiki/史記/卷013；https://zh.wikisource.org/wiki/史記/卷014；https://zh.wikisource.org/wiki/史記/卷015；https://zh.wikisource.org/wiki/史記/卷016；https://zh.wikisource.org/wiki/史記/卷130。
+- 清代《读史记十表》卷四：https://zh.wikisource.org/zh-hans/讀史記十表/卷四 。**后出解释，不是司马迁本人结论**。
+
+阅读状态与完整问题清单参见 [READING_LEDGER.md](READING_LEDGER.md)。
