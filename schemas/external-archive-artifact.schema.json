@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Historical external artifact evidence, access and archival survival",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "artifact_id",
+    "patent_application",
+    "patent_publication",
+    "asserted_count",
+    "asserted_bytes",
+    "catalog_name",
+    "attestation_source",
+    "access_probes",
+    "verification_flags",
+    "verified_sha256",
+    "reuse_status",
+    "verification_next"
+  ],
+  "properties": {
+    "artifact_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "patent_application": {
+      "type": "string",
+      "minLength": 1
+    },
+    "patent_publication": {
+      "type": "string",
+      "minLength": 1
+    },
+    "asserted_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "asserted_bytes": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "catalog_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "attestation_source": {
+      "type": "string",
+      "format": "uri"
+    },
+    "access_probes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "date",
+          "route",
+          "outcome",
+          "authenticated"
+        ],
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "route": {
+            "type": "string"
+          },
+          "outcome": {
+            "enum": [
+              "http_403",
+              "http_200_html_shell",
+              "unreadable",
+              "unavailable",
+              "confirmed"
+            ]
+          },
+          "authenticated": {
+            "type": "boolean"
+          },
+          "meaning": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "verification_flags": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "filing_receipt_verified",
+        "custody_location_verified",
+        "bytes_received",
+        "integrity_checked",
+        "engineering_context_verified",
+        "redistribution_cleared"
+      ],
+      "properties": {
+        "filing_receipt_verified": {
+          "type": "boolean"
+        },
+        "custody_location_verified": {
+          "type": "boolean"
+        },
+        "bytes_received": {
+          "type": "boolean"
+        },
+        "integrity_checked": {
+          "type": "boolean"
+        },
+        "engineering_context_verified": {
+          "type": "boolean"
+        },
+        "redistribution_cleared": {
+          "type": "boolean"
+        }
+      }
+    },
+    "verified_sha256": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "actual_files": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "actual_bytes": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "reuse_status": {
+      "enum": [
+        "unknown",
+        "restricted",
+        "research_only",
+        "cleared"
+      ]
+    },
+    "verification_next": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

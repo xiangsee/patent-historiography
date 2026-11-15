@@ -1,0 +1,52 @@
+{
+  "artifact_id": "US09915801-CD1",
+  "patent_application": "09/915,801",
+  "patent_publication": "US7110993B2",
+  "asserted_count": 22808,
+  "asserted_bytes": 101776919,
+  "catalog_name": "dir_s",
+  "attestation_source": "https://patents.google.com/patent/US7110993B2/en",
+  "access_probes": [
+    {
+      "date": "2026-11-15",
+      "route": "mac python unauthenticated patentcenter app route",
+      "outcome": "http_403",
+      "authenticated": false,
+      "meaning": "No filewrapper obtained; not evidence of non-existence"
+    },
+    {
+      "date": "2026-11-15",
+      "route": "mac python unauthenticated USPTO ODP documents endpoint",
+      "outcome": "http_403",
+      "authenticated": false,
+      "meaning": "API key documented as required; no inventory obtained"
+    },
+    {
+      "date": "2026-11-15",
+      "route": "mac python USPTO ODP application web route",
+      "outcome": "http_200_html_shell",
+      "authenticated": false,
+      "meaning": "HTML application shell only, not evidence of data retrieval"
+    },
+    {
+      "date": "2026-11-15",
+      "route": "public web text view USPTO Patent Center",
+      "outcome": "unreadable",
+      "authenticated": false,
+      "meaning": "Dynamic service not exposed to text tool; not a 404 or archival loss"
+    }
+  ],
+  "verification_flags": {
+    "filing_receipt_verified": false,
+    "custody_location_verified": false,
+    "bytes_received": false,
+    "integrity_checked": false,
+    "engineering_context_verified": false,
+    "redistribution_cleared": false
+  },
+  "verified_sha256": null,
+  "actual_files": null,
+  "actual_bytes": null,
+  "reuse_status": "unknown",
+  "verification_next": "Obtain original transmittal or artifact receipt; confirm physical/digitized custody with USPTO PTCFB; only then attempt copy request with fee approval."
+}
