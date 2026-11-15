@@ -1,0 +1,204 @@
+{
+  "case_id": "GOOGLE-OVERTURE-1998-2004",
+  "type": "partial_time_axis_not_complete_patent_corpus",
+  "events": [
+    {
+      "event_id": "E09-01",
+      "date_text": "1998",
+      "date_precision": "year",
+      "axis": "industry",
+      "summary": "GoTo sponsored search concept bundled according to 2006 secondary scholarship",
+      "source_ids": [
+        "S09-08"
+      ],
+      "status": "provisional",
+      "date_as_reported": "1998",
+      "source_layer": "later_commentary",
+      "missingness_type": "date_unknown"
+    },
+    {
+      "event_id": "E09-02",
+      "date_text": "1999-05-28",
+      "date_precision": "day",
+      "axis": "patent_rights",
+      "summary": "GoTo/Overture patent application later US6269361B1",
+      "source_ids": [
+        "S09-04"
+      ],
+      "status": "verified",
+      "date_normalized": "1999-05-28",
+      "knowledge_as_of_date": "2001-07-31",
+      "occurrence_time": "1999-05-28",
+      "record_time": "1999-05-28",
+      "disclosure_time": "2001-07-31",
+      "source_layer": "original_document"
+    },
+    {
+      "event_id": "E09-03",
+      "date_text": "2000-Q1",
+      "date_precision": "interval",
+      "axis": "product",
+      "summary": "Google introduces Premium Sponsorships based on advertising impressions",
+      "source_ids": [
+        "S09-03"
+      ],
+      "status": "provisional",
+      "date_as_reported": "first quarter 2000",
+      "source_layer": "embedded_statement",
+      "missingness_type": "date_unknown"
+    },
+    {
+      "event_id": "E09-04",
+      "date_text": "2000-10-23",
+      "date_precision": "day",
+      "axis": "product",
+      "summary": "Google announces self-service AdWords, still on impression-based terms",
+      "source_ids": [
+        "S09-01",
+        "S09-03"
+      ],
+      "status": "verified",
+      "date_normalized": "2000-10-23",
+      "knowledge_as_of_date": "2000-10-23",
+      "source_layer": "embedded_statement"
+    },
+    {
+      "event_id": "E09-05",
+      "date_text": "2001-07-31",
+      "date_precision": "day",
+      "axis": "patent_rights",
+      "summary": "US6269361B1 publishes/grants",
+      "source_ids": [
+        "S09-04"
+      ],
+      "status": "verified",
+      "date_normalized": "2001-07-31",
+      "knowledge_as_of_date": "2001-07-31",
+      "source_layer": "original_document"
+    },
+    {
+      "event_id": "E09-06",
+      "date_text": "2001-09-06",
+      "date_precision": "day",
+      "axis": "patent_rights",
+      "summary": "Claimed priority date of Google ad ranking family; not 2001 public disclosure",
+      "source_ids": [
+        "S09-05"
+      ],
+      "status": "verified",
+      "date_normalized": "2001-09-06",
+      "knowledge_as_of_date": "2003-03-06",
+      "source_layer": "original_document"
+    },
+    {
+      "event_id": "E09-07",
+      "date_text": "2002-02-20",
+      "date_precision": "day",
+      "axis": "product",
+      "summary": "Google announces AdWords Select CPC and performance×bid order",
+      "source_ids": [
+        "S09-02"
+      ],
+      "status": "verified",
+      "date_normalized": "2002-02-20",
+      "knowledge_as_of_date": "2002-02-20",
+      "source_layer": "embedded_statement"
+    },
+    {
+      "event_id": "E09-08",
+      "date_text": "2002-03-29",
+      "date_precision": "day",
+      "axis": "patent_rights",
+      "summary": "Google files US10/112,654 on ad performance and price ordering",
+      "source_ids": [
+        "S09-05"
+      ],
+      "status": "verified",
+      "date_normalized": "2002-03-29",
+      "knowledge_as_of_date": "2003-03-06",
+      "source_layer": "original_document"
+    },
+    {
+      "event_id": "E09-09",
+      "date_text": "2002-04",
+      "date_precision": "month",
+      "axis": "institution",
+      "summary": "Overture files patent infringement litigation against Google alleging US6269361",
+      "source_ids": [
+        "S09-03"
+      ],
+      "status": "provisional",
+      "date_as_reported": "April 2002",
+      "source_layer": "embedded_statement"
+    },
+    {
+      "event_id": "E09-10",
+      "date_text": "2002-09-16",
+      "date_precision": "day",
+      "axis": "institution",
+      "summary": "Overture preliminary infringement contention names AdWords Select",
+      "source_ids": [
+        "S09-06"
+      ],
+      "status": "verified",
+      "date_normalized": "2002-09-16",
+      "record_time": "2002-09-16",
+      "disclosure_time": "2002-10-07",
+      "source_layer": "embedded_statement"
+    },
+    {
+      "event_id": "E09-11",
+      "date_text": "2003-03-06",
+      "date_precision": "day",
+      "axis": "patent_rights",
+      "summary": "Google application publishes as US20030046161A1",
+      "source_ids": [
+        "S09-05"
+      ],
+      "status": "verified",
+      "date_normalized": "2003-03-06",
+      "knowledge_as_of_date": "2003-03-06",
+      "source_layer": "original_document"
+    },
+    {
+      "event_id": "E09-12",
+      "date_text": "2003-08-20",
+      "date_precision": "day",
+      "axis": "institution",
+      "summary": "Court denies Overture protective order motion; identifies Google prior-use defense",
+      "source_ids": [
+        "S09-07"
+      ],
+      "status": "verified",
+      "date_normalized": "2003-08-20",
+      "source_layer": "original_document"
+    },
+    {
+      "event_id": "E09-13",
+      "date_text": "2004-08-09",
+      "date_precision": "day",
+      "axis": "institution",
+      "summary": "Google and Yahoo resolve patent suit and distinct warrant dispute; ongoing license reported",
+      "source_ids": [
+        "S09-03",
+        "S09-09"
+      ],
+      "status": "verified",
+      "date_normalized": "2004-08-09",
+      "source_layer": "embedded_statement"
+    },
+    {
+      "event_id": "E09-14",
+      "date_text": "2004-FY",
+      "date_precision": "interval",
+      "axis": "institution",
+      "summary": "2004 Google financial records allocate combined settlement consideration 201m charge and 28.5m intangible",
+      "source_ids": [
+        "S09-03"
+      ],
+      "status": "verified",
+      "date_as_reported": "FY2004 company accounting; filed 2005",
+      "source_layer": "embedded_statement"
+    }
+  ]
+}

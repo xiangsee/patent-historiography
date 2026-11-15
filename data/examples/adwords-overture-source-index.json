@@ -1,0 +1,96 @@
+{
+  "status": "sampled_primary_sources_not_complete_corpus",
+  "verified_on": "2026-11-15",
+  "sources": [
+    {
+      "id": "S09-01",
+      "type": "contemporaneous_corporate_press_release",
+      "group": "google_corporate",
+      "title": "Google launches self-service advertising program (2000-10-23)",
+      "url": "https://googlepress.blogspot.com/2000/10/google-launches-self-service.html",
+      "supports": "2000-10-23 AdWords release; August premium predecessor; October beta",
+      "limitations": "Company claims; web browser sometimes redirects; contemporaneous archive copy independently surfaced via search"
+    },
+    {
+      "id": "S09-02",
+      "type": "contemporaneous_corporate_press_release",
+      "group": "google_corporate",
+      "title": "Google introduces AdWords Select and CPC (2002-02-20)",
+      "url": "https://googlepress.blogspot.com/2002/02/google-introduces-new-pricing-for.html",
+      "supports": "AdWords Select introduction; CPC, CTR and bid-based placement description",
+      "limitations": "Product announcement is not a production source-code audit"
+    },
+    {
+      "id": "S09-03",
+      "type": "retrospective_company_SEC_disclosure",
+      "group": "google_corporate",
+      "title": "Google 2004 Form 10-K filed 2005",
+      "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312505065298/d10k.htm",
+      "supports": "2000 premium CPM; 2000 Q4 self-service AdWords; 2002 Q1 CPC; 2004 Yahoo settlement accounting",
+      "limitations": "Filed with regulator but company-authored; filing date not contemporaneous with 2000 product"
+    },
+    {
+      "id": "S09-04",
+      "type": "patent_bibliography_and_assignment_aggregator",
+      "group": "patent_document_overture",
+      "title": "US6269361B1 GoTo/Overture sponsored search position",
+      "url": "https://patents.google.com/patent/US6269361B1/en",
+      "supports": "1999-05-28 filing, 2001-07-31 publication/grant, recorded 1999 GoTo assignment",
+      "limitations": "Current assignee normalized; must check original USPTO assignments; patent document is not proof of implementation"
+    },
+    {
+      "id": "S09-05",
+      "type": "patent_bibliography_and_assignment_aggregator",
+      "group": "patent_document_google",
+      "title": "US20030046161A1 / US7778872B2 Google performance and price ad ranking",
+      "url": "https://patents.google.com/patent/US20030046161A1/en",
+      "supports": "Claimed 2001-09-06 priority; 2002-03-29 filing; 2003-03-06 publication; inventors and later assignment",
+      "limitations": "Do not map published claims to an exact commercial deployment without engineering evidence"
+    },
+    {
+      "id": "S09-06",
+      "type": "party_court_filing",
+      "group": "overture_adversarial",
+      "title": "Overture preliminary infringement contentions (2002-09-16; filed 2002-10-07)",
+      "url": "https://cases.justia.com/federal/district-courts/california/candce/3%3A2002cv01991/6770/26/3.pdf",
+      "supports": "Overture asserted Google AdWords Select infringed '361",
+      "limitations": "Party allegation, not a court determination; reviewed PDF screenshot page 2"
+    },
+    {
+      "id": "S09-07",
+      "type": "judicial_procedural_order",
+      "group": "court_order",
+      "title": "Overture v Google 2003-08-20 order regarding protective order",
+      "url": "https://cases.justia.com/federal/district-courts/california/candce/3%3A2002cv01991/6770/89/0.pdf",
+      "supports": "Court describes Google prior public use defense and third-party subpoenas; denies motion without prejudice",
+      "limitations": "Not a patent validity or infringement ruling; reviewed PDF screenshots pages 1–2"
+    },
+    {
+      "id": "S09-08",
+      "type": "secondary_peer_reviewed_trade_scholarship",
+      "group": "yahoo_employee_authored",
+      "title": "Fain and Pedersen, Sponsored search: A brief history, 2006",
+      "url": "https://asistdl.onlinelibrary.wiley.com/doi/10.1002/bult.1720320206",
+      "supports": "GoTo bundled sponsored search model in 1998; Google changed ranking with feedback in 2002",
+      "limitations": "Authors worked for Yahoo!; retrospective and interested source, not independent of Overture-Yahoo"
+    },
+    {
+      "id": "S09-09",
+      "type": "retrospective_company_SEC_disclosure",
+      "group": "yahoo_corporate",
+      "title": "Yahoo 2004 Form 10-Q on August settlement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1011006/000110465904032701/a04-12263_110q.htm",
+      "supports": "Yahoo described combined 2.7 million Google-share settlement and license",
+      "limitations": "Company-authored; SEC display may be intermittently inaccessible, Google 10-K directly accessible"
+    },
+    {
+      "id": "S09-10",
+      "type": "patent_bibliography_and_assignment_aggregator",
+      "group": "patent_document_google",
+      "title": "US7716161B2 serving relevant advertisements",
+      "url": "https://patents.google.com/patent/US7716161B2/en",
+      "supports": "2002-09-24 claimed priority, 2002-12-06 filing, later grant and inventor names",
+      "limitations": "A separate ad tech theme, not evidence that Google AdWords Select 2002-02 CPC sorting used this patent"
+    }
+  ]
+}

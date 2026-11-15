@@ -1,0 +1,181 @@
+{
+  "case_id": "GOOGLE-OVERTURE-1998-2004",
+  "notes": "Claims are research examples linked to source IDs; sources from same institution are not independent confirmations.",
+  "claims": [
+    {
+      "claim_id": "C09-01",
+      "statement": "Google AdWords于2000年首次推出时已经采用2002年AdWords Select的CPC及CTR排序机制",
+      "kind": "fact",
+      "status": "REJECTED",
+      "sources": [
+        {
+          "source_id": "S09-03",
+          "stance": "contradicts"
+        },
+        {
+          "source_id": "S09-02",
+          "stance": "contradicts"
+        },
+        {
+          "source_id": "S09-01",
+          "stance": "context"
+        }
+      ],
+      "verification_next": "核对2000原始定价文件及2002产品技术文档",
+      "last_verified_at": "2026-11-15",
+      "editorial_use": "ready",
+      "impact_type": "revise",
+      "strongest_alternative": "Google早期也可能试验过其他指标，但不能由此抹平两代产品差异"
+    },
+    {
+      "claim_id": "C09-02",
+      "statement": "Google 2002-02-20公告表明AdWords Select采用CPC与出价及点击表现结合的广告排序",
+      "kind": "fact",
+      "status": "OBSERVED",
+      "sources": [
+        {
+          "source_id": "S09-02",
+          "stance": "supports"
+        },
+        {
+          "source_id": "S09-03",
+          "stance": "supports"
+        }
+      ],
+      "verification_next": "核对当年的产品说明书与可用的部署材料",
+      "last_verified_at": "2026-11-15",
+      "editorial_use": "qualified",
+      "impact_type": "new"
+    },
+    {
+      "claim_id": "C09-03",
+      "statement": "Google自2001年9月已取得US7778872的公开授权专利权",
+      "kind": "fact",
+      "status": "REJECTED",
+      "sources": [
+        {
+          "source_id": "S09-05",
+          "stance": "contradicts"
+        }
+      ],
+      "verification_next": "核对美国申请原始临时申请及转让登记",
+      "last_verified_at": "2026-11-15",
+      "editorial_use": "ready",
+      "impact_type": "revise",
+      "strongest_alternative": "早期priority只是先权主张而非公众可见的授权"
+    },
+    {
+      "claim_id": "C09-04",
+      "statement": "Google 2004年向Yahoo发行的270万股股票完全作为一件Overture专利的许可费用",
+      "kind": "fact",
+      "status": "REJECTED",
+      "sources": [
+        {
+          "source_id": "S09-03",
+          "stance": "contradicts"
+        },
+        {
+          "source_id": "S09-09",
+          "stance": "contradicts"
+        }
+      ],
+      "verification_next": "查2004双方正式和解协议对各争议的分摊",
+      "last_verified_at": "2026-11-15",
+      "editorial_use": "ready",
+      "impact_type": "revise"
+    },
+    {
+      "claim_id": "C09-05",
+      "statement": "2002年Overture在诉讼文件中指称Google AdWords Select侵犯US6269361",
+      "kind": "fact",
+      "status": "OBSERVED",
+      "sources": [
+        {
+          "source_id": "S09-06",
+          "stance": "supports"
+        },
+        {
+          "source_id": "S09-03",
+          "stance": "context"
+        }
+      ],
+      "verification_next": "继续核对起诉状及法院的后续实体裁定",
+      "last_verified_at": "2026-11-15",
+      "editorial_use": "ready",
+      "impact_type": "extend",
+      "limitations": [
+        "诉讼主张不等于司法最终认定"
+      ]
+    },
+    {
+      "claim_id": "C09-06",
+      "statement": "2003年法院驳回Overture保护令申请即意味着法院认定US6269361无效",
+      "kind": "fact",
+      "status": "REJECTED",
+      "sources": [
+        {
+          "source_id": "S09-07",
+          "stance": "contradicts"
+        }
+      ],
+      "verification_next": "查原案全部实体动议和解记录",
+      "last_verified_at": "2026-11-15",
+      "editorial_use": "ready",
+      "impact_type": "revise"
+    },
+    {
+      "claim_id": "C09-07",
+      "statement": "2001年Google申请主张的广告排序技术必然在2002年2月AdWords Select产品中实施",
+      "kind": "historical_interpretation",
+      "status": "HYPOTHESIS",
+      "sources": [
+        {
+          "source_id": "S09-05",
+          "stance": "context"
+        },
+        {
+          "source_id": "S09-02",
+          "stance": "context"
+        }
+      ],
+      "verification_next": "找到同时代工程文档、演示或技术证人证言形成独立部署证据",
+      "last_verified_at": "2026-11-15",
+      "editorial_use": "hold",
+      "impact_type": "pending",
+      "strongest_alternative": "专利可能是尚未部署的方案、调整中的申请或与产品不同的技术范围"
+    },
+    {
+      "claim_id": "C09-08",
+      "statement": "搜索广告商业史需要区分竞价机制早期先行、自助产品组织化、排序规则改革和后续专利许可治理",
+      "kind": "historical_interpretation",
+      "status": "INTERPRETED",
+      "sources": [
+        {
+          "source_id": "S09-08",
+          "stance": "supports"
+        },
+        {
+          "source_id": "S09-01",
+          "stance": "supports"
+        },
+        {
+          "source_id": "S09-02",
+          "stance": "supports"
+        },
+        {
+          "source_id": "S09-03",
+          "stance": "supports"
+        },
+        {
+          "source_id": "S09-07",
+          "stance": "context"
+        }
+      ],
+      "verification_next": "收集同期市场份额、广告收入与更多竞争对手史料",
+      "last_verified_at": "2026-11-15",
+      "editorial_use": "qualified",
+      "impact_type": "new",
+      "strongest_alternative": "Google后来的收益可能主要取决于流量与发行渠道，而非CPC排序算法"
+    }
+  ]
+}
