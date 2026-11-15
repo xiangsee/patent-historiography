@@ -1,10 +1,18 @@
 # 《企业史记》｜Patent Historiography
 
-**v0.5.0 · 真实企业跨专利与制度史压力测试 · 2026-11-15**
+**v0.6.0 · 技术世家分叉、列传人物证据与商业能力比较 · 2026-11-15**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
 《企业史记》为项目暂定总名；《企业本纪》降为五体之一。保留仓库名称 patent-historiography；研究与出版均不代表被研究企业。
+
+## 第七轮｜世家与列传实证补强
+
+- [Google—Overture技术谱系、工程师和商业分销史](research/10-search-advertising-lineage-and-people.md)：Google/Overture 2000—2002年的公司级营收对照；Overture的渠道成本；GoTo主案及后续申请族；Google的GSP→暂缓VCG→2012年内容广告重启的技术分叉；Veach等工程师的可证贡献与限制。
+- [收入与渠道成本数据](data/examples/search-ads-company-financials.json) · [专利族及聚合转让事件](data/examples/search-ads-patent-lineage.json) · [技术路线、人物贡献证据](data/examples/search-ads-tech-forks-and-people.json)。
+- [世家与列传分级证据规则](docs/SHIJIA_LIEZHUAN_PROOF_RULES.md) · [独立检查脚本](scripts/validate_round7.py)，已在远端克隆后执行通过。
+- **事实边界**：Google Patents记录不是USPTO转让原始影像；2014年Google内部学者论文是重要参与者回顾，不是客观代码鉴定；Overture整体收入领先不等于广告市场份额领先或解释Google最终胜出的原因。
+- **门槛**：G3继续PARTIAL，但已有真实技术分叉与署名以外人物贡献证据；G1/G2部分完成，G4部分压力测试，G5尚未通过。第一篇正式企业史继续暂缓。
 
 ## 第六轮｜从AdWords公告走进真正的专利与竞争者历史
 

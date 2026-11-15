@@ -34,3 +34,12 @@
 - SEC-GG-2004-10K：Google 2004年年报SEC原始HTML核对2000/2002定价时期、Yahoo和解两争议、270万股与会计拆分；属公司自述、正式证券披露。https://www.sec.gov/Archives/edgar/data/1288776/000119312505065298/d10k.htm
 
 **已有阅读状态不变**：阮芝生1979/1980正式全文尚未获得，徐建委2025原版PDF/脚注未核，原典校勘仍待完成。
+
+## 2026-11-15｜第七轮新增阅读状态
+- VARIAN-2006：Hal R. Varian, *The Economics of Internet Search*, Rivista di Politica Economica Nov/Dec 2006；公开PDF题名及第183页已核并截图。**full_accessible_pdf_checked（参与Google体系的事后回顾）**。https://people.ischool.berkeley.edu/~hal/Papers/2007/costa-lecture.pdf
+- VARIAN-HARRIS-2014：Hal R. Varian & Christopher Harris, *The VCG Auction in Theory and Practice*, AER Papers & Proceedings 104(5):442–445；公开全文及第444页截图核对。**full_accessible_pdf_checked（公司内部作者、有利害关系）**。https://ranger.uta.edu/~weems/NOTES6319/PAPERSTWO/varian.harris.pdf
+- ROSS-BIO-2022：美国海军学院会议页托管Ross Koningstein简介，文本可提取，截图访问403；**extracted_text_only，人物自述/供稿成分不明**。https://www.usna.edu/NASEC/_files/documents/2022/bio-koningstein.pdf
+- US6269361B1 / US7110993B2 / US20030046161A1：Google Patents聚合著录及法律事件表核对，包含1999 GoTo及2002 Overture合并登记。**aggregator_checked；USPTO original reel/frame not obtained**。https://patents.google.com/patent/US6269361B1/en
+- OVERTURE-2002-10K、GOOGLE-2004-S1：SEC公司总收入/Overture TAC原始HTML表格已核；**company_form_filing_verified，不是独立因果解释**。https://www.sec.gov/Archives/edgar/data/1060439/000095014803000429/v88074e10vk.htm 和 https://www.sec.gov/Archives/edgar/data/1288776/000119312504131481/ds1.htm
+
+其余阮芝生1979/1980论文仍只有官方摘要，徐建委2025正式PDF脚注仍未取得，阅读状态未升级。
