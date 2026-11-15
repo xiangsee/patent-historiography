@@ -24,3 +24,13 @@
 
 ## 数据公开约束
 不得将论文未经授权的PDF或第三方复制的正文批量上传公开仓库。只保留来源、阅读层级、自己的分析和极短必要引用。
+
+## 2026-11-15｜第六轮新增阅读审计
+- ST-2006-Fain/Pedersen：《Sponsored search: A brief history》，Wiley开放可读页面部分正文已核对；作者为当时Yahoo!员工，属于利益相关的行业回顾，不能当作中立证人。https://asistdl.onlinelibrary.wiley.com/doi/10.1002/bult.1720320206
+- PT-OT-361：US6269361B1聚合著录、1999申请、2001授权及1999 GoTo转让事件已核；需复核USPTO原始权属记录。https://patents.google.com/patent/US6269361B1/en
+- PT-GG-872：US20030046161A1与US7778872B2的2001优先权、2002申请、2003公开、2010授权与署名已核；“原始申请人”在聚合版本间不一致，需看原始登记。https://patents.google.com/patent/US20030046161A1/en
+- CASE-2002-OT：Overture初步侵权诉讼文件PDF文本已读并截图查核第2页；当事人主张，非侵权认定。https://cases.justia.com/federal/district-courts/california/candce/3%3A2002cv01991/6770/26/3.pdf
+- COURT-2003：保护令程序命令PDF文字已读，截图核对前2页；无效性与侵权实体结论均非此案裁定。https://cases.justia.com/federal/district-courts/california/candce/3%3A2002cv01991/6770/89/0.pdf
+- SEC-GG-2004-10K：Google 2004年年报SEC原始HTML核对2000/2002定价时期、Yahoo和解两争议、270万股与会计拆分；属公司自述、正式证券披露。https://www.sec.gov/Archives/edgar/data/1288776/000119312505065298/d10k.htm
+
+**已有阅读状态不变**：阮芝生1979/1980正式全文尚未获得，徐建委2025原版PDF/脚注未核，原典校勘仍待完成。

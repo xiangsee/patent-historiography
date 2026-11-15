@@ -77,3 +77,17 @@
 - 清代《读史记十表》卷四：https://zh.wikisource.org/zh-hans/讀史記十表/卷四 。**后出解释，不是司马迁本人结论**。
 
 阅读状态与完整问题清单参见 [READING_LEDGER.md](READING_LEDGER.md)。
+
+## 第六轮（2026-11-15）：搜索广告专利、法律与经营史料
+- 2000-10-23 Google AdWords公告：https://googlepress.blogspot.com/2000/10/google-launches-self-service.html （同期公司发布稿；浏览可能跳转，搜索文本可得）
+- 2002-02-20 Google AdWords Select CPC/点击率排序公告：https://googlepress.blogspot.com/2002/02/google-introduces-new-pricing-for.html
+- Google 2004 Form 10-K，2005年SEC正式披露：https://www.sec.gov/Archives/edgar/data/1288776/000119312505065298/d10k.htm
+- GoTo/Overture US6269361B1：https://patents.google.com/patent/US6269361B1/en
+- Google US20030046161A1（同族US7778872B2）：https://patents.google.com/patent/US20030046161A1/en
+- Google US7716161B2（不同广告相关专利，非2002 CPC直接证据）：https://patents.google.com/patent/US7716161B2/en
+- 2002-09-16 Overture preliminary infringement contentions（2002-10-07 filed）：https://cases.justia.com/federal/district-courts/california/candce/3%3A2002cv01991/6770/26/3.pdf
+- 2003-08-20 California ND protective order ruling：https://cases.justia.com/federal/district-courts/california/candce/3%3A2002cv01991/6770/89/0.pdf
+- Fain & Pedersen (2006), *Sponsored search: A brief history*；两作者为Yahoo!雇员，非完全中立：https://asistdl.onlinelibrary.wiley.com/doi/10.1002/bult.1720320206
+- Yahoo 2004年Form 10-Q：https://www.sec.gov/Archives/edgar/data/1011006/000110465904032701/a04-12263_110q.htm
+
+研究抽样、证据分层及相反解释见[research/09](../research/09-google-overture-patent-commercial-history-test.md)。

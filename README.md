@@ -1,10 +1,20 @@
 # 《企业史记》｜Patent Historiography
 
-**v0.4.0 · 五体二层编纂与多重历史时间 · 2026-11-09**
+**v0.5.0 · 真实企业跨专利与制度史压力测试 · 2026-11-15**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
 《企业史记》为项目暂定总名；《企业本纪》降为五体之一。保留仓库名称 patent-historiography；研究与出版均不代表被研究企业。
+
+## 第六轮｜从AdWords公告走进真正的专利与竞争者历史
+
+**重要进展**：不再只依据Google自述其2000年产品发布，而是将GoTo/Overture早期付费搜索专利、Google 2001优先权的广告排序专利、2002年AdWords Select、2002–2004年诉讼及综合和解纳入同一事件和命题库。
+
+- [真实企业五体互见及制度史压力测试](research/09-google-overture-patent-commercial-history-test.md)：修订“Google 2000年即采用后来的CPC排序”和“2004年270万股全是专利许可费用”等错误历史表述。
+- [10条来源索引](data/examples/adwords-overture-source-index.json) · [14项事件](data/examples/adwords-overture-events.json) · [8条Claim Lifecycle示例](data/examples/adwords-overture-claims.json)。
+- [Python核验脚本](scripts/verify_adwords_case.py)：JSON Schema和跨源ID检查已通过。属于**小样本史料工程**，不等于企业完整专利族。
+- [五体整书／节点级立篇裁量](templates/FIVE_FORMS_ASSEMBLY_DECISION.md)：整部书保留五体，单一转折不机械写成五篇；表需经“撤表会失去什么信息”检查。
+- **门槛**：G3由PENDING升为PARTIAL（表与书出现可追溯的反向修订）；G1/G2仍不完整，G4部分反证已覆盖，G5未通过。正式《谷歌本纪》仍不启动。
 
 ## 原典精读进度（第二轮）
 
