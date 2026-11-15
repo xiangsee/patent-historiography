@@ -91,3 +91,15 @@
 - Yahoo 2004年Form 10-Q：https://www.sec.gov/Archives/edgar/data/1011006/000110465904032701/a04-12263_110q.htm
 
 研究抽样、证据分层及相反解释见[research/09](../research/09-google-overture-patent-commercial-history-test.md)。
+
+## 第八轮官方原始来源：计算机程序附录与历史申请档案
+- US7110993B2、US20030208474A1、US20050289120A9，同一申请09/915,801不同公开版本：https://patents.google.com/patent/US7110993B2/en
+- USPTO 2001-02-20光盘提交临时程序（**可选制度，不保证本案适用**）：https://www.uspto.gov/news/og/2001/week08/patsubm.htm
+- MPEP §608.05(a)程序清单附录与公开取得：https://www.uspto.gov/web/offices/pac/mpep/s608.html
+- MPEP §103前电子案卷覆盖边界：https://www.uspto.gov/web/offices/pac/mpep/s103.html
+- Patent Center电子卷宗与Certified Copy Center：https://www.uspto.gov/patents/apply/checking-application-status/order-certified-copies
+- USPTO PTCFB实际可联系部门：https://www.uspto.gov/learning-and-resources/support-centers/patent-and-trademark-copy-fulfillment-branch
+- USPTO官方费用表，2026-11-01更新：https://www.uspto.gov/learning-and-resources/fees-and-payment/uspto-fee-schedule
+- ODP API认证需求：https://catalog.data.gov/dataset/open-data-portal-odp-api-version-2-3
+
+实际检索尝试与未取得的证据界限记载于[第八轮研究](../research/12-uspto-cd-archive-audit.md)和[状态JSON](../data/examples/us7110993-cd-access.json)。

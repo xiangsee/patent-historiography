@@ -43,3 +43,10 @@ affected_claim、impact_type（support/extend/revise/contradict/new/pending）�
 ## 模板
 
 [证据卡](../templates/SOURCE_CARD.md)、[历史命题卡](../templates/CLAIM_CARD.md)，JSON见 schemas 目录。
+
+## v0.7附加：“被引用的外部档案”证据单独治理
+专利说明书以引用方式指向一个CD，**与**USPTO实际接收、今天官方保管、研究者取得、哈希内容验证、可以公开复用，属于六种不同事实。不能因本文清楚写了目录和字节数，就宣称研究者已有这些文件；也不能因网站返回403或电子影像不存在推断当年未有技术。
+
+新增：artifact_id / source_attestation / filing_receipt / media_custody / bytes_received / verified_sha256 / rights_review / access_attempts。具体样例与测试见[档案存续规范](ARCHIVAL_SURVIVAL_PROTOCOL.md)。
+
+三种申请文书的不同交叉引用关系需记录对应 publication_date / original_statement / claimed_parent / later_registry_view / verification_status，不许用今日规范化家族替换历史公开文本。
