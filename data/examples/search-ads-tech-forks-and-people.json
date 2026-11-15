@@ -1,0 +1,123 @@
+{
+  "status": "researcher_retrospective_account_not_primary_engineering_archive",
+  "sources": [
+    {
+      "id": "T10-1",
+      "url": "https://people.ischool.berkeley.edu/~hal/Papers/2007/costa-lecture.pdf",
+      "read_level": "pdf_page_183_screenshot_checked",
+      "affiliation": "Varian describes Google internal practices"
+    },
+    {
+      "id": "T10-2",
+      "url": "https://ranger.uta.edu/~weems/NOTES6319/PAPERSTWO/varian.harris.pdf",
+      "read_level": "pdf_page_444_screenshot_checked",
+      "affiliation": "2014 AER paper by Google employees"
+    },
+    {
+      "id": "T10-3",
+      "url": "https://www.usna.edu/NASEC/_files/documents/2022/bio-koningstein.pdf",
+      "read_level": "pdf_extracted_text_only_screenshot_403",
+      "affiliation": "conference profile may be self-authored"
+    },
+    {
+      "id": "T10-4",
+      "url": "https://www.edge.org/memberbio/salar_kamangar",
+      "read_level": "profile_index",
+      "affiliation": "bio provenance unclear"
+    }
+  ],
+  "branches": [
+    {
+      "id": "B10-GSP",
+      "date": "2001-autumn",
+      "result": "adopted_2002_Feb",
+      "people": [
+        "Eric Veach",
+        "Salar Kamangar"
+      ],
+      "sources": [
+        "T10-1",
+        "T10-2"
+      ],
+      "caution": "Retrospective company-linked accounts, not original code"
+    },
+    {
+      "id": "B10-VCG",
+      "date": "2002-summer",
+      "result": "shelved",
+      "people": [
+        "Eric Veach"
+      ],
+      "sources": [
+        "T10-2"
+      ],
+      "caution": "No product deployment in 2002; not proof of failed research"
+    },
+    {
+      "id": "B10-VCG-CONTEXT",
+      "date": "2012",
+      "result": "revisited_contextual_ads",
+      "people": [],
+      "sources": [
+        "T10-2"
+      ],
+      "caution": "Contextual ads; not all search ad auctions"
+    }
+  ],
+  "contributions": [
+    {
+      "person": "Eric Veach",
+      "patent_ids": [
+        "US20030046161A1"
+      ],
+      "source_ids": [
+        "T10-1",
+        "T10-2"
+      ],
+      "evidence": "Google GSP main architect and VCG option per 2014 authors",
+      "confidence": "company_insider_academic_retrospection"
+    },
+    {
+      "person": "Salar Kamangar",
+      "patent_ids": [
+        "US20030046161A1"
+      ],
+      "source_ids": [
+        "T10-1",
+        "T10-4"
+      ],
+      "evidence": "Involved in Google auction design in 2001",
+      "confidence": "company_insider_retrospection"
+    },
+    {
+      "person": "Ross Koningstein",
+      "patent_ids": [
+        "US20030046161A1"
+      ],
+      "source_ids": [
+        "T10-3"
+      ],
+      "evidence": "2001 Google first engineering director, early AdWords inventor per USNA-hosted bio",
+      "confidence": "biography_not_independently_corrob"
+    },
+    {
+      "person": "Darren J. Davis",
+      "patent_ids": [
+        "US6269361B1",
+        "US7110993B2"
+      ],
+      "source_ids": [],
+      "evidence": "Inventor named on both related patent documents",
+      "confidence": "patent_named_inventor_only"
+    },
+    {
+      "person": "Thomas A. Soulanille",
+      "patent_ids": [
+        "US7110993B2"
+      ],
+      "source_ids": [],
+      "evidence": "Named inventor on 2001 related patent document",
+      "confidence": "patent_named_inventor_only"
+    }
+  ]
+}

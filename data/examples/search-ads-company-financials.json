@@ -1,0 +1,30 @@
+{
+  "status": "historical_consolidated_company_revenues_not_equal_market_share",
+  "units": "USD_millions",
+  "sources": {
+    "google": "https://www.sec.gov/Archives/edgar/data/1288776/000119312504131481/ds1.htm",
+    "overture": "https://www.sec.gov/Archives/edgar/data/1060439/000095014803000429/v88074e10vk.htm"
+  },
+  "rows": [
+    {
+      "year": 2000,
+      "google_m": 19.108,
+      "overture_m": 103.052,
+      "overture_tac_m": 66.433
+    },
+    {
+      "year": 2001,
+      "google_m": 86.426,
+      "overture_m": 288.133,
+      "overture_tac_m": 162.072
+    },
+    {
+      "year": 2002,
+      "google_m": 439.508,
+      "overture_m": 667.73,
+      "overture_tac_m": 384.583
+    }
+  ],
+  "overture_q4_2002_top10_affiliate_revenue_share_approx": 0.86,
+  "caution": "Company-wide revenues have differing business mixes; TAC is company-disclosed affiliate spend; no profitability or causal market share conclusions."
+}

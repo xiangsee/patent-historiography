@@ -1,0 +1,88 @@
+{
+  "status": "google_patents_aggregator_not_usp_to_original_assignment_images",
+  "patents": [
+    {
+      "id": "US6269361B1",
+      "assignee_at_recording": "GoTo.com Inc.",
+      "filed": "1999-05-28",
+      "published": "2001-07-31",
+      "priority": "1999-05-28",
+      "inventors": [
+        "Darren J. Davis",
+        "Matthew Derer",
+        "Johann Garcia",
+        "Larry Greco",
+        "Tod E. Kurt",
+        "Thomas Kwong",
+        "Jonathan C. Lee",
+        "Ka Luk Lee",
+        "Preston Pfarner",
+        "Steve Skovran"
+      ],
+      "source": "https://patents.google.com/patent/US6269361B1/en"
+    },
+    {
+      "id": "US7110993B2",
+      "assignee_at_recording": "GoTo.com Inc.",
+      "filed": "2001-07-26",
+      "published": "2006-09-19",
+      "priority": "1999-05-28",
+      "inventors": [
+        "Thomas A. Soulanille",
+        "Darren J. Davis"
+      ],
+      "source": "https://patents.google.com/patent/US7110993B2/en"
+    },
+    {
+      "id": "US20030046161A1",
+      "assignee_at_recording": "Google Inc.",
+      "filed": "2002-03-29",
+      "published": "2003-03-06",
+      "priority": "2001-09-06",
+      "inventors": [
+        "Salar Kamangar",
+        "Eric Veach",
+        "Ross Koningstein"
+      ],
+      "source": "https://patents.google.com/patent/US20030046161A1/en"
+    }
+  ],
+  "rights_events": [
+    {
+      "id": "LE10-1",
+      "patent_id": "US6269361B1",
+      "recorded": "1999-08-17",
+      "effective": "1999-07-29",
+      "to": "GoTo.com Inc.",
+      "reel_frame": "010170/0968",
+      "type": "inventor_assignment"
+    },
+    {
+      "id": "LE10-2",
+      "patent_id": "US6269361B1",
+      "recorded": "2002-02-15",
+      "effective": "2001-10-02",
+      "to": "Overture Services Inc.",
+      "reel_frame": "012621/0446",
+      "type": "merger"
+    },
+    {
+      "id": "LE10-3",
+      "patent_id": "US20030046161A1",
+      "recorded": "2002-08-08",
+      "effective": null,
+      "to": "Google Inc.",
+      "reel_frame": null,
+      "type": "inventor_assignment"
+    }
+  ],
+  "document_relationships": [
+    {
+      "source_id": "US7110993B2",
+      "target_id": "US6269361B1",
+      "type": "priority_claim_to_earlier_application",
+      "does_not_prove": "same code or independent invention count"
+    }
+  ],
+  "limits": "The Google Patents Original Assignee may use normalized modern names; no original USPTO reel images checked. Registered transactions do not adjudicate title validity."
+}
