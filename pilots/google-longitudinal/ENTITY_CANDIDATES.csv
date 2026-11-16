@@ -1,0 +1,6 @@
+entity_id,name_candidate,proposed_relation_to_scope,verified_period,source_to_check,status,notes
+G_INC,Google Inc.,historical_target,unknown,SEC 2004 IPO filings,PERIOD_UNVERIFIED,Confirm legal entity and changes
+G_LLC,Google LLC,possible_historical_successor,unknown,USPTO and corporate filings,UNVERIFIED,Do not merge with Google Inc before legal check
+A_INC,Alphabet Inc.,group_context_candidate,unknown,SEC corporate group filings,UNVERIFIED,Parent control dates need proof
+STAN,Stanford University,external_research_origin,unknown,US6285999B1 and license agreement,PARTIAL,Not Google originated just because PageRank used
+OVERT,Overture Services Inc.,industry_comparator,unknown,US6269361B1 and SEC reports,PARTIAL,Not Google group as a comparison
