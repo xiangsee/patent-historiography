@@ -1,0 +1,168 @@
+{
+  "case_id": "GOOGLE_MAPS_EARLY_RIGHTS_AND_PRIORITY_2003_2017",
+  "retrieved_on": "2026-11-19",
+  "status": "public_aggregator_and_iphouse_provider_data_unverified_by_original_uspto_reel_or_official_epo_family_ids",
+  "documents": [
+    {
+      "document_id": "US20050270311A1",
+      "title": "Digital mapping system",
+      "application_number": "US-5153405-A",
+      "provider_family_id": "35064376",
+      "first_priority_date": "2004-03-23",
+      "related_priority_application_ids": [
+        "US-55550104-P",
+        "US-56794604-P",
+        "US-5153405-A"
+      ],
+      "source_scope": "IPHouse get_patent_family priority_claims (includes own filing; not independently EPO audited)",
+      "sources": [
+        "https://patents.google.com/patent/US20050270311A1/en"
+      ]
+    },
+    {
+      "document_id": "US7599790B2",
+      "title": "Generating and serving tiles in a digital mapping system",
+      "application_number": "US-8854205-A",
+      "provider_family_id": "46304193",
+      "first_priority_date": "2004-03-23",
+      "related_priority_application_ids": [
+        "US-5153405-A",
+        "US-55550104-P",
+        "US-56794604-P",
+        "US-65084005-P",
+        "US-8854205-A"
+      ],
+      "source_scope": "IPHouse get_patent_family priority_claims including parent application",
+      "sources": [
+        "https://patents.google.com/patent/US7599790B2/en"
+      ]
+    },
+    {
+      "document_id": "US20050182770A1",
+      "title": "Assigning geographic location identifiers to web pages",
+      "application_number": "US-99660204-A",
+      "provider_family_id": "36693532",
+      "first_priority_date": "2003-11-25",
+      "related_priority_application_ids": [
+        "US-52540003-P"
+      ],
+      "source_scope": "IPHouse get_patent_family priority_claims preview",
+      "sources": [
+        "https://patents.google.com/patent/US20050182770A1/en"
+      ]
+    },
+    {
+      "document_id": "US7730389B2",
+      "title": "System for automatically integrating a digital map system",
+      "application_number": "US-99562904-A",
+      "provider_family_id": "34623223",
+      "first_priority_date": "2003-11-25",
+      "related_priority_application_ids": [
+        "US-99562904-A",
+        "US-52542003-P"
+      ],
+      "source_scope": "IPHouse get_patent_family priority_claims including own filing",
+      "sources": [
+        "https://patents.google.com/patent/US7730389B2/en"
+      ]
+    }
+  ],
+  "rights_events": [
+    {
+      "event_id": "R-MAPS-2005-08-12",
+      "patent_id": "US20050270311A1",
+      "event_kind": "assignment",
+      "from_entity": "named inventors",
+      "to_entity": "Google Inc.",
+      "date_recorded": "2005-08-12",
+      "date_effective": null,
+      "source_type": "Google Patents legal event aggregation",
+      "source_url": "https://patents.google.com/patent/US20050270311A1/en",
+      "legal_title_verified_from_original_assignment_document": false,
+      "notes": "Record reflects assignment of inventors' interest; precise effective day not established here"
+    },
+    {
+      "event_id": "R-MAPS-2017-12-05",
+      "patent_id": "US20050270311A1",
+      "event_kind": "name_change",
+      "from_entity": "Google Inc.",
+      "to_entity": "Google LLC",
+      "date_recorded": "2017-12-05",
+      "date_effective": null,
+      "source_type": "Google Patents legal event aggregation",
+      "source_url": "https://patents.google.com/patent/US20050270311A1/en",
+      "legal_title_verified_from_original_assignment_document": false,
+      "notes": "Corporate name change, NOT proof of an additional original invention"
+    },
+    {
+      "event_id": "R-GEO-2005-04-27",
+      "patent_id": "US20050182770A1",
+      "event_kind": "assignment",
+      "from_entity": "Lars Rasmussen and Jens Rasmussen",
+      "to_entity": "Google Inc.",
+      "date_recorded": "2005-04-27",
+      "date_effective": "2005-04-26",
+      "source_type": "Google Patents legal event aggregation",
+      "source_url": "https://patents.google.com/patent/US20050182770A1/en",
+      "reel_frame": "016498/0162",
+      "legal_title_verified_from_original_assignment_document": false,
+      "notes": "Recorded day later than stated effective day; USPTO originals not inspected"
+    },
+    {
+      "event_id": "R-GEO-2017-10-06",
+      "patent_id": "US20050182770A1",
+      "event_kind": "name_change",
+      "from_entity": "Google Inc.",
+      "to_entity": "Google LLC",
+      "date_recorded": "2017-10-06",
+      "date_effective": "2017-09-29",
+      "source_type": "Google Patents legal event aggregation",
+      "source_url": "https://patents.google.com/patent/US20050182770A1/en",
+      "reel_frame": "044142/0357",
+      "legal_title_verified_from_original_assignment_document": false,
+      "notes": "2017 change of name, not a new purchase of the technology"
+    },
+    {
+      "event_id": "R-MOCK-LICENSE-2010-01-01",
+      "patent_id": "SYNTHETIC-EXAMPLE-ONLY",
+      "event_kind": "license",
+      "from_entity": "Example Patents Inc.",
+      "to_entity": "Example Products LLC",
+      "date_recorded": "2010-01-01",
+      "date_effective": "2009-12-31",
+      "source_type": "synthetic_test_only",
+      "source_url": null,
+      "legal_title_verified_from_original_assignment_document": false,
+      "notes": "Must never be interpreted as a real Google transaction"
+    }
+  ],
+  "related_historical_events": [
+    {
+      "event_id": "H-WHERE2-ACQ-2004",
+      "date_text": "2004-10",
+      "date_precision": "month",
+      "event_type": "company_acquisition",
+      "actor": "Google / Where 2 Technologies",
+      "statement": "Scholarly retrospective associates 2004 Where 2 acquisition with subsequent Google Maps technology",
+      "source_url": "https://doi.org/10.1093/icc/dtad015",
+      "limitations": "Historical acquisition date differs among retrospective sources; patent title to Where 2 not established"
+    },
+    {
+      "event_id": "H-MAPS-LAUNCH-2005-02-08",
+      "date_text": "2005-02-08",
+      "date_precision": "day",
+      "event_type": "product_launch",
+      "actor": "Google Maps",
+      "statement": "Google contemporaneous product announcement",
+      "source_url": "https://googleblog.blogspot.com/2005/02/mapping-your-way.html",
+      "limitations": "Product launch does not prove that any one patent's claims had been practiced"
+    }
+  ],
+  "research_limits": [
+    "Provider-listed priority claims may include continuing or parent application links and are not complete official EPO DOCDB data.",
+    "A shared date is not a shared priority application, even between map-related patents.",
+    "Observed patent ownership record is neither title adjudication nor proof of original technology author.",
+    "2017 legal name change must not be reclassified as a new technology purchase.",
+    "Historical acquisition and later inventor assignment are separate events; no direct proof of patent originally owned by Where 2."
+  ]
+}
