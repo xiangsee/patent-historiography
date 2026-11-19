@@ -1,0 +1,46 @@
+name: Patent Evidence Workbench QA
+
+on:
+  push:
+    paths:
+      - 'patent_evidence/**'
+      - 'tests/test_patent_*.py'
+      - 'scripts/validate_google*.py'
+      - 'data/examples/**'
+      - '.github/workflows/patent-evidence.yml'
+  pull_request:
+    paths:
+      - 'patent_evidence/**'
+      - 'tests/test_patent_*.py'
+      - 'scripts/validate_google*.py'
+      - 'data/examples/**'
+      - '.github/workflows/patent-evidence.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  patent-evidence-regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: All evidence workbench unit tests
+        run: python3 -m unittest discover -s tests -p 'test_patent_*.py' -v
+      - name: Historical Maps fixture / double time audit
+        run: |
+          python3 -m patent_evidence.cli history-check \
+            --input data/examples/maps-priority-rights-v0-2.json \
+            --patent-id US20050270311A1 \
+            --as-of 2005-02-08 \
+            --output /tmp/google-maps-historical-snapshot.json
+      - name: Google 2000-2004 public derived data regression
+        run: python3 scripts/validate_google_inc_2000_2004_global.py
+      - name: Google 2000-2005 family-overlap regression
+        run: python3 scripts/validate_google_2000_2005_joint.py
+      - name: Shiji chronology fixture
+        run: python3 scripts/check_chronology_examples.py
+      - name: Google-Overture claim fixture
+        run: python3 scripts/verify_adwords_case.py

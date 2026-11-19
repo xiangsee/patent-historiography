@@ -1,6 +1,6 @@
 # 《企业史记》｜Patent Historiography
 
-**v1.1.0 · 双轨成果：企业史研究＋专利文献数据工具箱 · 2026-11-19**
+**v1.2.0 · Google Maps专利优先权及双时间权属重建 · 2026-11-19**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
@@ -8,6 +8,15 @@
 
 
 
+
+
+## 2026-11-19｜双主线第2轮：工具v0.2与Google Maps技术史互证
+
+- [研究第16号：Google Maps外部研发来源、专利优先权及不同时间的转让登记](research/16-google-maps-ownership-timeline-and-family-audit.md)
+- [可执行方法v0.2说明](docs/PATENT_EVIDENCE_TOOLKIT_V0_2.md)；[lineage.py](patent_evidence/lineage.py)实现优先权申请号关系与双时间权益登记证据查询
+- [4件地图专利与权益事件的真实小样本](data/examples/maps-priority-rights-v0-2.json)；[实际运行输出](data/examples/maps-lineage-v0-2-derived.json)
+- [历史证据新增10项测试](tests/test_patent_lineage.py)，连同v0.1共18项单元测试通过；命令行history-check已在三个历史时点真实执行。
+- 数据边界：IPHouse优先权列表和Google Patents法律事件是可定位**来源线索**，尚未审USPTO原始登记影像与EPO正式DOCDB/INPADOC家族号，不宣称法律权属裁决、Where2原始持有特定专利或2005年产品实现专利全部权利要求。
 
 ## 2026-11-19｜新增成果主线：专利证据工作台（通用工具）
 

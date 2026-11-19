@@ -14,3 +14,13 @@
 | PD-008 | 五体证据与Claim Lifecycle互联 | design | 初步五体一库框架 | 从母集信号到可校订历史命题的可追溯链 |
 
 工具总体接口： [v0.1说明](PATENT_EVIDENCE_TOOLKIT_V0_1.md)；方法记录模板：[PATENT_METHOD_RESULT_CARD](../templates/PATENT_METHOD_RESULT_CARD.md)。不自动将尚未通过独立核验的工具归为成熟研究基础设施。
+
+## v0.2新增方法（2026-11-19）
+
+| ID | 方法/工具 | 当前状态 | 实测证据 | 下一步缺口 |
+| --- | --- | --- | --- | --- |
+| PD-009 | 优先权申请标识比较及关联候选 | synthetic-tested + real-source-fixture | 4件地图专利、6对比较：两件不同provider family_id共享两项临时申请；另两件同日优先权但申请号不同 | 官方EPO DOCDB/INPADOC具体身份、完整原始优先权数据 |
+| PD-010 | 权属事件的历史日期与登记知识截止双时间查询 | synthetic-tested + real-source-fixture | US20050270311A1在2005-02-08与2005-12-31不同登记快照；US20050182770A1登记晚于所载生效日一天 | USPTO原始转让文件、合同法律效力、第三方独立验证 |
+| PD-011 | 收购、专利转让、产品上线分离的企业史机制检验 | historical-research-candidate | Where2收购2004年、Google Maps2005-02-08上线、相关专利公开和后续权益事件并列对读 | 专利是否由Where2直接原始持有、具体权利要求是否实际部署 |
+
+上述PD-009/010工具均已运行并通过18项单元测试，**不等于EPO官方族或司法权属结果已核实**。详见[方法v0.2](PATENT_EVIDENCE_TOOLKIT_V0_2.md)和[第16号历史研究](../research/16-google-maps-ownership-timeline-and-family-audit.md)。
