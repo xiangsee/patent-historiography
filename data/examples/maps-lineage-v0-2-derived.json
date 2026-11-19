@@ -1,0 +1,178 @@
+{
+  "generated_at": "2026-11-19",
+  "generated_by": "patent_evidence CLI v0.2.0 (actual run on four public patent case fixtures)",
+  "priority_links": {
+    "comparisons": [
+      {
+        "is_official_epo_docdb_family_match": false,
+        "is_official_epo_inpadoc_family_match": false,
+        "left": "US20050270311A1",
+        "relation": "overlapping_reported_priority_identifiers",
+        "right": "US7599790B2",
+        "same_provider_family_id": false,
+        "shared_application_ids": [
+          "US55550104P",
+          "US56794604P"
+        ],
+        "source_scope": "provider_reported_not_official_epo_mapping"
+      },
+      {
+        "is_official_epo_docdb_family_match": false,
+        "is_official_epo_inpadoc_family_match": false,
+        "left": "US20050270311A1",
+        "relation": "no_direct_shared_priority_observed",
+        "right": "US20050182770A1",
+        "same_provider_family_id": false,
+        "shared_application_ids": [],
+        "source_scope": "provider_reported_not_official_epo_mapping"
+      },
+      {
+        "is_official_epo_docdb_family_match": false,
+        "is_official_epo_inpadoc_family_match": false,
+        "left": "US20050270311A1",
+        "relation": "no_direct_shared_priority_observed",
+        "right": "US7730389B2",
+        "same_provider_family_id": false,
+        "shared_application_ids": [],
+        "source_scope": "provider_reported_not_official_epo_mapping"
+      },
+      {
+        "is_official_epo_docdb_family_match": false,
+        "is_official_epo_inpadoc_family_match": false,
+        "left": "US7599790B2",
+        "relation": "no_direct_shared_priority_observed",
+        "right": "US20050182770A1",
+        "same_provider_family_id": false,
+        "shared_application_ids": [],
+        "source_scope": "provider_reported_not_official_epo_mapping"
+      },
+      {
+        "is_official_epo_docdb_family_match": false,
+        "is_official_epo_inpadoc_family_match": false,
+        "left": "US7599790B2",
+        "relation": "no_direct_shared_priority_observed",
+        "right": "US7730389B2",
+        "same_provider_family_id": false,
+        "shared_application_ids": [],
+        "source_scope": "provider_reported_not_official_epo_mapping"
+      },
+      {
+        "is_official_epo_docdb_family_match": false,
+        "is_official_epo_inpadoc_family_match": false,
+        "left": "US20050182770A1",
+        "relation": "same_priority_date_but_no_shared_identifier_observed",
+        "right": "US7730389B2",
+        "same_provider_family_id": false,
+        "shared_application_ids": [],
+        "source_scope": "provider_reported_not_official_epo_mapping"
+      }
+    ],
+    "documents": [
+      {
+        "document_id": "US20050270311A1",
+        "first_priority_date": "2004-03-23",
+        "priority_applications": [
+          "US55550104P",
+          "US56794604P"
+        ],
+        "provider_family_id": "35064376",
+        "source_scope": "IPHouse get_patent_family priority_claims (includes own filing; not independently EPO audited)"
+      },
+      {
+        "document_id": "US7599790B2",
+        "first_priority_date": "2004-03-23",
+        "priority_applications": [
+          "US5153405A",
+          "US55550104P",
+          "US56794604P",
+          "US65084005P"
+        ],
+        "provider_family_id": "46304193",
+        "source_scope": "IPHouse get_patent_family priority_claims including parent application"
+      },
+      {
+        "document_id": "US20050182770A1",
+        "first_priority_date": "2003-11-25",
+        "priority_applications": [
+          "US52540003P"
+        ],
+        "provider_family_id": "36693532",
+        "source_scope": "IPHouse get_patent_family priority_claims preview"
+      },
+      {
+        "document_id": "US7730389B2",
+        "first_priority_date": "2003-11-25",
+        "priority_applications": [
+          "US52542003P"
+        ],
+        "provider_family_id": "34623223",
+        "source_scope": "IPHouse get_patent_family priority_claims including own filing"
+      }
+    ],
+    "epistemic_limitations": [
+      "Same priority dates are not the same legal priority application identifiers.",
+      "Shared provider-reported claims may include parent/continuation links; official EPO rules differ.",
+      "No direct shared claim in the observed data does NOT establish that two applications are unrelated.",
+      "This algorithm does not declare a DOCDB simple or INPADOC extended family."
+    ]
+  },
+  "as_of_snapshots": [
+    {
+      "applied_registry_event_ids": [],
+      "current_label_for_that_recorded_interest": null,
+      "event_date_unknown_for_target": [],
+      "historical_date": "2005-02-08",
+      "historical_legal_title_independently_confirmed": false,
+      "interpretation": "This is a chronology of observed registry/aggregator interests, not an adjudicated owner, and absence of earlier record is not proof of no rights.",
+      "inventor_or_technology_origin_confirmed": false,
+      "knowledge_cutoff_date": "2005-02-08",
+      "last_recorded_interest_entity": null,
+      "not_yet_recorded_by_knowledge_cutoff": [
+        "R-MAPS-2005-08-12",
+        "R-MAPS-2017-12-05"
+      ],
+      "other_legal_events": [],
+      "patent_id": "US20050270311A1"
+    },
+    {
+      "applied_registry_event_ids": [
+        "R-MAPS-2005-08-12"
+      ],
+      "current_label_for_that_recorded_interest": "Google Inc.",
+      "event_date_unknown_for_target": [],
+      "historical_date": "2005-12-31",
+      "historical_legal_title_independently_confirmed": false,
+      "interpretation": "This is a chronology of observed registry/aggregator interests, not an adjudicated owner, and absence of earlier record is not proof of no rights.",
+      "inventor_or_technology_origin_confirmed": false,
+      "knowledge_cutoff_date": "2005-12-31",
+      "last_recorded_interest_entity": "Google Inc.",
+      "not_yet_recorded_by_knowledge_cutoff": [
+        "R-MAPS-2017-12-05"
+      ],
+      "other_legal_events": [],
+      "patent_id": "US20050270311A1"
+    },
+    {
+      "applied_registry_event_ids": [
+        "R-GEO-2005-04-27"
+      ],
+      "current_label_for_that_recorded_interest": "Google Inc.",
+      "event_date_unknown_for_target": [],
+      "historical_date": "2005-04-26",
+      "historical_legal_title_independently_confirmed": false,
+      "interpretation": "This is a chronology of observed registry/aggregator interests, not an adjudicated owner, and absence of earlier record is not proof of no rights.",
+      "inventor_or_technology_origin_confirmed": false,
+      "knowledge_cutoff_date": "2005-04-27",
+      "last_recorded_interest_entity": "Google Inc.",
+      "not_yet_recorded_by_knowledge_cutoff": [
+        "R-GEO-2017-10-06"
+      ],
+      "other_legal_events": [],
+      "patent_id": "US20050182770A1"
+    }
+  ],
+  "source_case": "data/examples/maps-priority-rights-v0-2.json",
+  "official_epo_docdb_verified": false,
+  "original_uspto_deed_verified": false,
+  "warning": "Do not infer 2005 product implementation or earlier Where2 patent ownership from later recorded assignments."
+}
