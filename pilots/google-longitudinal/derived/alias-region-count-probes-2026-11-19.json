@@ -1,0 +1,238 @@
+{
+  "retrieved_on": "2026-11-19",
+  "scope": "single-source count probes; not additive; no dedup",
+  "source": "IPHouse Research patents_bulk",
+  "rows": [
+    {
+      "label": "1995-1999",
+      "assignee": "Google Inc.",
+      "country": "US",
+      "from": "1995-01-01",
+      "to": "1999-12-31",
+      "total": 3,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "2000-2004",
+      "assignee": "Google Inc.",
+      "country": "US",
+      "from": "2000-01-01",
+      "to": "2004-12-31",
+      "total": 452,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "2005-2009",
+      "assignee": "Google Inc.",
+      "country": "US",
+      "from": "2005-01-01",
+      "to": "2009-12-31",
+      "total": 2599,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "2010-2014",
+      "assignee": "Google Inc.",
+      "country": "US",
+      "from": "2010-01-01",
+      "to": "2014-12-31",
+      "total": 17177,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "2015-2019",
+      "assignee": "Google Inc.",
+      "country": "US",
+      "from": "2015-01-01",
+      "to": "2019-12-31",
+      "total": 6372,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "2020-2024",
+      "assignee": "Google Inc.",
+      "country": "US",
+      "from": "2020-01-01",
+      "to": "2024-12-31",
+      "total": 10,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "2025-2026",
+      "assignee": "Google Inc.",
+      "country": "US",
+      "from": "2025-01-01",
+      "to": "2026-11-19",
+      "total": 0,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "1995-1999",
+      "assignee": "Google LLC",
+      "country": "US",
+      "from": "1995-01-01",
+      "to": "1999-12-31",
+      "total": 0,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "2000-2004",
+      "assignee": "Google LLC",
+      "country": "US",
+      "from": "2000-01-01",
+      "to": "2004-12-31",
+      "total": 1,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "2005-2009",
+      "assignee": "Google LLC",
+      "country": "US",
+      "from": "2005-01-01",
+      "to": "2009-12-31",
+      "total": 13,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "2010-2014",
+      "assignee": "Google LLC",
+      "country": "US",
+      "from": "2010-01-01",
+      "to": "2014-12-31",
+      "total": 849,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "2015-2019",
+      "assignee": "Google LLC",
+      "country": "US",
+      "from": "2015-01-01",
+      "to": "2019-12-31",
+      "total": 12441,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "2020-2024",
+      "assignee": "Google LLC",
+      "country": "US",
+      "from": "2020-01-01",
+      "to": "2024-12-31",
+      "total": 16921,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "2025-2026",
+      "assignee": "Google LLC",
+      "country": "US",
+      "from": "2025-01-01",
+      "to": "2026-11-19",
+      "total": 815,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "CN 谷歌 2005–2014",
+      "query": {
+        "assignee": "谷歌",
+        "country_code": "CN",
+        "filing_date_from": "2005-01-01",
+        "filing_date_to": "2014-12-31"
+      },
+      "total": 4140,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "CN 谷歌 2015–2019",
+      "query": {
+        "assignee": "谷歌",
+        "country_code": "CN",
+        "filing_date_from": "2015-01-01",
+        "filing_date_to": "2019-12-31"
+      },
+      "total": 7537,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "CN 谷歌 2020–2024",
+      "query": {
+        "assignee": "谷歌",
+        "country_code": "CN",
+        "filing_date_from": "2020-01-01",
+        "filing_date_to": "2024-12-31"
+      },
+      "total": 3625,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "CN 谷歌公司 2005–2024",
+      "query": {
+        "assignee": "谷歌公司",
+        "country_code": "CN",
+        "filing_date_from": "2005-01-01",
+        "filing_date_to": "2024-12-31"
+      },
+      "total": 3512,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "CN 谷歌有限责任公司 2005–2024",
+      "query": {
+        "assignee": "谷歌有限责任公司",
+        "country_code": "CN",
+        "filing_date_from": "2005-01-01",
+        "filing_date_to": "2024-12-31"
+      },
+      "total": 11145,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "EP Google LLC 2015–2024",
+      "query": {
+        "assignee": "Google LLC",
+        "country_code": "EP",
+        "filing_date_from": "2015-01-01",
+        "filing_date_to": "2024-12-31"
+      },
+      "total": 11210,
+      "code": 200,
+      "msg": "success"
+    },
+    {
+      "label": "WO Google LLC 2015–2024",
+      "query": {
+        "assignee": "Google LLC",
+        "country_code": "WO",
+        "filing_date_from": "2015-01-01",
+        "filing_date_to": "2024-12-31"
+      },
+      "total": 7379,
+      "code": 200,
+      "msg": "success"
+    }
+  ],
+  "notes": [
+    "US Google Inc. and Google LLC are overlapping historical assignee strings, including later name changes.",
+    "Chinese 谷歌, 谷歌公司 and 谷歌有限责任公司 query results overlap: NEVER sum their match counts.",
+    "EP/WO are publication authority codes, not necessarily country of origin or inventor location.",
+    "5-year counts are number of matched publication records, not family counts and not R&D output.",
+    "recent 2025-2026 filings are right-censored by publication delays and incomplete collection."
+  ]
+}

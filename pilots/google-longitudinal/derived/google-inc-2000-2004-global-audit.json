@@ -1,0 +1,406 @@
+{
+  "as_of": "2026-11-19",
+  "status": "complete_pagination_of_one_search_not_company_full_corpus",
+  "source": "Connected IPHouse Research patents_bulk",
+  "query": {
+    "assignee": "Google Inc.",
+    "filing_date_from": "2000-01-01",
+    "filing_date_to": "2004-12-31",
+    "page_size": 50,
+    "fields": [
+      "publication_number",
+      "application_number",
+      "family_id",
+      "country_code",
+      "filing_date",
+      "priority_date",
+      "publication_date",
+      "title",
+      "assignee",
+      "ipc_codes",
+      "kind_code"
+    ]
+  },
+  "pages_requested": 22,
+  "pages_received": 22,
+  "page_list_consistent": true,
+  "page_errors": [],
+  "database_match_totals": [
+    1067
+  ],
+  "records_retrieved": 1067,
+  "unique_publication_numbers": 1067,
+  "duplicate_publication_entries": 0,
+  "unique_application_numbers": 843,
+  "valid_family_ids_distinct": 522,
+  "missing_or_sentinel_family_records": 0,
+  "multi_country_family_ids": 85,
+  "family_ids_with_multiple_publications": 147,
+  "family_ids_with_multi_year_filing_dates": 55,
+  "filing_year_document_counts": {
+    "2000": 45,
+    "2001": 50,
+    "2002": 61,
+    "2003": 283,
+    "2004": 628
+  },
+  "publication_country_document_counts": {
+    "US": 452,
+    "CA": 198,
+    "EP": 166,
+    "WO": 111,
+    "AU": 86,
+    "BR": 37,
+    "DE": 5,
+    "ES": 3,
+    "AT": 3,
+    "NZ": 2,
+    "DK": 1,
+    "SG": 1,
+    "MX": 1,
+    "ZA": 1
+  },
+  "kind_code_counts": {
+    "B1": 294,
+    "B2": 223,
+    "A1": 219,
+    "C": 90,
+    "A2": 88,
+    "A3": 49,
+    "A4": 38,
+    "A": 36,
+    "S1": 7,
+    "A8": 5,
+    "T3": 3,
+    "T1": 3,
+    "C1": 3,
+    "U1": 2,
+    "D1": 2,
+    "E1": 1,
+    "U8": 1,
+    "T5": 1,
+    "B8": 1,
+    "B": 1
+  },
+  "ipc_code_document_occurrences_top20": {
+    "G06F17/30": 493,
+    "G06Q30/00": 165,
+    "G06F7/00": 164,
+    "G06Q30/02": 137,
+    "G06F/": 104,
+    "G06F17/00": 103,
+    "G06F15/16": 68,
+    "H04N1/00": 39,
+    "H04N1/21": 39,
+    "G06Q10/00": 36,
+    "H04L29/06": 34,
+    "G06F17/21": 33,
+    "H04L12/16": 32,
+    "G06T5/00": 28,
+    "G06F13/00": 27,
+    "G06T1/00": 27,
+    "H04N1/46": 25,
+    "H04N1/60": 25,
+    "H04L12/58": 24,
+    "G06F17/27": 24
+  },
+  "sha256_sorted_publication_ids": "61503a56182144a21c5fe7d82d53d32bcbb3e0ad600d18d0ae16693d3ce51022",
+  "page_metadata": [
+    {
+      "page": 1,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 2,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 3,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 4,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 5,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 6,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 7,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 8,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 9,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 10,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 11,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 12,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 13,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 14,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 15,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 16,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 17,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 18,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 19,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 20,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 21,
+      "returned": 50,
+      "reported_total": 1067,
+      "error": null
+    },
+    {
+      "page": 22,
+      "returned": 17,
+      "reported_total": 1067,
+      "error": null
+    }
+  ],
+  "example_cross_country_family_groups": [
+    {
+      "family_id": "33476838",
+      "countries": [
+        "BR",
+        "CA",
+        "US"
+      ],
+      "publications": 6,
+      "application_count": 4
+    },
+    {
+      "family_id": "34273926",
+      "countries": [
+        "BR",
+        "EP",
+        "SG",
+        "US",
+        "WO"
+      ],
+      "publications": 6,
+      "application_count": 5
+    },
+    {
+      "family_id": "34654294",
+      "countries": [
+        "AU",
+        "BR",
+        "CA",
+        "EP",
+        "US",
+        "WO"
+      ],
+      "publications": 10,
+      "application_count": 6
+    },
+    {
+      "family_id": "34226459",
+      "countries": [
+        "BR",
+        "CA",
+        "EP",
+        "US",
+        "WO"
+      ],
+      "publications": 10,
+      "application_count": 6
+    },
+    {
+      "family_id": "33457345",
+      "countries": [
+        "EP",
+        "US",
+        "WO"
+      ],
+      "publications": 4,
+      "application_count": 4
+    }
+  ],
+  "example_repeated_family_groups": [
+    {
+      "family_id": "34381362",
+      "countries": [
+        "CA",
+        "DE",
+        "EP",
+        "US",
+        "WO"
+      ],
+      "publications": 17,
+      "application_count": 11
+    },
+    {
+      "family_id": "3814761",
+      "countries": [
+        "AU",
+        "CA"
+      ],
+      "publications": 14,
+      "application_count": 7
+    },
+    {
+      "family_id": "34422117",
+      "countries": [
+        "AT",
+        "DE",
+        "EP",
+        "ES",
+        "US",
+        "WO"
+      ],
+      "publications": 12,
+      "application_count": 8
+    },
+    {
+      "family_id": "31999085",
+      "countries": [
+        "AU",
+        "BR",
+        "CA",
+        "EP",
+        "US",
+        "WO"
+      ],
+      "publications": 12,
+      "application_count": 7
+    },
+    {
+      "family_id": "39259659",
+      "countries": [
+        "AU"
+      ],
+      "publications": 11,
+      "application_count": 11
+    }
+  ],
+  "sample_bibliography": [
+    {
+      "publication_number": "US-6678681-B1",
+      "title": "Information extraction from a database",
+      "country_code": "US",
+      "filing_date": "2000-03-09",
+      "family_id": "29782204"
+    },
+    {
+      "publication_number": "US-6754873-B1",
+      "title": "Techniques for finding related hyperlinked documents using link-based analysis",
+      "country_code": "US",
+      "filing_date": "2000-04-06",
+      "family_id": "32474007"
+    },
+    {
+      "publication_number": "US-RE44724-E",
+      "title": "Method of delivery, targeting, and measuring advertising over networks",
+      "country_code": "US",
+      "filing_date": "2000-05-24",
+      "family_id": "24968825"
+    },
+    {
+      "publication_number": "CA-2371531-C",
+      "title": "Image processor for camera module",
+      "country_code": "CA",
+      "filing_date": "2000-05-24",
+      "family_id": "3814761"
+    },
+    {
+      "publication_number": "CA-2371532-C",
+      "title": "Effects module for compact printer system",
+      "country_code": "CA",
+      "filing_date": "2000-05-24",
+      "family_id": "3814761"
+    }
+  ],
+  "not_an_invention_count": true,
+  "not_global_corporate_corpus": true,
+  "family_id_type_not_independently_verified": true,
+  "raw_records_disclosed_in_public_repo": false,
+  "limitations": [
+    "Assignee filter returns later rights holdings and multiple names; cannot infer corporate origin of invention from match.",
+    "One database family_id may group broader related applications; DOCDB vs INPADOC has not been mapped for this database.",
+    "Publication records and applications need different historical units; year count is filing_date in rows, not first priority.",
+    "Global means no country filter on this database request, not exhaustive world patent coverage.",
+    "Bulk original metadata stays in a nonpublic research area pending reuse rights confirmation."
+  ]
+}
