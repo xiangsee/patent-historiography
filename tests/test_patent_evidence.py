@@ -73,6 +73,14 @@ class PatentEvidenceTest(unittest.TestCase):
             self.assertFalse(pagination(subset_pages)[0]["complete"])
             self.assertEqual(pagination(subset_pages)[0]["issues"],["incomplete_provider_result"])
 
+    def test_jsonl_local_export_is_complete(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            f=Path(tmp,"export.jsonl")
+            f.write_text(json.dumps(rec("US-01-A1","APP1","10","2001-01-01"))+"\n",encoding="utf8")
+            records,pages=load([str(f)])
+            self.assertEqual(len(records),1)
+            self.assertTrue(pagination(pages)[0]["complete"])
+
     def test_missing_page_number(self):
         page={"query_id":"a","query":{"page_size":1},"page":2,"returned":1,
               "provider_total":1,"error":None,"source_file":"mock","source_sha256":"abc"}

@@ -34,3 +34,6 @@
 6. 删去独立非专利材料，技术贡献与商业获利命题还能成立吗？
 
 该协议是对方法的修正，不代表已验证所有EPO和IPHouse家族匹配。
+
+## v0.1可执行检查入口
+在根目录通过 python3 -m patent_evidence.cli audit 读取私有IPHouse批次，区分公报/申请/provider family并审查跨查询窗口家族重复；其输出不是发明归属计算器。另以 family-check 比较两个家族API返回值。工具实现见 ../patent_evidence/core.py，实测报告见 ../research/14-patent-methods-first-real-experiment.md。未接入真实USPTO转让事件之前，历史original_assignee一律不得从current assignee推断。

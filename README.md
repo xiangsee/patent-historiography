@@ -1,12 +1,24 @@
 # 《企业史记》｜Patent Historiography
 
-**v1.0.0 · Google 2000—2005连续数据、专利族与动态权属校准 · 2026-11-19**
+**v1.1.0 · 双轨成果：企业史研究＋专利文献数据工具箱 · 2026-11-19**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
 《企业史记》为项目暂定总名；《企业本纪》降为五体之一。保留仓库名称 patent-historiography；研究与出版均不代表被研究企业。
 
 
+
+
+## 2026-11-19｜新增成果主线：专利证据工作台（通用工具）
+
+《企业史记》不只是写企业专利历史；每次研究也要逐渐留下可移植的专利数据处理**方法、工具、测试与可审计证据**。与五体史学主线并行，研究问题指导工具，工具的质量结果反过来修正历史判断。
+
+- [工具箱v0.1总体说明](docs/PATENT_EVIDENCE_TOOLKIT_V0_1.md) · [通用Python核心](patent_evidence/core.py) · [CLI](patent_evidence/cli.py) · [使用入口](patent_evidence/README.md)。
+- [真实样本验证结果](data/examples/google-2000-2005-patent-workbench-v0-1.json)：39页、1917公报、1465申请、836个provider家族ID和56个跨窗口重复族；7项单元测试通过。
+- [10个专利族接口对照](data/examples/iphouse-family-api-audit-result-v0-1.json)：两接口8组计数一致、2组不一致，均排除了锚定公报；不将疑似50成员截断当成已核实的后台规定。
+- [方法卡模板](templates/PATENT_METHOD_RESULT_CARD.md) · [方法注册表](docs/PATENT_METHOD_REGISTRY.md) · [方法论研究纪要](research/14-patent-methods-first-real-experiment.md)。
+
+**现阶段能力边界**：已实现输入、标准化、分页与族质量审计；EPO官方DOCDB/INPADOC核对、申请时点权属重建、全文/权利要求和知识图谱仍在下一阶段。工具不接入私有原始数据向公网分发。
 
 ## 2026-11-19｜完成第一个全球检索片段的全部分页（请先阅读）
 

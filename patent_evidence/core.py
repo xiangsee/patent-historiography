@@ -52,12 +52,13 @@ def load(paths):
         digest=hashlib.sha256(content.encode("utf8")).hexdigest()
         if path.suffix==".jsonl":
             query={"source_type":"jsonl","file":path.name}
-            page_list=[{"page":1,"records":[json.loads(x) for x in content.splitlines() if x.strip()]}]
+            values=[json.loads(x) for x in content.splitlines() if x.strip()]
+            page_list=[{"page":1,"records":values,"total":len(values)}]
         else:
             obj=json.loads(content)
             if isinstance(obj,list):
                 query={"source_type":"json_list","file":path.name}
-                page_list=[{"page":1,"records":obj}]
+                page_list=[{"page":1,"records":obj,"total":len(obj)}]
             elif isinstance(obj,dict):
                 query=obj.get("query") or {"source_type":"object","file":path.name}
                 if isinstance(obj.get("pages"),list):
