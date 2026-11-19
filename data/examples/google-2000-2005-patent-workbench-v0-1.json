@@ -1,0 +1,392 @@
+{
+  "aggregate": {
+    "bad_filing_date_rows": 0,
+    "by_filing_year_document_rows": {
+      "2000": 45,
+      "2001": 50,
+      "2002": 61,
+      "2003": 283,
+      "2004": 628,
+      "2005": 850
+    },
+    "by_kind_document_rows": {
+      "A": 60,
+      "A0": 1,
+      "A1": 429,
+      "A2": 196,
+      "A3": 109,
+      "A4": 86,
+      "A8": 8,
+      "B": 5,
+      "B1": 430,
+      "B2": 389,
+      "B8": 2,
+      "C": 147,
+      "C1": 6,
+      "D0": 5,
+      "D1": 6,
+      "E1": 1,
+      "L": 4,
+      "S1": 10,
+      "T1": 11,
+      "T3": 8,
+      "T5": 1,
+      "U1": 2,
+      "U8": 1
+    },
+    "by_publication_authority_document_rows": {
+      "AT": 11,
+      "AU": 145,
+      "BR": 59,
+      "CA": 337,
+      "DE": 9,
+      "DK": 2,
+      "EP": 330,
+      "ES": 7,
+      "FI": 1,
+      "GB": 2,
+      "IL": 2,
+      "JP": 4,
+      "MX": 1,
+      "NO": 10,
+      "NZ": 2,
+      "SG": 1,
+      "TW": 4,
+      "US": 736,
+      "WO": 253,
+      "ZA": 1
+    },
+    "distinct_provider_family_ids": 836,
+    "duplicate_publication_rows": 0,
+    "family_review_queue": [
+      {
+        "application_count": 9,
+        "authorities": [
+          "AT",
+          "AU",
+          "BR",
+          "CA",
+          "DE",
+          "EP",
+          "JP",
+          "NO",
+          "US"
+        ],
+        "flags": [
+          "multiple_publications",
+          "multiple_authorities",
+          "multiple_filing_years",
+          "multiple_titles_not_multiple_inventions",
+          "assignee_strings_vary_not_owner_proof",
+          "cross_query_window"
+        ],
+        "provider_family_id": "34941843",
+        "publication_count": 13,
+        "sample_publication": "US-7580921-B2",
+        "title_variants": 5
+      },
+      {
+        "application_count": 8,
+        "authorities": [
+          "AT",
+          "AU",
+          "BR",
+          "CA",
+          "EP",
+          "JP",
+          "NO",
+          "US"
+        ],
+        "flags": [
+          "multiple_publications",
+          "multiple_authorities",
+          "multiple_filing_years",
+          "multiple_titles_not_multiple_inventions",
+          "assignee_strings_vary_not_owner_proof",
+          "cross_query_window"
+        ],
+        "provider_family_id": "34982376",
+        "publication_count": 13,
+        "sample_publication": "US-7584175-B2",
+        "title_variants": 6
+      },
+      {
+        "application_count": 8,
+        "authorities": [
+          "AT",
+          "DE",
+          "EP",
+          "ES",
+          "US",
+          "WO"
+        ],
+        "flags": [
+          "multiple_publications",
+          "multiple_authorities",
+          "multiple_filing_years",
+          "multiple_titles_not_multiple_inventions",
+          "different_provider_priority_dates",
+          "assignee_strings_vary_not_owner_proof"
+        ],
+        "provider_family_id": "34422117",
+        "publication_count": 12,
+        "sample_publication": "US-8706747-B2",
+        "title_variants": 3
+      },
+      {
+        "application_count": 8,
+        "authorities": [
+          "AT",
+          "BR",
+          "CA",
+          "EP",
+          "JP",
+          "NO",
+          "US"
+        ],
+        "flags": [
+          "multiple_publications",
+          "multiple_authorities",
+          "multiple_filing_years",
+          "multiple_titles_not_multiple_inventions",
+          "assignee_strings_vary_not_owner_proof",
+          "cross_query_window"
+        ],
+        "provider_family_id": "34979519",
+        "publication_count": 12,
+        "sample_publication": "US-7599914-B2",
+        "title_variants": 5
+      },
+      {
+        "application_count": 7,
+        "authorities": [
+          "CA",
+          "DK",
+          "EP",
+          "ES",
+          "US",
+          "WO"
+        ],
+        "flags": [
+          "multiple_publications",
+          "multiple_authorities",
+          "multiple_filing_years",
+          "multiple_titles_not_multiple_inventions",
+          "assignee_strings_vary_not_owner_proof",
+          "cross_query_window"
+        ],
+        "provider_family_id": "35985934",
+        "publication_count": 12,
+        "sample_publication": "US-7996208-B2",
+        "title_variants": 5
+      },
+      {
+        "application_count": 7,
+        "authorities": [
+          "AT",
+          "BR",
+          "CA",
+          "EP",
+          "JP",
+          "NO",
+          "US"
+        ],
+        "flags": [
+          "multiple_publications",
+          "multiple_authorities",
+          "multiple_filing_years",
+          "multiple_titles_not_multiple_inventions",
+          "assignee_strings_vary_not_owner_proof",
+          "cross_query_window"
+        ],
+        "provider_family_id": "34941844",
+        "publication_count": 11,
+        "sample_publication": "US-7536408-B2",
+        "title_variants": 5
+      },
+      {
+        "application_count": 6,
+        "authorities": [
+          "AU",
+          "BR",
+          "CA",
+          "EP",
+          "US",
+          "WO"
+        ],
+        "flags": [
+          "multiple_publications",
+          "multiple_authorities",
+          "multiple_filing_years",
+          "multiple_titles_not_multiple_inventions",
+          "different_provider_priority_dates",
+          "assignee_strings_vary_not_owner_proof"
+        ],
+        "provider_family_id": "34422049",
+        "publication_count": 10,
+        "sample_publication": "CA-2540684-C",
+        "title_variants": 2
+      },
+      {
+        "application_count": 6,
+        "authorities": [
+          "CA",
+          "EP",
+          "ES",
+          "US",
+          "WO"
+        ],
+        "flags": [
+          "multiple_publications",
+          "multiple_authorities",
+          "multiple_filing_years",
+          "multiple_titles_not_multiple_inventions",
+          "assignee_strings_vary_not_owner_proof",
+          "cross_query_window"
+        ],
+        "provider_family_id": "34960517",
+        "publication_count": 10,
+        "sample_publication": "US-7941439-B1",
+        "title_variants": 4
+      },
+      {
+        "application_count": 8,
+        "authorities": [
+          "BR",
+          "CA",
+          "EP",
+          "US",
+          "WO"
+        ],
+        "flags": [
+          "multiple_publications",
+          "multiple_authorities",
+          "multiple_filing_years",
+          "multiple_titles_not_multiple_inventions",
+          "assignee_strings_vary_not_owner_proof",
+          "cross_query_window"
+        ],
+        "provider_family_id": "34963993",
+        "publication_count": 10,
+        "sample_publication": "US-9819624-B2",
+        "title_variants": 2
+      },
+      {
+        "application_count": 5,
+        "authorities": [
+          "AU",
+          "EP",
+          "US",
+          "WO"
+        ],
+        "flags": [
+          "multiple_publications",
+          "multiple_authorities",
+          "multiple_filing_years",
+          "multiple_titles_not_multiple_inventions",
+          "assignee_strings_vary_not_owner_proof",
+          "cross_query_window"
+        ],
+        "provider_family_id": "30117995",
+        "publication_count": 9,
+        "sample_publication": "US-7752072-B2",
+        "title_variants": 2
+      }
+    ],
+    "family_risk_counts": {
+      "assignee_strings_vary_not_owner_proof": 225,
+      "cross_query_window": 56,
+      "different_provider_priority_dates": 8,
+      "multiple_authorities": 173,
+      "multiple_filing_years": 109,
+      "multiple_publications": 269,
+      "multiple_titles_not_multiple_inventions": 97
+    },
+    "missing_or_sentinel_family_rows": 0,
+    "non_focus_assignee_tagged_rows": 422,
+    "notice": "All counts are provider matches or records, not independent inventions or historical original ownership.",
+    "priority_after_filing_rows": 1,
+    "priority_before_filing_rows": 1366,
+    "proven_original_owners": "NOT_DETERMINED",
+    "sha256_sorted_publication_ids": "e5232c878a8d984f25f187a31e36e87154ed58807cc25a943ced76451c97c82a",
+    "source_rows": 1917,
+    "unique_applications": 1465,
+    "unique_publications": 1917,
+    "verified_family_type": "UNVERIFIED"
+  },
+  "data_scope": "provider_observations_not_full_corporate_corpus",
+  "historical_ownership": "NOT_DETERMINED",
+  "provider_family_type": "UNVERIFIED",
+  "query_audits": [
+    {
+      "complete": true,
+      "file_sha256": {
+        "batch01.json": "0ba87654bc4d1f85452781eb5f1cc0e0b8124e0f29a1186a409a72c00d2ff147",
+        "batch02.json": "2ab48f4403c1f5c398b672b8e35c6844f67114baf6746ba754b5feb84ce5d174",
+        "batch03.json": "8e9ca48334f5cddadd64c86d70cbf2ee8c1d8c88ca97e97201a0eda7df5aa095",
+        "batch04.json": "c08b84225071ab4384c654ff0cb6f9d3c119b19a69d4dbae448367ec32d0edd9",
+        "batch05.json": "36e8e22312d03a36994068f36f6d2e10ec6d1c2655d8c1e937d810cd232f12c4"
+      },
+      "issues": [],
+      "page_count": 22,
+      "provider_total": 1067,
+      "query": {
+        "assignee": "Google Inc.",
+        "fields": [
+          "publication_number",
+          "application_number",
+          "family_id",
+          "country_code",
+          "filing_date",
+          "priority_date",
+          "publication_date",
+          "title",
+          "assignee",
+          "ipc_codes",
+          "kind_code"
+        ],
+        "filing_date_from": "2000-01-01",
+        "filing_date_to": "2004-12-31",
+        "page_size": 50
+      },
+      "query_id": "b27fd9ff11878608",
+      "returned": 1067
+    },
+    {
+      "complete": true,
+      "file_sha256": {
+        "batch01.json": "cc8c4d7fa44086513b65fd3311b9537c9f4cfa810df21f06dee375f2ff384d96",
+        "batch02.json": "eeb0c942fe832594bdb130809d8ba6d1f415314b4e4a3a547ed187bdfa75a621",
+        "batch03.json": "aad4d53ab6c491f38b13cfc92dacdcf2850d4a2594bff91cfc1a60b86ce82563",
+        "batch04.json": "b48ea3429ca54247d180c4bbc928b91c9d18cad0b70ca4f5fcc7f80dbf1d73ae"
+      },
+      "issues": [],
+      "page_count": 17,
+      "provider_total": 850,
+      "query": {
+        "assignee": "Google Inc.",
+        "fields": [
+          "publication_number",
+          "application_number",
+          "family_id",
+          "country_code",
+          "filing_date",
+          "priority_date",
+          "publication_date",
+          "title",
+          "assignee",
+          "ipc_codes",
+          "kind_code"
+        ],
+        "filing_date_from": "2005-01-01",
+        "filing_date_to": "2005-12-31",
+        "page_size": 50
+      },
+      "query_id": "b9ab2f69a067e77a",
+      "returned": 850
+    }
+  ],
+  "tool": "patent_evidence",
+  "version": "0.1.0",
+  "data_disclosure_note": "Derived totals and no more than 10 sampled public bibliographic identifiers; bulk provider records remain in private research vault."
+}
