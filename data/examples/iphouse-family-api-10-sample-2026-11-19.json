@@ -1,0 +1,118 @@
+{
+  "sample_date": "2026-11-19",
+  "source": "IPHouse Research search_patents(family_id) and get_patent_family(publication_number)",
+  "selection": "Ten purposively selected family IDs from patent history research, not a random sample or EPO truth.",
+  "samples": [
+    {
+      "provider_family_id": "3814761",
+      "theme": "Silverbrook printer & camera",
+      "anchor_publication": "CA-2371531-C",
+      "search_patents_total": 358,
+      "family_detail_size": 51,
+      "family_detail_members_listed": 50,
+      "anchor_not_in_members": true,
+      "distinct_titles_in_detail": 15,
+      "epo_simple_or_extended": "UNVERIFIED"
+    },
+    {
+      "provider_family_id": "24968825",
+      "theme": "DoubleClick advertising",
+      "anchor_publication": "US-8676644-B2",
+      "search_patents_total": 16,
+      "family_detail_size": 16,
+      "family_detail_members_listed": 15,
+      "anchor_not_in_members": true,
+      "distinct_titles_in_detail": 4,
+      "epo_simple_or_extended": "UNVERIFIED"
+    },
+    {
+      "provider_family_id": "34381362",
+      "theme": "Google retrieval history",
+      "anchor_publication": "EP-2416263-A3",
+      "search_patents_total": 63,
+      "family_detail_size": 51,
+      "family_detail_members_listed": 50,
+      "anchor_not_in_members": true,
+      "distinct_titles_in_detail": 12,
+      "epo_simple_or_extended": "UNVERIFIED"
+    },
+    {
+      "provider_family_id": "35125740",
+      "theme": "US/CN user-action cross filing",
+      "anchor_publication": "CA-2561779-C",
+      "search_patents_total": 16,
+      "family_detail_size": 16,
+      "family_detail_members_listed": 15,
+      "anchor_not_in_members": true,
+      "distinct_titles_in_detail": 2,
+      "epo_simple_or_extended": "UNVERIFIED"
+    },
+    {
+      "provider_family_id": "38701532",
+      "theme": "Google Maps",
+      "anchor_publication": "CA-2953656-C",
+      "search_patents_total": 10,
+      "family_detail_size": 10,
+      "family_detail_members_listed": 9,
+      "anchor_not_in_members": true,
+      "distinct_titles_in_detail": 4,
+      "epo_simple_or_extended": "UNVERIFIED"
+    },
+    {
+      "provider_family_id": "46304193",
+      "theme": "map tiles",
+      "anchor_publication": "US-7599790-B2",
+      "search_patents_total": 4,
+      "family_detail_size": 4,
+      "family_detail_members_listed": 3,
+      "anchor_not_in_members": true,
+      "distinct_titles_in_detail": 1,
+      "epo_simple_or_extended": "UNVERIFIED"
+    },
+    {
+      "provider_family_id": "60805044",
+      "theme": "advertisement selection",
+      "anchor_publication": "US-9858590-B1",
+      "search_patents_total": 1,
+      "family_detail_size": 1,
+      "family_detail_members_listed": 0,
+      "anchor_not_in_members": true,
+      "distinct_titles_in_detail": 0,
+      "epo_simple_or_extended": "UNVERIFIED"
+    },
+    {
+      "provider_family_id": "34273926",
+      "theme": "related-search queries",
+      "anchor_publication": "BR-PI0414332-B1",
+      "search_patents_total": 17,
+      "family_detail_size": 17,
+      "family_detail_members_listed": 16,
+      "anchor_not_in_members": true,
+      "distinct_titles_in_detail": 3,
+      "epo_simple_or_extended": "UNVERIFIED"
+    },
+    {
+      "provider_family_id": "29782204",
+      "theme": "information extraction",
+      "anchor_publication": "US-7650330-B1",
+      "search_patents_total": 5,
+      "family_detail_size": 5,
+      "family_detail_members_listed": 4,
+      "anchor_not_in_members": true,
+      "distinct_titles_in_detail": 1,
+      "epo_simple_or_extended": "UNVERIFIED"
+    },
+    {
+      "provider_family_id": "36641825",
+      "theme": "ad approval",
+      "anchor_publication": "US-8423413-B2",
+      "search_patents_total": 17,
+      "family_detail_size": 17,
+      "family_detail_members_listed": 16,
+      "anchor_not_in_members": true,
+      "distinct_titles_in_detail": 5,
+      "epo_simple_or_extended": "UNVERIFIED"
+    }
+  ],
+  "warning": "The two endpoint counts differ in two cases; no confirmed backend explanation yet. Family members exclude the anchor document in all 10 observed calls. Neither endpoint gives counts of independent inventions."
+}
