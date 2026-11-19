@@ -51,3 +51,9 @@ GoTo1999主案/2001后续申请族与聚合转让事件被分别追踪；Google2
 经过2026-11-16项目审计后，已实际连接IPHouse；Google Inc.申请日2000–2004、不限公报局的全部22页返回1,067公报/843申请号/522非空family_id；85个族ID横跨多个公报局。另完成21项Google Inc/LLC、CN谷歌、EP/WO分段匹配探针，**但尚未跨别名/国别去重为完整企业母集**。公开结果和可验证脚本见[研究报告](../pilots/google-longitudinal/RESEARCH_REPORT_2026-11-19.md)。
 
 **下一轮优先排序**：先抽样验证族类型（EPO DOCDB/INPADOC等）与历史原始申请人—后续权利人区别，再扩大长时段数据窗口并研究技术演变；不恢复GoTo CD与单专利支线的主线优先级。理论与完整五体写作继续并行推进，正式文章尚未启动。
+
+
+## 2026-11-19｜v1.0 第二数据阶段：产权时间与家族网络分层
+已实际完成Google Inc 2005年全部17页850篇，结合2000—04得六年1917篇文献/1465申请号/836 provider family_id，并发现跨窗口家族重叠56。完成Silverbrook与DoubleClick的外部来源反例和Google Maps数据驱动候选，见[报告](../pilots/google-longitudinal/RESEARCH_REPORT_2026-11-19_PHASE2.md)。
+
+下一阶段先核定IPHouse family_id与EPO优先权家族定义、历史申请人/受让链，并验证地图主题是否来自Where2等外部能力。随后再扩展2006—09和全历史，不将当前两片段冒充Google全球全部自主发明。史学原典和写作门槛不变。

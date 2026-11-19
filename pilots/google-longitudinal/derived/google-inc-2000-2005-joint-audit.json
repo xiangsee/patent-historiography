@@ -1,0 +1,287 @@
+{
+  "retrieved_at": "2026-11-19",
+  "source": "IPHouse Research patents_bulk",
+  "source_access": "Private raw result batches in researcher vault; no bulk redistribution",
+  "filter": {
+    "assignee": "Google Inc.",
+    "publication_authority": "ALL_AVAILABLE",
+    "filing_date_ranges": [
+      "2000-01-01/2004-12-31",
+      "2005-01-01/2005-12-31"
+    ]
+  },
+  "windows": [
+    {
+      "range": "2000-2004",
+      "page_count": 22,
+      "reported_records": 1067,
+      "counts": {
+        "records": 1067,
+        "unique_publications": 1067,
+        "unique_application_numbers": 843,
+        "valid_family_id_distinct": 522,
+        "missing_or_invalid_family_id": 0,
+        "families_multi_publication": 147,
+        "families_cross_publication_office": 85,
+        "records_with_non_google_cotagged_assignee": 226
+      }
+    },
+    {
+      "range": "2005",
+      "page_count": 17,
+      "reported_records": 850,
+      "counts": {
+        "records": 850,
+        "unique_publications": 850,
+        "unique_application_numbers": 622,
+        "valid_family_id_distinct": 370,
+        "missing_or_invalid_family_id": 0,
+        "families_multi_publication": 121,
+        "families_cross_publication_office": 82,
+        "records_with_non_google_cotagged_assignee": 196,
+        "records_with_earlier_priority_year_than_filing_year": 589
+      }
+    }
+  ],
+  "combined": {
+    "records": 1917,
+    "unique_publications": 1917,
+    "unique_application_numbers": 1465,
+    "valid_family_id_distinct": 836,
+    "missing_or_invalid_family_id": 0,
+    "families_multi_publication": 269,
+    "families_cross_publication_office": 173,
+    "records_with_non_google_cotagged_assignee": 422,
+    "by_filing_year": {
+      "2000": 45,
+      "2001": 50,
+      "2002": 61,
+      "2003": 283,
+      "2004": 628,
+      "2005": 850
+    },
+    "by_publication_authority": {
+      "US": 736,
+      "CA": 337,
+      "EP": 330,
+      "WO": 253,
+      "AU": 145,
+      "BR": 59,
+      "AT": 11,
+      "NO": 10,
+      "DE": 9,
+      "ES": 7,
+      "TW": 4,
+      "JP": 4,
+      "DK": 2,
+      "NZ": 2,
+      "IL": 2,
+      "GB": 2,
+      "SG": 1,
+      "MX": 1,
+      "ZA": 1,
+      "FI": 1
+    },
+    "sha256_sorted_publication_numbers": "4af18fd2b828ea3bf49943ab727778e49dc6dda321d247d85f6ab2e0f1e66e1b"
+  },
+  "cross_window_family_overlap": 56,
+  "naive_sum_family_ids_by_window": 892,
+  "distinct_family_ids_after_union": 836,
+  "classification_signal_comparison": {
+    "G01C21": {
+      "2005": {
+        "publication_documents": 53,
+        "different_provider_family_ids": 12,
+        "representative_titles": [
+          "A digital mapping system",
+          "Generating, storing, and displaying graphics using sub-pixel bitmaps",
+          "Generating and serving tiles in a digital mapping system",
+          "User location driven identification of service vehicles",
+          "Database assisted OCR for street scenes and other images",
+          "Method, system, and graphical user interface for meeting-spot-related online communications"
+        ]
+      },
+      "2000_2004": {
+        "publication_documents": 16,
+        "different_provider_family_ids": 3,
+        "representative_titles": [
+          "métodos de customização de ações de percurso em direcionamentos de percurso, respectivos aparelhos e sistema",
+          "Transportation routing",
+          "System for automatically integrating a digital map system",
+          "Method and apparatus for customizing travel directions",
+          "métodos de customização de ações de percurso em direcionamentos de percurso, respectivos aparelhos e sistema e programa de computador"
+        ]
+      }
+    },
+    "G06F17/30": {
+      "2005": {
+        "publication_documents": 385,
+        "different_provider_family_ids": 148,
+        "representative_titles": [
+          "Displaying conversations in a conversation-based email system",
+          "Generating, storing, and displaying graphics using sub-pixel bitmaps",
+          "Generating and serving tiles in a digital mapping system",
+          "Method for adding a user-selectable function to a hyperlink",
+          "Classification of ambiguous geographic references",
+          "Phrase-based searching in an information retrieval system"
+        ]
+      },
+      "2000_2004": {
+        "publication_documents": 493,
+        "different_provider_family_ids": 205,
+        "representative_titles": [
+          "Methods and systems for improving a search order by using related questions",
+          "Computer Implemented Method and Device for Determining User Profile Information for a User",
+          "System and method for providing definitions",
+          "Methods and apparatus for serving relevant advertisements",
+          "A database system for viewing effects of changes to a index for a query optimization plan",
+          "Enhanced hyperlink"
+        ]
+      }
+    },
+    "G06Q30": {
+      "2005": {
+        "publication_documents": 186,
+        "different_provider_family_ids": 59,
+        "representative_titles": [
+          "Improving advertisement approval",
+          "Dynamic data delivery apparatus and method for same",
+          "Systems and methods for determining user actions",
+          "Adjusting ad costs using document performance or document collection performance",
+          "System and method for rating documents comprising an image",
+          "Dispatch system to remote devices"
+        ]
+      },
+      "2000_2004": {
+        "publication_documents": 288,
+        "different_provider_family_ids": 83,
+        "representative_titles": [
+          "Determining better ad selection, scoring, and/or presentation techniques",
+          "Computer Implemented Method and Device for Determining User Profile Information for a User",
+          "Identifying and/or blocking ads such as document-specific competitive ads",
+          "Accentuating terms or features of interest in an advertisement",
+          "determinação e/ou uso de informação de hora local do usuário final em um sistema de anúncio",
+          "Methods and apparatus for serving relevant advertisements"
+        ]
+      }
+    },
+    "G06T": {
+      "2005": {
+        "publication_documents": 40,
+        "different_provider_family_ids": 5,
+        "representative_titles": [
+          "Generating, storing, and displaying graphics using sub-pixel bitmaps",
+          "Generating and serving tiles in a digital mapping system",
+          "A digital mapping system",
+          "Dominant motion estimation for image sequence processing",
+          "Digital mapping system",
+          "Method of fabricating an image processor"
+        ]
+      },
+      "2000_2004": {
+        "publication_documents": 41,
+        "different_provider_family_ids": 10,
+        "representative_titles": [
+          "User definable image reference points",
+          "Image processor for camera module",
+          "System and method for measuring and quantizing document quality",
+          "Effects module for compact printer system",
+          "Method and apparatus for rotating bayer images",
+          "Method and apparatus for up-interpolating a bayer image"
+        ]
+      }
+    }
+  },
+  "selected_family_quality_cases": [
+    {
+      "family_id": "3814761",
+      "observed_publication_records_in_joint_slice": 14,
+      "observed_application_numbers": 7,
+      "filing_years": [
+        "2000"
+      ],
+      "publication_authorities": [
+        "AU",
+        "CA"
+      ],
+      "distinct_titles_count": 6,
+      "sample_titles": [
+        "Image processor for camera module",
+        "Effects module for compact printer system",
+        "Memory module for compact printer system",
+        "Effects processor for effects module",
+        "Method and apparatus for image conversion"
+      ]
+    },
+    {
+      "family_id": "24968825",
+      "observed_publication_records_in_joint_slice": 5,
+      "observed_application_numbers": 5,
+      "filing_years": [
+        "2000",
+        "2002",
+        "2004"
+      ],
+      "publication_authorities": [
+        "US"
+      ],
+      "distinct_titles_count": 1,
+      "sample_titles": [
+        "Method of delivery, targeting, and measuring advertising over networks"
+      ]
+    },
+    {
+      "family_id": "35125740",
+      "observed_publication_records_in_joint_slice": 6,
+      "observed_application_numbers": 3,
+      "filing_years": [
+        "2005"
+      ],
+      "publication_authorities": [
+        "CA",
+        "EP",
+        "WO"
+      ],
+      "distinct_titles_count": 1,
+      "sample_titles": [
+        "Systems and methods for determining user actions"
+      ]
+    },
+    {
+      "family_id": "34381362",
+      "observed_publication_records_in_joint_slice": 17,
+      "observed_application_numbers": 11,
+      "filing_years": [
+        "2003",
+        "2004"
+      ],
+      "publication_authorities": [
+        "CA",
+        "DE",
+        "EP",
+        "US",
+        "WO"
+      ],
+      "distinct_titles_count": 2,
+      "sample_titles": [
+        "Information retrieval based on historical data",
+        "System zur Informationswiedergewinnung basierend auf historischen Daten"
+      ]
+    }
+  ],
+  "warnings": [
+    "The provider family_id definition is not independently verified as DOCDB simple family or INPADOC extended family.",
+    "A given family id can cover multiple technical topics and different owners; see 3814761.",
+    "Documents with filing dates in different periods may share the same family id: do not sum per-period distinct family counts.",
+    "Query historical patents as of current assignee may contain rights acquired later by Google.",
+    "These are provider-matched publications, not a complete historical Google-originated global invention corpus.",
+    "Two time windows have different durations (5 years versus 1 year); not directly comparable annual rate without normalization and attribution."
+  ],
+  "evidence_levels": {
+    "two_windows_completed": true,
+    "provider_family_semantics_independent_validation": false,
+    "acquisition_original_ownership_complete": false,
+    "historical_tech_turning_points_verified": false,
+    "complete_company_history": false
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "as_of": "2026-11-19",
+  "cases": [
+    {
+      "case_id": "FAM3814761",
+      "source_family_id": "3814761",
+      "provider_matching_documents_no_time_filter": 358,
+      "source_kind": "IPHouse family_id query; Google Patents patent bibliographies",
+      "sample_original_application": "US09/575173",
+      "sample_original_assignee": "Silverbrook Research Pty Ltd",
+      "sample_first_priority": "1999-05-25",
+      "sample_later_assignments": [
+        {
+          "patent": "US6712452B1",
+          "event": "2012-07-12 assignment to Zamtec Ltd",
+          "url": "https://patents.google.com/patent/US6712452B1/en"
+        },
+        {
+          "patent": "US7557828B2",
+          "event": "2013-02-18 registered assignment to Google Inc",
+          "url": "https://patents.google.com/patent/US7557828B2/en"
+        }
+      ],
+      "evidence_status": "aggregator_legal_event_and_publication_verified_original_USPTO_reel_not_audited",
+      "inference_limit": "Priority family does not require uniform patent title, uniform original assignee, or uniform owner; the 358 matching publications cannot be one independent invention by assumption"
+    },
+    {
+      "case_id": "FAM24968825",
+      "source_family_id": "24968825",
+      "source_kind": "IPHouse sample and patent bibliography",
+      "sample_original_application": "US08/738634",
+      "sample_original_assignee": "DoubleClick Inc",
+      "sample_first_priority": "1996-10-29",
+      "sample_later_assignments": [
+        {
+          "patent": "US5948061A",
+          "event": "2008-09-24 Google Inc merger entry, effective 2008-05-01",
+          "url": "https://patents.google.com/patent/US5948061A/en"
+        }
+      ],
+      "evidence_status": "corporate_merger_record_in_patent_aggregator_original_USPTO_reel_not_audited",
+      "inference_limit": "Later-acquired DoubleClick patents are not Google independent invention in 1996 or 2000"
+    },
+    {
+      "case_id": "MAPS2004",
+      "source_family_id": "38701532",
+      "source_kind": "2005 IPHouse patent documents, 2005 product blog, 2023 scholarly comparison",
+      "sample_original_application": "US11/051534",
+      "sample_original_assignee": "Individual (aggregator); corporate origin unverified",
+      "sample_first_priority": "2004-03-23",
+      "sample_later_assignments": [
+        {
+          "patent": "US20050270311A1",
+          "event": "2005-08-12 Google Inc inventor-interest assignment recorded",
+          "url": "https://patents.google.com/patent/US20050270311A1/en"
+        }
+      ],
+      "evidence_status": "temporal_match_confirmed_specific_WHERE2_attribution_pending_original_application",
+      "inference_limit": "Rasmussen name + pre-acquisition priority + Maps product history suggest a research problem, but do not independently prove what code or claims shipped in Google Maps"
+    }
+  ],
+  "notes": "EPO definitions are external references; provider family_id remains unclassified. Rights entries from patent aggregators await original assignment images."
+}
