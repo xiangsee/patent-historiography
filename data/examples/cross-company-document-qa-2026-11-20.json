@@ -1,0 +1,149 @@
+{
+  "retrieved_on": "2026-11-20",
+  "scope": "cross-company tiny complete Tencent slice and deliberately incomplete Huawei sample; not comparable company patent intensity or invention counts",
+  "connector": "IPHouse Research patents_bulk and get_patent_detail",
+  "samples": {
+    "tencent_cn_2002": {
+      "query": {
+        "assignee": "腾讯科技",
+        "country_code": "CN",
+        "fields": [
+          "publication_number",
+          "application_number",
+          "title",
+          "family_id",
+          "country_code",
+          "filing_date",
+          "priority_date",
+          "publication_date",
+          "assignee",
+          "kind_code",
+          "ipc_codes"
+        ],
+        "filing_date_from": "2002-01-01",
+        "filing_date_to": "2002-12-31",
+        "page": 1,
+        "page_size": 20
+      },
+      "complete": true,
+      "provider_total": 4,
+      "returned_rows": 4,
+      "issues": [],
+      "distinct_publications": 4,
+      "distinct_applications": 2,
+      "distinct_provider_family_ids": 2,
+      "missing_family_ids": 0,
+      "records_in_sample": "Four A/C public/grant publications for two 2002 applications, provider family IDs 34145908 and 34145917"
+    },
+    "huawei_cn_2002": {
+      "query": {
+        "assignee": "华为技术有限公司",
+        "country_code": "CN",
+        "fields": [
+          "publication_number",
+          "application_number",
+          "title",
+          "family_id",
+          "country_code",
+          "filing_date",
+          "priority_date",
+          "publication_date",
+          "assignee",
+          "kind_code",
+          "ipc_codes"
+        ],
+        "filing_date_from": "2002-01-01",
+        "filing_date_to": "2002-12-31",
+        "page": 1,
+        "page_size": 8
+      },
+      "complete": false,
+      "provider_total": 2039,
+      "returned_rows": 8,
+      "issues": [
+        "incomplete_provider_result"
+      ],
+      "distinct_publications": 8,
+      "distinct_applications": 8,
+      "distinct_provider_family_ids": 8,
+      "missing_family_ids": 0,
+      "interpretation": "Only first eight of 2039 reported matches, cannot extrapolate to company annual totals"
+    }
+  },
+  "full_text_field_audit": {
+    "records": 3,
+    "claims_status": {
+      "missing_in_current_provider_index": 3
+    },
+    "description_status": {
+      "missing_in_current_provider_index": 3
+    },
+    "documented_divisional_year_alerts": 1,
+    "unexplained_number_year_alerts": 0,
+    "observed_publications": [
+      {
+        "publication_number": "CN-1315292-C",
+        "application_number": "CN-02134679-A",
+        "year_flag": "no_detected_mismatch_or_number_year_unknown",
+        "description_available": "missing_in_current_provider_index",
+        "claims_available": "missing_in_current_provider_index",
+        "abstract_chars": 500
+      },
+      {
+        "publication_number": "CN-1299492-C",
+        "application_number": "CN-02134697-A",
+        "year_flag": "no_detected_mismatch_or_number_year_unknown",
+        "description_available": "missing_in_current_provider_index",
+        "claims_available": "missing_in_current_provider_index",
+        "abstract_chars": 500
+      },
+      {
+        "publication_number": "CN-101166059-B",
+        "application_number": "CN-200710165788-A",
+        "year_flag": "number_year_later_with_documented_divisional_parent",
+        "description_available": "missing_in_current_provider_index",
+        "claims_available": "missing_in_current_provider_index",
+        "abstract_chars": 500
+      }
+    ]
+  },
+  "external_official_case_attempts": [
+    {
+      "source": "EPO European Patent Register application family",
+      "query": "EP04812220 and EP05729642",
+      "channel": "unauthenticated direct HTTP on 2026-11-20",
+      "observed_http_status": 403,
+      "case_specific_family_verified": false
+    },
+    {
+      "source": "EPO OPS family service",
+      "query": "EP1738329A2",
+      "channel": "unauthenticated direct HTTP on 2026-11-20",
+      "observed_http_status": 403,
+      "case_specific_family_verified": false
+    },
+    {
+      "source": "USPTO Assignment Search public web application",
+      "query": "base search interface",
+      "channel": "direct HTTP on 2026-11-20",
+      "observed_http_status": 200,
+      "original_assignment_deed_retrieved": false
+    },
+    {
+      "source": "USPTO ODP API",
+      "query": "application 11/051534 assignment endpoint",
+      "channel": "unauthenticated direct HTTP on 2026-11-20",
+      "observed_http_status": 403,
+      "original_assignment_deed_retrieved": false
+    }
+  ],
+  "open_sources": [
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here/patent-families/docdb",
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here/patent-families/inpadoc",
+    "https://www.uspto.gov/patents/maintain/patents-assignments-change-search-ownership",
+    "https://patents.google.com/patent/CN101166059A/zh",
+    "https://patents.google.com/patent/CN1482771A/zh",
+    "https://patents.google.com/patent/CN1482787A/zh"
+  ],
+  "note": "Official institutional definitions verified, but none of four Google Maps patents' individual DOCDB/INPADOC IDs or any USPTO original assignment image was obtained. Missing text in IPHouse index is not absence of original patent claims; the CN101166059A public web page contains claims."
+}
