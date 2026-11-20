@@ -1,6 +1,6 @@
-# Patent Evidence Workbench (v0.3)
+# Patent Evidence Workbench (v0.4)
 
-Run from the repository root using Python 3.10+ with only the standard library.
+Run from the repository root using Python 3.10+. Existing data, lineage and text-availability tools use only the standard library. HTML parsing has an optional BeautifulSoup dependency.
 
 ~~~sh
 python3 -m unittest discover -s tests -p 'test_patent_evidence.py' -v
@@ -32,3 +32,30 @@ python3 scripts/validate_cross_company_2026_11_20.py
 ~~~
 
 3 connected Tencent/Huawei patent detail replies showed claims and description missing in this provider index, NOT a lack of claims in original patents. A Huawei 2007-numbered divisional retains 2002 original filing/priority metadata and has a parent link; it is flagged for legal chronology review, not blindly repaired. More: [tool v0.3](../docs/PATENT_EVIDENCE_TOOLKIT_V0_3.md).
+
+## v0.4｜Source-located patent claims and multi-version texts
+
+Install the optional HTML adapter requirements:
+
+    python3 -m pip install -r requirements-document-parser.txt
+
+Run from the repository root:
+
+    python3 -m patent_evidence.cli parse-html \
+      --input /private/CN101166059A_zh.html \
+      --source-url https://patents.google.com/patent/CN101166059A/zh \
+      --expected-publication CN101166059A \
+      --output /private/cn101166059a_evidence_metadata.json
+
+    python3 -m patent_evidence.cli compare-html \
+      --first-input /private/CN101166059A_zh.html \
+      --second-input /private/CN101166059B_zh.html \
+      --first-url https://patents.google.com/patent/CN101166059A/zh \
+      --second-url https://patents.google.com/patent/CN101166059B/zh \
+      --first-publication CN101166059A \
+      --second-publication CN101166059B \
+      --output /private/cn_application_to_grant_diff.json
+
+By default, NO full claim or description text is emitted—only source locators, IDs, counts, and normalized-content SHA-256 hashes. The explicit --private-text opt-in cannot write inside the public repository. Claims labelled independent/dependent are structural candidates, not official legal construction. Hash differences across versions are not evidence of changed protection scope without human review.
+
+See [v0.4 method contract](../docs/PATENT_EVIDENCE_TOOLKIT_V0_4.md) and [six-page real derived public fixture](../data/examples/six-patent-publication-version-structures-2026-11-20.json).

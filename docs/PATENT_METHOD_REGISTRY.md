@@ -35,3 +35,14 @@
 | PD-015 | 官方概念与官方个案证据等级分离 | documented + access-tested | EPO官方DOCDB/INPADOC定义已核；具体EP官方详情403，USPTO官方查询UI可达但未取原始deed | EPO正式具体族标识、USPTO登记原文件取得 |
 
 方法说明：[v0.3](PATENT_EVIDENCE_TOOLKIT_V0_3.md)；研究记录：[17](../research/17-epo-tencent-huawei-quality-audit.md)。
+
+## 2026-11-20｜v0.4新增：真实专利文献结构及多版本轨迹
+
+| ID | 方法/能力 | 状态 | 实际验证 | 不足与下一道验收 |
+| --- | --- | --- | --- | --- |
+| PD-016 | 公开号/申请号/文种和HTML段落源定位 | real-sample-tested on provider HTML | 华为、腾讯和Google Maps共6个A/B/C文献，588个有URL锚点的说明书段落 | 专利局正式XML和原始PDF独立核对 |
+| PD-017 | 逐项权利要求及显式claim-ref引用图 | real-sample-tested on provider HTML | 6文献173项权项；页面编号与解析编号一致，保留明示从属关系的候选图 | 法律完整依赖、组合/范围引用、不同文本格式测试 |
+| PD-018 | 公开版对授权版的计数与文本哈希对照 | real-sample-tested, legal inference pending | 华为10→7、腾讯4→4、Google Maps 74→74；按位置HASH差异6/4/74 | 原始审查文件、修改记录与实质权利范围人工认定 |
+| PD-019 | AI可引用的证据原子及原文使用隔离 | real-sample-tested | evidence_id、来源URL段落锚点、HTML校验摘要、单段HASH；6份原始HTML仅在私有研究区 | 更多正式XML适配器、来源级许可、自动版次追踪 |
+
+此版本只称Google Patents HTML的适配器，**不是WIPO ST.96/XML、ST.97/JSON、EPO ST.36、USPTO Red Book合规实现**。文件级SOP见[工具v0.4](PATENT_EVIDENCE_TOOLKIT_V0_4.md)。

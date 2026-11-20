@@ -1,6 +1,6 @@
 # 《企业史记》｜Patent Historiography
 
-**v1.3.0 · 腾讯/华为跨企业复用、专利全文质量审计及来源等级 · 2026-11-20**
+**v1.4.0 · 六文献专利全文结构与A/授权版差异的双轨实证 · 2026-11-20**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
@@ -10,6 +10,16 @@
 
 
 
+
+
+## 2026-11-20｜文献工作台v0.4：解析真实权利要求、段落与版本差异
+
+**首次将三家企业、六份专利公开/授权文献转换为可追溯的结构化证据索引：173项编号权利要求、588个有锚点的说明书段落、三组版本对读。** 公开索引不含原始全文；无法仅凭HTML哈希差异认定法律保护范围变化。
+
+- [第18轮史料研究：同一技术的申请公开和授权历史](research/18-six-publications-structure-and-version-history.md)；[工具v0.4方法说明](docs/PATENT_EVIDENCE_TOOLKIT_V0_4.md)。
+- [六份文献的来源、原文校验摘要、权利要求与说明书定位、三个版本差异JSON](data/examples/six-patent-publication-version-structures-2026-11-20.json)。
+- [HTML原文结构解析适配器](patent_evidence/structured_docs.py)、[不同版本差异对照模块](patent_evidence/version_diff.py)、[CLI parse-html/compare-html](patent_evidence/cli.py)、[验证脚本](scripts/validate_document_versions_2026_11_20.py)及[合成测试](tests/test_patent_structured_docs.py)。
+- **权利边界**：Google Patents的单篇HTML只作为可核对的公开聚合页面；尚未获得对应官方专利局原始XML/PDF和审查全过程，不宣称符合WIPO ST.96/ST.97、EPO ST.36或USPTO Red Book标准。新适配器需要可选beautifulsoup4，其他核心工具仍以标准库运行。
 
 ## 2026-11-20｜双主线第3轮：跨企业方法与专利全文覆盖质量
 

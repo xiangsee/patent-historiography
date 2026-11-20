@@ -6,6 +6,8 @@ on:
       - 'patent_evidence/**'
       - 'tests/test_patent_*.py'
       - 'scripts/validate_google*.py'
+      - 'scripts/validate_document_versions_*.py'
+      - 'requirements-document-parser.txt'
       - 'data/examples/**'
       - '.github/workflows/patent-evidence.yml'
   pull_request:
@@ -27,6 +29,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Install optional patent HTML adapter dependency
+        run: python3 -m pip install -r requirements-document-parser.txt
       - name: All evidence workbench unit tests
         run: python3 -m unittest discover -s tests -p 'test_patent_*.py' -v
       - name: Historical Maps fixture / double time audit
@@ -42,6 +46,8 @@ jobs:
             --input data/examples/cn2002-text-availability-v0-3.json \
             --output /tmp/cn2002-text-qa.json
           python3 scripts/validate_cross_company_2026_11_20.py
+      - name: Six-publication version structural regression
+        run: python3 scripts/validate_document_versions_2026_11_20.py
       - name: Google 2000-2004 public derived data regression
         run: python3 scripts/validate_google_inc_2000_2004_global.py
       - name: Google 2000-2005 family-overlap regression
