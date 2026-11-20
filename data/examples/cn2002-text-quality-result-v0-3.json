@@ -1,0 +1,130 @@
+{
+  "coverage_by_section": {
+    "claims": {
+      "missing_in_current_provider_index": 3
+    },
+    "description": {
+      "missing_in_current_provider_index": 3
+    }
+  },
+  "documents": [
+    {
+      "abstract_chars_observed": 500,
+      "abstract_full_original_verified": false,
+      "application_number": "CN-02134679-A",
+      "citations_count_observed": 3,
+      "claims": {
+        "availability_class": "missing_in_current_provider_index",
+        "full_original_verified": false,
+        "original_text_nonexistence_proved": false,
+        "provider_source_chars": 0,
+        "provider_status": "missing_in_index",
+        "provider_truncated": false,
+        "returned_chars": 0
+      },
+      "cn_application_number_year_candidate": null,
+      "description": {
+        "availability_class": "missing_in_current_provider_index",
+        "full_original_verified": false,
+        "original_text_nonexistence_proved": false,
+        "provider_source_chars": 0,
+        "provider_status": "missing_in_index",
+        "provider_truncated": false,
+        "returned_chars": 0
+      },
+      "filing_date_as_reported": "2002-09-09",
+      "filing_date_review_alert": "no_detected_mismatch_or_number_year_unknown",
+      "full_text_requested": true,
+      "original_completeness_status": "not_verified",
+      "parent_relationship_types": [],
+      "priority_date_as_reported": "2002-09-09",
+      "publication_number": "CN-1315292-C",
+      "title_chars_observed": 91,
+      "verified_against_official_full_document": false
+    },
+    {
+      "abstract_chars_observed": 500,
+      "abstract_full_original_verified": false,
+      "application_number": "CN-02134697-A",
+      "citations_count_observed": 3,
+      "claims": {
+        "availability_class": "missing_in_current_provider_index",
+        "full_original_verified": false,
+        "original_text_nonexistence_proved": false,
+        "provider_source_chars": 0,
+        "provider_status": "missing_in_index",
+        "provider_truncated": false,
+        "returned_chars": 0
+      },
+      "cn_application_number_year_candidate": null,
+      "description": {
+        "availability_class": "missing_in_current_provider_index",
+        "full_original_verified": false,
+        "original_text_nonexistence_proved": false,
+        "provider_source_chars": 0,
+        "provider_status": "missing_in_index",
+        "provider_truncated": false,
+        "returned_chars": 0
+      },
+      "filing_date_as_reported": "2002-09-10",
+      "filing_date_review_alert": "no_detected_mismatch_or_number_year_unknown",
+      "full_text_requested": true,
+      "original_completeness_status": "not_verified",
+      "parent_relationship_types": [],
+      "priority_date_as_reported": "2002-09-10",
+      "publication_number": "CN-1299492-C",
+      "title_chars_observed": 115,
+      "verified_against_official_full_document": false
+    },
+    {
+      "abstract_chars_observed": 500,
+      "abstract_full_original_verified": false,
+      "application_number": "CN-200710165788-A",
+      "citations_count_observed": 3,
+      "claims": {
+        "availability_class": "missing_in_current_provider_index",
+        "full_original_verified": false,
+        "original_text_nonexistence_proved": false,
+        "provider_source_chars": 0,
+        "provider_status": "missing_in_index",
+        "provider_truncated": false,
+        "returned_chars": 0
+      },
+      "cn_application_number_year_candidate": 2007,
+      "description": {
+        "availability_class": "missing_in_current_provider_index",
+        "full_original_verified": false,
+        "original_text_nonexistence_proved": false,
+        "provider_source_chars": 0,
+        "provider_status": "missing_in_index",
+        "provider_truncated": false,
+        "returned_chars": 0
+      },
+      "filing_date_as_reported": "2002-06-11",
+      "filing_date_review_alert": "number_year_later_with_documented_divisional_parent",
+      "full_text_requested": true,
+      "original_completeness_status": "not_verified",
+      "parent_relationship_types": [
+        "division"
+      ],
+      "priority_date_as_reported": "2002-06-11",
+      "publication_number": "CN-101166059-B",
+      "title_chars_observed": 91,
+      "verified_against_official_full_document": false
+    }
+  ],
+  "input_scope": "provider_field_availability_only",
+  "limits": [
+    "missing_in_current_provider_index does not mean the patent lacks original claims or description",
+    "CN application number year is a heuristic, not proof of actual filing date",
+    "a divisional may share an effective filing date with its parent while having a later application number",
+    "abstract and text completeness require an original document, not an index-length heuristic",
+    "this report contains availability metadata only, not original patent full text"
+  ],
+  "number_year_divisional_review_count": 1,
+  "number_year_unexplained_review_count": 0,
+  "original_patent_text_not_proved_missing": true,
+  "records_audited": 3,
+  "tool": "patent_evidence",
+  "version": "0.3.0"
+}
