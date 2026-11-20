@@ -160,6 +160,19 @@ def parse_ep_patent_document(raw, *, source_url, expected_publication=None, allo
             lang = _node_text(child).lower()
             if idx + 1 < len(siblings) and _ln(siblings[idx + 1].tag) == "B542":
                 title_by_language[lang] = _node_text(siblings[idx + 1])
+    # INID-style bibliographic party tags have different meanings:
+    # B711 applicant in A publications; B731 proprietor in B specifications.
+    # These labels are published assertions, not a reconstructed transfer chain.
+    parties = {
+        "A_document_applicant_B711": sorted(set(
+            _node_text(_first(e, "snm")) for e in _desc(root, "B711")
+            if _first(e, "snm") is not None
+        )),
+        "B_document_proprietor_B731": sorted(set(
+            _node_text(_first(e, "snm")) for e in _desc(root, "B731")
+            if _first(e, "snm") is not None
+        )),
+    }
     issues = []
     claim_by_lang = {}
     claim_nodes_total = 0
@@ -227,6 +240,8 @@ def parse_ep_patent_document(raw, *, source_url, expected_publication=None, allo
         "schema_or_dtd_version_as_declared": root.get("dtd-version"),
         "publication_number_identity_route": "root.country+root.doc-number+root.kind_not_root_id",
         "title_by_language": title_by_language,
+        "parties_as_published": parties,
+        "proprietor_or_applicant_not_independently_audited_to_assignment_documents": True,
         "primary_claim_language": primary,
         "claim_groups": claim_by_lang,
         "claim_counts_per_language": counts,
