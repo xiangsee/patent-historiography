@@ -24,3 +24,14 @@
 | PD-011 | 收购、专利转让、产品上线分离的企业史机制检验 | historical-research-candidate | Where2收购2004年、Google Maps2005-02-08上线、相关专利公开和后续权益事件并列对读 | 专利是否由Where2直接原始持有、具体权利要求是否实际部署 |
 
 上述PD-009/010工具均已运行并通过18项单元测试，**不等于EPO官方族或司法权属结果已核实**。详见[方法v0.2](PATENT_EVIDENCE_TOOLKIT_V0_2.md)和[第16号历史研究](../research/16-google-maps-ownership-timeline-and-family-audit.md)。
+
+## 2026-11-20｜v0.3专利文献与跨企业复用新增
+
+| ID | 能力 | 当前状态 | 已实际验证 | 未完成 |
+| --- | --- | --- | --- | --- |
+| PD-012 | 专利索引全文可用性审计 | real-sample-tested | 3件Tencent/Huawei专利，claims/description均missing_in_index；公开华为原文有10项权利要求 | 合法原文多源段落核对、真正权利要求拆解 |
+| PD-013 | 中国分案申请号/原案时间异常分类 | synthetic-tested + real-source-fixture | CN200710165788号、2002-06-11日期、parent division；从错误告警降为历史日期口径待核 | 正式CNIPA原案、分案提交及法律日期影像 |
+| PD-014 | 真实第二企业的同一数据处理流水线 | real-sample-tested | Tencent CN 2002一页4/4、2应用/2族；Huawei CN 2002只有8/2039被强制完整性规则拒绝 | 全量Huawei/别名与法域覆盖，第三方跨数据商复核 |
+| PD-015 | 官方概念与官方个案证据等级分离 | documented + access-tested | EPO官方DOCDB/INPADOC定义已核；具体EP官方详情403，USPTO官方查询UI可达但未取原始deed | EPO正式具体族标识、USPTO登记原文件取得 |
+
+方法说明：[v0.3](PATENT_EVIDENCE_TOOLKIT_V0_3.md)；研究记录：[17](../research/17-epo-tencent-huawei-quality-audit.md)。

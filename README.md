@@ -1,6 +1,6 @@
 # 《企业史记》｜Patent Historiography
 
-**v1.2.0 · Google Maps专利优先权及双时间权属重建 · 2026-11-19**
+**v1.3.0 · 腾讯/华为跨企业复用、专利全文质量审计及来源等级 · 2026-11-20**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
@@ -9,6 +9,16 @@
 
 
 
+
+
+## 2026-11-20｜双主线第3轮：跨企业方法与专利全文覆盖质量
+
+- [第17号研究：EPO规则与个案访问、腾讯/华为第二企业实证](research/17-epo-tencent-huawei-quality-audit.md)
+- [Patent Evidence Workbench v0.3说明](docs/PATENT_EVIDENCE_TOOLKIT_V0_3.md)：新增[专利全文字段覆盖与分案日期规则](patent_evidence/text_quality.py)、[CLI命令](patent_evidence/cli.py)、[6项新增单元测试](tests/test_patent_text_quality.py)。
+- [跨企业派生审计](data/examples/cross-company-document-qa-2026-11-20.json)：腾讯2002年CN查询4件文献完整取数→2申请、2provider族；华为同窗口仅取8/2039且完整性强制检查正确失败。
+- [3份真实专利全文索引字段状态](data/examples/cn2002-text-availability-v0-3.json)与[工具派生输出](data/examples/cn2002-text-quality-result-v0-3.json)：claims/description三件均索引缺失，不等于原文不存在；1件2007号CN分案沿用2002原案日的历史时间需区分。
+- [公开校验脚本](scripts/validate_cross_company_2026_11_20.py)。当前工具24项单元测试通过，原有历史证据/长期数据验收仍保留。
+- **没有取得EPO官网具体Google Maps案件家族资料或USPTO原始转让影像**；官方规则已核≠案件已核。数据访问状态在第17号报告中逐项公开。
 
 ## 2026-11-19｜双主线第2轮：工具v0.2与Google Maps技术史互证
 

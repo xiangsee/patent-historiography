@@ -1,4 +1,4 @@
-# Patent Evidence Workbench (v0.2)
+# Patent Evidence Workbench (v0.3)
 
 Run from the repository root using Python 3.10+ with only the standard library.
 
@@ -23,3 +23,12 @@ python3 -m patent_evidence.cli history-check --input data/examples/maps-priority
 ~~~
 
 The rights output reports observed recorded interests, NOT adjudicated title. Related-priority comparisons are provider-based candidates, NOT official EPO DOCDB or INPADOC family memberships. Full documentation: [v0.2 method](../docs/PATENT_EVIDENCE_TOOLKIT_V0_2.md) and [Google Maps research](../research/16-google-maps-ownership-timeline-and-family-audit.md).
+
+## v0.3｜Patent text coverage and divisional date review
+
+~~~sh
+python3 -m patent_evidence.cli text-check --input data/examples/cn2002-text-availability-v0-3.json --output /tmp/cn-text-coverage.json
+python3 scripts/validate_cross_company_2026_11_20.py
+~~~
+
+3 connected Tencent/Huawei patent detail replies showed claims and description missing in this provider index, NOT a lack of claims in original patents. A Huawei 2007-numbered divisional retains 2002 original filing/priority metadata and has a parent link; it is flagged for legal chronology review, not blindly repaired. More: [tool v0.3](../docs/PATENT_EVIDENCE_TOOLKIT_V0_3.md).

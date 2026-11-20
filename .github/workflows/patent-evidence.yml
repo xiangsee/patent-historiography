@@ -36,6 +36,12 @@ jobs:
             --patent-id US20050270311A1 \
             --as-of 2005-02-08 \
             --output /tmp/google-maps-historical-snapshot.json
+      - name: Tencent/Huawei field coverage quality
+        run: |
+          python3 -m patent_evidence.cli text-check \
+            --input data/examples/cn2002-text-availability-v0-3.json \
+            --output /tmp/cn2002-text-qa.json
+          python3 scripts/validate_cross_company_2026_11_20.py
       - name: Google 2000-2004 public derived data regression
         run: python3 scripts/validate_google_inc_2000_2004_global.py
       - name: Google 2000-2005 family-overlap regression
