@@ -132,11 +132,12 @@ def _validate_claim_numbers(numbers, issues, scope):
         issues.append(scope + "_claim_number_gaps")
 
 
-def parse_ep_patent_document(raw, *, source_url, expected_publication=None):
+def parse_ep_patent_document(raw, *, source_url, expected_publication=None, allow_no_claims=False):
     """Parse an EPO authoritative EP XML publication, retaining claim languages.
 
-    EPO EP Patent Document v1.4-v1.7 variants share important structural
-    elements but this module has only been tested on v1.4 B1/B2 documents.
+    EPO EP Patent Document variants share important structural elements;
+    validated real samples include v1.1 B1/A1 and v1.4 B1/B2. This is not
+    comprehensive validation of all historical EP DTD versions.
     """
     _source_uri_check(source_url, {"data.epo.org"})
     root, digest, nbytes = _parse_input(raw, "ep-patent-document")
@@ -185,16 +186,22 @@ def parse_ep_patent_document(raw, *, source_url, expected_publication=None):
         _validate_claim_numbers(numbers, issues, lang)
         claim_by_lang[lang] = claims
         claim_nodes_total += len(claims)
-    if not claim_by_lang:
+    if not claim_by_lang and not allow_no_claims:
         raise PatentXMLParseError("EPO XML has no claim language groups")
-    primary = (root.get("lang") or "en").lower()
-    if primary not in claim_by_lang:
-        primary = next(iter(claim_by_lang))
-        issues.append("primary_claim_language_fallback")
-    primary_count = len(claim_by_lang[primary])
-    counts = {k: len(v) for k, v in claim_by_lang.items()}
-    if any(k != primary_count for k in counts.values()):
-        issues.append("claim_counts_differ_across_languages_review")
+    if not claim_by_lang:
+        primary = None
+        primary_count = None
+        counts = {}
+        issues.append("no_claim_language_groups_in_this_XML_not_proof_original_patent_lacks_claims")
+    else:
+        primary = (root.get("lang") or "en").lower()
+        if primary not in claim_by_lang:
+            primary = next(iter(claim_by_lang))
+            issues.append("primary_claim_language_fallback")
+        primary_count = len(claim_by_lang[primary])
+        counts = {k: len(v) for k, v in claim_by_lang.items()}
+        if any(k != primary_count for k in counts.values()):
+            issues.append("claim_counts_differ_across_languages_review")
     desc = _first(root, "description")
     desc_segments = []
     if desc is not None:
@@ -225,6 +232,8 @@ def parse_ep_patent_document(raw, *, source_url, expected_publication=None):
         "claim_counts_per_language": counts,
         "claims_primary_language_count": primary_count,
         "claim_nodes_all_languages": claim_nodes_total,
+        "claims_present_in_this_XML": bool(claim_by_lang),
+        "absence_from_XML_is_not_proof_original_published_patent_had_no_claims": True,
         "description_paragraphs": desc_segments,
         "description_primary_language": (desc.get("lang") if desc is not None else None),
         "patent_citation_nodes_observed": len(cits),
@@ -323,7 +332,11 @@ def parse_wipo_st96_patent_publication(raw, *, source_url):
     return {
         "source_format": "WIPO_ST96_PATENT_PUBLICATION_XML",
         "parser_version": ADAPTER_VERSION,
-        "source_status": "WIPO_official_Annex_VII_TEST_example_not_real_patent",
+        "source_status": (
+            "WIPO_official_Annex_VII_TEST_example_not_real_patent"
+            if doc_status == "TEST" and "/annex-vii/" in source_url
+            else "WIPO_site_ST96_document_reality_and_source_status_unverified"
+        ),
         "source_url": source_url,
         "source_xml_sha256": digest,
         "source_xml_bytes": nbytes,
@@ -345,10 +358,9 @@ def parse_wipo_st96_patent_publication(raw, *, source_url):
         "reference_citation_nodes_observed": len(citations),
         "quality": {
             "issues": sorted(set(issues)),
-            "this_is_real_patent": False,
+            "this_is_real_patent": False if doc_status == "TEST" else None,
             "WIPO_schema_validation_completed": False,
             "underlying_sample_claim_legal_effect_validated": False,
             "full_XML_redistribution_rights_reviewed": False,
         },
     }
-
