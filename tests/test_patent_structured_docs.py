@@ -96,6 +96,24 @@ class StructuredPatentDocumentTest(unittest.TestCase):
                          "claim_type_unresolved_unlinked_reference_text")
         self.assertIn("possible_unlinked_claim_reference", d["quality"]["structural_issues"])
 
+    def test_grant_page_without_publication_citation_meta(self):
+        html = synthetic_html(
+            number="ZX:987:A1", pub_date="2024-02-02"
+        ).replace(
+            '<meta name="citation_patent_publication_number" content="ZX:987:A1">',
+            '<meta name="citation_patent_number" content="ZX:987"><meta itemprop="kindCode" content="B1">'
+        ).replace(
+            '<meta name="DC.date" content="2024-02-02">',
+            '<meta name="DC.date" scheme="issue" content="2024-02-02">'
+        ).replace(
+            "</head><body>", "</head><body><dd itemprop=\"publicationNumber\">ZX987B1</dd>"
+        )
+        d = parse_google_patents_html(html, source_url="https://patents.google.com/patent/ZX987B1/en",
+                                      expected_publication="ZX987B1")
+        self.assertEqual(d["publication_number_identity_source"],"document_header_publicationNumber_with_grant_meta")
+        self.assertEqual(d["kind_code_as_provider_meta"],"B1")
+        self.assertEqual(d["publication_date_as_provider_meta"],"2024-02-02")
+
     def test_wrong_publication_fails_not_silent_misassociation(self):
         with self.assertRaises(DocumentParseError):
             parse_google_patents_html(synthetic_html(), source_url=self.url,

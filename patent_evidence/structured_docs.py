@@ -100,9 +100,20 @@ def parse_google_patents_html(
                   else source_html.encode("utf-8"))
     soup = BeautifulSoup(source_html, "html.parser")
     ref = _meta(soup, "citation_patent_publication_number")
-    if not ref or ":" not in ref:
-        raise DocumentParseError("No unambiguous citation_patent_publication_number in source")
-    publication = re.sub(r"[^A-Za-z0-9]", "", ref).upper()
+    kind_tag = soup.select_one('meta[itemprop="kindCode"]')
+    kind_from_dom = kind_tag.get("content") if kind_tag else None
+    if ref and ":" in ref:
+        publication = re.sub(r"[^A-Za-z0-9]", "", ref).upper()
+        identity_source = "citation_patent_publication_number"
+    else:
+        # Grant pages commonly use citation_patent_number and a kind-code
+        # instead of citation_patent_publication_number.
+        dd = soup.select_one('dd[itemprop="publicationNumber"]')
+        if not dd or not dd.get_text(strip=True):
+            raise DocumentParseError("No unambiguous publication number in citation or document header")
+        publication = re.sub(r"[^A-Za-z0-9]", "", dd.get_text(" ", strip=True)).upper()
+        ref = _meta(soup, "citation_patent_number") or dd.get_text(" ", strip=True)
+        identity_source = "document_header_publicationNumber_with_grant_meta"
     if expected_publication and re.sub(r"[^A-Za-z0-9]", "", expected_publication).upper() != publication:
         raise DocumentParseError("Expected publication does not match rendered HTML metadata")
 
@@ -238,7 +249,8 @@ def parse_google_patents_html(
                  soup.select('meta[name="DC.relation"][scheme="references"]')
                  if t.get("content")]
 
-    publication_date = _meta(soup, "DC.date")
+    publication_date = (_meta(soup, "DC.date")
+                        or _meta(soup, "DC.date", scheme="issue"))
     date_submitted = _meta(soup, "DC.date", scheme="dateSubmitted")
     app = _meta(soup, "citation_patent_application_number")
     abstract = {
@@ -261,10 +273,11 @@ def parse_google_patents_html(
         "source_html_bytes": len(html_bytes),
         "publication_number": publication,
         "publication_number_as_provider_meta": ref,
+        "publication_number_identity_source": identity_source,
         "application_number_as_provider_meta": app,
         "title_as_published": title,
         "source_language": source_lang,
-        "kind_code_as_provider_meta": ref.split(":")[-1],
+        "kind_code_as_provider_meta": kind_from_dom or ref.split(":")[-1],
         "publication_date_as_provider_meta": publication_date,
         "dc_date_submitted_as_provider_meta": date_submitted,
         "do_not_infer_divisional_actual_filing_date_from_dc_date": True,
