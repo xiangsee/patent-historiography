@@ -1,0 +1,179 @@
+{
+  "as_of": "2026-11-20",
+  "tool_version": "0.5.0",
+  "source_method": "Official EPO Publication Server REST v1.2, official WIPO ST.96 Annex VII XML examples, USPTO official Red Book DTD",
+  "source_records": [
+    {
+      "source_type": "EPO_official_real_patent_XML",
+      "source_doc": "EP1004359B1",
+      "title_en_as_xml": "Partitioned specimen label for collection containers",
+      "source_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1004359NWB1/document.xml",
+      "sha256_source_xml": "64a8fa98a0f07fe2019fbfa9a1afccd6419f71d5db9e823b14285ac0cb0483ea",
+      "bytes_source_xml": 32699,
+      "declared_dtd_version": "ep-patent-document-v1-4",
+      "publication_date": "2013-09-04",
+      "claim_counts_per_language": {
+        "de": 7,
+        "en": 7,
+        "fr": 7
+      },
+      "primary_language_claim_count": 7,
+      "all_language_claim_nodes": 21,
+      "claim_count_inflation_if_wrongly_summed": 3,
+      "description_paragraphs": 45,
+      "patent_citation_nodes": 12,
+      "first_claim_atom_ids": [
+        {
+          "id": "EP1004359B1:CLAIM:en:1",
+          "xml_locator": "#c-en-01-0001",
+          "segment_sha256": "de54760033f66260f59166e2b76310b745dc055deb2af689d1216b0bbea7f597"
+        },
+        {
+          "id": "EP1004359B1:CLAIM:en:2",
+          "xml_locator": "#c-en-01-0002",
+          "segment_sha256": "a91dd6ca2cce2f0559cfe15c858fdb98dab1f3516098985ff144da6b4d48f45d"
+        }
+      ],
+      "issue_flags": [],
+      "xml_schema_or_dtd_validated": false,
+      "copyright_bulk_publication_cleared": false
+    },
+    {
+      "source_type": "EPO_official_real_patent_XML",
+      "source_doc": "EP0729353B2",
+      "title_en_as_xml": "PREPARATION OF BIODEGRADABLE MICROPARTICLES CONTAINING A BIOLOGICALLY ACTIVE AGENT",
+      "source_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0729353NWB2/document.xml",
+      "sha256_source_xml": "187c969ad81dcaede0d428d875faa1556fcf1c0674cb91adf33ceb537db2e111",
+      "bytes_source_xml": 165378,
+      "declared_dtd_version": "ep-patent-document-v1-4",
+      "publication_date": "2012-09-12",
+      "claim_counts_per_language": {
+        "de": 4,
+        "en": 4,
+        "fr": 4
+      },
+      "primary_language_claim_count": 4,
+      "all_language_claim_nodes": 12,
+      "claim_count_inflation_if_wrongly_summed": 3,
+      "description_paragraphs": 132,
+      "patent_citation_nodes": 20,
+      "first_claim_atom_ids": [
+        {
+          "id": "EP0729353B2:CLAIM:en:1",
+          "xml_locator": "#c-en-01-0001",
+          "segment_sha256": "e2e60d8d6df52810126f8f1849d9108f5606344d0f8a765cf25e348cdd7dbed0"
+        },
+        {
+          "id": "EP0729353B2:CLAIM:en:2",
+          "xml_locator": "#c-en-01-0002",
+          "segment_sha256": "11f10570755d9464909a318ed9f21242f84abb48e454242401bb5738954e090a"
+        }
+      ],
+      "issue_flags": [],
+      "xml_schema_or_dtd_validated": false,
+      "copyright_bulk_publication_cleared": false
+    },
+    {
+      "source_type": "WIPO_official_ST96_schema_example_synthetic_TEST",
+      "source_doc": "US08936998B2",
+      "source_url": "https://www.wipo.int/standards/en/st96/v6-0/annex-vii/PatentPublication_Example.xml",
+      "sha256_source_xml": "bb3de88116b51d52123e847837f9d1cb298c3507d36a193167f2b02d271dd2fc",
+      "bytes_source_xml": 137828,
+      "declared_st96_schema_version": "V6_0",
+      "document_status": "TEST",
+      "title_example_as_xml": "Manufcaturing method for room-temperature substrate bonding",
+      "claims_in_example": 10,
+      "reported_claim_types_in_example": {
+        "Dependent": 7,
+        "Independent": 3
+      },
+      "description_paragraphs": 70,
+      "citation_nodes": 30,
+      "first_claim_atom_ids": [
+        {
+          "id": "US08936998B2:CLAIM:en:1",
+          "xml_locator": "#CLM-00001",
+          "sha256": "95f5bd22c9e1d36df484062b35a77ca7fc546326ebd57c1b9691dc1d8fb32739",
+          "claims_ref": []
+        },
+        {
+          "id": "US08936998B2:CLAIM:en:2",
+          "xml_locator": "#CLM-00002",
+          "sha256": "8b52c214df243703f6858df922b029118f52f9a584be0eb7729c8cda713cd45e",
+          "claims_ref": [
+            1
+          ]
+        }
+      ],
+      "issue_flags": [],
+      "is_real_published_patent": false,
+      "xml_schema_validation_completed": false
+    },
+    {
+      "source_type": "WIPO_official_ST96_schema_example_synthetic_TEST",
+      "source_doc": "US08936998B2",
+      "source_url": "https://www.wipo.int/standards/en/st96/v10-0/annex-vii/PatentPublication_Example.xml",
+      "sha256_source_xml": "1257884229741b0427c288369e87e604bfcd626fd02a32e4cbfbd6ca7cd20fdf",
+      "bytes_source_xml": 124575,
+      "declared_st96_schema_version": "V8_0",
+      "document_status": "TEST",
+      "title_example_as_xml": "Manufacturing method for room-temperature substrate bonding",
+      "claims_in_example": 10,
+      "reported_claim_types_in_example": {
+        "Dependent": 7,
+        "Independent": 3
+      },
+      "description_paragraphs": 70,
+      "citation_nodes": 30,
+      "first_claim_atom_ids": [
+        {
+          "id": "US08936998B2:CLAIM:en:1",
+          "xml_locator": "#CLM-00001",
+          "sha256": "95f5bd22c9e1d36df484062b35a77ca7fc546326ebd57c1b9691dc1d8fb32739",
+          "claims_ref": []
+        },
+        {
+          "id": "US08936998B2:CLAIM:en:2",
+          "xml_locator": "#CLM-00002",
+          "sha256": "8b52c214df243703f6858df922b029118f52f9a584be0eb7729c8cda713cd45e",
+          "claims_ref": [
+            1
+          ]
+        }
+      ],
+      "issue_flags": [],
+      "is_real_published_patent": false,
+      "xml_schema_validation_completed": false
+    }
+  ],
+  "uspto_redbook_schema_material": {
+    "source_url": "https://data.uspto.gov/documents/documents/xml-resources/us-patent-grant-v47-2022-02-17.dtd",
+    "file_type": "official_USPTO_DTD_definition_NOT_patent_record",
+    "bytes": 62376,
+    "sha256": "d27a802cb8c5e71eed93aff1bf219e92649935977c0ee7179c58a7ca31ff7868",
+    "source_obtained": true,
+    "single_real_USPTO_grant_XML_parsed": false
+  },
+  "total_european_real_patents": 2,
+  "total_wipo_test_xml_examples": 2,
+  "epo_multilingual_claim_groups": [
+    "en",
+    "de",
+    "fr"
+  ],
+  "epo_number_of_distinct_claim_positions_across_two_real_patents": 11,
+  "epo_total_xml_claim_nodes_across_language_versions": 33,
+  "wipo_v10_directory_actual_st96_schema_version": "V8_0",
+  "wipo_example_same_document_not_two_real_grants": true,
+  "official_epo_xml_rest_originals_downloaded_to_private_area": true,
+  "official_epo_document_dtd_validation_pending": true,
+  "full_claim_text_republished_in_public_repo": false,
+  "limitations": [
+    "EPO XML has claim translations in three languages, do not count all claim nodes as independent claims.",
+    "WIPO Annex VII samples are TEST documents, their publication numbers do not prove real patents.",
+    "WIPO example directory v10 may carry ST96 schema V8_0; read com:st96Version from XML.",
+    "USPTO DTD file alone is not a real Red Book patent record or proof of parser support.",
+    "The EPO extractor has been tested on EP patent XML v1.4 B1/B2 only; no DTD validation performed.",
+    "Source XML and substantive patent text remain in private research storage; public file holds audit aggregates and evidence hashes."
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "as_of": "2026-11-20",
+  "research_case": "EP0729353 1996 A1/2002 B1/2012 B2; post-opposition amended specification",
+  "source_authority": "European Patent Office Publication Server REST v1.2",
+  "company_or_proprietor_as_publication_only": "Alkermes source records; corporate/legal continuity NOT verified",
+  "historical_published_versions": [
+    {
+      "publication_number": "EP0729353A1",
+      "source_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0729353NWA1/document.xml",
+      "publication_date": "1996-09-04",
+      "kind": "A1",
+      "source_xml_sha256": "383e145fd935e0ba0bd5738a399e8542492c4c68771ac5f241f3a8bc7e0d17d2",
+      "declared_DTD_version": "ep-patent-document-v1-4",
+      "primary_claims": null,
+      "claims_all_languages": 0,
+      "languages": {},
+      "description_paragraph_count": 0,
+      "as_published_parties": {
+        "A_document_applicant_B711": [
+          "Alkermes Controlled Therapeutics, Inc."
+        ],
+        "B_document_proprietor_B731": []
+      },
+      "source_quality_issues": [
+        "missing_numbered_description",
+        "no_claim_language_groups_in_this_XML_not_proof_original_patent_lacks_claims"
+      ],
+      "has_claims_in_this_XML": false,
+      "not_original_patent_absence": true,
+      "sample_claim_evidence": []
+    },
+    {
+      "publication_number": "EP0729353B1",
+      "source_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0729353NWB1/document.xml",
+      "publication_date": "2002-02-06",
+      "kind": "B1",
+      "source_xml_sha256": "81a51204ee0e9608ac3978c78db7aae446202633e6127f8bc398927baaf6b548",
+      "declared_DTD_version": "ep-patent-document-v1-1",
+      "primary_claims": 6,
+      "claims_all_languages": 18,
+      "languages": {
+        "en": 6,
+        "de": 6,
+        "fr": 6
+      },
+      "description_paragraph_count": 135,
+      "as_published_parties": {
+        "A_document_applicant_B711": [],
+        "B_document_proprietor_B731": [
+          "Alkermes Controlled Therapeutics, Inc."
+        ]
+      },
+      "source_quality_issues": [],
+      "has_claims_in_this_XML": true,
+      "not_original_patent_absence": true,
+      "sample_claim_evidence": [
+        {
+          "id": "EP0729353B1:CLAIM:en:1",
+          "locator": "#c-en-01-0001",
+          "hash": "cf8e5e8c797bfb9346ccf15fc87b38a788851e41fe86e2f03feaea5426c91847"
+        },
+        {
+          "id": "EP0729353B1:CLAIM:en:2",
+          "locator": "#c-en-01-0002",
+          "hash": "68471bc04fedbd7a8208e87161cb7d6cb7f74b461779a3a6fac7c6efc15acc51"
+        }
+      ]
+    },
+    {
+      "publication_number": "EP0729353B2",
+      "source_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0729353NWB2/document.xml",
+      "publication_date": "2012-09-12",
+      "kind": "B2",
+      "source_xml_sha256": "187c969ad81dcaede0d428d875faa1556fcf1c0674cb91adf33ceb537db2e111",
+      "declared_DTD_version": "ep-patent-document-v1-4",
+      "primary_claims": 4,
+      "claims_all_languages": 12,
+      "languages": {
+        "en": 4,
+        "de": 4,
+        "fr": 4
+      },
+      "description_paragraph_count": 132,
+      "as_published_parties": {
+        "A_document_applicant_B711": [],
+        "B_document_proprietor_B731": [
+          "Alkermes, Inc."
+        ]
+      },
+      "source_quality_issues": [],
+      "has_claims_in_this_XML": true,
+      "not_original_patent_absence": true,
+      "sample_claim_evidence": [
+        {
+          "id": "EP0729353B2:CLAIM:en:1",
+          "locator": "#c-en-01-0001",
+          "hash": "e2e60d8d6df52810126f8f1849d9108f5606344d0f8a765cf25e348cdd7dbed0"
+        },
+        {
+          "id": "EP0729353B2:CLAIM:en:2",
+          "locator": "#c-en-01-0002",
+          "hash": "11f10570755d9464909a318ed9f21242f84abb48e454242401bb5738954e090a"
+        }
+      ]
+    }
+  ],
+  "b1_to_b2_textual_structural_comparison": {
+    "first_publication": "EP0729353B1",
+    "second_publication": "EP0729353B2",
+    "first_publication_date": "2002-02-06",
+    "second_publication_date": "2012-09-12",
+    "first_parties_as_published": {
+      "A_document_applicant_B711": [],
+      "B_document_proprietor_B731": [
+        "Alkermes Controlled Therapeutics, Inc."
+      ]
+    },
+    "second_parties_as_published": {
+      "A_document_applicant_B711": [],
+      "B_document_proprietor_B731": [
+        "Alkermes, Inc."
+      ]
+    },
+    "proprietor_label_difference_is_not_proof_of_legal_transfer": true,
+    "first_DTD_as_declared": "ep-patent-document-v1-1",
+    "second_DTD_as_declared": "ep-patent-document-v1-4",
+    "first_kind_semantics_from_EPO": "European granted patent specification",
+    "second_kind_semantics_from_EPO": "New European patent specification after opposition procedure",
+    "kind_code_source": "https://register.epo.org/help?topic=kindcodes",
+    "first_primary_claims": 6,
+    "second_primary_claims": 4,
+    "first_all_language_claim_nodes": 18,
+    "second_all_language_claim_nodes": 12,
+    "first_description_paragraphs": 135,
+    "second_description_paragraphs": 132,
+    "same_number_claim_positions_examined": 4,
+    "hash_changed_at_same_number_positions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "same_number_change_count": 4,
+    "first_unmatched_claim_positions": [
+      5,
+      6
+    ],
+    "second_unmatched_claim_positions": [],
+    "both_from_EPO_official_publication_XML": true,
+    "legal_scope_change_magnitude_inferred": false,
+    "claim_renumbering_and_consolidation_independently_reviewed": false,
+    "opposition_file_and_reasoning_independently_reviewed": false,
+    "historical_claim_evidence_next": "Review published B1/B2 claims and the actual EPO opposition decision and file wrapper.",
+    "cautions": [
+      "EPO B2 identifies a post-opposition amended specification, but claim-count subtraction is not protection-scope arithmetic.",
+      "Position-matched text hashes only indicate textual differences, not legal identity across versions.",
+      "A source containing no XML claim nodes is not evidence that the original application publication had no claims.",
+      "Languages in the XML are translations, not distinct patent inventions or extra legal claim units."
+    ]
+  },
+  "official_european_kind_code_reference": "https://register.epo.org/help?topic=kindcodes",
+  "official_epo_opposition_publication_policy": "https://www.epo.org/en/legal/guidelines-epc/2026/d_vii_7.html",
+  "public_original_full_xml_uploaded": false,
+  "original_xml_private_research_storage": true,
+  "legal_scope_narrowing_magnitude_confirmed": false,
+  "opposition_decision_directly_read": false,
+  "rights_transfer_continuity_confirmed": false,
+  "claims_original_absence_from_A1_concluded": false,
+  "cannot_infer_commercial_value_or_drug_sales": true
+}
