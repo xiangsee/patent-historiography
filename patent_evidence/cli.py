@@ -8,6 +8,7 @@ from .lineage import priority_link_audit, registry_snapshot
 from .structured_docs import parse_google_patents_html
 from .version_diff import compare_publication_versions
 from .official_xml import parse_ep_patent_document, parse_wipo_st96_patent_publication
+from .official_version_diff import compare_ep_publication_versions
 from .text_quality import audit_documents
 
 VERSION="0.5.0"
@@ -56,6 +57,16 @@ def main(argv=None):
     official.add_argument("--format",required=True,choices=["epo","st96"])
     official.add_argument("--expected-publication",help="EP publication number, mandatory in real EPO runs")
     official.add_argument("--output",required=True,help="Derived structure/sha only")
+    official.add_argument("--allow-no-claims",action="store_true",
+        help="Explicitly accept bibliographic-only EPO XML; do not infer the original had no claims")
+    ev=sub.add_parser("compare-epo",help="Compare two EPO publication XML versions of the same EP patent")
+    ev.add_argument("--first-input",required=True)
+    ev.add_argument("--second-input",required=True)
+    ev.add_argument("--first-url",required=True)
+    ev.add_argument("--second-url",required=True)
+    ev.add_argument("--first-publication",required=True)
+    ev.add_argument("--second-publication",required=True)
+    ev.add_argument("--output",required=True)
     args=p.parse_args(argv)
     try:
         if args.cmd=="audit":
@@ -113,9 +124,18 @@ def main(argv=None):
                     raise AuditError("--expected-publication is mandatory for EPO official XML")
                 result=parse_ep_patent_document(
                     xml,source_url=args.source_url,
-                    expected_publication=args.expected_publication)
+                    expected_publication=args.expected_publication,
+                    allow_no_claims=args.allow_no_claims)
             else:
                 result=parse_wipo_st96_patent_publication(xml,source_url=args.source_url)
+            result["tool"]="patent_evidence"
+            result["tool_version"]=VERSION
+        elif args.cmd=="compare-epo":
+            a=parse_ep_patent_document(Path(args.first_input).read_bytes(),
+                source_url=args.first_url,expected_publication=args.first_publication)
+            b=parse_ep_patent_document(Path(args.second_input).read_bytes(),
+                source_url=args.second_url,expected_publication=args.second_publication)
+            result=compare_ep_publication_versions(a,b)
             result["tool"]="patent_evidence"
             result["tool_version"]=VERSION
         elif args.cmd=="compare-html":

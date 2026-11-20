@@ -85,6 +85,35 @@ class OfficialXMLTests(unittest.TestCase):
         with self.assertRaises(PatentXMLParseError):
             parse_ep_patent_document(xml,source_url=EPO_URL)
 
+    def test_bibliographic_only_ep_xml_explicitly_allowed(self):
+        xml=re.sub(rb'<claims[^>]*>.*?</claims>',b'',EPO,flags=re.S)
+        xml=re.sub(rb'<description[^>]*>.*?</description>',b'',xml,flags=re.S)
+        xml=xml.replace(b'kind="B1"',b'kind="A1"')
+        with self.assertRaises(PatentXMLParseError):
+            parse_ep_patent_document(xml,source_url=EPO_URL)
+        a=parse_ep_patent_document(xml,source_url=EPO_URL,
+                                   expected_publication="EP0123456A1",
+                                   allow_no_claims=True)
+        self.assertFalse(a["claims_present_in_this_XML"])
+        self.assertIsNone(a["claims_primary_language_count"])
+        self.assertEqual(a["description_paragraphs"],[])
+        self.assertTrue(a["absence_from_XML_is_not_proof_original_published_patent_had_no_claims"])
+
+    def test_official_ep_version_diff_is_not_claim_scope_legal_opinion(self):
+        from patent_evidence.official_version_diff import compare_ep_publication_versions
+        a=parse_ep_patent_document(EPO,source_url=EPO_URL)
+        xml=EPO.replace(b'kind="B1"',b'kind="B2"').replace(b'date-publ="20251120"',b'date-publ="20261120"')
+        xml=re.sub(rb'<claim[^>]*num="0002".*?</claim>',b'',xml,flags=re.S)
+        b=parse_ep_patent_document(xml,source_url=EPO_URL)
+        d=compare_ep_publication_versions(a,b)
+        self.assertEqual((d["first_primary_claims"],d["second_primary_claims"]),(2,1))
+        self.assertEqual(d["first_all_language_claim_nodes"],6)
+        self.assertEqual(d["second_all_language_claim_nodes"],3)
+        self.assertEqual(d["first_unmatched_claim_positions"],[2])
+        self.assertEqual(d["second_kind_semantics_from_EPO"],
+                         "New European patent specification after opposition procedure")
+        self.assertFalse(d["legal_scope_change_magnitude_inferred"])
+
     def test_nonmatching_namespaces_rejected(self):
         xml=WIPO.replace(b"http://www.wipo.int/standards/XMLSchema/ST96/Patent",
                          b"http://invalid.example/Patent")
@@ -93,4 +122,3 @@ class OfficialXMLTests(unittest.TestCase):
 
 if __name__=="__main__":
     unittest.main()
-
