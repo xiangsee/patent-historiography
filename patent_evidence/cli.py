@@ -5,9 +5,11 @@ from pathlib import Path
 import sys
 from .core import AuditError, load, pagination, analyse, family_interface_audit
 from .lineage import priority_link_audit, registry_snapshot
+from .structured_docs import parse_google_patents_html
+from .version_diff import compare_publication_versions
 from .text_quality import audit_documents
 
-VERSION="0.3.0"
+VERSION="0.4.0"
 
 def main(argv=None):
     p=argparse.ArgumentParser(description="Patent data quality workbench: local data, no network")
@@ -30,6 +32,23 @@ def main(argv=None):
     t=sub.add_parser("text-check", help="Audit patent index coverage and divisional date ambiguity")
     t.add_argument("--input",required=True,help="Local JSON with observations array; no network")
     t.add_argument("--output",required=True,help="Derived availability-only JSON")
+    doc=sub.add_parser("parse-html",help="Parse ONE Google Patents HTML as source-located evidence metadata")
+    doc.add_argument("--input",required=True,help="Previously retrieved local HTML; no network")
+    doc.add_argument("--source-url",required=True,help="Exact https://patents.google.com/patent/... URL")
+    doc.add_argument("--expected-publication",required=True)
+    doc.add_argument("--source-retrieved-at")
+    doc.add_argument("--output",required=True)
+    doc.add_argument("--private-text",action="store_true",help="Explicit opt-in: extracted text, output outside repo")
+    doc.add_argument("--allow-structural-issues",action="store_true")
+    diff=sub.add_parser("compare-html",help="Conservative claim/description version comparison")
+    diff.add_argument("--first-input",required=True)
+    diff.add_argument("--second-input",required=True)
+    diff.add_argument("--first-url",required=True)
+    diff.add_argument("--second-url",required=True)
+    diff.add_argument("--first-publication",required=True)
+    diff.add_argument("--second-publication",required=True)
+    diff.add_argument("--relationship-source",help="Citation for why these two versions are of same application")
+    diff.add_argument("--output",required=True)
     args=p.parse_args(argv)
     try:
         if args.cmd=="audit":
@@ -54,7 +73,7 @@ def main(argv=None):
             result["version"]=VERSION
             result["input_scope"]="provider_field_availability_only"
             result["original_patent_text_not_proved_missing"]=True
-        else:
+        elif args.cmd=="history-check":
             obj=json.loads(Path(args.input).read_text(encoding="utf8"))
             ids={x.get("document_id") for x in obj["documents"]}
             if args.patent_id not in ids:
@@ -69,6 +88,25 @@ def main(argv=None):
                 ),
                 "scope":"provider/aggregator evidence only; not an official EPO family or adjudicated patent title",
             }
+        elif args.cmd=="parse-html":
+            source=Path(args.input).read_bytes()
+            result=parse_google_patents_html(source,source_url=args.source_url,
+                expected_publication=args.expected_publication,
+                source_retrieved_at=args.source_retrieved_at,
+                private_text=args.private_text,strict=not args.allow_structural_issues)
+            if args.private_text:
+                repo_root=Path(__file__).resolve().parents[1]
+                destination=Path(args.output).resolve()
+                if destination==repo_root or repo_root in destination.parents:
+                    raise AuditError("Private full patent text must not be written inside the public repository")
+        elif args.cmd=="compare-html":
+            a=parse_google_patents_html(Path(args.first_input).read_bytes(),
+                source_url=args.first_url,expected_publication=args.first_publication)
+            b=parse_google_patents_html(Path(args.second_input).read_bytes(),
+                source_url=args.second_url,expected_publication=args.second_publication)
+            result=compare_publication_versions(a,b,relationship_source=args.relationship_source)
+            result["tool"]="patent_evidence"
+            result["version"]=VERSION
         target=Path(args.output)
         target.parent.mkdir(parents=True,exist_ok=True)
         target.write_text(json.dumps(result,ensure_ascii=False,indent=2,sort_keys=True)+"\n",
@@ -76,7 +114,10 @@ def main(argv=None):
         print(json.dumps({"output":str(target),"tool_version":VERSION,
                           "rows":result.get("aggregate",{}).get("source_rows"),
                           "family_api_mismatches":result.get("mismatch_count"),
-                          "historical_date":result.get("registered_interests",{}).get("historical_date")},
+                          "historical_date":result.get("registered_interests",{}).get("historical_date"),
+                          "document_publication":result.get("publication_number"),
+                          "claim_count":result.get("counts",{}).get("claims_numbered_extracted"),
+                          "claim_count_delta":result.get("claim_counts",{}).get("difference_second_minus_first")},
                          ensure_ascii=False))
         return 0
     except (ValueError,OSError,KeyError,TypeError) as exc:

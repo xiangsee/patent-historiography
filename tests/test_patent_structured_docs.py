@@ -119,6 +119,21 @@ class StructuredPatentDocumentTest(unittest.TestCase):
             parse_google_patents_html(synthetic_html(), source_url=self.url,
                                       expected_publication="ZX111A1")
 
+    def test_version_comparison_is_not_legal_scope_analysis(self):
+        from patent_evidence.version_diff import compare_publication_versions
+        a = parse_google_patents_html(synthetic_html(),source_url=self.url)
+        b_html = synthetic_html(number="ZX:987:B1").replace(
+            "using a timer.", "using an elapsed-time controller."
+        )
+        b = parse_google_patents_html(b_html,
+            source_url="https://patents.google.com/patent/ZX987B1/en")
+        d = compare_publication_versions(a,b,relationship_source="synthetic_fixture_relationship")
+        self.assertEqual(d["claim_counts"]["difference_second_minus_first"],0)
+        self.assertEqual(d["changed_count_same_number"],1)
+        self.assertEqual(d["changed_normalized_claim_text_hash_by_same_number"],[2])
+        self.assertFalse(d["legal_protection_scope_narrowed_or_expanded_verified"])
+        self.assertFalse(d["same_number_identifies_same_legal_claim_across_versions"])
+
     def test_untrusted_source_uri_rejected(self):
         with self.assertRaises(DocumentParseError):
             parse_google_patents_html(synthetic_html(), source_url="http://patents.google.com/ZX")
@@ -128,4 +143,3 @@ class StructuredPatentDocumentTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
