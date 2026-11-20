@@ -7,9 +7,10 @@ from .core import AuditError, load, pagination, analyse, family_interface_audit
 from .lineage import priority_link_audit, registry_snapshot
 from .structured_docs import parse_google_patents_html
 from .version_diff import compare_publication_versions
+from .official_xml import parse_ep_patent_document, parse_wipo_st96_patent_publication
 from .text_quality import audit_documents
 
-VERSION="0.4.0"
+VERSION="0.5.0"
 
 def main(argv=None):
     p=argparse.ArgumentParser(description="Patent data quality workbench: local data, no network")
@@ -49,6 +50,12 @@ def main(argv=None):
     diff.add_argument("--second-publication",required=True)
     diff.add_argument("--relationship-source",help="Citation for why these two versions are of same application")
     diff.add_argument("--output",required=True)
+    official=sub.add_parser("official-xml",help="Parse local EPO official XML or WIPO official TEST example")
+    official.add_argument("--input",required=True,help="Locally downloaded XML; no network")
+    official.add_argument("--source-url",required=True,help="Unchanged official HTTPS source URI")
+    official.add_argument("--format",required=True,choices=["epo","st96"])
+    official.add_argument("--expected-publication",help="EP publication number, mandatory in real EPO runs")
+    official.add_argument("--output",required=True,help="Derived structure/sha only")
     args=p.parse_args(argv)
     try:
         if args.cmd=="audit":
@@ -99,6 +106,18 @@ def main(argv=None):
                 destination=Path(args.output).resolve()
                 if destination==repo_root or repo_root in destination.parents:
                     raise AuditError("Private full patent text must not be written inside the public repository")
+        elif args.cmd=="official-xml":
+            xml=Path(args.input).read_bytes()
+            if args.format=="epo":
+                if not args.expected_publication:
+                    raise AuditError("--expected-publication is mandatory for EPO official XML")
+                result=parse_ep_patent_document(
+                    xml,source_url=args.source_url,
+                    expected_publication=args.expected_publication)
+            else:
+                result=parse_wipo_st96_patent_publication(xml,source_url=args.source_url)
+            result["tool"]="patent_evidence"
+            result["tool_version"]=VERSION
         elif args.cmd=="compare-html":
             a=parse_google_patents_html(Path(args.first_input).read_bytes(),
                 source_url=args.first_url,expected_publication=args.first_publication)
@@ -117,7 +136,9 @@ def main(argv=None):
                           "historical_date":result.get("registered_interests",{}).get("historical_date"),
                           "document_publication":result.get("publication_number"),
                           "claim_count":result.get("counts",{}).get("claims_numbered_extracted"),
-                          "claim_count_delta":result.get("claim_counts",{}).get("difference_second_minus_first")},
+                          "claim_count_delta":result.get("claim_counts",{}).get("difference_second_minus_first"),
+                          "official_xml_document":result.get("document_publication"),
+                          "primary_language_claims":result.get("claims_primary_language_count",result.get("claims_numbered_count"))},
                          ensure_ascii=False))
         return 0
     except (ValueError,OSError,KeyError,TypeError) as exc:
