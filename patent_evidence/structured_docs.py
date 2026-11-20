@@ -174,6 +174,7 @@ def parse_google_patents_html(
             issues.append("self_or_forward_claim_reference")
         base = _segment(number, node, text, source_url, "claim-" + str(number), private_text)
         base.update({
+            "evidence_id": publication + ":CLAIM:" + str(number),
             "number": number,
             "provider_claim_id": node.get("id"),
             "claim_type_candidate": claim_type,
@@ -205,7 +206,9 @@ def parse_google_patents_html(
         if ident and ident in para_ids:
             issues.append("duplicate_description_anchor")
         para_ids.add(ident)
-        descriptions.append(_segment(num, n, text, source_url, "description-" + str(num), private_text))
+        seg = _segment(num, n, text, source_url, "description-" + str(num), private_text)
+        seg["evidence_id"] = publication + ":DESC:" + str(num)
+        descriptions.append(seg)
     if not descriptions:
         issues.append("no_numbered_description_paragraphs")
 
@@ -239,6 +242,7 @@ def parse_google_patents_html(
     date_submitted = _meta(soup, "DC.date", scheme="dateSubmitted")
     app = _meta(soup, "citation_patent_application_number")
     abstract = {
+        "evidence_id": publication + ":ABSTRACT",
         "source_locator": source_url + "#abstract",
         "normalized_text_char_count": len(abstract_text),
         "sha256_utf8_normalized_text": _sha(abstract_text) if abstract_text else None,
