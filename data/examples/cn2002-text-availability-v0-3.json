@@ -1,0 +1,121 @@
+{
+  "retrieved_on": "2026-11-20",
+  "source": "Connected IPHouse Research get_patent_detail",
+  "status": "factual field availability metadata without copyright-bearing full text",
+  "observations": [
+    {
+      "publication_number": "CN-1315292-C",
+      "application_number": "CN-02134679-A",
+      "title_length": 91,
+      "abstract_length": 500,
+      "filing_date": "2002-09-09",
+      "priority_date": "2002-09-09",
+      "family_id": "34145908",
+      "publication_date": "2007-05-09",
+      "full_text_status": {
+        "requested": true,
+        "original_completeness": "not_verified",
+        "fields": {
+          "description": {
+            "status": "missing_in_index",
+            "index_has_any_text": false,
+            "source_chars": 0,
+            "returned_chars": 0,
+            "truncated": false
+          },
+          "claims": {
+            "status": "missing_in_index",
+            "index_has_any_text": false,
+            "source_chars": 0,
+            "returned_chars": 0,
+            "truncated": false
+          }
+        }
+      },
+      "description_length": 0,
+      "claims_length": 0,
+      "parent": [],
+      "citations_count": 3,
+      "source": "IPHouse Research get_patent_detail(include_full_text=true); rights reuse restricted to derived field availability metadata"
+    },
+    {
+      "publication_number": "CN-1299492-C",
+      "application_number": "CN-02134697-A",
+      "title_length": 115,
+      "abstract_length": 500,
+      "filing_date": "2002-09-10",
+      "priority_date": "2002-09-10",
+      "family_id": "34145917",
+      "publication_date": "2007-02-07",
+      "full_text_status": {
+        "requested": true,
+        "original_completeness": "not_verified",
+        "fields": {
+          "description": {
+            "status": "missing_in_index",
+            "index_has_any_text": false,
+            "source_chars": 0,
+            "returned_chars": 0,
+            "truncated": false
+          },
+          "claims": {
+            "status": "missing_in_index",
+            "index_has_any_text": false,
+            "source_chars": 0,
+            "returned_chars": 0,
+            "truncated": false
+          }
+        }
+      },
+      "description_length": 0,
+      "claims_length": 0,
+      "parent": [],
+      "citations_count": 3,
+      "source": "IPHouse Research get_patent_detail(include_full_text=true); rights reuse restricted to derived field availability metadata"
+    },
+    {
+      "publication_number": "CN-101166059-B",
+      "application_number": "CN-200710165788-A",
+      "title_length": 91,
+      "abstract_length": 500,
+      "filing_date": "2002-06-11",
+      "priority_date": "2002-06-11",
+      "family_id": "29742004",
+      "publication_date": "2012-05-02",
+      "full_text_status": {
+        "requested": true,
+        "original_completeness": "not_verified",
+        "fields": {
+          "description": {
+            "status": "missing_in_index",
+            "index_has_any_text": false,
+            "source_chars": 0,
+            "returned_chars": 0,
+            "truncated": false
+          },
+          "claims": {
+            "status": "missing_in_index",
+            "index_has_any_text": false,
+            "source_chars": 0,
+            "returned_chars": 0,
+            "truncated": false
+          }
+        }
+      },
+      "description_length": 0,
+      "claims_length": 0,
+      "parent": [
+        {
+          "npl_text": "",
+          "filing_date": "20020611",
+          "publication_number": "",
+          "application_number": "CN-02112025-A",
+          "type": "division",
+          "category": ""
+        }
+      ],
+      "citations_count": 3,
+      "source": "IPHouse Research get_patent_detail(include_full_text=true); rights reuse restricted to derived field availability metadata"
+    }
+  ]
+}
