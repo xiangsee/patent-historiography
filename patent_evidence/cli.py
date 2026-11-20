@@ -5,8 +5,9 @@ from pathlib import Path
 import sys
 from .core import AuditError, load, pagination, analyse, family_interface_audit
 from .lineage import priority_link_audit, registry_snapshot
+from .text_quality import audit_documents
 
-VERSION="0.2.0"
+VERSION="0.3.0"
 
 def main(argv=None):
     p=argparse.ArgumentParser(description="Patent data quality workbench: local data, no network")
@@ -26,6 +27,9 @@ def main(argv=None):
     h.add_argument("--patent-id",required=True,help="One patent/document identifier from fixture")
     h.add_argument("--as-of",required=True,help="Historical ISO date YYYY-MM-DD")
     h.add_argument("--knowledge-as-of",help="Only filings/recordings known by this ISO date")
+    t=sub.add_parser("text-check", help="Audit patent index coverage and divisional date ambiguity")
+    t.add_argument("--input",required=True,help="Local JSON with observations array; no network")
+    t.add_argument("--output",required=True,help="Derived availability-only JSON")
     args=p.parse_args(argv)
     try:
         if args.cmd=="audit":
@@ -43,6 +47,13 @@ def main(argv=None):
             result=family_interface_audit(obj["samples"])
             result["tool"]="patent_evidence"
             result["version"]=VERSION
+        elif args.cmd=="text-check":
+            obj=json.loads(Path(args.input).read_text(encoding="utf8"))
+            result=audit_documents(obj["observations"])
+            result["tool"]="patent_evidence"
+            result["version"]=VERSION
+            result["input_scope"]="provider_field_availability_only"
+            result["original_patent_text_not_proved_missing"]=True
         else:
             obj=json.loads(Path(args.input).read_text(encoding="utf8"))
             ids={x.get("document_id") for x in obj["documents"]}
