@@ -231,3 +231,52 @@ def compare_roles_across_cases(events, *, term_a, term_b):
             "distinct patents and proceedings and do not imply bilateral commercial intent."
         ),
     }
+
+def review_claim_lifecycle(claims, events):
+    """Validate explicit affected_claim/impact_type/verification_next metadata.
+
+    Claim pointers must refer to actual event IDs in the researcher-supplied
+    ledger, but resolving the pointers does NOT independently verify the
+    underlying legal or scientific claims.
+    """
+    verify_events(events)
+    if not isinstance(claims, list):
+        raise ProcedureLedgerError("Claim Lifecycle must be a list")
+    events_by_id = {e["event_id"]: e for e in events}
+    ids = set()
+    results = []
+    for c in claims:
+        if not isinstance(c, dict):
+            raise ProcedureLedgerError("Claim entry must be a dict")
+        cid = c.get("claim_id")
+        if not isinstance(cid, str) or not cid.strip() or cid in ids:
+            raise ProcedureLedgerError("claim_id duplicate or missing")
+        ids.add(cid)
+        for field in ("affected_claim", "impact_type", "verification_next", "state"):
+            if not isinstance(c.get(field), str) or not c[field].strip():
+                raise ProcedureLedgerError("Claim Lifecycle must include " + field)
+        evidence = c.get("evidence", [])
+        if not isinstance(evidence, list) or not evidence:
+            raise ProcedureLedgerError("Each claim must name at least one evidence event")
+        missing = [ref for ref in evidence if ref not in events_by_id]
+        if missing:
+            raise ProcedureLedgerError("Claim has missing event references: " + ", ".join(missing))
+        source_mix = Counter(events_by_id[ref]["source_class"] for ref in evidence)
+        results.append({
+            "claim_id": cid,
+            "affected_claim": c["affected_claim"],
+            "impact_type": c["impact_type"],
+            "verification_next": c["verification_next"],
+            "state_from_researcher": c["state"],
+            "evidence_event_ids": evidence,
+            "evidence_sources_by_tier": dict(source_mix),
+            "referenced_events_exist": True,
+            "factual_claim_independently_proven_by_this_software": False,
+        })
+    return {
+        "claim_count": len(results),
+        "records": results,
+        "event_references_resolve": True,
+        "historical_claim_truth_not_automatically_verified": True,
+    }
+
