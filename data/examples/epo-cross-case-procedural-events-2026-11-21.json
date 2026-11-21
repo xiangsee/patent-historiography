@@ -1,0 +1,347 @@
+{
+  "case_info": {
+    "EP0729353": {
+      "description": "Alkermes microparticles EP patent; publication and opposition history",
+      "official_publication_records": [
+        "EP0729353A1",
+        "EP0729353B1",
+        "EP0729353B2"
+      ]
+    },
+    "T0003/98": {
+      "description": "EPO Board of Appeal; different patent application 87309286.0, Southern Research as applicant, Alkermes among opponents"
+    },
+    "T0507/98": {
+      "description": "EPO Board of Appeal; different patent application 90908830.4, Southern Research as applicant, Alkermes Controlled Therapeutics opponent"
+    }
+  },
+  "data_as_of": "2026-11-21",
+  "schema_id": "xiangsee.procedural_ledger.0.6",
+  "sources": [
+    {
+      "id": "EPO_EP_A1",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0729353NWA1/document.xml",
+      "class": "official_publication_xml",
+      "issued": "1996-09-04"
+    },
+    {
+      "id": "EPO_EP_B1",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0729353NWB1/document.xml",
+      "class": "official_publication_xml",
+      "issued": "2002-02-06"
+    },
+    {
+      "id": "EPO_EP_B2",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0729353NWB2/document.xml",
+      "class": "official_publication_xml",
+      "issued": "2012-09-12"
+    },
+    {
+      "id": "GOOGLE_EP_LEGAL",
+      "url": "https://patents.google.com/patent/EP0729353A1/en",
+      "class": "secondary_legal_event_aggregation",
+      "first_public_release_unknown": true
+    },
+    {
+      "id": "EPO_T0003",
+      "url": "https://www.epo.org/en/boards-of-appeal/decisions/t980003eu1",
+      "class": "official_epo_decision_webpage",
+      "decision_date": "2002-03-20",
+      "first_online": "2002-06-14"
+    },
+    {
+      "id": "EPO_T0507",
+      "url": "https://www.epo.org/en/boards-of-appeal/decisions/t980507eu1",
+      "class": "official_epo_decision_webpage",
+      "decision_date": "2002-06-26",
+      "first_online": "2002-09-17"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "EP-A1-19960904",
+      "case_id": "EP0729353",
+      "event_kind": "application_publication",
+      "event_date": "1996-09-04",
+      "source_class": "official_publication_xml",
+      "source_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0729353NWA1/document.xml",
+      "first_contemporaneously_available_on": "1996-09-04",
+      "summary_claim": "A1 bibliographic XML published; this accessible XML does not include substantive claims; original patent-application disclosure absence not established",
+      "participant_roles": [
+        {
+          "role": "applicant",
+          "entity_name": "Alkermes Controlled Therapeutics, Inc."
+        }
+      ],
+      "official_decision_text_verified": false,
+      "publication": "EP0729353A1",
+      "xml_claim_content_present": false
+    },
+    {
+      "event_id": "EP-B1-20020206",
+      "case_id": "EP0729353",
+      "event_kind": "patent_grant_publication",
+      "event_date": "2002-02-06",
+      "source_class": "official_publication_xml",
+      "source_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0729353NWB1/document.xml",
+      "first_contemporaneously_available_on": "2002-02-06",
+      "summary_claim": "B1 granted patent publication has six English claim positions, translated into German and French",
+      "participant_roles": [
+        {
+          "role": "proprietor",
+          "entity_name": "Alkermes Controlled Therapeutics, Inc."
+        }
+      ],
+      "official_decision_text_verified": false,
+      "publication": "EP0729353B1",
+      "claims_primary": 6
+    },
+    {
+      "event_id": "T0003-DECISION-20020320",
+      "case_id": "T0003/98",
+      "event_kind": "opposition_appeal_decision",
+      "event_date": "2002-03-20",
+      "source_class": "official_epo_decision_webpage",
+      "source_url": "https://www.epo.org/en/boards-of-appeal/decisions/t980003eu1",
+      "first_contemporaneously_available_on": "2002-06-14",
+      "summary_claim": "Official appeal page names Southern Research Institute et al as applicant and Alkermes, Inc and Chiron as opponents; decision remitted for further prosecution",
+      "participant_roles": [
+        {
+          "role": "applicant",
+          "entity_name": "Southern Research Institute"
+        },
+        {
+          "role": "opponent",
+          "entity_name": "Alkermes, Inc."
+        },
+        {
+          "role": "opponent",
+          "entity_name": "Chiron Corporation"
+        }
+      ],
+      "official_decision_text_verified": false,
+      "application_number": "87309286.0",
+      "case_note": "distinct patent from EP0729353; decision-page summary not full reasoning"
+    },
+    {
+      "event_id": "T0507-DECISION-20020626",
+      "case_id": "T0507/98",
+      "event_kind": "opposition_appeal_decision",
+      "event_date": "2002-06-26",
+      "source_class": "official_epo_decision_webpage",
+      "source_url": "https://www.epo.org/en/boards-of-appeal/decisions/t980507eu1",
+      "first_contemporaneously_available_on": "2002-09-17",
+      "summary_claim": "Official appeal page names Southern Research Institute as applicant and Alkermes Controlled Therapeutics as opponent; maintain on New First Auxiliary Request",
+      "participant_roles": [
+        {
+          "role": "applicant",
+          "entity_name": "Southern Research Institute"
+        },
+        {
+          "role": "opponent",
+          "entity_name": "Alkermes Controlled Therapeutics Inc. II"
+        }
+      ],
+      "official_decision_text_verified": false,
+      "application_number": "90908830.4",
+      "case_note": "distinct patent from EP0729353, not a decision in its opposition"
+    },
+    {
+      "event_id": "EP-OPP-20021115",
+      "case_id": "EP0729353",
+      "event_kind": "opposition_filed_record",
+      "event_date": "2002-11-15",
+      "source_class": "secondary_legal_event_aggregation",
+      "source_url": "https://patents.google.com/patent/EP0729353A1/en",
+      "first_contemporaneously_available_on": null,
+      "summary_claim": "Legal event index: opposition filed; official notice/actual filing documents not retrieved",
+      "participant_roles": [
+        {
+          "role": "proprietor",
+          "entity_name": "Alkermes Controlled Therapeutics, Inc."
+        }
+      ],
+      "official_decision_text_verified": false,
+      "source_event_code": "PLBI"
+    },
+    {
+      "event_id": "EP-OPP-NAMES-20030102",
+      "case_id": "EP0729353",
+      "event_kind": "opponent_identity_record",
+      "event_date": "2003-01-02",
+      "source_class": "secondary_legal_event_aggregation",
+      "source_url": "https://patents.google.com/patent/EP0729353A1/en",
+      "first_contemporaneously_available_on": null,
+      "summary_claim": "Legal event index associates DrugAbuse Science and Southern Research Institute with opposition; effective dates in 2002 appear in source",
+      "participant_roles": [
+        {
+          "role": "proprietor",
+          "entity_name": "Alkermes Controlled Therapeutics, Inc."
+        },
+        {
+          "role": "opponent",
+          "entity_name": "DrugAbuse Science, Inc."
+        },
+        {
+          "role": "opponent",
+          "entity_name": "Southern Research Institute"
+        }
+      ],
+      "official_decision_text_verified": false,
+      "source_event_code": "26",
+      "source_effective_dates": [
+        "2002-11-06",
+        "2002-11-05"
+      ]
+    },
+    {
+      "event_id": "EP-REVOCATION-NOTICE-20050713",
+      "case_id": "EP0729353",
+      "event_kind": "revocation_communication",
+      "event_date": "2005-07-13",
+      "source_class": "secondary_legal_event_aggregation",
+      "source_url": "https://patents.google.com/patent/EP0729353A1/en",
+      "first_contemporaneously_available_on": null,
+      "summary_claim": "Legal event index reports communication despatched that patent is revoked; NOT proof of unappealable final revocation",
+      "participant_roles": [
+        {
+          "role": "proprietor",
+          "entity_name": "Alkermes Controlled Therapeutics, Inc."
+        }
+      ],
+      "official_decision_text_verified": false,
+      "source_event_code": "RDAF",
+      "final_revocation_confirmed": false
+    },
+    {
+      "event_id": "EP-APPEAL-RECEIVED-20050914",
+      "case_id": "EP0729353",
+      "event_kind": "appeal_notice_record",
+      "event_date": "2005-09-14",
+      "source_class": "secondary_legal_event_aggregation",
+      "source_url": "https://patents.google.com/patent/EP0729353A1/en",
+      "first_contemporaneously_available_on": null,
+      "summary_claim": "Legal event index records notice of appeal receipt",
+      "participant_roles": [],
+      "official_decision_text_verified": false,
+      "source_event_code": "APBP"
+    },
+    {
+      "event_id": "EP-INTERLOC-20060920",
+      "case_id": "EP0729353",
+      "event_kind": "interlocutory_revision_record",
+      "event_date": "2006-09-20",
+      "source_class": "secondary_legal_event_aggregation",
+      "source_url": "https://patents.google.com/patent/EP0729353A1/en",
+      "first_contemporaneously_available_on": null,
+      "summary_claim": "Legal event index records interlocutory revision; does not establish full Board reasons",
+      "participant_roles": [],
+      "official_decision_text_verified": false,
+      "source_event_code": "APBW"
+    },
+    {
+      "event_id": "EP-WITHDRAWN-20110415",
+      "case_id": "EP0729353",
+      "event_kind": "opposition_withdrawal_record",
+      "event_date": "2011-04-15",
+      "source_class": "secondary_legal_event_aggregation",
+      "source_url": "https://patents.google.com/patent/EP0729353A1/en",
+      "first_contemporaneously_available_on": null,
+      "summary_claim": "A legal event index records an opposition withdrawn; it does not identify all oppositions as withdrawn",
+      "participant_roles": [],
+      "official_decision_text_verified": false,
+      "source_event_code": "PLBP",
+      "all_oppositions_withdrawn": false
+    },
+    {
+      "event_id": "EP-MAINTAIN-20120810",
+      "case_id": "EP0729353",
+      "event_kind": "maintained_as_amended_event",
+      "event_date": "2012-08-10",
+      "source_class": "secondary_legal_event_aggregation",
+      "source_url": "https://patents.google.com/patent/EP0729353A1/en",
+      "first_contemporaneously_available_on": null,
+      "summary_claim": "Legal event index says patent maintained as amended; original reasoned decision remains unverified",
+      "participant_roles": [],
+      "official_decision_text_verified": false,
+      "source_event_code": "PUAH"
+    },
+    {
+      "event_id": "EP-B2-20120912",
+      "case_id": "EP0729353",
+      "event_kind": "amended_specification_publication",
+      "event_date": "2012-09-12",
+      "source_class": "official_publication_xml",
+      "source_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0729353NWB2/document.xml",
+      "first_contemporaneously_available_on": "2012-09-12",
+      "summary_claim": "EPO B2 new European specification after opposition; four English claims and translations; not legal claim-scope arithmetic",
+      "participant_roles": [
+        {
+          "role": "proprietor",
+          "entity_name": "Alkermes, Inc."
+        }
+      ],
+      "official_decision_text_verified": false,
+      "publication": "EP0729353B2",
+      "claims_primary": 4
+    }
+  ],
+  "claim_lifecycle": [
+    {
+      "claim_id": "HIST-EP-001",
+      "affected_claim": "Patent grants are static, permanently fixed technical assets",
+      "impact_type": "REVISE",
+      "verification_next": "Read EPO opposition original decision and claim amendments, then compare B1/B2 with legal review",
+      "evidence": [
+        "EP-B1-20020206",
+        "EP-B2-20120912"
+      ],
+      "state": "PROVISIONALLY_SUPPORTED_CORRECTION"
+    },
+    {
+      "claim_id": "HIST-EP-002",
+      "affected_claim": "A 2005 revocation communication proved final invalidity of EP0729353",
+      "impact_type": "REJECT_UNVERIFIED_INFERENCE",
+      "verification_next": "Retrieve original revocation decision, appeal and interlocutory-revision files; distinguish publication and notice",
+      "evidence": [
+        "EP-REVOCATION-NOTICE-20050713",
+        "EP-INTERLOC-20060920",
+        "EP-B2-20120912"
+      ],
+      "state": "NOT_ESTABLISHED"
+    },
+    {
+      "claim_id": "HIST-EP-003",
+      "affected_claim": "Alkermes and Southern Research exchanged opposition roles across separate European proceedings",
+      "impact_type": "NEW_RESEARCH_HYPOTHESIS",
+      "verification_next": "Check each case's party legal identity and related corporate groups, do not infer bilateral strategy or market position",
+      "evidence": [
+        "T0003-DECISION-20020320",
+        "T0507-DECISION-20020626",
+        "EP-OPP-NAMES-20030102"
+      ],
+      "state": "ROLE_RECORDS_CONFIRMED_IDENTITY_GROUP_LINK_UNVERIFIED"
+    },
+    {
+      "claim_id": "HIST-EP-004",
+      "affected_claim": "Today's proprietary name and a patent family's rights are unchanged through time",
+      "impact_type": "CHALLENGE",
+      "verification_next": "Obtain historical EPO ownership register and legal deeds for Alkermes Controlled Therapeutics and Alkermes, Inc.",
+      "evidence": [
+        "EP-A1-19960904",
+        "EP-B1-20020206",
+        "EP-B2-20120912"
+      ],
+      "state": "PUBLISHED_NAME_VARIATION_CONFIRMED_LEGAL_CHANGE_PENDING"
+    }
+  ],
+  "limits": [
+    "The two T/98 Board of Appeal cases concern different EP applications, not the EP0729353 opposition itself.",
+    "Google Patents aggregated legal-event records are not the original EPO proceeding files.",
+    "A notice about revocation in 2005 is not independently verified as a final and unappealable revocation.",
+    "Unknown initial public release date of legal-event aggregation must not be filled with event date.",
+    "Alkermes, Inc and Alkermes Controlled Therapeutics, Inc are not automatically the same legal entity.",
+    "EPO A1 available XML lacking claims does not mean the 1996 publication originally lacked claims.",
+    "The B1→B2 6→4 English claim count difference is not quantitative legal protection scope change."
+  ]
+}
