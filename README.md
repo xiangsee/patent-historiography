@@ -1,6 +1,6 @@
 # 《企业史记》｜Patent Historiography
 
-**v1.4.0 · 六文献专利全文结构与A/授权版差异的双轨实证 · 2026-11-20**
+**v1.5.0 · 官方EPO XML实测、WIPO ST.96标准样例与异议后专利文本历史 · 2026-11-21**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
@@ -11,6 +11,17 @@
 
 
 
+
+## 2026-11-21｜官方XML双源验证与专利权利史（v0.5）
+
+**从HTML展示层推进到真实专利局原生XML。** 工具已处理两件EPO真实专利的B类公开文献与两份WIPO ST.96 TEST XML，并追踪EP0729353的1996 A1、2002 B1、2012 B2三个历史公开版本。
+
+- [第十九轮历史研究：Alkermes相关欧洲专利授权后的文本变化](research/19-alkermes-ep-postgrant-and-official-xml.md)。
+- [Patent Evidence Workbench v0.5说明与命令](docs/PATENT_EVIDENCE_TOOLKIT_V0_5.md)：[EPO/WIPO官方XML解析器](patent_evidence/official_xml.py)、[B1/B2结构差异对照](patent_evidence/official_version_diff.py)、[合成回归测试](tests/test_patent_official_xml.py)。
+- [EPO真实专利/WIPO标准TEST样例的派生结构审计](data/examples/official-xml-four-source-derived-2026-11-20.json)、[EP0729353 A1→B1→B2历史证据](data/examples/alkermes-ep0729353-1996-2012-derived.json)。
+- [公开派生数据校验脚本](scripts/validate_official_xml_2026_11_20.py)。两件EPO真实专利主语言权利要求分别为7和4项，三语节点合计21和12；不能误算为21或12项独立权利要求。
+- **来源边界**：WIPO样例是TEST非真实专利；v10目录下XML实际声明schema V8_0；已取得USPTO 2022年Red Book DTD但尚未解析真实USPTO授权XML。EPO原始XML与完整正文留在私有研究区，公开只保留派生统计、来源与哈希。
+- **史学边界**：EP0729353的B1英文6项→B2英文4项，不能据此认为法律范围缩小三分之一；B1/B2的Alkermes公司名称不同，也不能据此推断实际转让。
 
 ## 2026-11-20｜文献工作台v0.4：解析真实权利要求、段落与版本差异
 

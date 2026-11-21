@@ -46,3 +46,17 @@
 | PD-019 | AI可引用的证据原子及原文使用隔离 | real-sample-tested | evidence_id、来源URL段落锚点、HTML校验摘要、单段HASH；6份原始HTML仅在私有研究区 | 更多正式XML适配器、来源级许可、自动版次追踪 |
 
 此版本只称Google Patents HTML的适配器，**不是WIPO ST.96/XML、ST.97/JSON、EPO ST.36、USPTO Red Book合规实现**。文件级SOP见[工具v0.4](PATENT_EVIDENCE_TOOLKIT_V0_4.md)。
+
+
+## 2026-11-21｜v0.5官方原生XML与授权后权利史
+
+| ID | 方法/能力 | 当前状态 | 已实际验证 | 下一步核验 |
+| --- | --- | --- | --- | --- |
+| PD-020 | EPO真实EP Patent Document XML解析与三语权项去重 | real-official-source-sample-tested | EP1004359B1：en/de/fr各7项；EP0729353B2：各4项，保留原始DTD和段落锚点 | 不同历史EPO DTD、完整法律依存、DTD校验 |
+| PD-021 | WIPO ST.96官方示例映射与schema来源校验 | official-synthetic-sample-tested | Annex VII V6_0/V8_0两份TEST；各10权项、70段；v10目录实际文件声明V8_0 | 真实ST.96数据交换与XSD校验 |
+| PD-022 | EPO A1只含著录时的缺全文处理 | real-official-source-sample-tested | EP0729353A1可取XML不含权项，工具明确区分“这份XML未提供”和“历史原件不存在” | 官方A1影像及其他同年代完整性对照 |
+| PD-023 | 同一EP申请的B1/B2异议后文本历史比较 | real-official-source-sample-tested; legal-analysis-pending | EP0729353 B1 6英文权项、2012 B2 4项；三语节点18→12，按相同编号4个位置HASH变化 | 异议原始决定书、修改理由、逐项法律范围人工复核 |
+| PD-024 | EPO公开申请人/权利人标签的时点保留 | real-official-source-sample-tested; chain-pending | A1/B1中Alkermes Controlled Therapeutics, Inc.，B2中Alkermes, Inc. | EPO正式登记、法人关联/交易与有效日期 |
+| PD-025 | USPTO Red Book v4.7 DTD | source-definition-obtained, parser-NOT-implemented | 官方DTD文件62,376字节，已确认格式规范 | 取得实际授权XML并做版本相关解析测试 |
+
+交付材料：[v0.5 SOP](PATENT_EVIDENCE_TOOLKIT_V0_5.md)、[第十九轮历史记录](../research/19-alkermes-ep-postgrant-and-official-xml.md)、[来源审计数据](../data/examples/official-xml-four-source-derived-2026-11-20.json)。不要把WIPO TEST与真实发明混同，不把DTD文件当授权专利文本。

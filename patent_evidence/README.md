@@ -1,4 +1,4 @@
-# Patent Evidence Workbench (v0.4)
+# Patent Evidence Workbench (v0.5)
 
 Run from the repository root using Python 3.10+. Existing data, lineage and text-availability tools use only the standard library. HTML parsing has an optional BeautifulSoup dependency.
 
@@ -59,3 +59,32 @@ Run from the repository root:
 By default, NO full claim or description text is emitted—only source locators, IDs, counts, and normalized-content SHA-256 hashes. The explicit --private-text opt-in cannot write inside the public repository. Claims labelled independent/dependent are structural candidates, not official legal construction. Hash differences across versions are not evidence of changed protection scope without human review.
 
 See [v0.4 method contract](../docs/PATENT_EVIDENCE_TOOLKIT_V0_4.md) and [six-page real derived public fixture](../data/examples/six-patent-publication-version-structures-2026-11-20.json).
+
+
+## v0.5｜Official EPO XML and WIPO ST.96 TEST files
+
+The official XML adapter uses only Python standard library and **local files**; it never downloads external resources or resolves remote DTD entities.
+
+    python3 -m patent_evidence.cli official-xml --format epo \
+      --input /private/EP0729353NWB1.xml \
+      --source-url https://data.epo.org/publication-server/rest/v1.2/patents/EP0729353NWB1/document.xml \
+      --expected-publication EP0729353B1 \
+      --output /private/ep-b1-structure.json
+
+    python3 -m patent_evidence.cli official-xml --format epo \
+      --input /private/EP0729353NWA1.xml \
+      --source-url https://data.epo.org/publication-server/rest/v1.2/patents/EP0729353NWA1/document.xml \
+      --expected-publication EP0729353A1 \
+      --allow-no-claims \
+      --output /private/ep-a1-bibliographic-only.json
+
+    python3 -m patent_evidence.cli compare-epo \
+      --first-input /private/EP0729353NWB1.xml --second-input /private/EP0729353NWB2.xml \
+      --first-url https://data.epo.org/publication-server/rest/v1.2/patents/EP0729353NWB1/document.xml \
+      --second-url https://data.epo.org/publication-server/rest/v1.2/patents/EP0729353NWB2/document.xml \
+      --first-publication EP0729353B1 --second-publication EP0729353B2 \
+      --output /private/ep-opposition-delta.json
+
+The EPO adapter parses each claim language separately; primary-language claim count is NOT the total across translations. WIPO Annex VII XML is a TEST example, not a real patent; the document-declared ST.96 version controls parsing. Only source-linked hashes and quality metadata may be shared by default.
+
+[Official XML v0.5 method contract](../docs/PATENT_EVIDENCE_TOOLKIT_V0_5.md) · [Real EP timeline research](../research/19-alkermes-ep-postgrant-and-official-xml.md).
