@@ -10,8 +10,9 @@ from .version_diff import compare_publication_versions
 from .official_xml import parse_ep_patent_document, parse_wipo_st96_patent_publication
 from .official_version_diff import compare_ep_publication_versions
 from .text_quality import audit_documents
+from .procedural_ledger import procedural_view, compare_roles_across_cases, review_claim_lifecycle
 
-VERSION="0.5.0"
+VERSION="0.6.0"
 
 def main(argv=None):
     p=argparse.ArgumentParser(description="Patent data quality workbench: local data, no network")
@@ -67,6 +68,14 @@ def main(argv=None):
     ev.add_argument("--first-publication",required=True)
     ev.add_argument("--second-publication",required=True)
     ev.add_argument("--output",required=True)
+    proc=sub.add_parser("procedure-check",help="Evidence-graded chronology, contemporary knowledge and legal party roles")
+    proc.add_argument("--input",required=True,help="Researcher-confirmed JSON legal event ledger")
+    proc.add_argument("--as-of",required=True,help="Historical event cutoff YYYY-MM-DD")
+    proc.add_argument("--knowledge-as-of",help="Date by which source was independently publicly available")
+    proc.add_argument("--case-id",help="Optional exact case ID; otherwise all events")
+    proc.add_argument("--party-a",help="First party substring for cross-case candidate comparison")
+    proc.add_argument("--party-b",help="Second party substring for cross-case candidate comparison")
+    proc.add_argument("--output",required=True)
     args=p.parse_args(argv)
     try:
         if args.cmd=="audit":
@@ -138,6 +147,27 @@ def main(argv=None):
             result=compare_ep_publication_versions(a,b)
             result["tool"]="patent_evidence"
             result["tool_version"]=VERSION
+        elif args.cmd=="procedure-check":
+            obj=json.loads(Path(args.input).read_text(encoding="utf8"))
+            events=obj["events"]
+            result={
+                "tool":"patent_evidence",
+                "version":VERSION,
+                "data_as_of":obj.get("data_as_of"),
+                "case_scope":obj.get("case_info"),
+                "timeline":procedural_view(
+                    events,as_of=args.as_of,knowledge_as_of=args.knowledge_as_of,
+                    case_id=args.case_id
+                ),
+                "claim_lifecycle_linkage":review_claim_lifecycle(obj.get("claim_lifecycle",[]),events),
+                "legal_validity_or_bilateral_commercial_intent_not_proven":True,
+            }
+            if bool(args.party_a) != bool(args.party_b):
+                raise AuditError("--party-a and --party-b must both be supplied")
+            if args.party_a and args.party_b:
+                result["cross_case_role_candidates"]=compare_roles_across_cases(
+                    events,term_a=args.party_a,term_b=args.party_b
+                )
         elif args.cmd=="compare-html":
             a=parse_google_patents_html(Path(args.first_input).read_bytes(),
                 source_url=args.first_url,expected_publication=args.first_publication)
@@ -158,7 +188,8 @@ def main(argv=None):
                           "claim_count":result.get("counts",{}).get("claims_numbered_extracted"),
                           "claim_count_delta":result.get("claim_counts",{}).get("difference_second_minus_first"),
                           "official_xml_document":result.get("document_publication"),
-                          "primary_language_claims":result.get("claims_primary_language_count",result.get("claims_numbered_count"))},
+                          "primary_language_claims":result.get("claims_primary_language_count",result.get("claims_numbered_count")),
+                          "procedural_history_events":len(result.get("timeline",{}).get("historical_events_retrospectively_observed",[]))},
                          ensure_ascii=False))
         return 0
     except (ValueError,OSError,KeyError,TypeError) as exc:
