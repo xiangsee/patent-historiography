@@ -1,4 +1,4 @@
-# Patent Evidence Workbench (v0.5)
+# Patent Evidence Workbench (v0.6)
 
 Run from the repository root using Python 3.10+. Existing data, lineage and text-availability tools use only the standard library. HTML parsing has an optional BeautifulSoup dependency.
 
@@ -88,3 +88,22 @@ The official XML adapter uses only Python standard library and **local files**; 
 The EPO adapter parses each claim language separately; primary-language claim count is NOT the total across translations. WIPO Annex VII XML is a TEST example, not a real patent; the document-declared ST.96 version controls parsing. Only source-linked hashes and quality metadata may be shared by default.
 
 [Official XML v0.5 method contract](../docs/PATENT_EVIDENCE_TOOLKIT_V0_5.md) · [Real EP timeline research](../research/19-alkermes-ep-postgrant-and-official-xml.md).
+
+
+## v0.6｜Procedural event ledger, source tiers, role network
+
+    python3 -m patent_evidence.cli procedure-check \
+      --input data/examples/epo-cross-case-procedural-events-2026-11-21.json \
+      --case-id EP0729353 --as-of 2005-07-20 \
+      --output /tmp/procedure_as_of_2005.json
+
+    python3 -m patent_evidence.cli procedure-check \
+      --input data/examples/epo-cross-case-procedural-events-2026-11-21.json \
+      --as-of 2012-09-12 --party-a Alkermes --party-b "Southern Research" \
+      --output /tmp/role_candidates_2012.json
+
+    python3 scripts/validate_ep_procedural_ledger_v06.py
+
+A revocation notice is not a final revocation. A secondary event index's recorded event_date is not assumed to be its historical publication date. The cross-case name substring match is exploratory and never constitutes legal entity resolution or proof of commercial strategy.
+
+See [v0.6 methods](../docs/PATENT_EVIDENCE_TOOLKIT_V0_6.md) and [historical report](../research/20-alkermes-sri-opposition-network.md).

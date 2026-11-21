@@ -1,6 +1,6 @@
 # 《企业史记》｜Patent Historiography
 
-**v1.5.0 · 官方EPO XML实测、WIPO ST.96标准样例与异议后专利文本历史 · 2026-11-21**
+**v1.6.0 · 跨企业异议程序网络与历史可知时间的证据治理 · 2026-11-21**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
@@ -11,6 +11,14 @@
 
 
 
+
+## 2026-11-21｜第20轮：EPO程序事件和跨案主体网络（工具v0.6）
+
+- [第20轮研究：授权后的异议、撤销通知、上诉与跨案企业角色](research/20-alkermes-sri-opposition-network.md)：Alkermes相关EP0729353从2002年B1到2012年B2，不能把2005年第三方索引的“撤销通知”认作不可上诉的终局撤销。
+- [可运行的程序证据工作台v0.6](docs/PATENT_EVIDENCE_TOOLKIT_V0_6.md)与[Python核心](patent_evidence/procedural_ledger.py)：严格保留事件发生时间、已核当时可知时间、来源等级、实体角色与Claim Lifecycle。
+- [三案12条来源事件及4项判断](data/examples/epo-cross-case-procedural-events-2026-11-21.json)、[公开派生审计](data/examples/epo-procedure-evidence-audit-v0-6.json)、[13项新增单元测试](tests/test_patent_procedural_ledger.py)及[运行校验](scripts/validate_ep_procedural_ledger_v06.py)。累计57项测试通过。
+- EPO官方T0003/98、T0507/98分别显示Southern Research作为申请人、Alkermes相关主体作为异议方；EP0729353第三方法律事件索引则记载Southern Research对Alkermes相关专利提出异议。**这是不同法律程序的角色候选，不证明同一法人、市场竞争战略或因果关系。**
+- **主线下一步回到企业长时段专利母集**：用程序事件和来源质量对Google/华为/腾讯等企业的历史专利组合做覆盖与不确定性审计，不继续无限深入单案。
 
 ## 2026-11-21｜官方XML双源验证与专利权利史（v0.5）
 

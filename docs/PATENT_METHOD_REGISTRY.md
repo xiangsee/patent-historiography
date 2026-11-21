@@ -60,3 +60,15 @@
 | PD-025 | USPTO Red Book v4.7 DTD | source-definition-obtained, parser-NOT-implemented | 官方DTD文件62,376字节，已确认格式规范 | 取得实际授权XML并做版本相关解析测试 |
 
 交付材料：[v0.5 SOP](PATENT_EVIDENCE_TOOLKIT_V0_5.md)、[第十九轮历史记录](../research/19-alkermes-ep-postgrant-and-official-xml.md)、[来源审计数据](../data/examples/official-xml-four-source-derived-2026-11-20.json)。不要把WIPO TEST与真实发明混同，不把DTD文件当授权专利文本。
+
+
+## 2026-11-21｜v0.6程序事件与知识时间
+
+| 方法ID | 能力 | 当前状态 | 实际证据 | 仍需核验 |
+| --- | --- | --- | --- | --- |
+| PD-026 | 专利程序事件类型与来源等级审计 | real-source-fixture + synthetic-tested | EP0729353和两件官方上诉案12条记录，防止撤销通知被当成最终无效 | 官方异议文件、上诉全文及法律效力 |
+| PD-027 | 历史事件日与当时可知日双时间视图 | real-source-fixture + synthetic-tested | 2005-07-20事后5条事件，仅2条有已核原始公开出版日期 | 各索引事件最早可知/公告日期 |
+| PD-028 | 跨案主体角色网络候选而非自动身份归并 | official EPO page + indexed event | 两件EPO官方T案件、EP0729353聚合索引中的相反异议方向候选 | 法人实体关系、独立经营史和技术竞争关联 |
+| PD-029 | Claim Lifecycle ID与证据来源双向约束 | real-source-fixture + synthetic-tested | 4项affected_claim、impact_type、verification_next，引用未找到的事件即拒绝 | 与编辑OS和更广企业专利母集接合 |
+
+第20轮研究：[research/20](../research/20-alkermes-sri-opposition-network.md)；[v0.6规范](PATENT_EVIDENCE_TOOLKIT_V0_6.md)。它是可测试的方法积累，而不是完整企业本纪已写成的证据。

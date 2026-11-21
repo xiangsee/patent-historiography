@@ -8,6 +8,7 @@ on:
       - 'scripts/validate_google*.py'
       - 'scripts/validate_document_versions_*.py'
       - 'scripts/validate_official_xml_*.py'
+      - 'scripts/validate_ep_procedural_ledger_v06.py'
       - 'requirements-document-parser.txt'
       - 'data/examples/**'
       - '.github/workflows/patent-evidence.yml'
@@ -47,6 +48,8 @@ jobs:
             --input data/examples/cn2002-text-availability-v0-3.json \
             --output /tmp/cn2002-text-qa.json
           python3 scripts/validate_cross_company_2026_11_20.py
+      - name: EP procedural role and Claim Lifecycle QA
+        run: python3 scripts/validate_ep_procedural_ledger_v06.py
       - name: Official EPO/WIPO XML derived-data regression
         run: python3 scripts/validate_official_xml_2026_11_20.py
       - name: Six-publication version structural regression
