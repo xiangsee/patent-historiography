@@ -179,10 +179,11 @@ def procedural_view(events, *, as_of, knowledge_as_of=None, case_id=None):
             "final revocation; amended B2 publication is not a reconstruction of the opposition decision."
         ),
         "legal_validity_or_title_as_of_independently_determined": False,
-        "source_quality_ledger_complete": all(
-            e.get("official_decision_text_verified", False)
-            for e in cohort if e["event_kind"] == "opposition_appeal_decision"
-        ),
+        # Completeness of an event ledger cannot be proven merely by
+        # validating the few entries that were supplied. It requires a
+        # separately audited full official file-wrapper/document register.
+        "source_quality_ledger_complete": False,
+        "full_official_case_file_inventory_audited": False,
     }
 
 
@@ -279,4 +280,3 @@ def review_claim_lifecycle(claims, events):
         "event_references_resolve": True,
         "historical_claim_truth_not_automatically_verified": True,
     }
-

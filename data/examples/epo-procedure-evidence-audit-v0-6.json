@@ -1,0 +1,159 @@
+{
+  "data_as_of": "2026-11-21",
+  "tool_version": "0.6.0",
+  "research_case": "EP0729353 and two distinct EPO appeal cases about other pharmaceutical patent applications",
+  "source_provenance": "EP0729353 original A1/B1/B2 from EPO Publication Server; T0003/98 and T0507/98 EPO official public decision summary pages; EP opposition mid-stage events from Google Patents aggregated legal-event table.",
+  "event_totals": {
+    "all": 12,
+    "EP0729353": 10,
+    "official_epo_xml": 3,
+    "official_epo_decision_page": 2,
+    "secondary_legal_event_index": 7
+  },
+  "baseline_2005_07_20": {
+    "case_id": "EP0729353",
+    "as_of": "2005-07-20",
+    "retrospective_event_records": 5,
+    "corroborated_contemporaneous_publication_event_ids": [
+      "EP-A1-19960904",
+      "EP-B1-20020206"
+    ],
+    "unknown_contemporaneous_availability_event_ids": [
+      "EP-OPP-20021115",
+      "EP-OPP-NAMES-20030102",
+      "EP-REVOCATION-NOTICE-20050713"
+    ],
+    "observed_revocation_communication_event_id": "EP-REVOCATION-NOTICE-20050713",
+    "final_revocation_independently_verified": false
+  },
+  "ep_text_history": {
+    "pub_versions": [
+      "EP0729353A1",
+      "EP0729353B1",
+      "EP0729353B2"
+    ],
+    "dates": [
+      "1996-09-04",
+      "2002-02-06",
+      "2012-09-12"
+    ],
+    "primary_english_claim_counts": [
+      null,
+      6,
+      4
+    ],
+    "reasons_for_claim_text_change_official_opposition_decision_verified": false
+  },
+  "cross_case_parties": {
+    "name_A_search": "Alkermes",
+    "name_B_search": "Southern Research",
+    "official_decision_cases": [
+      {
+        "case_id": "T0003/98",
+        "decision_date": "2002-03-20",
+        "first_online": "2002-06-14",
+        "application_number": "87309286.0",
+        "Alkermes_role": "opponent",
+        "Southern_Research_role": "applicant",
+        "source_url": "https://www.epo.org/en/boards-of-appeal/decisions/t980003eu1"
+      },
+      {
+        "case_id": "T0507/98",
+        "decision_date": "2002-06-26",
+        "first_online": "2002-09-17",
+        "application_number": "90908830.4",
+        "Alkermes_Controlled_Therapeutics_role": "opponent",
+        "Southern_Research_role": "applicant",
+        "source_url": "https://www.epo.org/en/boards-of-appeal/decisions/t980507eu1"
+      }
+    ],
+    "distinct_EP0729353_case_participant_roles": [
+      {
+        "role": "proprietor",
+        "entity_name": "Alkermes Controlled Therapeutics, Inc."
+      },
+      {
+        "role": "opponent",
+        "entity_name": "Southern Research Institute"
+      }
+    ],
+    "relationships_are_different_patent_cases": true,
+    "exact_legal_entities_and_corporate_group_relationship_not_verified": true,
+    "bilateral_market_competition_strategy_not_proven": true,
+    "secondary_EP_opposition_original_file_not_retrieved": true
+  },
+  "claim_lifecycle": [
+    {
+      "claim_id": "HIST-EP-001",
+      "affected_claim": "Patent grants are static, permanently fixed technical assets",
+      "impact_type": "REVISE",
+      "verification_next": "Read EPO opposition original decision and claim amendments, then compare B1/B2 with legal review",
+      "state": "PROVISIONALLY_SUPPORTED_CORRECTION",
+      "evidence_event_ids": [
+        "EP-B1-20020206",
+        "EP-B2-20120912"
+      ]
+    },
+    {
+      "claim_id": "HIST-EP-002",
+      "affected_claim": "A 2005 revocation communication proved final invalidity of EP0729353",
+      "impact_type": "REJECT_UNVERIFIED_INFERENCE",
+      "verification_next": "Retrieve original revocation decision, appeal and interlocutory-revision files; distinguish publication and notice",
+      "state": "NOT_ESTABLISHED",
+      "evidence_event_ids": [
+        "EP-REVOCATION-NOTICE-20050713",
+        "EP-INTERLOC-20060920",
+        "EP-B2-20120912"
+      ]
+    },
+    {
+      "claim_id": "HIST-EP-003",
+      "affected_claim": "Alkermes and Southern Research exchanged opposition roles across separate European proceedings",
+      "impact_type": "NEW_RESEARCH_HYPOTHESIS",
+      "verification_next": "Check each case's party legal identity and related corporate groups, do not infer bilateral strategy or market position",
+      "state": "ROLE_RECORDS_CONFIRMED_IDENTITY_GROUP_LINK_UNVERIFIED",
+      "evidence_event_ids": [
+        "T0003-DECISION-20020320",
+        "T0507-DECISION-20020626",
+        "EP-OPP-NAMES-20030102"
+      ]
+    },
+    {
+      "claim_id": "HIST-EP-004",
+      "affected_claim": "Today's proprietary name and a patent family's rights are unchanged through time",
+      "impact_type": "CHALLENGE",
+      "verification_next": "Obtain historical EPO ownership register and legal deeds for Alkermes Controlled Therapeutics and Alkermes, Inc.",
+      "state": "PUBLISHED_NAME_VARIATION_CONFIRMED_LEGAL_CHANGE_PENDING",
+      "evidence_event_ids": [
+        "EP-A1-19960904",
+        "EP-B1-20020206",
+        "EP-B2-20120912"
+      ]
+    }
+  ],
+  "access_barriers": {
+    "uspto_new_ODP_registration_required_as_of_2026_06_18": true,
+    "uspto_bulk_data_api_requires_key": true,
+    "official_USPTO_RedBook_4_7_DTD_already_retrieved": true,
+    "real_USPTO_bulk_XML_under_current_auth_not_retrieved": true,
+    "third_party_legacy_mirror_access_not_verified": true,
+    "official_EPO_opposition_complete_case_file_not_retrieved": true
+  },
+  "limitations": [
+    "This tool does not prove chronological completeness of all patent legal events or access to all file-wrapper documents.",
+    "A legal-event index's event date is not automatically the date on which the event became publicly available.",
+    "A 2005 communication that patent was revoked is not an independently verified final and unappealable legal result.",
+    "2002 EPO Board of Appeal decisions T0003/98 and T0507/98 concern applications different from EP0729353.",
+    "Alkermes, Inc. and Alkermes Controlled Therapeutics Inc. labels cannot be automatically equated.",
+    "B1-to-B2 count differences are NOT quantitative measurements of legal protection scope.",
+    "US public datasets can be behind account/API-key access; that access blocker is not proof original XML is unavailable."
+  ],
+  "provenance_urls": [
+    "https://data.epo.org/publication-server/rest/v1.2/patents/EP0729353NWB1/document.xml",
+    "https://data.epo.org/publication-server/rest/v1.2/patents/EP0729353NWB2/document.xml",
+    "https://patents.google.com/patent/EP0729353A1/en",
+    "https://www.epo.org/en/boards-of-appeal/decisions/t980003eu1",
+    "https://www.epo.org/en/boards-of-appeal/decisions/t980507eu1",
+    "https://data.uspto.gov/apis/bulk-data/search"
+  ]
+}
