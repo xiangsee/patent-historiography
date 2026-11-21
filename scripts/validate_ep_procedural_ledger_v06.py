@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """Validate EP post-grant proceedings as evidence, not as a legal ruling."""
 import json
+import sys
 from pathlib import Path
+
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
 
 from patent_evidence.procedural_ledger import (
     verify_events, procedural_view, compare_roles_across_cases, review_claim_lifecycle,
@@ -40,7 +44,7 @@ assert not net["commercial_market_competition_strategy_proven"]
 claims=review_claim_lifecycle(fixture["claim_lifecycle"],events)
 assert claims["claim_count"]==4 and claims["event_references_resolve"]
 assert not derived["baseline_2005_07_20"]["final_revocation_independently_verified"]
-assert not derived["cross_case_parties"]["bilateral_market_competition_strategy_not_proven"] is False
+assert derived["cross_case_parties"]["bilateral_market_competition_strategy_not_proven"] is True
 assert len(derived["claim_lifecycle"])==4
 assert derived["access_barriers"]["real_USPTO_bulk_XML_under_current_auth_not_retrieved"]
 print("PASS: 12 source-graded procedural events, 3 cases, 4 Claim Lifecycle links, no final revocation or premature public-knowledge inference")
