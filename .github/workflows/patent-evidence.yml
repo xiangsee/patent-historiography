@@ -72,6 +72,8 @@ jobs:
         run: python3 scripts/validate_google_2013_arris_home.py
       - name: Google 2014 Lenovo Motorola Mobility patent and license evidence regression
         run: python3 scripts/validate_google_2014_lenovo_motorola.py
+      - name: Google 2015 Alphabet reorganization and title regression
+        run: python3 scripts/validate_google_2015_alphabet.py
       - name: Shiji chronology fixture
         run: python3 scripts/check_chronology_examples.py
       - name: Google-Overture claim fixture

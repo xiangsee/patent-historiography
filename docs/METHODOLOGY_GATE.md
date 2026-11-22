@@ -87,3 +87,5 @@ EPO原生EP XML的两份独立专利以及EP0729353的1996 A1/2002 B1/2012 B2原
 第 26 轮的交割、产权及许可对读补强 G3。ARRIS 公开披露、逐号登记和 EPO 版次给 G4 添入交易两侧的证据。两项保持 PARTIAL，完整跨法域资产披露表、签署许可附表及产品实施链仍待证，首篇正式写作保持 HOLD。 [第26轮研究](../research/26-google-2013-arris-motorola-home-patent-title-and-licenses.md)
 
 第 27 轮为 G3 加入同一交割的双日期披露和交割期分批让与，为 G4 加入许可范围、协议当事人及 2015 年补充协议。交割随售的全球逐项附表、原许可全文和产品实施链尚缺，G3、G4 保持 PARTIAL，正式写作保持 HOLD。 [第27轮研究](../research/27-google-2014-lenovo-motorola-patent-title-and-licenses.md)
+
+第 28 轮为 G3 加入合并证书的法定生效时点与股权承继，为 G4 加入三个权属快照和按执行日／已入卷日期的对照。美国及境外的全量逐件产权仍有缺项，G3、G4 保持 PARTIAL，正式写作保持 HOLD。 [第28轮研究](../research/28-google-2015-alphabet-reorganization-and-patent-title.md)

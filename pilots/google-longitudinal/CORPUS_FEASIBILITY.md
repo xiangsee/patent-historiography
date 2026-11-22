@@ -78,3 +78,7 @@ H4 哪些明确投入却未成为产品主线的专利方向被既有企业成�
 ## 2014 年母集与 Motorola Mobility 出售
 
 新增 135 页、6,556 份去重公报，合并至 35,764 份。Motorola Mobility LLC、GTH 等按同年申请日期另查，不并入 Google 两名称口径。专利产权用 USPTO 让与、原件及 EPO 事件核对，许可沿港交所与欧委会文件再追到 2015 年补充文书。 [第27轮报告](../../research/27-google-2014-lenovo-motorola-patent-title-and-licenses.md) · [合并统计](derived/google-1996-2014-combined-audit-2026-11-22.json)
+
+## 2015 年母集与 Alphabet 控股结构
+
+新增 123 页、6,072 份去重公报，合并至 41,836 份。名称命中继续覆盖两个 Google 名称，单独查 Alphabet 及关联主体。存续法人与继任发行人分别入表，从美国登记建立 10-01、10-02 和年末的逐号快照。 [第28轮报告](../../research/28-google-2015-alphabet-reorganization-and-patent-title.md) · [合并统计](derived/google-1996-2015-combined-audit-2026-11-22.json)

@@ -1,6 +1,6 @@
 # 《企业史记》｜Patent Historiography
 
-**v1.13.0 · Google 2014 专利母集、Motorola Mobility 产权与许可 · 2026-11-22**
+**v1.14.0 · Google 2015 专利母集与 Alphabet 重组权属 · 2026-11-22**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
@@ -11,6 +11,11 @@
 
 
 
+
+## 2026-11-22｜第28轮：Google 2015 与 Alphabet 重组
+
+- 123 页取得 **6,072 份去重公报**，1996—2015 年累计 **41,836 份公报、30,195 个申请号、14,942 个数据库族标识**。 [第28轮研究](research/28-google-2015-alphabet-reorganization-and-patent-title.md) · [合并审计](pilots/google-longitudinal/derived/google-1996-2015-combined-audit-2026-11-22.json)
+- 合并证书确认 **2015-10-02 16:01 EDT** 生效，Google Inc. 存续。按逐件登记对读 Google、GTH、Nest 与 Verily 的产权，已经核到 697 件 2015 年申请三个时点均见 Google Inc.，美国登记检索的缺项留在逐号表。 [美国权属快照](pilots/google-longitudinal/derived/google-2015-alphabet-us-title-snapshots.csv) · [卷页与资料索引](pilots/google-longitudinal/derived/google-2015-alphabet-rights-2026-11-22.json)
 
 ## 2026-11-22｜第27轮：Google 2014 与 Motorola Mobility 的联想交割
 

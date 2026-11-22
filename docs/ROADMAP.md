@@ -128,3 +128,7 @@ GoTo1999主案/2001后续申请族与聚合转让事件被分别追踪；Google2
 ## 2026-11-22｜第27轮：2014 年母集与 Motorola Mobility 出售
 
 新增 135 页取数并合并至 35,764 份公报。联想取得全部股权，欧委会文件给出随售资产区间及保留许可范围。603 个美国卷页支持 GTH 集中取得、后续回转及并行登记的逐号核对。继续使用交割时运营法人、后续申请号履历和附表三类证据核查全球逐项清单。 [第27轮报告](../research/27-google-2014-lenovo-motorola-patent-title-and-licenses.md)
+
+## 2026-11-22｜第28轮：2015 年母集与 Alphabet 重组
+
+增录 123 页并合并至 41,836 份公报。确认 Alphabet 的控股重组、Google Inc. 存续、Verily 业务转入及更名。美国卷页、部分逐件履历和缺项已列表，美国登记拒绝剩余补取，待补全 Google Inc. 转出分页、外围公司卷内清单和境外个案。 [第28轮报告](../research/28-google-2015-alphabet-reorganization-and-patent-title.md)
