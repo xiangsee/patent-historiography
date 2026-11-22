@@ -73,3 +73,7 @@ EPO原生EP XML的两份独立专利以及EP0729353的1996 A1/2002 B1/2012 B2原
 ## 2026-11-22｜交割前后资产清单与续案核对
 
 第 23 轮以 On2 和 AdMob 将 G3 的企业交割、申请日期、权属登记和续案对到具体申请号。美国和欧洲的版本对照继续补强 G4。两项保持 PARTIAL，完整交割附件、境外权属链和产品实施史仍待证。正式首篇保持 HOLD。 [第23轮研究](../research/23-google-2010-on2-admob-patent-assets.md)
+
+## 2026-11-22｜大批让与与持股取得的证据检验
+
+第 24 轮将 IBM 逐卷批次及 Motorola Mobility 控股公司交割、运营法人改制对账，继续补充 G3。两件 IBM 的 A/B 版本与一件 Motorola 的母集缺席补充 G4。两项保持 PARTIAL，域外完整资产、集团版本映射与产品证据仍待核，首篇正式写作保持 HOLD。 [第24轮研究](../research/24-google-2011-ibm-motorola-patent-transfers.md)

@@ -162,3 +162,7 @@ DoubleClick 2007 年签约、2008 年交割，后续合并卷页列 2008 年 5 �
 ## 2026-11-22 D-051｜按申请号复查两段移转和实际续案
 
 在法人名称检索后，逐一复查查到的申请号，并回到卷页上的资产清单核对。On2 的 US60/469,187 由此补齐第二段让与。卷页所载执行日可早于后来列入的续案申请日。用公报首页证实具体续案或临时申请优先权，再分别记录合同日期、申请日及登记日。 [登记台账](../pilots/google-longitudinal/derived/google-2010-on2-admob-asset-register.csv) · [原件与公报索引](../pilots/google-longitudinal/derived/google-2010-on2-admob-rights-2026-11-22.json)
+
+## 2026-11-22 D-052｜外部专利组合保留逐批签署、登记和改号证据
+
+IBM 的 2011 年让与按卷面所载执行日入表，登记可在多年之后。7 月的 1,031 个申请号包含当时已授权的 1,030 件。9 月更正卷保留原错号、改号和同一申请号。Motorola Mobility 按控股公司交割、运营公司改制、具体专利让与编年。 [第24轮研究](../research/24-google-2011-ibm-motorola-patent-transfers.md)

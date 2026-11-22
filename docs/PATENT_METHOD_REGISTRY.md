@@ -91,3 +91,8 @@
 
 - PD-030/031 增加 46 页，与前段合计 214 页。两个交割日各自重放申请日和公报出版日。
 - PD-032 增加法人名、逐申请号、登记卷页三步复核，查得七条路径的 96 份登记，补回一条名称漏查的让与，并以官方公报验证实际续案和临时申请优先权。 [第23轮研究](../research/23-google-2010-on2-admob-patent-assets.md) · [可复跑校验](../scripts/validate_google_2010_acquisition_assets.py)
+
+## 2026-11-22｜2011 母集和大批权属登记
+
+- PD-030/031 增加 99 页、4,792 份公报和实际交割日出版快照，合计取齐 313 页。
+- PD-032 用转让双方组合、执行日复核、卷页全量分页，校验 IBM 的 2,394 条清单行与授权日期口径。Motorola 两个大卷页的 12,500 条记录核对总数和卷内序号，按三个申请号复核具体路径。 [第24轮研究](../research/24-google-2011-ibm-motorola-patent-transfers.md) · [复跑校验](../scripts/validate_google_2011_patent_transfers.py)

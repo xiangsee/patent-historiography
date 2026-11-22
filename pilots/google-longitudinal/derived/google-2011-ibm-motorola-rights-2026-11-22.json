@@ -1,0 +1,1978 @@
+{
+  "retrieved_on": "2026-11-22",
+  "registry_source": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/search/patent",
+  "registry_queries": {
+    "ibm-google": {
+      "file": "registry/ibm-google.json",
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GOOGLE INC.",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 100,
+          "filterBy": []
+        }
+      },
+      "returned_reels": 22,
+      "by_recordation_year": {
+        "2010": 1,
+        "2011": 8,
+        "2012": 7,
+        "2013": 3,
+        "2014": 1,
+        "2015": 1,
+        "2019": 1
+      }
+    },
+    "ibm-google-contains": {
+      "file": "registry/ibm-google-contains.json",
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "INTERNATIONAL BUSINESS MACHINES",
+            "matchType": "Contains",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GOOGLE INC.",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 100,
+          "filterBy": []
+        }
+      },
+      "returned_reels": 22,
+      "by_recordation_year": {
+        "2010": 1,
+        "2011": 8,
+        "2012": 7,
+        "2013": 3,
+        "2014": 1,
+        "2015": 1,
+        "2019": 1
+      }
+    },
+    "ibm-google-2011": {
+      "file": "registry/ibm-google-2011.json",
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "INTERNATIONAL BUSINESS MACHINES",
+            "matchType": "Contains",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GOOGLE INC.",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 100,
+          "filterBy": [
+            {
+              "searchBy": "executionDate",
+              "startDate": "20110101",
+              "endDate": "20111231",
+              "property": ""
+            }
+          ]
+        }
+      },
+      "returned_reels": 21,
+      "by_recordation_year": {
+        "2011": 8,
+        "2012": 7,
+        "2013": 3,
+        "2014": 1,
+        "2015": 1,
+        "2019": 1
+      }
+    },
+    "ibm-google-reversed-test": {
+      "file": "registry/ibm-google-reversed-test.json",
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GOOGLE, INC.",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 100,
+          "filterBy": []
+        }
+      },
+      "returned_reels": 22,
+      "by_recordation_year": {
+        "2010": 1,
+        "2011": 8,
+        "2012": 7,
+        "2013": 3,
+        "2014": 1,
+        "2015": 1,
+        "2019": 1
+      }
+    },
+    "ibm-google-short": {
+      "file": "registry/ibm-google-short.json",
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "IBM",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GOOGLE INC.",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 100,
+          "filterBy": []
+        }
+      },
+      "returned_reels": 0,
+      "by_recordation_year": {}
+    },
+    "ibm-corp-google": {
+      "file": "registry/ibm-corp-google.json",
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "IBM CORP",
+            "matchType": "Contains",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GOOGLE INC.",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 100,
+          "filterBy": []
+        }
+      },
+      "returned_reels": 0,
+      "by_recordation_year": {}
+    },
+    "ibm-google-llc": {
+      "file": "registry/ibm-google-llc.json",
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "INTERNATIONAL BUSINESS MACHINES",
+            "matchType": "Contains",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GOOGLE LLC",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 100,
+          "filterBy": []
+        }
+      },
+      "returned_reels": 0,
+      "by_recordation_year": {}
+    },
+    "motorola-split": {
+      "file": "registry/motorola-split.json",
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "MOTOROLA, INC.",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "MOTOROLA MOBILITY, INC.",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 100,
+          "filterBy": []
+        }
+      },
+      "returned_reels": 82,
+      "by_recordation_year": {
+        "2010": 5,
+        "2011": 2,
+        "2012": 1,
+        "2013": 2,
+        "2014": 18,
+        "2015": 23,
+        "2016": 7,
+        "2017": 10,
+        "2018": 6,
+        "2019": 3,
+        "2020": 4,
+        "2021": 1
+      }
+    },
+    "motorola-inc-to-llc": {
+      "file": "registry/motorola-inc-to-llc.json",
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "MOTOROLA MOBILITY, INC.",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "MOTOROLA MOBILITY LLC",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 100,
+          "filterBy": []
+        }
+      },
+      "returned_reels": 137,
+      "by_recordation_year": {
+        "2012": 5,
+        "2013": 1,
+        "2014": 53,
+        "2015": 33,
+        "2016": 15,
+        "2017": 12,
+        "2018": 6,
+        "2019": 5,
+        "2020": 6,
+        "2021": 1
+      }
+    },
+    "motorola-inc-to-google": {
+      "file": "registry/motorola-inc-to-google.json",
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "MOTOROLA MOBILITY, INC.",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GOOGLE INC.",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 100,
+          "filterBy": []
+        }
+      },
+      "returned_reels": 6,
+      "by_recordation_year": {
+        "2011": 5,
+        "2013": 1
+      }
+    },
+    "motorola-llc-to-google": {
+      "file": "registry/motorola-llc-to-google.json",
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "MOTOROLA MOBILITY LLC",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GOOGLE INC.",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 100,
+          "filterBy": []
+        }
+      },
+      "returned_reels": 2,
+      "by_recordation_year": {
+        "2017": 2
+      }
+    },
+    "motorola-llc-to-gth": {
+      "file": "registry/motorola-llc-to-gth.json",
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "MOTOROLA MOBILITY LLC",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GOOGLE TECHNOLOGY HOLDINGS LLC",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 100,
+          "filterBy": []
+        }
+      },
+      "returned_reels": 615,
+      "by_recordation_year": {
+        "2014": 211,
+        "2015": 113,
+        "2016": 96,
+        "2017": 93,
+        "2018": 27,
+        "2019": 20,
+        "2020": 20,
+        "2021": 13,
+        "2022": 5,
+        "2023": 8,
+        "2024": 6,
+        "2025": 3
+      }
+    },
+    "motorola-holdings-to-google": {
+      "file": "registry/motorola-holdings-to-google.json",
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "MOTOROLA MOBILITY HOLDINGS, INC.",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GOOGLE INC.",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 100,
+          "filterBy": []
+        }
+      },
+      "returned_reels": 0,
+      "by_recordation_year": {}
+    }
+  },
+  "ibm": {
+    "scope": "U.S. properties in matching IBM→Google Inc. records with reported execution in 2011; a single 2010 comparison reel is indexed separately from the CSV.",
+    "asset_ledger": "google-2011-ibm-assignment-assets.csv",
+    "reels": [
+      {
+        "reel_frame": "025077/0868",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 57,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2010-09-30",
+        "recordation_date": "2010-10-01",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 57,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/25077/868",
+        "paper_pages_in_register": 6,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 50
+      },
+      {
+        "reel_frame": "026131/0161",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 59,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-03-28",
+        "recordation_date": "2011-04-14",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 59,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26131/161",
+        "paper_pages_in_register": 7,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 56
+      },
+      {
+        "reel_frame": "026569/0275",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 31,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-06-30",
+        "recordation_date": "2011-07-11",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 31,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26569/275",
+        "paper_pages_in_register": 5,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 30
+      },
+      {
+        "reel_frame": "026664/0866",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 1000,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-05-03",
+        "recordation_date": "2011-07-12",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1000,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26664/866",
+        "paper_pages_in_register": 42,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 1000
+      },
+      {
+        "reel_frame": "026894/0001",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 1023,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-08-17",
+        "recordation_date": "2011-09-13",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1023,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26894/1",
+        "paper_pages_in_register": 52,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 1023
+      },
+      {
+        "reel_frame": "026933/0001",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-08-17",
+        "recordation_date": "2011-09-15",
+        "conveyance_as_recorded": "CORRECTIVE ASSIGNMENT TO CORRECT THE INCORRECTLY ENTERED PATENT NUMBER 0595697 TO THE CORRECT PATENT NUMBER 5956597 PREVIOUSLY RECORDED ON  REEL 026894 FRAME 0001. ASSIGNOR(S) HEREBY CONFIRMS THE CORRECT PATENT NUMBER IS 5956597.",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26933/1",
+        "paper_pages_in_register": 136,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 1
+      },
+      {
+        "reel_frame": "027005/0673",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 42,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-09-30",
+        "recordation_date": "2011-10-03",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 42,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/27005/673",
+        "paper_pages_in_register": 6,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 39
+      },
+      {
+        "reel_frame": "027055/0785",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 2,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-10-06",
+        "recordation_date": "2011-10-13",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 2,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/27055/785",
+        "paper_pages_in_register": 2,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 2
+      },
+      {
+        "reel_frame": "027463/0594",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 223,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-12-28",
+        "recordation_date": "2011-12-30",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 223,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/27463/594",
+        "paper_pages_in_register": 19,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 187
+      },
+      {
+        "reel_frame": "027907/0682",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-12-28",
+        "recordation_date": "2012-03-22",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/27907/682",
+        "paper_pages_in_register": 13,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 0
+      },
+      {
+        "reel_frame": "028079/0532",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-12-28",
+        "recordation_date": "2012-04-20",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28079/532",
+        "paper_pages_in_register": 13,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 0
+      },
+      {
+        "reel_frame": "028536/0784",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-12-28",
+        "recordation_date": "2012-07-12",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28536/784",
+        "paper_pages_in_register": 13,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 0
+      },
+      {
+        "reel_frame": "028791/0765",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-12-28",
+        "recordation_date": "2012-08-15",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28791/765",
+        "paper_pages_in_register": 13,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 0
+      },
+      {
+        "reel_frame": "028969/0145",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-12-28",
+        "recordation_date": "2012-09-17",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28969/145",
+        "paper_pages_in_register": 13,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 0
+      },
+      {
+        "reel_frame": "029084/0311",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-12-28",
+        "recordation_date": "2012-10-05",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29084/311",
+        "paper_pages_in_register": 13,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 0
+      },
+      {
+        "reel_frame": "029469/0085",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-12-28",
+        "recordation_date": "2012-12-14",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29469/85",
+        "paper_pages_in_register": 13,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 0
+      },
+      {
+        "reel_frame": "029695/0598",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-12-28",
+        "recordation_date": "2013-01-25",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29695/598",
+        "paper_pages_in_register": 13,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 0
+      },
+      {
+        "reel_frame": "029914/0451",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-12-28",
+        "recordation_date": "2013-03-04",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29914/451",
+        "paper_pages_in_register": 13,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 0
+      },
+      {
+        "reel_frame": "031658/0038",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-12-28",
+        "recordation_date": "2013-11-22",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/31658/38",
+        "paper_pages_in_register": 13,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 0
+      },
+      {
+        "reel_frame": "033677/0727",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-12-28",
+        "recordation_date": "2014-09-05",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/33677/727",
+        "paper_pages_in_register": 13,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 0
+      },
+      {
+        "reel_frame": "035996/0037",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-12-28",
+        "recordation_date": "2015-06-30",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35996/37",
+        "paper_pages_in_register": 13,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 0
+      },
+      {
+        "reel_frame": "049627/0652",
+        "routes": [
+          "ibm-google-all"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-12-28",
+        "recordation_date": "2019-06-28",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/49627/652",
+        "paper_pages_in_register": 13,
+        "from_entities": [
+          "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "grants_issued_by_recordation": 0
+      }
+    ],
+    "by_execution_date": [
+      {
+        "execution_date_as_recorded": "2011-03-28",
+        "reel_count": 1,
+        "property_rows": 59,
+        "distinct_us_serials": 59,
+        "recordation_years": {
+          "2011": 59
+        }
+      },
+      {
+        "execution_date_as_recorded": "2011-05-03",
+        "reel_count": 1,
+        "property_rows": 1000,
+        "distinct_us_serials": 1000,
+        "recordation_years": {
+          "2011": 1000
+        }
+      },
+      {
+        "execution_date_as_recorded": "2011-06-30",
+        "reel_count": 1,
+        "property_rows": 31,
+        "distinct_us_serials": 31,
+        "recordation_years": {
+          "2011": 31
+        }
+      },
+      {
+        "execution_date_as_recorded": "2011-08-17",
+        "reel_count": 2,
+        "property_rows": 1024,
+        "distinct_us_serials": 1023,
+        "recordation_years": {
+          "2011": 1024
+        }
+      },
+      {
+        "execution_date_as_recorded": "2011-09-30",
+        "reel_count": 1,
+        "property_rows": 42,
+        "distinct_us_serials": 42,
+        "recordation_years": {
+          "2011": 42
+        }
+      },
+      {
+        "execution_date_as_recorded": "2011-10-06",
+        "reel_count": 1,
+        "property_rows": 2,
+        "distinct_us_serials": 2,
+        "recordation_years": {
+          "2011": 2
+        }
+      },
+      {
+        "execution_date_as_recorded": "2011-12-28",
+        "reel_count": 14,
+        "property_rows": 236,
+        "distinct_us_serials": 236,
+        "recordation_years": {
+          "2011": 223,
+          "2012": 7,
+          "2013": 3,
+          "2014": 1,
+          "2015": 1,
+          "2019": 1
+        }
+      }
+    ],
+    "corrective_record": {
+      "reel_frame": "026933/0001",
+      "prior_reel_frame": "026894/0001",
+      "as_erroneously_entered": "0595697",
+      "as_corrected": "5956597",
+      "application_serial": "08929730"
+    }
+  },
+  "motorola": {
+    "scope": "Selected reel-frame records and per-application chains, with all property pages for each selected reel. Party-pair discovery counts are reported separately from inspected reels.",
+    "corporate_chronology": {
+      "motorola_separation": {
+        "date": "2011-01-04",
+        "url": "https://www.sec.gov/Archives/edgar/data/1495569/000119312512067566/d291113d10k.htm"
+      },
+      "signing": {
+        "date": "2011-08-15",
+        "url": "https://www.sec.gov/Archives/edgar/data/1495569/000119312511225807/dex21.htm"
+      },
+      "us_review": {
+        "date": "2012-02-13",
+        "url": "https://www.justice.gov/archives/opa/pr/statement-department-justice-s-antitrust-division-its-decision-close-its-investigations"
+      },
+      "eu_review": {
+        "date": "2012-02-13",
+        "url": "https://ec.europa.eu/competition/mergers/cases/decisions/m6381_20120213_20310_2277480_EN.pdf"
+      },
+      "cn_conditional_approval": {
+        "date": "2012-05-19",
+        "url": "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2012/art_c37e7dad41684e40ac7610df2a8e7c3a.html"
+      },
+      "closing": {
+        "date": "2012-05-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1288776/000090342312000297/google-8k.htm",
+        "surviving_company": "Motorola Mobility Holdings, Inc."
+      },
+      "operating_entity_conversion": {
+        "date": "2012-06-22",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28441/265"
+      },
+      "lenovo_closing": {
+        "date": "2014-10-30",
+        "url": "https://news.lenovo.com/pressroom/press-releases/lenovo-completes-full-acquisition-motorola-mobility-from-google/"
+      },
+      "purchase_price_allocation": {
+        "patents_and_developed_technology_usd": 5500000000,
+        "url": "https://www.sec.gov/Archives/edgar/data/1288776/000128877614000020/goog2013123110-k.htm"
+      }
+    },
+    "reels": [
+      {
+        "reel_frame": "025673/0558",
+        "routes": [
+          "motorola-spin-out-samples"
+        ],
+        "total_property_rows": 6919,
+        "property_pages": 7,
+        "execution_date_as_recorded": "2010-07-31",
+        "recordation_date": "2010-12-13",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 6919,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/25673/558",
+        "paper_pages_in_register": 384,
+        "from_entities": [
+          "MOTOROLA, INC"
+        ],
+        "to_entities": [
+          "MOTOROLA MOBILITY, INC"
+        ],
+        "2011_filed_distinct_us_serials": 0
+      },
+      {
+        "reel_frame": "026453/0324",
+        "routes": [
+          "motorola-inc-to-google"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-03-30",
+        "recordation_date": "2011-06-17",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26453/324",
+        "paper_pages_in_register": 3,
+        "from_entities": [
+          "MOTOROLA MOBILITY, INC."
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "2011_filed_distinct_us_serials": 0
+      },
+      {
+        "reel_frame": "026459/0300",
+        "routes": [
+          "motorola-inc-to-google"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-03-30",
+        "recordation_date": "2011-06-17",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26459/300",
+        "paper_pages_in_register": 3,
+        "from_entities": [
+          "MOTOROLA MOBILITY, INC."
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "2011_filed_distinct_us_serials": 0
+      },
+      {
+        "reel_frame": "026459/0519",
+        "routes": [
+          "motorola-inc-to-google"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-03-30",
+        "recordation_date": "2011-06-17",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26459/519",
+        "paper_pages_in_register": 3,
+        "from_entities": [
+          "MOTOROLA MOBILITY, INC."
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "2011_filed_distinct_us_serials": 0
+      },
+      {
+        "reel_frame": "026468/0410",
+        "routes": [
+          "motorola-inc-to-google"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-03-30",
+        "recordation_date": "2011-06-17",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26468/410",
+        "paper_pages_in_register": 3,
+        "from_entities": [
+          "MOTOROLA MOBILITY, INC."
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "2011_filed_distinct_us_serials": 0
+      },
+      {
+        "reel_frame": "026812/0897",
+        "routes": [
+          "motorola-inc-to-google"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-03-30",
+        "recordation_date": "2011-08-26",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26812/897",
+        "paper_pages_in_register": 3,
+        "from_entities": [
+          "MOTOROLA MOBILITY, INC."
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "2011_filed_distinct_us_serials": 0
+      },
+      {
+        "reel_frame": "027369/0025",
+        "routes": [
+          "motorola-2011-filing-sample-first"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-12-10",
+        "recordation_date": "2011-12-12",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/27369/25",
+        "paper_pages_in_register": 3,
+        "from_entities": [],
+        "to_entities": [
+          "MOTOROLA MOBILITY, INC."
+        ],
+        "2011_filed_distinct_us_serials": 1
+      },
+      {
+        "reel_frame": "028441/0265",
+        "routes": [
+          "motorola-2012-conversion-recorded"
+        ],
+        "total_property_rows": 175,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2012-06-22",
+        "recordation_date": "2012-06-26",
+        "conveyance_as_recorded": "CHANGE OF NAME",
+        "distinct_us_serials": 175,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28441/265",
+        "paper_pages_in_register": 7,
+        "from_entities": [
+          "MOTOROLA MOBILITY, INC."
+        ],
+        "to_entities": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "2011_filed_distinct_us_serials": 80
+      },
+      {
+        "reel_frame": "028561/0557",
+        "routes": [
+          "motorola-2012-conversion-recorded"
+        ],
+        "total_property_rows": 238,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2012-06-22",
+        "recordation_date": "2012-07-10",
+        "conveyance_as_recorded": "CHANGE OF NAME",
+        "distinct_us_serials": 238,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28561/557",
+        "paper_pages_in_register": 8,
+        "from_entities": [
+          "MOTOROLA MOBILITY, INC."
+        ],
+        "to_entities": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "2011_filed_distinct_us_serials": 115
+      },
+      {
+        "reel_frame": "028829/0856",
+        "routes": [
+          "motorola-2012-conversion-recorded"
+        ],
+        "total_property_rows": 827,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2012-06-22",
+        "recordation_date": "2012-08-21",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 827,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28829/856",
+        "paper_pages_in_register": 20,
+        "from_entities": [
+          "MOTOROLA MOBILITY, INC."
+        ],
+        "to_entities": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "2011_filed_distinct_us_serials": 33
+      },
+      {
+        "reel_frame": "029016/0704",
+        "routes": [
+          "motorola-2012-conversion-recorded"
+        ],
+        "total_property_rows": 40,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2012-06-22",
+        "recordation_date": "2012-09-18",
+        "conveyance_as_recorded": "CHANGE OF NAME",
+        "distinct_us_serials": 40,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29016/704",
+        "paper_pages_in_register": 4,
+        "from_entities": [
+          "MOTOROLA MOBILITY, INC."
+        ],
+        "to_entities": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "2011_filed_distinct_us_serials": 0
+      },
+      {
+        "reel_frame": "029216/0282",
+        "routes": [
+          "motorola-2012-conversion-recorded"
+        ],
+        "total_property_rows": 5581,
+        "property_pages": 6,
+        "execution_date_as_recorded": "2012-06-22",
+        "recordation_date": "2012-10-02",
+        "conveyance_as_recorded": "CHANGE OF NAME",
+        "distinct_us_serials": 5581,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29216/282",
+        "paper_pages_in_register": 233,
+        "from_entities": [
+          "MOTOROLA MOBILITY, INC."
+        ],
+        "to_entities": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "2011_filed_distinct_us_serials": 21
+      },
+      {
+        "reel_frame": "031030/0745",
+        "routes": [
+          "motorola-inc-to-google"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2011-03-30",
+        "recordation_date": "2013-08-15",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/31030/745",
+        "paper_pages_in_register": 3,
+        "from_entities": [
+          "MOTOROLA MOBILITY, INC."
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "2011_filed_distinct_us_serials": 0
+      },
+      {
+        "reel_frame": "034227/0095",
+        "routes": [
+          "motorola-llc-to-gth-samples"
+        ],
+        "total_property_rows": 271,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2014-10-28",
+        "recordation_date": "2014-11-13",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 271,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34227/95",
+        "paper_pages_in_register": 552,
+        "from_entities": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "to_entities": [
+          "GOOGLE TECHNOLOGY HOLDINGS LLC"
+        ],
+        "2011_filed_distinct_us_serials": 18
+      },
+      {
+        "reel_frame": "034247/0001",
+        "routes": [
+          "motorola-llc-to-gth-samples"
+        ],
+        "total_property_rows": 17,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2014-10-28",
+        "recordation_date": "2014-11-15",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 17,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34247/1",
+        "paper_pages_in_register": 546,
+        "from_entities": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "to_entities": [
+          "GOOGLE TECHNOLOGY HOLDINGS LLC"
+        ],
+        "2011_filed_distinct_us_serials": 2
+      },
+      {
+        "reel_frame": "034275/0004",
+        "routes": [
+          "motorola-llc-to-gth-samples"
+        ],
+        "total_property_rows": 35,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2014-10-28",
+        "recordation_date": "2014-11-17",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 35,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34275/4",
+        "paper_pages_in_register": 546,
+        "from_entities": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "to_entities": [
+          "GOOGLE TECHNOLOGY HOLDINGS LLC"
+        ],
+        "2011_filed_distinct_us_serials": 10
+      },
+      {
+        "reel_frame": "034286/0001",
+        "routes": [
+          "motorola-llc-to-gth-samples"
+        ],
+        "total_property_rows": 48,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2014-10-28",
+        "recordation_date": "2014-11-18",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 48,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34286/1",
+        "paper_pages_in_register": 547,
+        "from_entities": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "to_entities": [
+          "GOOGLE TECHNOLOGY HOLDINGS LLC"
+        ],
+        "2011_filed_distinct_us_serials": 8
+      },
+      {
+        "reel_frame": "034449/0001",
+        "routes": [
+          "motorola-llc-to-gth-samples"
+        ],
+        "total_property_rows": 100,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2014-10-28",
+        "recordation_date": "2014-11-25",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 100,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34449/1",
+        "paper_pages_in_register": 548,
+        "from_entities": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "to_entities": [
+          "GOOGLE TECHNOLOGY HOLDINGS LLC"
+        ],
+        "2011_filed_distinct_us_serials": 0
+      },
+      {
+        "reel_frame": "034455/0230",
+        "routes": [
+          "motorola-llc-to-gth-samples"
+        ],
+        "total_property_rows": 31,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2014-10-28",
+        "recordation_date": "2014-11-24",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 31,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34455/230",
+        "paper_pages_in_register": 552,
+        "from_entities": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "to_entities": [
+          "GOOGLE TECHNOLOGY HOLDINGS LLC"
+        ],
+        "2011_filed_distinct_us_serials": 2
+      },
+      {
+        "reel_frame": "034538/0001",
+        "routes": [
+          "motorola-llc-to-gth-samples"
+        ],
+        "total_property_rows": 48,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2014-10-28",
+        "recordation_date": "2014-12-03",
+        "conveyance_as_recorded": "CORRECTIVE ASSIGNMENT TO CORRECT THE REMOVE INCORRECT PATENT NO. 8577046 AND REPLACE WITH CORRECT PATENT NO. 8577045 PREVIOUSLY RECORDED ON REEL 034286 FRAME 0001. ASSIGNOR(S) HEREBY CONFIRMS THE ASSIGNMENT.",
+        "distinct_us_serials": 48,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34538/1",
+        "paper_pages_in_register": 553,
+        "from_entities": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "to_entities": [
+          "GOOGLE TECHNOLOGY HOLDINGS LLC"
+        ],
+        "2011_filed_distinct_us_serials": 8
+      },
+      {
+        "reel_frame": "035053/0059",
+        "routes": [
+          "motorola-llc-to-gth-samples"
+        ],
+        "total_property_rows": 31,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2014-10-28",
+        "recordation_date": "2015-02-20",
+        "conveyance_as_recorded": "CORRECTIVE ASSIGNMENT TO CORRECT THE PLEASE REMOVE 13466482 PREVIOUSLY RECORDED ON REEL 034455 FRAME 0230. ASSIGNOR(S) HEREBY CONFIRMS THE ASSIGNMENT OF THE ASSIGNOR'S INTEREST.",
+        "distinct_us_serials": 31,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35053/59",
+        "paper_pages_in_register": 545,
+        "from_entities": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "to_entities": [
+          "GOOGLE TECHNOLOGY HOLDINGS LLC"
+        ],
+        "2011_filed_distinct_us_serials": 2
+      },
+      {
+        "reel_frame": "043778/0427",
+        "routes": [
+          "motorola-llc-to-google"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2014-10-28",
+        "recordation_date": "2017-10-04",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/43778/427",
+        "paper_pages_in_register": 9,
+        "from_entities": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "2011_filed_distinct_us_serials": 0
+      },
+      {
+        "reel_frame": "043815/0697",
+        "routes": [
+          "motorola-llc-to-google"
+        ],
+        "total_property_rows": 1,
+        "property_pages": 1,
+        "execution_date_as_recorded": "2014-10-28",
+        "recordation_date": "2017-10-09",
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "distinct_us_serials": 1,
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/43815/697",
+        "paper_pages_in_register": 9,
+        "from_entities": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "to_entities": [
+          "GOOGLE INC."
+        ],
+        "2011_filed_distinct_us_serials": 0
+      }
+    ],
+    "application_chains": [
+      {
+        "application_serial": "10652131",
+        "publication": "US7063262B2",
+        "events": [
+          {
+            "reel_frame": "025673/0558",
+            "execution_date_as_recorded": "2010-07-31",
+            "recordation_date": "2010-12-13",
+            "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+            "from_entities": [
+              "MOTOROLA, INC"
+            ],
+            "to_entities": [
+              "MOTOROLA MOBILITY, INC"
+            ],
+            "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/25673/558"
+          },
+          {
+            "reel_frame": "029216/0282",
+            "execution_date_as_recorded": "2012-06-22",
+            "recordation_date": "2012-10-02",
+            "conveyance_as_recorded": "CHANGE OF NAME",
+            "from_entities": [
+              "MOTOROLA MOBILITY, INC."
+            ],
+            "to_entities": [
+              "MOTOROLA MOBILITY LLC"
+            ],
+            "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29216/282"
+          },
+          {
+            "reel_frame": "034449/0001",
+            "execution_date_as_recorded": "2014-10-28",
+            "recordation_date": "2014-11-25",
+            "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+            "from_entities": [
+              "MOTOROLA MOBILITY LLC"
+            ],
+            "to_entities": [
+              "GOOGLE TECHNOLOGY HOLDINGS LLC"
+            ],
+            "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34449/1"
+          }
+        ]
+      },
+      {
+        "application_serial": "13316895",
+        "publication": "US8666753B2",
+        "events": [
+          {
+            "reel_frame": "028561/0557",
+            "execution_date_as_recorded": "2012-06-22",
+            "recordation_date": "2012-07-10",
+            "conveyance_as_recorded": "CHANGE OF NAME",
+            "from_entities": [
+              "MOTOROLA MOBILITY, INC."
+            ],
+            "to_entities": [
+              "MOTOROLA MOBILITY LLC"
+            ],
+            "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28561/557"
+          },
+          {
+            "reel_frame": "034286/0001",
+            "execution_date_as_recorded": "2014-10-28",
+            "recordation_date": "2014-11-18",
+            "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+            "from_entities": [
+              "MOTOROLA MOBILITY LLC"
+            ],
+            "to_entities": [
+              "GOOGLE TECHNOLOGY HOLDINGS LLC"
+            ],
+            "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34286/1"
+          },
+          {
+            "reel_frame": "034538/0001",
+            "execution_date_as_recorded": "2014-10-28",
+            "recordation_date": "2014-12-03",
+            "conveyance_as_recorded": "CORRECTIVE ASSIGNMENT TO CORRECT THE REMOVE INCORRECT PATENT NO. 8577046 AND REPLACE WITH CORRECT PATENT NO. 8577045 PREVIOUSLY RECORDED ON REEL 034286 FRAME 0001. ASSIGNOR(S) HEREBY CONFIRMS THE ASSIGNMENT.",
+            "from_entities": [
+              "MOTOROLA MOBILITY LLC"
+            ],
+            "to_entities": [
+              "GOOGLE TECHNOLOGY HOLDINGS LLC"
+            ],
+            "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34538/1"
+          }
+        ]
+      },
+      {
+        "application_serial": "07909262",
+        "publication": "US5365227A",
+        "events": [
+          {
+            "reel_frame": "025673/0558",
+            "execution_date_as_recorded": "2010-07-31",
+            "recordation_date": "2010-12-13",
+            "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+            "from_entities": [
+              "MOTOROLA, INC"
+            ],
+            "to_entities": [
+              "MOTOROLA MOBILITY, INC"
+            ],
+            "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/25673/558"
+          },
+          {
+            "reel_frame": "026453/0324",
+            "execution_date_as_recorded": "2011-03-30",
+            "recordation_date": "2011-06-17",
+            "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+            "from_entities": [
+              "MOTOROLA MOBILITY, INC."
+            ],
+            "to_entities": [
+              "GOOGLE INC."
+            ],
+            "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26453/324"
+          }
+        ]
+      }
+    ],
+    "2012_conversion_records": {
+      "property_rows": 6861,
+      "distinct_us_serials": 6858
+    }
+  },
+  "name_union_controls": [
+    {
+      "case": "ibm",
+      "application_serial": "13185404",
+      "filing_date": "2011-07-18",
+      "publication": "US20110276540A1",
+      "in_2011_union": false
+    },
+    {
+      "case": "ibm",
+      "application_serial": "13185404",
+      "filing_date": "2011-07-18",
+      "publication": "US8700576B2",
+      "in_2011_union": true
+    },
+    {
+      "case": "ibm",
+      "application_serial": "13326489",
+      "filing_date": "2011-12-15",
+      "publication": "US20120096278A1",
+      "in_2011_union": false
+    },
+    {
+      "case": "ibm",
+      "application_serial": "13326489",
+      "filing_date": "2011-12-15",
+      "publication": "US8677136B2",
+      "in_2011_union": true
+    },
+    {
+      "case": "motorola",
+      "application_serial": "13316895",
+      "filing_date": "2011-12-12",
+      "publication": "US20130151260A1",
+      "in_2011_union": false
+    },
+    {
+      "case": "motorola",
+      "application_serial": "13316895",
+      "filing_date": "2011-12-12",
+      "publication": "US8666753B2",
+      "in_2011_union": false
+    }
+  ],
+  "original_record_scans": [
+    {
+      "reel_frame": "025077/0868",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/25077/868",
+      "file": "registry/original-025077-0868.pdf",
+      "sha256": "8aeaf69c57a3d44823cea0ec78f7de980792497f06f77e9c583664bf916459f1"
+    },
+    {
+      "reel_frame": "026131/0161",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26131/161",
+      "file": "registry/original-026131-0161.pdf",
+      "sha256": "e3e35f4874e2f5819026caeb83a36c9deb085b7c6f8b5f62e27cb3bd4bf6806a"
+    },
+    {
+      "reel_frame": "026569/0275",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26569/275",
+      "file": "registry/original-026569-0275.pdf",
+      "sha256": "f7a155b37761bca2de020d0a162e569d8f0d3c189cfa11a027d8f895f369e58b"
+    },
+    {
+      "reel_frame": "026664/0866",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26664/866",
+      "file": "registry/original-026664-0866.pdf",
+      "sha256": "aeec86ef20c9258b4e61755df1dbe7739c588850fccff52f7163428c54b00939"
+    },
+    {
+      "reel_frame": "026894/0001",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26894/1",
+      "file": "registry/original-026894-0001.pdf",
+      "sha256": "fc60d1dabce41895d99936772557be84a62b3595d98acf6e95df1ed6d9b702ba"
+    },
+    {
+      "reel_frame": "026933/0001",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26933/1",
+      "file": "registry/original-026933-0001.pdf",
+      "sha256": "fa4dea916285bf948c4f0327c102b45262c78f1386a10198e7ea9e9310ffad09"
+    },
+    {
+      "reel_frame": "027005/0673",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/27005/673",
+      "file": "registry/original-027005-0673.pdf",
+      "sha256": "5ffcf4b62e1572af9887a744216c1bd1327ace55fa5ae57f0bf1bb89bd4f93cc"
+    },
+    {
+      "reel_frame": "027055/0785",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/27055/785",
+      "file": "registry/original-027055-0785.pdf",
+      "sha256": "2e027aeed37909e903c580fedb8573010c2240f578e03d09ad6f8f3bafa50e6a"
+    },
+    {
+      "reel_frame": "027463/0594",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/27463/594",
+      "file": "registry/original-027463-0594.pdf",
+      "sha256": "3f56df5d37ad2489bfad6ccf002cbedcc485afc0771a55b814d372c6b7dd1846"
+    },
+    {
+      "reel_frame": "027907/0682",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/27907/682",
+      "file": "registry/original-027907-0682.pdf",
+      "sha256": "11d1eb013429a670a73beb4516e1c04137668bfc57f7390a68b19d747f12ab97"
+    },
+    {
+      "reel_frame": "028079/0532",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28079/532",
+      "file": "registry/original-028079-0532.pdf",
+      "sha256": "7c140be27e7bd8fcf884d65dd24149b77e269f83414a98d44ec4da130d33ff0d"
+    },
+    {
+      "reel_frame": "028536/0784",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28536/784",
+      "file": "registry/original-028536-0784.pdf",
+      "sha256": "7ddb5b39d4340234518840915650183e5b138c286dc4afc70cb29673f4233e3e"
+    },
+    {
+      "reel_frame": "028791/0765",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28791/765",
+      "file": "registry/original-028791-0765.pdf",
+      "sha256": "bfdf360e42be44303a5f9a05c23e1446ef19c51ae707317884b94fd37bc2723d"
+    },
+    {
+      "reel_frame": "028969/0145",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28969/145",
+      "file": "registry/original-028969-0145.pdf",
+      "sha256": "ffd1b1e182fb996d46a2b41b1672c9df72912d2abb45695ec3c08fa074f6deec"
+    },
+    {
+      "reel_frame": "029084/0311",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29084/311",
+      "file": "registry/original-029084-0311.pdf",
+      "sha256": "5fa6f00ce728d3dbcc2d0b7d837bb4e5c63c98c5bc19c9def6bd9dcec0b9d0ff"
+    },
+    {
+      "reel_frame": "029469/0085",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29469/85",
+      "file": "registry/original-029469-0085.pdf",
+      "sha256": "3ff54f5ef513d98389cda53c8156322672f998fe7d14c4bc069f1fa5d6ada4a1"
+    },
+    {
+      "reel_frame": "029695/0598",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29695/598",
+      "file": "registry/original-029695-0598.pdf",
+      "sha256": "04fe7ebee004378716b7480401b2235b366aec62cb2f6e031f726a4ad6ff8573"
+    },
+    {
+      "reel_frame": "029914/0451",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29914/451",
+      "file": "registry/original-029914-0451.pdf",
+      "sha256": "edc09ffae36de45163796960cb039c725d82d02793d36ed2defd7987c0f00126"
+    },
+    {
+      "reel_frame": "031658/0038",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/31658/38",
+      "file": "registry/original-031658-0038.pdf",
+      "sha256": "6920c6b7bebc2e4b2f926d525b4c60c1ead5d834e2d17ddfa781210ce0d47e66"
+    },
+    {
+      "reel_frame": "033677/0727",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/33677/727",
+      "file": "registry/original-033677-0727.pdf",
+      "sha256": "6f48fbcef88fbb89a778111ff12bece31bba0ecc215f18019df8ac25c5f5f9bd"
+    },
+    {
+      "reel_frame": "035996/0037",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35996/37",
+      "file": "registry/original-035996-0037.pdf",
+      "sha256": "4e4458a25c820bbbcb8113f90ae1fe1a5dda8433986467a7b7dc686ad7bfbd4d"
+    },
+    {
+      "reel_frame": "049627/0652",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/49627/652",
+      "file": "registry/original-049627-0652.pdf",
+      "sha256": "cb69d4e0a6111f980166d80724b343d243db71bdc404428a955de3f99e1a54c5"
+    },
+    {
+      "reel_frame": "025673/0558",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/25673/558",
+      "file": "registry/original-025673-0558.pdf",
+      "sha256": "8bc1da296f965ea84f54e3947be1fbfdbe26553601cb6e04a21e345e59226fbf"
+    },
+    {
+      "reel_frame": "026453/0324",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26453/324",
+      "file": "registry/original-026453-0324.pdf",
+      "sha256": "6dfef45e5b5896656714cefeb56a7b6ae1d78d1af03da96890f8494673a51c56"
+    },
+    {
+      "reel_frame": "026459/0300",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26459/300",
+      "file": "registry/original-026459-0300.pdf",
+      "sha256": "1ad059423b432e65ef6571a726e24db65ddaf3f73e2ab3a977312db84b91e04d"
+    },
+    {
+      "reel_frame": "026459/0519",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26459/519",
+      "file": "registry/original-026459-0519.pdf",
+      "sha256": "ee83b0f0ac3c3d3d6f19d2516f44b76b3702f8691cd7e01dfb4869c8645124a4"
+    },
+    {
+      "reel_frame": "026468/0410",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26468/410",
+      "file": "registry/original-026468-0410.pdf",
+      "sha256": "55eae300b936343d676f59a22e1e4efa2fb8a802c617e6a4b4360345e11f4cbb"
+    },
+    {
+      "reel_frame": "026812/0897",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26812/897",
+      "file": "registry/original-026812-0897.pdf",
+      "sha256": "82e79b43b41ef438433e2b2cb15cacf68f046015c17a78f6e45359d1595ef703"
+    },
+    {
+      "reel_frame": "027369/0025",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/27369/25",
+      "file": "registry/original-027369-0025.pdf",
+      "sha256": "8755ef38bd61c3d777a83375a54f6e86f485d0dbdc97f71e7b378129379a7595"
+    },
+    {
+      "reel_frame": "028441/0265",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28441/265",
+      "file": "registry/original-028441-0265.pdf",
+      "sha256": "724d463533c3593d4a8b11e253959d78fcb4642b32815cfd60138b9c6501caf8"
+    },
+    {
+      "reel_frame": "028561/0557",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28561/557",
+      "file": "registry/original-028561-0557.pdf",
+      "sha256": "bf0ca55e200fe887ee2003c78437af42cb28c7197dcbb5bfe33a90aa5df645bd"
+    },
+    {
+      "reel_frame": "028829/0856",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28829/856",
+      "file": "registry/original-028829-0856.pdf",
+      "sha256": "9d9393d11dd4c4ba10e462f1432b6039f53027f056ed54f807e2013730c5f230"
+    },
+    {
+      "reel_frame": "029016/0704",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29016/704",
+      "file": "registry/original-029016-0704.pdf",
+      "sha256": "73ea4f1475500dfbdf8104b5a68ebb99b44660099ef4610a8e52568c96b80492"
+    },
+    {
+      "reel_frame": "029216/0282",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29216/282",
+      "file": "registry/original-029216-0282.pdf",
+      "sha256": "8627693f4e5efb6bb9dcd205a45f6aa2ab158ffc25fccb372a748e612012242f"
+    },
+    {
+      "reel_frame": "031030/0745",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/31030/745",
+      "file": "registry/original-031030-0745.pdf",
+      "sha256": "00f0ea26982f680aa9c432dfbad6487c9434a7feb674a7b0abe4b25bd56cd7ef"
+    },
+    {
+      "reel_frame": "034247/0001",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34247/1",
+      "file": "registry/original-034247-0001.pdf",
+      "sha256": "9cec6a936b020240742f7b8dff0a71efcf5dd46860a8282c71b28dbe2664d8e9"
+    },
+    {
+      "reel_frame": "043778/0427",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/43778/427",
+      "file": "registry/original-043778-0427.pdf",
+      "sha256": "3198b81f9d58e0b49d10fe13c466f58d95cff45958963cd4391d8e54a2b71069"
+    },
+    {
+      "reel_frame": "043815/0697",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/43815/697",
+      "file": "registry/original-043815-0697.pdf",
+      "sha256": "65be06e83b3706858cde6fa783cd4cdcd21b52fe300b6a8d085cf2f3ee23ecec"
+    }
+  ],
+  "us_publications": [
+    {
+      "publication": "US20110276540A1",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20110276540",
+      "file": "publications/US20110276540A1.pdf",
+      "sha256": "c9a2524bb30dd38c1c5e1a16eee5dfbb967df20c9f2428aa2af3cf17fb2745a2"
+    },
+    {
+      "publication": "US20120096278A1",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20120096278",
+      "file": "publications/US20120096278A1.pdf",
+      "sha256": "cd8655e3e0fea1034d24e44e3183d45d22eb63b6afa97f6536e15beaf18651e5"
+    },
+    {
+      "publication": "US20130151260A1",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20130151260",
+      "file": "publications/US20130151260A1.pdf",
+      "sha256": "81c9e4e8629e4252395dc80f831375bcd14e453e6118d39ea74fa2a7ff166575"
+    },
+    {
+      "publication": "US5365227A",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/5365227",
+      "file": "publications/US5365227A.pdf",
+      "sha256": "4bf09ebbdfac01d01d45171656a351785766713f129fc9f4e536264e783e4e53"
+    },
+    {
+      "publication": "US5956597A",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/5956597",
+      "file": "publications/US5956597A.pdf",
+      "sha256": "be2f9cd6a6c32cbe73b9b7d122c9fdcfa38bad07630c78e449a1d62839e19486"
+    },
+    {
+      "publication": "US7063262B2",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/7063262",
+      "file": "publications/US7063262B2.pdf",
+      "sha256": "e4ea89e1642c888c53886256eb9437a9231d992ceddc33d9317e292fe3cc0475"
+    },
+    {
+      "publication": "US8666753B2",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8666753",
+      "file": "publications/US8666753B2.pdf",
+      "sha256": "c59b9dd82e735135cae11c63f633ff0ad7c9d2dfd6457a36ad0a8cce4d5e765c"
+    },
+    {
+      "publication": "US8677136B2",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8677136",
+      "file": "publications/US8677136B2.pdf",
+      "sha256": "2eb32e2e7466d36983d59e2399801cd1ed58850d424117223aa66f2c26459cd8"
+    },
+    {
+      "publication": "US8700576B2",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8700576",
+      "file": "publications/US8700576B2.pdf",
+      "sha256": "4ef2a3bbd0bf978a10bca2c433d71421192e947c6acf927323c453137cb2318b"
+    }
+  ]
+}

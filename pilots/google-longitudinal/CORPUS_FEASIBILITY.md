@@ -62,3 +62,7 @@ H4 哪些明确投入却未成为产品主线的专利方向被既有企业成�
 ## 2010 年母集与交割后资产追踪
 
 新增 46 页、2,168 份去重公报，合并至 9,617 份。分别以 On2 与 AdMob 的交易、美国登记及原始公报核验历史权属。On2 Finland 的同一专利申请可出现申请版缺席、授权版命中，版次要逐份对账。 [第23轮报告](../../research/23-google-2010-on2-admob-patent-assets.md) · [合并统计](derived/google-1996-2010-combined-audit-2026-11-22.json)
+
+## 2011 年母集和分批让与
+
+新增 99 页、4,792 份去重公报，合并至 14,409 份。IBM 的美国让与逐号对账可补充早期申请及两个版次缺席。Motorola 的同一美国申请可随运营法人改制和后续让与留下多次登记，部分公报仍缺于 Google Inc./LLC 两名称检索。 [第24轮报告](../../research/24-google-2011-ibm-motorola-patent-transfers.md) · [合并统计](derived/google-1996-2011-combined-audit-2026-11-22.json)

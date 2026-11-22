@@ -1,6 +1,6 @@
 # 《企业史记》｜Patent Historiography
 
-**v1.9.0 · Google 2010 专利母集、On2 与 AdMob 资产 · 2026-11-22**
+**v1.10.0 · Google 2011 专利母集、IBM 与 Motorola Mobility · 2026-11-22**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
@@ -11,6 +11,11 @@
 
 
 
+
+## 2026-11-22｜第24轮：Google 2011、IBM 分批让与和 Motorola Mobility 交割
+
+- 99 页去重为 **4,792 份公报**，1996—2011 年合并为 **14,409 份公报、10,556 个申请号、5,438 个数据库族标识**。 [第24轮研究](research/24-google-2011-ibm-motorola-patent-transfers.md) · [合并审计](pilots/google-longitudinal/derived/google-1996-2011-combined-audit-2026-11-22.json)
+- IBM 有 **21 个**所载执行日在 2011 年的卷页，涉及 **2,393 个不同美国申请号**。Motorola Mobility 于 **2011-08-15 签约、2012-05-22 交割**，另逐案核对签约前单件让与、运营法人改制和 2014 年的后续让与。 [IBM 资产清单](pilots/google-longitudinal/derived/google-2011-ibm-assignment-assets.csv) · [权属索引](pilots/google-longitudinal/derived/google-2011-ibm-motorola-rights-2026-11-22.json)
 
 ## 2026-11-22｜第23轮：Google 2010 专利覆盖、On2 与 AdMob
 
