@@ -1,6 +1,6 @@
 # 《企业史记》｜Patent Historiography
 
-**v1.10.0 · Google 2011 专利母集、IBM 与 Motorola Mobility · 2026-11-22**
+**v1.11.0 · Google 2012 专利母集、Motorola Mobility 交割后权属 · 2026-11-22**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
@@ -11,6 +11,11 @@
 
 
 
+
+## 2026-11-22｜第25轮：Google 2012 与 Motorola Mobility 交割后权属
+
+- 143 页去重为 **6,926 份公报**，1996—2012 年累计 **21,335 份公报、15,844 个申请号、8,566 个数据库族标识**。 [第25轮研究](research/25-google-2012-motorola-assets-and-published-parties.md) · [合并审计](pilots/google-longitudinal/derived/google-1996-2012-combined-audit-2026-11-22.json)
+- 逐卷核对改制和交割期接收资产 **289 个美国卷页、7,211 个不同申请号**。美国在交割后至年底仍列 Motorola Mobility 的公报有 **359 份**；欧洲另以案卷和原生公报核对后续主体变更。 [美国逐项清单](pilots/google-longitudinal/derived/google-2012-motorola-us-asset-register.csv) · [公报列名](pilots/google-longitudinal/derived/google-2012-motorola-published-parties.csv)
 
 ## 2026-11-22｜第24轮：Google 2011、IBM 分批让与和 Motorola Mobility 交割
 

@@ -96,3 +96,8 @@
 
 - PD-030/031 增加 99 页、4,792 份公报和实际交割日出版快照，合计取齐 313 页。
 - PD-032 用转让双方组合、执行日复核、卷页全量分页，校验 IBM 的 2,394 条清单行与授权日期口径。Motorola 两个大卷页的 12,500 条记录核对总数和卷内序号，按三个申请号复核具体路径。 [第24轮研究](../research/24-google-2011-ibm-motorola-patent-transfers.md) · [复跑校验](../scripts/validate_google_2011_patent_transfers.py)
+
+## 2026-11-22｜2012 交割后资产及版次列名
+
+- PD-030/031 增加 143 页、6,926 份公报。A1 和 B2 首页列同一国际申请的不同日期时，保留所见版次及 WIPO 首发证据，按申请号跨段去重。
+- PD-032 增加 289 个美国卷页、7,247 条资产记录的满页审计，并将未消歧的美国出版著录、EPO 原生 XML、欧洲权属事件和中国、加拿大原始公报纳入逐件对照。 [第25轮研究](../research/25-google-2012-motorola-assets-and-published-parties.md) · [复跑校验](../scripts/validate_google_2012_motorola_assets.py)

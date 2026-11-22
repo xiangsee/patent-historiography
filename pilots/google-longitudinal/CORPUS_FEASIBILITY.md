@@ -66,3 +66,7 @@ H4 哪些明确投入却未成为产品主线的专利方向被既有企业成�
 ## 2011 年母集和分批让与
 
 新增 99 页、4,792 份去重公报，合并至 14,409 份。IBM 的美国让与逐号对账可补充早期申请及两个版次缺席。Motorola 的同一美国申请可随运营法人改制和后续让与留下多次登记，部分公报仍缺于 Google Inc./LLC 两名称检索。 [第24轮报告](../../research/24-google-2011-ibm-motorola-patent-transfers.md) · [合并统计](derived/google-1996-2011-combined-audit-2026-11-22.json)
+
+## 2012 年母集与子公司公报列名
+
+新增 143 页、6,926 份去重公报，合并至 21,335 份。美国和欧洲的原始著录分别查到 427 份和 140 份列 Motorola Mobility、当年申请而两个 Google 名称未命中的公报。逐版列名、出具日期和登记链作为补充入口。 [第25轮报告](../../research/25-google-2012-motorola-assets-and-published-parties.md) · [合并统计](derived/google-1996-2012-combined-audit-2026-11-22.json)

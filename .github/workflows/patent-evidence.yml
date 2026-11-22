@@ -66,6 +66,8 @@ jobs:
         run: python3 scripts/validate_google_2010_acquisition_assets.py
       - name: Google 2011 IBM and Motorola transfer regression
         run: python3 scripts/validate_google_2011_patent_transfers.py
+      - name: Google 2012 Motorola register and publication parties regression
+        run: python3 scripts/validate_google_2012_motorola_assets.py
       - name: Shiji chronology fixture
         run: python3 scripts/check_chronology_examples.py
       - name: Google-Overture claim fixture

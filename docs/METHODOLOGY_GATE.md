@@ -77,3 +77,7 @@ EPO原生EP XML的两份独立专利以及EP0729353的1996 A1/2002 B1/2012 B2原
 ## 2026-11-22｜大批让与与持股取得的证据检验
 
 第 24 轮将 IBM 逐卷批次及 Motorola Mobility 控股公司交割、运营法人改制对账，继续补充 G3。两件 IBM 的 A/B 版本与一件 Motorola 的母集缺席补充 G4。两项保持 PARTIAL，域外完整资产、集团版本映射与产品证据仍待核，首篇正式写作保持 HOLD。 [第24轮研究](../research/24-google-2011-ibm-motorola-patent-transfers.md)
+
+## 2026-11-22｜交割后的公司名与跨域登记对齐
+
+第 25 轮以美国批量清单、欧洲登记及多法域公报补强 G3 与 G4。美国 2012 年申请窗口有 427 份仍列 Motorola Mobility 的公报缺于两名称母集，欧洲原生公报查到同类 140 份。两项保持 PARTIAL，完整交割披露、各国完整登记和产品实施链仍待证，首篇正式写作保持 HOLD。 [第25轮研究](../research/25-google-2012-motorola-assets-and-published-parties.md)
