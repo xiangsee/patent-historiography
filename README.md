@@ -1,6 +1,6 @@
 # 《企业史记》｜Patent Historiography
 
-**v1.6.0 · 跨企业异议程序网络与历史可知时间的证据治理 · 2026-11-21**
+**v1.7.0 · Google 1996—2006 专利覆盖与历史归属 · 2026-11-22**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
@@ -11,6 +11,12 @@
 
 
 
+
+## 2026-11-22｜第21轮：Google 创立前后与 2006 年专利覆盖（工具 v0.7）
+
+- 取齐 Google Inc. 与 Google LLC 的七个查询窗口共 77 页，旧 2000—2005 公开号集合与存档哈希一致。1996—2006 按公开号去重得 **3,297 份公报、2,377 个申请号、1,230 个数据库族标识**。[第21轮研究](research/21-google-1996-2006-patent-coverage.md) · [派生统计](pilots/google-longitudinal/derived/google-1996-2006-name-coverage-2026-11-22.json)
+- 早于 Google 设立月份的申请日命中 32 份。斯坦福名下的 PageRank 公报另由 USPTO 公报和 SEC 公开许可合同接入。Xerox、Microoptical 两个 EP 申请的 A/B 版次明确记载不同主体角色。[EPO 角色证据](pilots/google-longitudinal/derived/google-early-epo-party-evidence-2026-11-22.json)
+- 新增 `coverage-check`，按名称查询去重并重建公报出版日期快照。完整集团历史归属、同族核验和五体首篇写作仍有证据门槛。[使用与复核命令](patent_evidence/README.md#v07-longitudinal-query-coverage-and-publication-dates)
 
 ## 2026-11-21｜第20轮：EPO程序事件和跨案主体网络（工具v0.6）
 

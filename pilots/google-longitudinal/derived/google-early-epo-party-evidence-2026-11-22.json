@@ -1,0 +1,85 @@
+{
+  "retrieved_on": "2026-11-22",
+  "source": "EPO European Publication Server native XML",
+  "scope": "Bibliographic roles on each published document. Transfer chain and product implementation are unverified.",
+  "cases": [
+    {
+      "epo_publication_base": "EP0950960",
+      "versions": [
+        {
+          "publication": "EP0950960A2",
+          "publication_date": "1999-10-20",
+          "filing_date": "1999-04-15",
+          "claimed_priority_dates": [
+            "1998-04-17"
+          ],
+          "source_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0950960NWA2/document.xml",
+          "source_xml_sha256": "a0972b846553c048067584db40fce267428cf683b897cf9a5919892cb69d45d0",
+          "parties_as_published": {
+            "A_document_applicant_B711": [
+              "XEROX CORPORATION"
+            ],
+            "B_document_proprietor_B731": []
+          }
+        },
+        {
+          "publication": "EP0950960B1",
+          "publication_date": "2012-12-05",
+          "filing_date": "1999-04-15",
+          "claimed_priority_dates": [
+            "1998-04-17"
+          ],
+          "source_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0950960NWB1/document.xml",
+          "source_xml_sha256": "44dc5f22116a078546b053d29af62be1a45ddf0671bb625bd2b24db8c2dde471",
+          "parties_as_published": {
+            "A_document_applicant_B711": [],
+            "B_document_proprietor_B731": [
+              "Google Inc."
+            ]
+          }
+        }
+      ],
+      "epo_application_number": "99107559.9"
+    },
+    {
+      "epo_publication_base": "EP1027626",
+      "versions": [
+        {
+          "publication": "EP1027626A1",
+          "publication_date": "2000-08-16",
+          "filing_date": "1998-10-29",
+          "claimed_priority_dates": [
+            "1997-10-30",
+            "1998-10-14"
+          ],
+          "source_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1027626NWA1/document.xml",
+          "source_xml_sha256": "8a8ed855c3fc9b3c9b04db84b89d7dff435459cfa9770933aeb324066604e270",
+          "parties_as_published": {
+            "A_document_applicant_B711": [
+              "The Microoptical Corporation"
+            ],
+            "B_document_proprietor_B731": []
+          }
+        },
+        {
+          "publication": "EP1027626B1",
+          "publication_date": "2016-03-23",
+          "filing_date": "1998-10-29",
+          "claimed_priority_dates": [
+            "1997-10-30",
+            "1998-10-14"
+          ],
+          "source_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1027626NWB1/document.xml",
+          "source_xml_sha256": "5d1b2532265426edba423ccfe5148a86fd7a3ad8116fe95bd8da80a6b0bd4229",
+          "parties_as_published": {
+            "A_document_applicant_B711": [],
+            "B_document_proprietor_B731": [
+              "Google Inc."
+            ]
+          }
+        }
+      ],
+      "epo_application_number": "98954045.5"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# Patent Evidence Workbench (v0.6)
+# Patent Evidence Workbench (v0.7)
 
 Run from the repository root using Python 3.10+. Existing data, lineage and text-availability tools use only the standard library. HTML parsing has an optional BeautifulSoup dependency.
 
@@ -107,3 +107,19 @@ The EPO adapter parses each claim language separately; primary-language claim co
 A revocation notice is not a final revocation. A secondary event index's recorded event_date is not assumed to be its historical publication date. The cross-case name substring match is exploratory and never constitutes legal entity resolution or proof of commercial strategy.
 
 See [v0.6 methods](../docs/PATENT_EVIDENCE_TOOLKIT_V0_6.md) and [historical report](../research/20-alkermes-sri-opposition-network.md).
+
+## v0.7 Longitudinal query coverage and publication dates
+
+```sh
+python3 -m patent_evidence.cli coverage-check \
+  --inputs '/private/google/*.batch.json' \
+  --as-of 1999-12-31 2004-12-31 2005-12-31 2006-12-31 \
+  --before 1998-09-01 --output /tmp/google-coverage.json
+python3 scripts/validate_google_1996_2006_coverage.py
+```
+
+Use the existing batch input format. Every batch `query` must carry `assignee`, `filing_date_from`, and `filing_date_to`, plus the actual provider restrictions. Each page must include its number, returned records and provider total. The auditor rejects incomplete pages, duplicate publication identifiers within one query, out-of-window filing dates and conflicting bibliographic values for the same publication across queries.
+
+The result retains counts, query parameters, per-batch hashes, and hashes of sorted publication IDs joined with newlines. The source ID digest preserves the original identifier strings for comparison with the earlier Google fixtures. The union uses normalized publication IDs. Application and provider family counts use their own identifiers. Date snapshots first restrict by filing date, then tally publication on or before the cutoff, publication after it and unresolved publication dates. Each name represents a filter in the retrospective snapshot. Historical rights require evidence from the relevant dates.
+
+The public regression verifies the aggregates and the four source-linked EPO document records. Pass `--private-source-dir /private/google` to replay the seven saved batches, the legacy publication-set hashes, the independent PageRank lookup and the locally retained EPO files. The live results come from one provider snapshot. [Round 21 report](../research/21-google-1996-2006-patent-coverage.md)

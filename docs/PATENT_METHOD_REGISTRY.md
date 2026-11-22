@@ -72,3 +72,12 @@
 | PD-029 | Claim Lifecycle ID与证据来源双向约束 | real-source-fixture + synthetic-tested | 4项affected_claim、impact_type、verification_next，引用未找到的事件即拒绝 | 与编辑OS和更广企业专利母集接合 |
 
 第20轮研究：[research/20](../research/20-alkermes-sri-opposition-network.md)；[v0.6规范](PATENT_EVIDENCE_TOOLKIT_V0_6.md)。它是可测试的方法积累，而不是完整企业本纪已写成的证据。
+
+## 2026-11-22｜v0.7 多窗口覆盖与公报日期快照
+
+| 方法ID | 能力 | 实证 | 待核 |
+| --- | --- | --- | --- |
+| PD-030 | 逐查询完页、按公开号合并、名称交集和分年统计 | 七窗口 77 页，3,642 条查询返回去重为 3,297 份，重取旧公开号集合的哈希一致 | 历史法人及别名扩展、多源独立族对账 |
+| PD-031 | 依据公报出版日期回溯版本可见性 | 1999 年底申请日命中 64 份、当时已出版 22 份；两组 EPO 原生 A/B XML 复核著录角色 | 逐件公报对照和历史法律事件的独立公开证据 |
+
+[工具入口](../patent_evidence/README.md#v07-longitudinal-query-coverage-and-publication-dates) · [第21轮研究](../research/21-google-1996-2006-patent-coverage.md)

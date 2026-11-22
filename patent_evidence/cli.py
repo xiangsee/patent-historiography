@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import sys
 from .core import AuditError, load, pagination, analyse, family_interface_audit
+from .coverage import audit_longitudinal_coverage
 from .lineage import priority_link_audit, registry_snapshot
 from .structured_docs import parse_google_patents_html
 from .version_diff import compare_publication_versions
@@ -11,8 +12,8 @@ from .official_xml import parse_ep_patent_document, parse_wipo_st96_patent_publi
 from .official_version_diff import compare_ep_publication_versions
 from .text_quality import audit_documents
 from .procedural_ledger import procedural_view, compare_roles_across_cases, review_claim_lifecycle
+from . import __version__ as VERSION
 
-VERSION="0.6.0"
 
 def main(argv=None):
     p=argparse.ArgumentParser(description="Patent data quality workbench: local data, no network")
@@ -23,6 +24,11 @@ def main(argv=None):
     a.add_argument("--focus-name")
     a.add_argument("--review-limit",type=int,default=10)
     a.add_argument("--require-complete",action="store_true")
+    coverage = sub.add_parser("coverage-check", help="Audit complete name-filter windows and publication dates")
+    coverage.add_argument("--inputs", nargs="+", required=True)
+    coverage.add_argument("--as-of", nargs="+", required=True, help="Document publication cutoffs, YYYY-MM-DD")
+    coverage.add_argument("--before", help="Count filings strictly before YYYY-MM-DD")
+    coverage.add_argument("--output", required=True)
     f=sub.add_parser("family-check")
     f.add_argument("--input",required=True)
     f.add_argument("--output",required=True)
@@ -88,6 +94,11 @@ def main(argv=None):
                     "provider_family_type":"UNVERIFIED","historical_ownership":"NOT_DETERMINED",
                     "query_audits":page_reports,"aggregate":analyse(
                         rows,focus_name=args.focus_name,review_limit=args.review_limit)}
+        elif args.cmd=="coverage-check":
+            rows, pages = load(args.inputs)
+            result = audit_longitudinal_coverage(rows, pages, as_of_dates=args.as_of, before=args.before)
+            result["tool"] = "patent_evidence"
+            result["tool_version"] = VERSION
         elif args.cmd=="family-check":
             obj=json.loads(Path(args.input).read_text(encoding="utf8"))
             result=family_interface_audit(obj["samples"])
@@ -181,7 +192,7 @@ def main(argv=None):
         target.write_text(json.dumps(result,ensure_ascii=False,indent=2,sort_keys=True)+"\n",
                           encoding="utf8")
         print(json.dumps({"output":str(target),"tool_version":VERSION,
-                          "rows":result.get("aggregate",{}).get("source_rows"),
+                          "rows":result.get("aggregate",{}).get("source_rows", result.get("union", {}).get("publications")),
                           "family_api_mismatches":result.get("mismatch_count"),
                           "historical_date":result.get("registered_interests",{}).get("historical_date"),
                           "document_publication":result.get("publication_number"),
