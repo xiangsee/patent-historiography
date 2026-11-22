@@ -1,6 +1,6 @@
 # 《企业史记》｜Patent Historiography
 
-**v1.12.0 · Google 2013 专利母集、Motorola Home 产权与许可 · 2026-11-22**
+**v1.13.0 · Google 2014 专利母集、Motorola Mobility 产权与许可 · 2026-11-22**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
@@ -11,6 +11,11 @@
 
 
 
+
+## 2026-11-22｜第27轮：Google 2014 与 Motorola Mobility 的联想交割
+
+- 135 页去重为 **6,556 份公报**，1996—2014 年累计 **35,764 份公报、26,107 个申请号、13,481 个数据库族标识**。 [第27轮研究](research/27-google-2014-lenovo-motorola-patent-title-and-licenses.md) · [合并审计](pilots/google-longitudinal/derived/google-1996-2014-combined-audit-2026-11-22.json)
+- 核对联想披露的香港 **2014-10-30** 交割、Google 年报的 **10-29** 记载及 **8,576 个**交割期划入 GTH 的美国申请号。2015 年回转文书存有原许可订立时点及补充条款。 [逐号权属表](pilots/google-longitudinal/derived/google-2014-lenovo-motorola-title-evidence.csv) · [卷页与许可证据](pilots/google-longitudinal/derived/google-2014-lenovo-motorola-rights-2026-11-22.json)
 
 ## 2026-11-22｜第26轮：Google 2013 与 Motorola Home 交割
 

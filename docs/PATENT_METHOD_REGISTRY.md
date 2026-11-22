@@ -106,3 +106,8 @@
 
 - PD-030/031 增加 161 页、7,873 份公报，合计取齐 617 页。重放 Home 交割日和后续专利文书执行、登记节点的出版情况。
 - PD-032 以两段让与的逐号交集对账保留与进入 Home 的产权证据。后续继受逐号反查交割前收受、入卷和同日担保。将 SEC 许可组合披露与签署版逐项附件的取证分别保留。 [第26轮研究](../research/26-google-2013-arris-motorola-home-patent-title-and-licenses.md) · [复跑校验](../scripts/validate_google_2013_arris_home.py)
+
+## 2026-11-22｜2014 年母集、保留组合及补充许可原件
+
+- PD-030/031 增加 135 页、6,556 份公报，累积取齐 752 页。分别保存同一股权交割在港交所与 Google 年报中的日期。
+- PD-032 对齐公开转让索引与同卷原件附件，保留名称错拼、更正和补登。用逐申请号履历确认公报列名与交割时点的关系，并从 2015 年补充文书辨认 2014 年许可的五方当事人及双向授权。 [第27轮研究](../research/27-google-2014-lenovo-motorola-patent-title-and-licenses.md) · [复跑校验](../scripts/validate_google_2014_lenovo_motorola.py)
