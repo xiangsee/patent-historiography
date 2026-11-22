@@ -81,3 +81,7 @@ EPO原生EP XML的两份独立专利以及EP0729353的1996 A1/2002 B1/2012 B2原
 ## 2026-11-22｜交割后的公司名与跨域登记对齐
 
 第 25 轮以美国批量清单、欧洲登记及多法域公报补强 G3 与 G4。美国 2012 年申请窗口有 427 份仍列 Motorola Mobility 的公报缺于两名称母集，欧洲原生公报查到同类 140 份。两项保持 PARTIAL，完整交割披露、各国完整登记和产品实施链仍待证，首篇正式写作保持 HOLD。 [第25轮研究](../research/25-google-2012-motorola-assets-and-published-parties.md)
+
+## 2026-11-22｜卖出业务与保留专利许可
+
+第 26 轮的交割、产权及许可对读补强 G3。ARRIS 公开披露、逐号登记和 EPO 版次给 G4 添入交易两侧的证据。两项保持 PARTIAL，完整跨法域资产披露表、签署许可附表及产品实施链仍待证，首篇正式写作保持 HOLD。 [第26轮研究](../research/26-google-2013-arris-motorola-home-patent-title-and-licenses.md)

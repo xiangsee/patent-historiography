@@ -1,0 +1,3188 @@
+{
+  "retrieved_on": "2026-11-22",
+  "asset_ledger": "google-2013-arris-home-us-asset-register.csv",
+  "title_ledger": "google-2013-arris-home-title-evidence.csv",
+  "transaction": {
+    "contract_date": "2012-12-19",
+    "actual_closing": "2013-04-17",
+    "seller": "General Instrument Holdings, Inc.",
+    "operating_entity_sold_by_shares": "General Instrument Corporation (Delaware)",
+    "disclosed_patent_assets": {
+      "home_at_signing": 3164,
+      "home_acquired": 991,
+      "home_retained_and_licensed": 2173,
+      "other_mobility_licensed_approximately": 17000
+    },
+    "individual_license_schedule_obtained": false,
+    "sec_sources": {
+      "acquisition_agreement_and_license_form": "https://www.sec.gov/Archives/edgar/data/1141107/000119312512510580/d457255dex21.htm",
+      "closing_8k": "https://www.sec.gov/Archives/edgar/data/1141107/000119312513160131/d522646d8k.htm",
+      "postclosing_financials": "https://www.sec.gov/Archives/edgar/data/1141107/000119312513276916/d560663dex992.htm",
+      "arris_to_sec_license_categories": "https://www.sec.gov/Archives/edgar/data/1141107/000119312513456280/filename1.htm",
+      "subsequent_sec_response_redline": "https://www.sec.gov/Archives/edgar/data/1141107/000119312514018581/filename1.htm",
+      "subsequent_annual_report": "https://www.sec.gov/Archives/edgar/data/1141107/000119312514079303/d630179d10k.htm"
+    },
+    "individual_schedule_references": [
+      "Acquisition Agreement §4.18(b) of Seller Disclosure Schedule",
+      "IP License Agreement form §1.1(l), its Schedule 1.1(l)"
+    ]
+  },
+  "registry_source": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/search/patent",
+  "registry_queries": {
+    "arris-to-gi": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "ARRIS",
+            "matchType": "Contains",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GENERAL INSTRUMENT",
+            "matchType": "Contains",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/arris-to-gi.json",
+      "returned_records": 0,
+      "backend_pagination": false
+    },
+    "gi-to-arris": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "GENERAL INSTRUMENT",
+            "matchType": "Contains",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "ARRIS",
+            "matchType": "Contains",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/gi-to-arris.json",
+      "returned_records": 18,
+      "backend_pagination": false
+    },
+    "gic-to-gih": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "GENERAL INSTRUMENT CORPORATION",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GENERAL INSTRUMENT HOLDINGS, INC.",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/gic-to-gih.json",
+      "returned_records": 45,
+      "backend_pagination": false
+    },
+    "gic-to-google": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "GENERAL INSTRUMENT CORPORATION",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GOOGLE INC.",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/gic-to-google.json",
+      "returned_records": 0,
+      "backend_pagination": false
+    },
+    "gic-to-gth": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "GENERAL INSTRUMENT CORPORATION",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GOOGLE TECHNOLOGY HOLDINGS LLC",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/gic-to-gth.json",
+      "returned_records": 0,
+      "backend_pagination": false
+    },
+    "gic-to-mm": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "GENERAL INSTRUMENT CORPORATION",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "MOTOROLA MOBILITY LLC",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/gic-to-mm.json",
+      "returned_records": 0,
+      "backend_pagination": false
+    },
+    "gih-to-gic": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "GENERAL INSTRUMENT HOLDINGS, INC.",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GENERAL INSTRUMENT CORPORATION",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/gih-to-gic.json",
+      "returned_records": 6,
+      "backend_pagination": false
+    },
+    "gih-to-google": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "GENERAL INSTRUMENT HOLDINGS, INC.",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GOOGLE INC.",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/gih-to-google.json",
+      "returned_records": 0,
+      "backend_pagination": false
+    },
+    "gih-to-gth": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "GENERAL INSTRUMENT HOLDINGS, INC.",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GOOGLE TECHNOLOGY HOLDINGS LLC",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/gih-to-gth.json",
+      "returned_records": 0,
+      "backend_pagination": false
+    },
+    "gih-to-mm": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "GENERAL INSTRUMENT HOLDINGS, INC.",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "MOTOROLA MOBILITY LLC",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/gih-to-mm.json",
+      "returned_records": 49,
+      "backend_pagination": false
+    },
+    "google-to-arris": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "GOOGLE",
+            "matchType": "Contains",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "ARRIS",
+            "matchType": "Contains",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/google-to-arris.json",
+      "returned_records": 0,
+      "backend_pagination": false
+    },
+    "google-to-gic": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "GOOGLE INC.",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GENERAL INSTRUMENT CORPORATION",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/google-to-gic.json",
+      "returned_records": 0,
+      "backend_pagination": false
+    },
+    "gth-to-gic": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "GOOGLE TECHNOLOGY HOLDINGS LLC",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GENERAL INSTRUMENT CORPORATION",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/gth-to-gic.json",
+      "returned_records": 0,
+      "backend_pagination": false
+    },
+    "mm-inc-to-gic": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "MOTOROLA MOBILITY, INC.",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GENERAL INSTRUMENT CORPORATION",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/mm-inc-to-gic.json",
+      "returned_records": 0,
+      "backend_pagination": false
+    },
+    "mm-to-arris": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "MOTOROLA MOBILITY",
+            "matchType": "Contains",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "ARRIS",
+            "matchType": "Contains",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/mm-to-arris.json",
+      "returned_records": 0,
+      "backend_pagination": false
+    },
+    "mm-to-gic": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "MOTOROLA MOBILITY LLC",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GENERAL INSTRUMENT CORPORATION",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/mm-to-gic.json",
+      "returned_records": 0,
+      "backend_pagination": false
+    },
+    "mm-to-gih": {
+      "request": {
+        "searchCriteria": [
+          {
+            "searchBy": "assignorName",
+            "property": "MOTOROLA MOBILITY LLC",
+            "matchType": "Exact",
+            "order": 0,
+            "relation": "AND"
+          },
+          {
+            "searchBy": "assigneeName",
+            "property": "GENERAL INSTRUMENT HOLDINGS, INC.",
+            "matchType": "Exact",
+            "order": 1,
+            "relation": "AND"
+          }
+        ],
+        "dataFilter": {
+          "currentPage": 1,
+          "rowsPerPage": 1000,
+          "filterBy": []
+        }
+      },
+      "file": "registry/mm-to-gih.json",
+      "returned_records": 6,
+      "backend_pagination": false
+    }
+  },
+  "reels": [
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "030725/0476",
+      "pages": 1,
+      "property_rows": 39,
+      "distinct_application_serials": 39,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2013-07-02",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30725/476"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "030764/0575",
+      "pages": 1,
+      "property_rows": 995,
+      "distinct_application_serials": 995,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2013-07-09",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30764/575"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "033593/0361",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2014-08-22",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/33593/361"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "033781/0067",
+      "pages": 1,
+      "property_rows": 2,
+      "distinct_application_serials": 2,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2014-09-19",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/33781/67"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "033852/0935",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2014-09-26",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/33852/935"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "034768/0267",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2015-01-15",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34768/267"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "035645/0819",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2015-05-12",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35645/819"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "036505/0501",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2015-08-31",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/36505/501"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "036506/0727",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2015-08-31",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/36506/727"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "036641/0205",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2015-09-21",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/36641/205"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "037082/0187",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2015-11-10",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/37082/187"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "037606/0210",
+      "pages": 1,
+      "property_rows": 3,
+      "distinct_application_serials": 3,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2016-01-27",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/37606/210"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "039570/0806",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2016-08-04",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/39570/806"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "039579/0081",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2016-08-04",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/39579/81"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "039809/0414",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2016-08-24",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/39809/414"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "040171/0270",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2016-09-28",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/40171/270"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "041570/0160",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2017-01-31",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/41570/160"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "042066/0950",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2017-03-22",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/42066/950"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "042110/0001",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2017-03-29",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/42110/1"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "042642/0430",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2017-05-31",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/42642/430"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "042691/0950",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2017-06-13",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/42691/950"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "043253/0007",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2017-07-19",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/43253/7"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "043254/0508",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2017-07-19",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/43254/508"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "044790/0093",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2017-11-17",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/44790/93"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "046452/0688",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2018-06-26",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/46452/688"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "047177/0870",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2018-10-02",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/47177/870"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "049122/0505",
+      "pages": 1,
+      "property_rows": 3,
+      "distinct_application_serials": 3,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2019-05-08",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/49122/505"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "054629/0681",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2020-12-14",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/54629/681"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "054631/0714",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2020-12-14",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/54631/714"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "054632/0079",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2020-12-14",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/54632/79"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "057754/0692",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2021-10-11",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/57754/692"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "068950/0861",
+      "pages": 1,
+      "property_rows": 4,
+      "distinct_application_serials": 4,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2024-07-05",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/68950/861"
+    },
+    {
+      "scope": "home-carve-out-april15",
+      "reel_frame": "069304/0627",
+      "pages": 1,
+      "property_rows": 3,
+      "distinct_application_serials": 3,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2024-11-05",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/69304/627"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "030725/0642",
+      "pages": 1,
+      "property_rows": 39,
+      "distinct_application_serials": 39,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2013-07-02",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30725/642"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "030866/0113",
+      "pages": 1,
+      "property_rows": 995,
+      "distinct_application_serials": 995,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2013-07-09",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30866/113"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "033593/0425",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2014-08-22",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/33593/425"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "033777/0842",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2014-09-19",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/33777/842"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "033781/0151",
+      "pages": 1,
+      "property_rows": 2,
+      "distinct_application_serials": 2,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2014-09-19",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/33781/151"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "033833/0862",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2014-09-26",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/33833/862"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "034778/0846",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2015-01-16",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34778/846"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "035655/0001",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2015-05-13",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35655/1"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "036505/0532",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2015-08-31",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/36505/532"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "036506/0776",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2015-08-31",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/36506/776"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "036641/0300",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2015-09-21",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/36641/300"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "037082/0102",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2015-11-10",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/37082/102"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "037642/0527",
+      "pages": 1,
+      "property_rows": 3,
+      "distinct_application_serials": 3,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2016-01-29",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/37642/527"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "038859/0837",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2016-06-01",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/38859/837"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "039570/0847",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2016-08-04",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/39570/847"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "039579/0206",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2016-08-04",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/39579/206"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "039785/0059",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2016-08-23",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/39785/59"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "039787/0518",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2016-08-23",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/39787/518"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "040899/0120",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2016-12-13",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/40899/120"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "041568/0339",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2017-01-31",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/41568/339"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "042067/0035",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2017-03-22",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/42067/35"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "042110/0060",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2017-03-29",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/42110/60"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "042642/0538",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2017-05-31",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/42642/538"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "042692/0161",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2017-06-13",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/42692/161"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "043253/0045",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2017-07-19",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/43253/45"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "043254/0613",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2017-07-19",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/43254/613"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "044790/0173",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2017-11-17",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/44790/173"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "046506/0628",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2018-07-05",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/46506/628"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "049122/0541",
+      "pages": 1,
+      "property_rows": 3,
+      "distinct_application_serials": 3,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2019-05-08",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/49122/541"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "054629/0730",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2020-12-14",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/54629/730"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "054631/0787",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2020-12-14",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/54631/787"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "054632/0137",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2020-12-14",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/54632/137"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "057754/0827",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2021-10-11",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY, LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/57754/827"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "063229/0603",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2023-04-05",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC"
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/63229/603"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "068133/0966",
+      "pages": 1,
+      "property_rows": 4,
+      "distinct_application_serials": 4,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2024-07-05",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/68133/966"
+    },
+    {
+      "scope": "home-retained-may28",
+      "reel_frame": "069304/0739",
+      "pages": 1,
+      "property_rows": 3,
+      "distinct_application_serials": 3,
+      "execution_date_as_recorded": "2013-05-28",
+      "recordation_date": "2024-11-05",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/69304/739"
+    },
+    {
+      "scope": "holdings-to-home-at-close",
+      "reel_frame": "030420/0659",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-16",
+      "recordation_date": "2013-05-15",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30420/659"
+    },
+    {
+      "scope": "holdings-to-home-at-close",
+      "reel_frame": "030420/0773",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-16",
+      "recordation_date": "2013-05-15",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30420/773"
+    },
+    {
+      "scope": "holdings-to-home-at-close",
+      "reel_frame": "031609/0657",
+      "pages": 1,
+      "property_rows": 15,
+      "distinct_application_serials": 15,
+      "execution_date_as_recorded": "2013-04-17",
+      "recordation_date": "2013-11-15",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/31609/657"
+    },
+    {
+      "scope": "holdings-to-home-at-close",
+      "reel_frame": "031762/0295",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-16",
+      "recordation_date": "2013-12-11",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/31762/295"
+    },
+    {
+      "scope": "holdings-to-home-at-close",
+      "reel_frame": "035589/0479",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-17",
+      "recordation_date": "2015-05-06",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35589/479"
+    },
+    {
+      "scope": "holdings-to-home-at-close",
+      "reel_frame": "042420/0774",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-17",
+      "recordation_date": "2017-05-08",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/42420/774"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "030919/0697",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-07-26",
+      "recordation_date": "2013-07-29",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "ARRIS ENTERPRISES, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30919/697"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "035133/0286",
+      "pages": 1,
+      "property_rows": 89,
+      "distinct_application_serials": 41,
+      "execution_date_as_recorded": "2015-01-01",
+      "recordation_date": "2015-03-05",
+      "conveyance_as_recorded": "MERGER AND CHANGE OF NAME",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION",
+        "ARRIS TECHNOLOGY, INC."
+      ],
+      "to_entities": [
+        "ARRIS TECHNOLOGY, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35133/286"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "035176/0620",
+      "pages": 1,
+      "property_rows": 576,
+      "distinct_application_serials": 543,
+      "execution_date_as_recorded": "2015-01-01",
+      "recordation_date": "2015-03-10",
+      "conveyance_as_recorded": "MERGER AND CHANGE OF NAME",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION",
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "ARRIS TECHNOLOGY, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35176/620"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "035571/0330",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2015-01-01",
+      "recordation_date": "2015-05-06",
+      "conveyance_as_recorded": "MERGER",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "ARRIS TECHNOLOGY, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35571/330"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "036206/0370",
+      "pages": 1,
+      "property_rows": 4,
+      "distinct_application_serials": 4,
+      "execution_date_as_recorded": "2015-01-01",
+      "recordation_date": "2015-07-29",
+      "conveyance_as_recorded": "MERGER",
+      "from_entities": [
+        "GENERAL INSTRUMENT WIRELINE NETWORKS INC"
+      ],
+      "to_entities": [
+        "ARRIS TECHNOLOGY INC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/36206/370"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "037061/0398",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2015-01-01",
+      "recordation_date": "2015-11-17",
+      "conveyance_as_recorded": "MERGER",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "ARRIS TECHNOLOGY, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/37061/398"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "037471/0403",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2015-01-01",
+      "recordation_date": "2016-01-13",
+      "conveyance_as_recorded": "MERGER",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "ARRIS TECHNOLOGY, INC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/37471/403"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "038914/0729",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2015-01-01",
+      "recordation_date": "2016-06-15",
+      "conveyance_as_recorded": "MERGER",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "ARRIS TECHNOLOGY, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/38914/729"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "042278/0476",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2015-01-01",
+      "recordation_date": "2017-05-08",
+      "conveyance_as_recorded": "MERGER AND CHANGE OF NAME",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION",
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "ARRIS TECHNOLOGY, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/42278/476"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "046333/0170",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2015-01-01",
+      "recordation_date": "2018-07-12",
+      "conveyance_as_recorded": "MERGER",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "ARRIS TECHNOLOGY, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/46333/170"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "049640/0337",
+      "pages": 1,
+      "property_rows": 4,
+      "distinct_application_serials": 4,
+      "execution_date_as_recorded": "2015-01-01",
+      "recordation_date": "2019-07-01",
+      "conveyance_as_recorded": "MERGER AND CHANGE OF NAME",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION",
+        "ARRIS TECHNOLOGY, INC"
+      ],
+      "to_entities": [
+        "ARRIS TECHNOLOGY, INC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/49640/337"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "059811/0559",
+      "pages": 1,
+      "property_rows": 3,
+      "distinct_application_serials": 3,
+      "execution_date_as_recorded": "2015-01-01",
+      "recordation_date": "2022-04-27",
+      "conveyance_as_recorded": "MERGER AND CHANGE OF NAME",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION",
+        "ARRIS TECHNOLOGY, INC."
+      ],
+      "to_entities": [
+        "ARRIS TECHNOLOGY, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/59811/559"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "060201/0073",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2015-01-01",
+      "recordation_date": "2022-05-25",
+      "conveyance_as_recorded": "CHANGE OF NAME",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "ARRIS TECHNOLOGY, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/60201/73"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "060571/0996",
+      "pages": 1,
+      "property_rows": 4,
+      "distinct_application_serials": 4,
+      "execution_date_as_recorded": "2015-01-01",
+      "recordation_date": "2022-07-01",
+      "conveyance_as_recorded": "MERGER AND CHANGE OF NAME",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION",
+        "ARRIS TECHNOLOGY, INC."
+      ],
+      "to_entities": [
+        "ARRIS TECHNOLOGY, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/60571/996"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "060749/0279",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2015-01-01",
+      "recordation_date": "2022-05-09",
+      "conveyance_as_recorded": "MERGER AND CHANGE OF NAME",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION",
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "ARRIS TECHNOLOGY, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/60749/279"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "061144/0659",
+      "pages": 1,
+      "property_rows": 8,
+      "distinct_application_serials": 8,
+      "execution_date_as_recorded": "2015-01-09",
+      "recordation_date": "2022-08-11",
+      "conveyance_as_recorded": "CHANGE OF NAME",
+      "from_entities": [
+        "GENERAL INSTRUMENT SWEDEN AB"
+      ],
+      "to_entities": [
+        "ARRIS SWEDEN AB"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/61144/659"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "061157/0080",
+      "pages": 1,
+      "property_rows": 6,
+      "distinct_application_serials": 5,
+      "execution_date_as_recorded": "2015-01-01",
+      "recordation_date": "2022-08-11",
+      "conveyance_as_recorded": "MERGER AND CHANGE OF NAME",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION",
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "ARRIS TECHNOLOGY, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/61157/80"
+    },
+    {
+      "scope": "home-to-arris-successors",
+      "reel_frame": "061886/0270",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2015-01-01",
+      "recordation_date": "2022-11-28",
+      "conveyance_as_recorded": "MERGER",
+      "from_entities": [
+        "GENERAL INSTRUMENT WIRELINE NETWORKS, INC."
+      ],
+      "to_entities": [
+        "ARRIS TECHNOLOGY, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/61886/270"
+    },
+    {
+      "scope": "other-home-period-mobile-to-holdings",
+      "reel_frame": "030420/0602",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-16",
+      "recordation_date": "2013-05-15",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30420/602"
+    },
+    {
+      "scope": "other-home-period-mobile-to-holdings",
+      "reel_frame": "030420/0698",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-16",
+      "recordation_date": "2013-05-15",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30420/698"
+    },
+    {
+      "scope": "other-home-period-mobile-to-holdings",
+      "reel_frame": "031609/0398",
+      "pages": 1,
+      "property_rows": 15,
+      "distinct_application_serials": 15,
+      "execution_date_as_recorded": "2013-04-16",
+      "recordation_date": "2013-11-15",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/31609/398"
+    },
+    {
+      "scope": "other-home-period-mobile-to-holdings",
+      "reel_frame": "031762/0140",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-17",
+      "recordation_date": "2013-12-11",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/31762/140"
+    },
+    {
+      "scope": "other-home-period-mobile-to-holdings",
+      "reel_frame": "035595/0346",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-16",
+      "recordation_date": "2015-05-06",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35595/346"
+    },
+    {
+      "scope": "other-home-period-mobile-to-holdings",
+      "reel_frame": "042420/0399",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-17",
+      "recordation_date": "2017-05-08",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/42420/399"
+    },
+    {
+      "scope": "verified-follow-on-context",
+      "reel_frame": "034358/0264",
+      "pages": 1,
+      "property_rows": 88,
+      "distinct_application_serials": 54,
+      "execution_date_as_recorded": "2014-10-28",
+      "recordation_date": "2014-11-21",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "to_entities": [
+        "GOOGLE TECHNOLOGY HOLDINGS LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34358/264"
+    },
+    {
+      "scope": "retention-reconciled",
+      "reel_frame": "034582/0099",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-05-18",
+      "recordation_date": "2014-12-24",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "to_entities": [
+        "MOTOROLA MOBILITY LLC"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34582/99"
+    },
+    {
+      "scope": "retention-reconciled",
+      "reel_frame": "038858/0532",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2016-06-01",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATON"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS, INC."
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/38858/532"
+    },
+    {
+      "scope": "retention-reconciled",
+      "reel_frame": "063229/0506",
+      "pages": 1,
+      "property_rows": 1,
+      "distinct_application_serials": 1,
+      "execution_date_as_recorded": "2013-04-15",
+      "recordation_date": "2023-04-05",
+      "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+      "from_entities": [
+        "GENERAL INSTRUMENT CORPORATION"
+      ],
+      "to_entities": [
+        "GENERAL INSTRUMENT HOLDINGS"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/63229/506"
+    },
+    {
+      "scope": "collateral_context",
+      "reel_frame": "030498/0023",
+      "pages": 1,
+      "property_rows": 1320,
+      "distinct_application_serials": 1319,
+      "execution_date_as_recorded": "2013-04-17",
+      "recordation_date": "2013-05-28",
+      "conveyance_as_recorded": "SECURITY AGREEMENT",
+      "from_entities": [
+        "ARRIS GROUP, INC.",
+        "ARRIS ENTERPRISES, INC.",
+        "ARRIS SOLUTIONS, INC.",
+        "ARRIS KOREA, INC.",
+        "ARRIS HOLDINGS CORP. OF ILLINOIS",
+        "BIGBAND NETWORKS, INC.",
+        "TEXSCAN CORPORATION",
+        "POWER GUARD, INC.",
+        "4HOME, INC.",
+        "ACADIA AIC, INC.",
+        "AEROCAST, INC.",
+        "BROADBUS TECHNOLOGIES, INC.",
+        "GENERAL INSTRUMENT CORPORATION",
+        "GENERAL INSTRUMENT AUTHORIZATION SERVICES, INC.",
+        "GENERAL INSTRUMENT INTERNATIONAL HOLDINGS, INC.",
+        "IMEDIA CORPORATION",
+        "JERROLD DC RADIO, INC.",
+        "LEAPSTONE SYSTEMS, INC.",
+        "MODULUS VIDEO, INC.",
+        "MOTOROLA WIRELINE NETWORKS, INC.",
+        "NETOPIA, INC.",
+        "NEXTLEVEL SYSTEMS (PUERTO RICO), INC.",
+        "QUANTUM BRIDGE COMMUNICATIONS, INC.",
+        "SETJAM, INC.",
+        "SUNUP DESIGN SYSTEMS, INC.",
+        "UCENTRIC SYSTEMS, INC.",
+        "GIC INTERNATIONAL HOLDCO LLC",
+        "GIC INTERNATIONAL CAPITAL LLC",
+        "CCE SOFTWARE LLC",
+        "THE GI REALTY TRUST 1996"
+      ],
+      "to_entities": [
+        "BANK OF AMERICA, N.A., AS ADMINISTRATIVE AGENT"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30498/23"
+    },
+    {
+      "scope": "collateral_context",
+      "reel_frame": "048825/0294",
+      "pages": 1,
+      "property_rows": 1320,
+      "distinct_application_serials": 1319,
+      "execution_date_as_recorded": "2019-04-04",
+      "recordation_date": "2019-04-08",
+      "conveyance_as_recorded": "TERMINATION AND RELEASE OF SECURITY INTEREST IN PATENTS",
+      "from_entities": [
+        "BANK OF AMERICA, N.A., AS ADMINISTRATIVE AGENT"
+      ],
+      "to_entities": [
+        "ARRIS GROUP, INC.",
+        "ARRIS ENTERPRISES, INC.",
+        "ARRIS SOLUTIONS, INC.",
+        "ARRIS KOREA, INC.",
+        "ARRIS HOLDINGS CORP. OF ILLINOIS, INC.",
+        "BIG BAND NETWORKS, INC.",
+        "TEXSCAN CORPORATION",
+        "POWER GUARD, INC.",
+        "4HOME, INC.",
+        "ACADIA AIC, INC.",
+        "AEROCAST, INC.",
+        "BROADBUS TECHNOLOGIES, INC.",
+        "GENERAL INSTRUMENT CORPORATION",
+        "GENERAL INSTRUMENT AUTHORIZATION SERVICES, INC.",
+        "GENERAL INSTRUMENT INTERNATIONAL HOLDINGS, INC.",
+        "IMEDIA CORPORATION",
+        "JERROLD DC RADIO, INC.",
+        "LEAPSTONE SYSTEMS, INC.",
+        "MODULUS VIDEO, INC.",
+        "MOTOROLA WIRELINE NETWORKS, INC.",
+        "NETOPIA, INC.",
+        "NEXTLEVEL SYSTEMS (PUERTO RICO), INC.",
+        "QUANTUM BRIDGE COMMUNICATIONS, INC.",
+        "SETJAM, INC.",
+        "SUNUP DESIGN SYSTEMS, INC.",
+        "UCENTRIC SYSTEMS, INC.",
+        "GIC INTERNATIONAL HOLDCO LLC",
+        "GIC INTERNATIONAL CAPITAL LLC",
+        "CCE SOFTWARE LLC",
+        "THE GI REALTY TRUST 1996"
+      ],
+      "record_image_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/48825/294"
+    }
+  ],
+  "registry_counts": {
+    "home-carve-out-april15": {
+      "reels": 33,
+      "rows": 1075,
+      "serials": 1035
+    },
+    "home-retained-may28": {
+      "reels": 36,
+      "rows": 1078,
+      "serials": 1038
+    },
+    "holdings-to-home-at-close": {
+      "reels": 6,
+      "rows": 20,
+      "serials": 18
+    },
+    "home-to-arris-successors": {
+      "reels": 18,
+      "rows": 704,
+      "serials": 615
+    },
+    "other-home-period-mobile-to-holdings": {
+      "reels": 6,
+      "rows": 20,
+      "serials": 18
+    },
+    "verified-follow-on-context": {
+      "reels": 1,
+      "rows": 88,
+      "serials": 54
+    },
+    "retention-reconciled": {
+      "reels": 3,
+      "rows": 3,
+      "serials": 3
+    }
+  },
+  "distinct_title_evidence_counts": {
+    "arris_successor_record_only": 136,
+    "retained_both_hops": 1036,
+    "gic_preclose_receipt_and_arris_succession": 463,
+    "home_contribution_both_hops": 18,
+    "retained_chain_one_hop": 4
+  },
+  "closing_continuity": {
+    "candidate_preclose_filers_in_successor_reels": 542,
+    "with_preclose_title_event": 479,
+    "recorded_by_closing": 458,
+    "seen_in_shared_security_pledge": 480,
+    "continuity_and_security_pledge": 433,
+    "also_named_in_closing_transfer_chain": 16
+  },
+  "reconciliation": {
+    "same_execution_date_pairs": [
+      {
+        "application_serial": "14709291",
+        "first_hop": "038858/0532"
+      },
+      {
+        "application_serial": "18194989",
+        "first_hop": "063229/0506"
+      }
+    ],
+    "differently_dated_second_hop": {
+      "application_serial": "11470034",
+      "second_hop": "034582/0099",
+      "execution_date_as_recorded": "2013-05-18"
+    }
+  },
+  "targets_name_probes": [
+    "ARRIS Enterprises LLC",
+    "ARRIS Group Inc.",
+    "General Instrument Corporation",
+    "Google Technology Holdings LLC",
+    "Motorola Home"
+  ],
+  "target_queries": {
+    "ARRIS Group Inc.": {
+      "file": "target-arriscorp.json",
+      "provider_total": 1,
+      "query_pages": 1,
+      "source_records": 1
+    },
+    "ARRIS Enterprises LLC": {
+      "file": "target-arristech.json",
+      "provider_total": 50,
+      "query_pages": 1,
+      "source_records": 50
+    },
+    "General Instrument Corporation": {
+      "file": "target-gi.json",
+      "provider_total": 212,
+      "query_pages": 5,
+      "source_records": 212
+    },
+    "Google Technology Holdings LLC": {
+      "file": "target-gth.json",
+      "provider_total": 386,
+      "query_pages": 8,
+      "source_records": 386
+    },
+    "Motorola Home": {
+      "file": "target-home.json",
+      "provider_total": 0,
+      "query_pages": 1,
+      "source_records": 0
+    }
+  },
+  "sample_application_histories": {
+    "11562214": [
+      {
+        "reel_frame": "030764/0575",
+        "execution_date_as_recorded": "2013-04-15",
+        "recordation_date": "2013-07-09",
+        "recipients": [
+          "GENERAL INSTRUMENT HOLDINGS, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30764/575"
+      },
+      {
+        "reel_frame": "030866/0113",
+        "execution_date_as_recorded": "2013-05-28",
+        "recordation_date": "2013-07-09",
+        "recipients": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30866/113"
+      },
+      {
+        "reel_frame": "034358/0264",
+        "execution_date_as_recorded": "2014-10-28",
+        "recordation_date": "2014-11-21",
+        "recipients": [
+          "GOOGLE TECHNOLOGY HOLDINGS LLC"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34358/264"
+      }
+    ],
+    "13087847": [
+      {
+        "reel_frame": "030764/0575",
+        "execution_date_as_recorded": "2013-04-15",
+        "recordation_date": "2013-07-09",
+        "recipients": [
+          "GENERAL INSTRUMENT HOLDINGS, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30764/575"
+      },
+      {
+        "reel_frame": "030866/0113",
+        "execution_date_as_recorded": "2013-05-28",
+        "recordation_date": "2013-07-09",
+        "recipients": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30866/113"
+      },
+      {
+        "reel_frame": "034296/0001",
+        "execution_date_as_recorded": "2014-10-28",
+        "recordation_date": "2014-11-19",
+        "recipients": [
+          "GOOGLE TECHNOLOGY HOLDINGS LLC"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34296/1"
+      }
+    ],
+    "11605514": [
+      {
+        "reel_frame": "030498/0023",
+        "execution_date_as_recorded": "2013-04-17",
+        "recordation_date": "2013-05-28",
+        "recipients": [
+          "BANK OF AMERICA, N.A., AS ADMINISTRATIVE AGENT"
+        ],
+        "conveyance_as_recorded": "SECURITY AGREEMENT",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30498/23"
+      },
+      {
+        "reel_frame": "036206/0297",
+        "execution_date_as_recorded": "2013-12-31",
+        "recordation_date": "2015-07-29",
+        "recipients": [
+          "GENERAL INSTRUMENT WIRELINE NETWORKS INC"
+        ],
+        "conveyance_as_recorded": "MERGER",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/36206/297"
+      },
+      {
+        "reel_frame": "036206/0370",
+        "execution_date_as_recorded": "2015-01-01",
+        "recordation_date": "2015-07-29",
+        "recipients": [
+          "ARRIS TECHNOLOGY INC"
+        ],
+        "conveyance_as_recorded": "MERGER",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/36206/370"
+      },
+      {
+        "reel_frame": "037328/0341",
+        "execution_date_as_recorded": "2015-12-14",
+        "recordation_date": "2015-12-18",
+        "recipients": [
+          "ARRIS ENTERPRISES, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/37328/341"
+      },
+      {
+        "reel_frame": "060791/0583",
+        "execution_date_as_recorded": "2015-12-14",
+        "recordation_date": "2022-06-23",
+        "recipients": [
+          "ARRIS ENTERPRISES, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/60791/583"
+      },
+      {
+        "reel_frame": "049669/0652",
+        "execution_date_as_recorded": "2015-12-31",
+        "recordation_date": "2019-07-02",
+        "recipients": [
+          "ARRIS"
+        ],
+        "conveyance_as_recorded": "CHANGE OF NAME",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/49669/652"
+      },
+      {
+        "reel_frame": "049858/0161",
+        "execution_date_as_recorded": "2015-12-31",
+        "recordation_date": "2019-07-25",
+        "recipients": [
+          "ARRIS ENTERPRISES LLC"
+        ],
+        "conveyance_as_recorded": "CORRECTIVE ASSIGNMENT TO CORRECT THE ASSIGNEE'S NAME PREVIOUSLY RECORDED AT REEL: 049820 FRAME: 0495. ASSIGNOR(S) HEREBY CONFIRMS THE CHANGE OF NAME.",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/49858/161"
+      }
+    ],
+    "13277254": [
+      {
+        "reel_frame": "030420/0602",
+        "execution_date_as_recorded": "2013-04-16",
+        "recordation_date": "2013-05-15",
+        "recipients": [
+          "GENERAL INSTRUMENT HOLDINGS, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30420/602"
+      },
+      {
+        "reel_frame": "030420/0659",
+        "execution_date_as_recorded": "2013-04-16",
+        "recordation_date": "2013-05-15",
+        "recipients": [
+          "GENERAL INSTRUMENT CORPORATION"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30420/659"
+      },
+      {
+        "reel_frame": "031609/0398",
+        "execution_date_as_recorded": "2013-04-16",
+        "recordation_date": "2013-11-15",
+        "recipients": [
+          "GENERAL INSTRUMENT HOLDINGS, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/31609/398"
+      },
+      {
+        "reel_frame": "030498/0023",
+        "execution_date_as_recorded": "2013-04-17",
+        "recordation_date": "2013-05-28",
+        "recipients": [
+          "BANK OF AMERICA, N.A., AS ADMINISTRATIVE AGENT"
+        ],
+        "conveyance_as_recorded": "SECURITY AGREEMENT",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30498/23"
+      },
+      {
+        "reel_frame": "031609/0657",
+        "execution_date_as_recorded": "2013-04-17",
+        "recordation_date": "2013-11-15",
+        "recipients": [
+          "GENERAL INSTRUMENT CORPORATION"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/31609/657"
+      },
+      {
+        "reel_frame": "035176/0620",
+        "execution_date_as_recorded": "2015-01-01",
+        "recordation_date": "2015-03-10",
+        "recipients": [
+          "ARRIS TECHNOLOGY, INC."
+        ],
+        "conveyance_as_recorded": "MERGER AND CHANGE OF NAME",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35176/620"
+      }
+    ],
+    "13277258": [
+      {
+        "reel_frame": "030420/0698",
+        "execution_date_as_recorded": "2013-04-16",
+        "recordation_date": "2013-05-15",
+        "recipients": [
+          "GENERAL INSTRUMENT HOLDINGS, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30420/698"
+      },
+      {
+        "reel_frame": "030420/0773",
+        "execution_date_as_recorded": "2013-04-16",
+        "recordation_date": "2013-05-15",
+        "recipients": [
+          "GENERAL INSTRUMENT CORPORATION"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30420/773"
+      },
+      {
+        "reel_frame": "031609/0398",
+        "execution_date_as_recorded": "2013-04-16",
+        "recordation_date": "2013-11-15",
+        "recipients": [
+          "GENERAL INSTRUMENT HOLDINGS, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/31609/398"
+      },
+      {
+        "reel_frame": "030498/0023",
+        "execution_date_as_recorded": "2013-04-17",
+        "recordation_date": "2013-05-28",
+        "recipients": [
+          "BANK OF AMERICA, N.A., AS ADMINISTRATIVE AGENT"
+        ],
+        "conveyance_as_recorded": "SECURITY AGREEMENT",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30498/23"
+      },
+      {
+        "reel_frame": "031609/0657",
+        "execution_date_as_recorded": "2013-04-17",
+        "recordation_date": "2013-11-15",
+        "recipients": [
+          "GENERAL INSTRUMENT CORPORATION"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/31609/657"
+      },
+      {
+        "reel_frame": "035176/0620",
+        "execution_date_as_recorded": "2015-01-01",
+        "recordation_date": "2015-03-10",
+        "recipients": [
+          "ARRIS TECHNOLOGY, INC."
+        ],
+        "conveyance_as_recorded": "MERGER AND CHANGE OF NAME",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35176/620"
+      },
+      {
+        "reel_frame": "037328/0341",
+        "execution_date_as_recorded": "2015-12-14",
+        "recordation_date": "2015-12-18",
+        "recipients": [
+          "ARRIS ENTERPRISES, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/37328/341"
+      },
+      {
+        "reel_frame": "060791/0583",
+        "execution_date_as_recorded": "2015-12-14",
+        "recordation_date": "2022-06-23",
+        "recipients": [
+          "ARRIS ENTERPRISES, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/60791/583"
+      },
+      {
+        "reel_frame": "049649/0062",
+        "execution_date_as_recorded": "2015-12-31",
+        "recordation_date": "2019-07-02",
+        "recipients": [
+          "ARRIS ENTERPRISES LLC"
+        ],
+        "conveyance_as_recorded": "CHANGE OF NAME",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/49649/62"
+      }
+    ],
+    "29448217": [
+      {
+        "reel_frame": "029963/0838",
+        "execution_date_as_recorded": "2013-03-11",
+        "recordation_date": "2013-03-11",
+        "recipients": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29963/838"
+      },
+      {
+        "reel_frame": "035595/0346",
+        "execution_date_as_recorded": "2013-04-16",
+        "recordation_date": "2015-05-06",
+        "recipients": [
+          "GENERAL INSTRUMENT HOLDINGS, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35595/346"
+      },
+      {
+        "reel_frame": "030498/0023",
+        "execution_date_as_recorded": "2013-04-17",
+        "recordation_date": "2013-05-28",
+        "recipients": [
+          "BANK OF AMERICA, N.A., AS ADMINISTRATIVE AGENT"
+        ],
+        "conveyance_as_recorded": "SECURITY AGREEMENT",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30498/23"
+      },
+      {
+        "reel_frame": "035589/0479",
+        "execution_date_as_recorded": "2013-04-17",
+        "recordation_date": "2015-05-06",
+        "recipients": [
+          "GENERAL INSTRUMENT CORPORATION"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35589/479"
+      },
+      {
+        "reel_frame": "035571/0330",
+        "execution_date_as_recorded": "2015-01-01",
+        "recordation_date": "2015-05-06",
+        "recipients": [
+          "ARRIS TECHNOLOGY, INC."
+        ],
+        "conveyance_as_recorded": "MERGER",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35571/330"
+      },
+      {
+        "reel_frame": "037328/0341",
+        "execution_date_as_recorded": "2015-12-14",
+        "recordation_date": "2015-12-18",
+        "recipients": [
+          "ARRIS ENTERPRISES, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/37328/341"
+      },
+      {
+        "reel_frame": "060791/0583",
+        "execution_date_as_recorded": "2015-12-14",
+        "recordation_date": "2022-06-23",
+        "recipients": [
+          "ARRIS ENTERPRISES, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/60791/583"
+      },
+      {
+        "reel_frame": "049649/0062",
+        "execution_date_as_recorded": "2015-12-31",
+        "recordation_date": "2019-07-02",
+        "recipients": [
+          "ARRIS ENTERPRISES LLC"
+        ],
+        "conveyance_as_recorded": "CHANGE OF NAME",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/49649/62"
+      }
+    ],
+    "11613295": [
+      {
+        "reel_frame": "030498/0023",
+        "execution_date_as_recorded": "2013-04-17",
+        "recordation_date": "2013-05-28",
+        "recipients": [
+          "BANK OF AMERICA, N.A., AS ADMINISTRATIVE AGENT"
+        ],
+        "conveyance_as_recorded": "SECURITY AGREEMENT",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30498/23"
+      },
+      {
+        "reel_frame": "035176/0620",
+        "execution_date_as_recorded": "2015-01-01",
+        "recordation_date": "2015-03-10",
+        "recipients": [
+          "ARRIS TECHNOLOGY, INC."
+        ],
+        "conveyance_as_recorded": "MERGER AND CHANGE OF NAME",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35176/620"
+      },
+      {
+        "reel_frame": "037328/0341",
+        "execution_date_as_recorded": "2015-12-14",
+        "recordation_date": "2015-12-18",
+        "recipients": [
+          "ARRIS ENTERPRISES, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/37328/341"
+      },
+      {
+        "reel_frame": "060791/0583",
+        "execution_date_as_recorded": "2015-12-14",
+        "recordation_date": "2022-06-23",
+        "recipients": [
+          "ARRIS ENTERPRISES, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/60791/583"
+      },
+      {
+        "reel_frame": "049649/0062",
+        "execution_date_as_recorded": "2015-12-31",
+        "recordation_date": "2019-07-02",
+        "recipients": [
+          "ARRIS ENTERPRISES LLC"
+        ],
+        "conveyance_as_recorded": "CHANGE OF NAME",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/49649/62"
+      }
+    ],
+    "11470034": [
+      {
+        "reel_frame": "030764/0575",
+        "execution_date_as_recorded": "2013-04-15",
+        "recordation_date": "2013-07-09",
+        "recipients": [
+          "GENERAL INSTRUMENT HOLDINGS, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30764/575"
+      },
+      {
+        "reel_frame": "034582/0099",
+        "execution_date_as_recorded": "2013-05-18",
+        "recordation_date": "2014-12-24",
+        "recipients": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34582/99"
+      },
+      {
+        "reel_frame": "034713/0612",
+        "execution_date_as_recorded": "2014-10-28",
+        "recordation_date": "2014-12-29",
+        "recipients": [
+          "GOOGLE TECHNOLOGY HOLDINGS LLC"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34713/612"
+      }
+    ],
+    "14709291": [
+      {
+        "reel_frame": "038858/0532",
+        "execution_date_as_recorded": "2013-04-15",
+        "recordation_date": "2016-06-01",
+        "recipients": [
+          "GENERAL INSTRUMENT HOLDINGS, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/38858/532"
+      },
+      {
+        "reel_frame": "038859/0837",
+        "execution_date_as_recorded": "2013-05-28",
+        "recordation_date": "2016-06-01",
+        "recipients": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/38859/837"
+      },
+      {
+        "reel_frame": "038860/0260",
+        "execution_date_as_recorded": "2014-11-21",
+        "recordation_date": "2016-06-01",
+        "recipients": [
+          "GOOGLE TECHNOLOGY HOLDINGS LLC"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/38860/260"
+      }
+    ],
+    "18194989": [
+      {
+        "reel_frame": "063229/0506",
+        "execution_date_as_recorded": "2013-04-15",
+        "recordation_date": "2023-04-05",
+        "recipients": [
+          "GENERAL INSTRUMENT HOLDINGS"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/63229/506"
+      },
+      {
+        "reel_frame": "063229/0603",
+        "execution_date_as_recorded": "2013-05-28",
+        "recordation_date": "2023-04-05",
+        "recipients": [
+          "MOTOROLA MOBILITY LLC"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/63229/603"
+      },
+      {
+        "reel_frame": "063229/0810",
+        "execution_date_as_recorded": "2014-10-28",
+        "recordation_date": "2023-04-05",
+        "recipients": [
+          "GOOGLE TECHNOLOGY HOLDINGS LLC"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/63229/810"
+      }
+    ],
+    "14992327": [
+      {
+        "reel_frame": "047177/0870",
+        "execution_date_as_recorded": "2013-04-15",
+        "recordation_date": "2018-10-02",
+        "recipients": [
+          "GENERAL INSTRUMENT HOLDINGS, INC."
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/47177/870"
+      },
+      {
+        "reel_frame": "047700/0001",
+        "execution_date_as_recorded": "2014-10-28",
+        "recordation_date": "2018-10-02",
+        "recipients": [
+          "GOOGLE TECHNOLOGY HOLDINGS LLC"
+        ],
+        "conveyance_as_recorded": "ASSIGNMENT OF ASSIGNOR'S INTEREST",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/47700/1"
+      }
+    ]
+  },
+  "epo_publications": [
+    {
+      "kind": "epo_native_xml",
+      "publication": "EP2089803A2",
+      "application_number": "07854808.8",
+      "publication_date": "20090819",
+      "applicants": [
+        "Motorola, Inc."
+      ],
+      "proprietors": [],
+      "file": "sources/EP2089803NWA2.xml",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2089803NWA2/document.xml",
+      "sha256": "2bc9cc9a8ec52bc99f6e5f1db42a56b24f3ccdd33246dcc4193659468d92bf15"
+    },
+    {
+      "kind": "epo_native_xml",
+      "publication": "EP2089803B1",
+      "application_number": "07854808.8",
+      "publication_date": "20180207",
+      "applicants": [],
+      "proprietors": [
+        "ARRIS Enterprises LLC"
+      ],
+      "file": "sources/EP2089803NWB1.xml",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2089803NWB1/document.xml",
+      "sha256": "120a684becda06005a181eb3602ff38fb475e8abaafffb2ad9e0d19ab1db49a4"
+    }
+  ],
+  "archived_sources": [
+    {
+      "kind": "uspto_assignment_pdf",
+      "reel_frame": "030420/0602",
+      "file": "registry/original-030420-0602.pdf",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30420/602",
+      "sha256": "5d2447be9bf553e7bdb4c1f72561fa1c79443da59fec0f40dd3a6f79e0a9ee4c"
+    },
+    {
+      "kind": "uspto_assignment_pdf",
+      "reel_frame": "030420/0659",
+      "file": "registry/original-030420-0659.pdf",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30420/659",
+      "sha256": "407cbb9e0030f7d74a1d02c3a6bfb9486c66884c3b2495e6301e0e9413a0c0da"
+    },
+    {
+      "kind": "uspto_assignment_pdf",
+      "reel_frame": "030725/0476",
+      "file": "registry/original-030725-0476.pdf",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30725/476",
+      "sha256": "12a4722ffae1c5e01ebd2ccf9d4c5ddfe37062469dda8448f7787ed0f48acf84"
+    },
+    {
+      "kind": "uspto_assignment_pdf",
+      "reel_frame": "030725/0642",
+      "file": "registry/original-030725-0642.pdf",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30725/642",
+      "sha256": "0564c63edaa3cb9d31186e1e4ad2f4f29d04d29f35df13590b90a3929f239031"
+    },
+    {
+      "kind": "uspto_assignment_pdf",
+      "reel_frame": "030764/0575",
+      "file": "registry/original-030764-0575.pdf",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30764/575",
+      "sha256": "803b9a17d0b7f8f264e2dc230db7cc6e1e7cc3b8d649dac1daaa0baf7b3e0684"
+    },
+    {
+      "kind": "uspto_assignment_pdf",
+      "reel_frame": "030866/0113",
+      "file": "registry/original-030866-0113.pdf",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30866/113",
+      "sha256": "13fbb3532d4792c2f5d2168db7039260e9caf5d099fc3a7b0ef279d936df6289"
+    },
+    {
+      "kind": "uspto_assignment_pdf",
+      "reel_frame": "030919/0697",
+      "file": "registry/original-030919-0697.pdf",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/30919/697",
+      "sha256": "fe5f23ff7beea889c6f9f3809d4a1ffe02318b4503d92faabfd669420c0d165b"
+    },
+    {
+      "kind": "uspto_assignment_pdf",
+      "reel_frame": "034582/0099",
+      "file": "registry/original-034582-0099.pdf",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/34582/99",
+      "sha256": "ee50347a877d5edf4c77ec1fda7c252f4dbb61b3259addf93bc58b5353dbc5e3"
+    },
+    {
+      "kind": "uspto_assignment_pdf",
+      "reel_frame": "035176/0620",
+      "file": "registry/original-035176-0620.pdf",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/35176/620",
+      "sha256": "1ea575ad51e7fb848d69aaf865e00af50325c288d17cd28b949ae38ed10e8348"
+    },
+    {
+      "kind": "uspto_assignment_pdf",
+      "reel_frame": "038858/0532",
+      "file": "registry/original-038858-0532.pdf",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/38858/532",
+      "sha256": "f7fb0e79d40bd496d0c9cd183c6858e28c20f20b9e43c84a487cb65cf3fd75f5"
+    },
+    {
+      "kind": "uspto_assignment_pdf",
+      "reel_frame": "063229/0506",
+      "file": "registry/original-063229-0506.pdf",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/63229/506",
+      "sha256": "8e32340e3b11f8a7d493e65dc8aa1bf99215b47b654d373d108a18d9509e362f"
+    },
+    {
+      "kind": "uspto_publication_pdf",
+      "publication": "US20080120239A1",
+      "file": "publications/US20080120239A1.pdf",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20080120239",
+      "sha256": "63a37dc8d9b274f2760f29fadcf68440a41bcb8df6455ae19087132ad20e50da"
+    },
+    {
+      "kind": "uspto_publication_pdf",
+      "publication": "US20110258685A1",
+      "file": "publications/US20110258685A1.pdf",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20110258685",
+      "sha256": "e42177efed69feceebd06f3afa1d052da78426752b7d283c3acd07e42a7ae4f6"
+    },
+    {
+      "kind": "uspto_publication_pdf",
+      "publication": "US8433368B2",
+      "file": "publications/US8433368B2.pdf",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8433368",
+      "sha256": "c0e93786d29cf263c89a2665766333de48b4924c477a8dc3936c4c48e1d0d383"
+    },
+    {
+      "kind": "uspto_publication_pdf",
+      "publication": "US9015610B2",
+      "file": "publications/US9015610B2.pdf",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9015610",
+      "sha256": "9ed0251599295b79634463a96a5f621b1e7c815f31adbd57e2ed0fa6d0829504"
+    },
+    {
+      "kind": "uspto_publication_pdf",
+      "publication": "US9286214B2",
+      "file": "publications/US9286214B2.pdf",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9286214",
+      "sha256": "23fb2f8083ab0f29dc443031dbe06da903c669add9e6b003a7c465373e073f1e"
+    },
+    {
+      "kind": "epo_native_xml",
+      "publication": "EP2089803A2",
+      "application_number": "07854808.8",
+      "publication_date": "20090819",
+      "applicants": [
+        "Motorola, Inc."
+      ],
+      "proprietors": [],
+      "file": "sources/EP2089803NWA2.xml",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2089803NWA2/document.xml",
+      "sha256": "2bc9cc9a8ec52bc99f6e5f1db42a56b24f3ccdd33246dcc4193659468d92bf15"
+    },
+    {
+      "kind": "epo_native_xml",
+      "publication": "EP2089803B1",
+      "application_number": "07854808.8",
+      "publication_date": "20180207",
+      "applicants": [],
+      "proprietors": [
+        "ARRIS Enterprises LLC"
+      ],
+      "file": "sources/EP2089803NWB1.xml",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2089803NWB1/document.xml",
+      "sha256": "120a684becda06005a181eb3602ff38fb475e8abaafffb2ad9e0d19ab1db49a4"
+    },
+    {
+      "kind": "epo_bulletin",
+      "file": "sources/epo-bulletin1802.pdf",
+      "url": "https://www.epo.org/bulletin/downloads/2018/bulletin1802.pdf",
+      "sha256": "002118a58c03f3b54a1c7913bc0f28bd677bbff71978ebd46ca8de2c377034be"
+    }
+  ]
+}

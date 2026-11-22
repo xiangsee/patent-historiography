@@ -101,3 +101,8 @@
 
 - PD-030/031 增加 143 页、6,926 份公报。A1 和 B2 首页列同一国际申请的不同日期时，保留所见版次及 WIPO 首发证据，按申请号跨段去重。
 - PD-032 增加 289 个美国卷页、7,247 条资产记录的满页审计，并将未消歧的美国出版著录、EPO 原生 XML、欧洲权属事件和中国、加拿大原始公报纳入逐件对照。 [第25轮研究](../research/25-google-2012-motorola-assets-and-published-parties.md) · [复跑校验](../scripts/validate_google_2012_motorola_assets.py)
+
+## 2026-11-22｜2013 母集、股权交易与交叉许可
+
+- PD-030/031 增加 161 页、7,873 份公报，合计取齐 617 页。重放 Home 交割日和后续专利文书执行、登记节点的出版情况。
+- PD-032 以两段让与的逐号交集对账保留与进入 Home 的产权证据。后续继受逐号反查交割前收受、入卷和同日担保。将 SEC 许可组合披露与签署版逐项附件的取证分别保留。 [第26轮研究](../research/26-google-2013-arris-motorola-home-patent-title-and-licenses.md) · [复跑校验](../scripts/validate_google_2013_arris_home.py)

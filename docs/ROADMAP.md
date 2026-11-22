@@ -120,3 +120,7 @@ GoTo1999主案/2001后续申请族与聚合转让事件被分别追踪；Google2
 ## 2026-11-22｜第25轮：2012 母集和 Motorola Mobility 交割后登记
 
 完成 143 页新增取数，合并至 21,335 份公报。美国改制卷页全量分页，查到 7,211 个不同申请号并逐版核对运营法人列名。欧洲通过事件簿、变更公报和 A/B 原生 XML 核验，中国与加拿大追到公报首页并留待核登记。后续研究可沿 2013 年母集衔接 Home 处置，按实际权属链继续追踪各项专利。 [第25轮报告](../research/25-google-2012-motorola-assets-and-published-parties.md)
+
+## 2026-11-22｜第26轮：2013 年母集与 Motorola Home 处置
+
+完成 161 页新增取数，合并至 29,208 份公报。ARRIS 实际交割、产权资产总量、保留许可及回授均已对到 SEC 文件，105 个美国卷页与逐申请号履历支持两侧实体的部分资产清单。卖方已登记知识产权披露表和签署版许可附表仍待补齐。后续衔接 2014 年 Motorola Mobile 出售时保留对 Home／ARRIS 与 Mobile／Lenovo 的两套交易记录。 [第26轮报告](../research/26-google-2013-arris-motorola-home-patent-title-and-licenses.md)

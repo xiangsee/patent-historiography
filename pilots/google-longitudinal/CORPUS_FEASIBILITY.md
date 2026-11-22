@@ -70,3 +70,7 @@ H4 哪些明确投入却未成为产品主线的专利方向被既有企业成�
 ## 2012 年母集与子公司公报列名
 
 新增 143 页、6,926 份去重公报，合并至 21,335 份。美国和欧洲的原始著录分别查到 427 份和 140 份列 Motorola Mobility、当年申请而两个 Google 名称未命中的公报。逐版列名、出具日期和登记链作为补充入口。 [第25轮报告](../../research/25-google-2012-motorola-assets-and-published-parties.md) · [合并统计](derived/google-1996-2012-combined-audit-2026-11-22.json)
+
+## 2013 年母集与 Motorola Home 出售后的权利
+
+新增 161 页、7,873 份去重公报，合并至 29,208 份。ARRIS 交易中的 Home 专利产权和保留许可各有披露口径，美国卷页和合同附表各有证据范围。逐号权属表追到 1,036 个保留双段和 18 个交割窗口内进入 Home 的双段，后续 ARRIS 继受另据历史卷页判断。 [第26轮报告](../../research/26-google-2013-arris-motorola-home-patent-title-and-licenses.md) · [合并统计](derived/google-1996-2013-combined-audit-2026-11-22.json)

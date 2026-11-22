@@ -1,6 +1,6 @@
 # 《企业史记》｜Patent Historiography
 
-**v1.11.0 · Google 2012 专利母集、Motorola Mobility 交割后权属 · 2026-11-22**
+**v1.12.0 · Google 2013 专利母集、Motorola Home 产权与许可 · 2026-11-22**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
@@ -11,6 +11,11 @@
 
 
 
+
+## 2026-11-22｜第26轮：Google 2013 与 Motorola Home 交割
+
+- 161 页去重为 **7,873 份公报**，1996—2013 年累计 **29,208 份公报、21,485 个申请号、11,565 个数据库族标识**。 [第26轮研究](research/26-google-2013-arris-motorola-home-patent-title-and-licenses.md) · [合并审计](pilots/google-longitudinal/derived/google-1996-2013-combined-audit-2026-11-22.json)
+- 核实 **2013-04-17** 交割与 ARRIS 披露的 **991 项取得、2,173 项保留并许可**。美国卷页逐号核见进入 Home 的 18 条双段权属链和留在 Mobility 一侧的 1,036 条双段权属链。 [美国逐号清单](pilots/google-longitudinal/derived/google-2013-arris-home-title-evidence.csv) · [合同与卷页索引](pilots/google-longitudinal/derived/google-2013-arris-home-rights-2026-11-22.json)
 
 ## 2026-11-22｜第25轮：Google 2012 与 Motorola Mobility 交割后权属
 
