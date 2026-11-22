@@ -1,0 +1,746 @@
+{
+  "retrieved_on": "2026-11-22",
+  "asset_ledger": "google-2010-on2-admob-asset-register.csv",
+  "corporate_sources": {
+    "on2": {
+      "closing_date": "2010-02-19",
+      "closing": "https://www.sec.gov/Archives/edgar/data/1045280/000119312510039052/ds8pos.htm",
+      "preclosing_portfolio_disclosure": "https://www.sec.gov/Archives/edgar/data/1045280/000118811209000543/t64766_10k.htm",
+      "agreement_section_2_14c": "https://www.sec.gov/Archives/edgar/data/1288776/000119312509213803/ds4a.htm"
+    },
+    "admob": {
+      "closing_date": "2010-05-27",
+      "closing": "https://googleblog.blogspot.com/2010/05/weve-officially-acquired-admob.html",
+      "regulatory_review_closed": "2010-05-21",
+      "regulatory_source": "https://www.ftc.gov/legal-library/browse/cases-proceedings/closing-letters/google-incadmob-inc"
+    },
+    "google_2010_10k": "https://www.sec.gov/Archives/edgar/data/1288776/000119312511032930/d10k.htm"
+  },
+  "registry_scope": {
+    "country": "US",
+    "recordation_date_from": "2010-01-01",
+    "recordation_date_to": "2012-12-31",
+    "search_page": "https://assignmentcenter.uspto.gov/search/intellectualProperty/search",
+    "search_api": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/search/patent",
+    "reconciliation": "exactAssignorName then applicationNumber for all discovered serials; reelFrame for each selected filing",
+    "routes": {
+      "admob-google": {
+        "from_query": "ADMOB GOOGLE INC.",
+        "to_filter": "Google Inc.",
+        "name_response_rows": 13,
+        "reels_from_name": 1,
+        "reels_after_application_reconciliation": 1
+      },
+      "admob-inc": {
+        "from_query": "ADMOB, INC.",
+        "to_filter": "AdMob Google Inc.",
+        "name_response_rows": 12,
+        "reels_from_name": 1,
+        "reels_after_application_reconciliation": 1
+      },
+      "duck": {
+        "from_query": "THE DUCK CORPORATION",
+        "to_filter": "Google Inc.",
+        "name_response_rows": 14,
+        "reels_from_name": 7,
+        "reels_after_application_reconciliation": 7
+      },
+      "hantro": {
+        "from_query": "HANTRO PRODUCTS OY",
+        "to_filter": "On2 Technologies Finland Oy",
+        "name_response_rows": 14,
+        "reels_from_name": 1,
+        "reels_after_application_reconciliation": 1
+      },
+      "on2-finland": {
+        "from_query": "ON2 TECHNOLOGIES FINLAND OY",
+        "to_filter": "Google Inc.",
+        "name_response_rows": 16,
+        "reels_from_name": 6,
+        "reels_after_application_reconciliation": 6
+      },
+      "on2-inc": {
+        "from_query": "ON2 TECHNOLOGIES, INC.",
+        "to_filter": "On2 Technologies, LLC",
+        "name_response_rows": 132,
+        "reels_from_name": 38,
+        "reels_after_application_reconciliation": 38
+      },
+      "on2-llc": {
+        "from_query": "ON2 TECHNOLOGIES, LLC",
+        "to_filter": "Google Inc.",
+        "name_response_rows": 136,
+        "reels_from_name": 41,
+        "reels_after_application_reconciliation": 42
+      }
+    }
+  },
+  "asset_scope_totals": {
+    "scoped_reels": 96,
+    "property_rows": 115,
+    "unique_us_application_serials": 64
+  },
+  "target_name_probes": {
+    "On2 Technologies": 28,
+    "On2 Technologies Finland": 4,
+    "Hantro Products": 43,
+    "AdMob": 8,
+    "AdMob Google": 0,
+    "On2.com": 5,
+    "The Duck Corporation": 4
+  },
+  "application_control_receivers": {
+    "11702893": "AdMob, Inc.",
+    "11702957": "AdMob, Inc.",
+    "11702958": "AdMob, Inc.",
+    "12012212": "AdMob, Inc.",
+    "12075130": "AdMob, Inc.",
+    "12152229": "AdMob, Inc.",
+    "12246441": "AdMob, Inc.",
+    "12715305": "AdMob, Inc.",
+    "61340726": "AdMob Google Inc.",
+    "13069325": "Google Inc.",
+    "10713807": "On2 Technologies, Inc.",
+    "60469187": "On2 Technologies, Inc.",
+    "12724497": "On2 Technologies Finland Oy",
+    "12329070": "On2 Technologies, Inc.",
+    "13688608": "On2 Technologies, Inc."
+  },
+  "application_controls": {
+    "11702893": [
+      {
+        "reel_frame": "019386/0166",
+        "execution_date_as_recorded": "2007-05-30",
+        "recordation_date": "2007-06-05",
+        "to_entity": "AdMob, Inc.",
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/19386/166"
+      }
+    ],
+    "11702957": [
+      {
+        "reel_frame": "019234/0909",
+        "execution_date_as_recorded": "2007-04-25",
+        "recordation_date": "2007-05-01",
+        "to_entity": "AdMob, Inc.",
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/19234/909"
+      },
+      {
+        "reel_frame": "019236/0052",
+        "execution_date_as_recorded": "2007-04-25",
+        "recordation_date": "2007-05-01",
+        "to_entity": "AdMob, Inc.",
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/19236/52"
+      }
+    ],
+    "11702958": [
+      {
+        "reel_frame": "019386/0163",
+        "execution_date_as_recorded": "2007-05-30",
+        "recordation_date": "2007-06-05",
+        "to_entity": "AdMob, Inc.",
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/19386/163"
+      }
+    ],
+    "12012212": [
+      {
+        "reel_frame": "021284/0770",
+        "execution_date_as_recorded": "2008-06-24",
+        "recordation_date": "2008-07-21",
+        "to_entity": "AdMob, Inc.",
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/21284/770"
+      }
+    ],
+    "12075130": [
+      {
+        "reel_frame": "021146/0216",
+        "execution_date_as_recorded": "2008-05-29",
+        "recordation_date": "2008-06-23",
+        "to_entity": "AdMob, Inc.",
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/21146/216"
+      }
+    ],
+    "12152229": [
+      {
+        "reel_frame": "020996/0092",
+        "execution_date_as_recorded": "2008-05-12",
+        "recordation_date": "2008-05-12",
+        "to_entity": "AdMob, Inc.",
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/20996/92"
+      }
+    ],
+    "12246441": [
+      {
+        "reel_frame": "022735/0260",
+        "execution_date_as_recorded": "2009-05-20",
+        "recordation_date": "2009-05-26",
+        "to_entity": "AdMob, Inc.",
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/22735/260"
+      }
+    ],
+    "12715305": [
+      {
+        "reel_frame": "024396/0838",
+        "execution_date_as_recorded": "2010-04-21",
+        "recordation_date": "2010-05-17",
+        "to_entity": "AdMob, Inc.",
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/24396/838"
+      }
+    ],
+    "61340726": [
+      {
+        "reel_frame": "025189/0501",
+        "execution_date_as_recorded": "2010-10-25",
+        "recordation_date": "2010-10-25",
+        "to_entity": "AdMob Google Inc.",
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/25189/501"
+      }
+    ],
+    "13069325": [
+      {
+        "reel_frame": "027157/0541",
+        "execution_date_as_recorded": "2011-10-20",
+        "recordation_date": "2011-11-01",
+        "to_entity": "Google Inc.",
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/27157/541"
+      }
+    ],
+    "10713807": [
+      {
+        "reel_frame": "023160/0107",
+        "execution_date_as_recorded": "2006-04-28",
+        "recordation_date": "2009-07-30",
+        "to_entity": "On2 Technologies, Inc.",
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/23160/107"
+      }
+    ],
+    "60469187": [
+      {
+        "reel_frame": "023169/0535",
+        "execution_date_as_recorded": "2006-04-28",
+        "recordation_date": "2009-08-31",
+        "to_entity": "On2 Technologies, Inc.",
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/23169/535"
+      }
+    ],
+    "12724497": [
+      {
+        "reel_frame": "024429/0383",
+        "execution_date_as_recorded": "2010-04-28",
+        "recordation_date": "2010-05-24",
+        "to_entity": "On2 Technologies Finland Oy",
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/24429/383"
+      }
+    ],
+    "12329070": [
+      {
+        "reel_frame": "022212/0561",
+        "execution_date_as_recorded": "2008-12-02",
+        "recordation_date": "2009-02-05",
+        "to_entity": "On2 Technologies, Inc.",
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/22212/561"
+      }
+    ],
+    "13688608": [
+      {
+        "reel_frame": "029397/0093",
+        "execution_date_as_recorded": "2008-12-02",
+        "recordation_date": "2012-12-04",
+        "to_entity": "On2 Technologies, Inc.",
+        "original_record_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29397/93"
+      }
+    ]
+  },
+  "original_record_scans": [
+    {
+      "reel_frame": "017709/0036",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/17709/36",
+      "file": "registry/original-017709-0036.pdf",
+      "sha256": "7f3a35466250aeb154be664fcc1f993e02ec6195a6d1298617ed184c078a8803"
+    },
+    {
+      "reel_frame": "019234/0909",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/19234/909",
+      "file": "registry/original-019234-0909.pdf",
+      "sha256": "ca2a77ccaecdd64380202939d86691d6ec504cd09125273538effb77351e4f4f"
+    },
+    {
+      "reel_frame": "019236/0052",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/19236/52",
+      "file": "registry/original-019236-0052.pdf",
+      "sha256": "b4b55b187c62e92cbf067acc4c5898bc7eaab8b24ddaf86b167f171b358608d5"
+    },
+    {
+      "reel_frame": "019386/0163",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/19386/163",
+      "file": "registry/original-019386-0163.pdf",
+      "sha256": "1e56305af721fc4c102ff1b62eceb3a9526426ba9a28fabe9c88865a36c21726"
+    },
+    {
+      "reel_frame": "019386/0166",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/19386/166",
+      "file": "registry/original-019386-0166.pdf",
+      "sha256": "a4f77d3f5a0007ac95b45b91cb4759ddff5b3c292cc1f3064069b934a1cdf1ad"
+    },
+    {
+      "reel_frame": "020996/0092",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/20996/92",
+      "file": "registry/original-020996-0092.pdf",
+      "sha256": "c38fa51d2a8682dd76cb2c4f5457951ea817f6daf8a3452c3ffafe0e5d041deb"
+    },
+    {
+      "reel_frame": "021146/0216",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/21146/216",
+      "file": "registry/original-021146-0216.pdf",
+      "sha256": "3d48f4a44f078eb9f663050ec49286b2720629e1da8f081558066fb7080e4f1a"
+    },
+    {
+      "reel_frame": "021284/0770",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/21284/770",
+      "file": "registry/original-021284-0770.pdf",
+      "sha256": "3f1063971f26b29bd4c4e121246a4f9cb8a15b0f1faf1b9414821215bf5eadce"
+    },
+    {
+      "reel_frame": "022212/0561",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/22212/561",
+      "file": "registry/original-022212-0561.pdf",
+      "sha256": "6549884dc3572d31ee42a7d3eb735ffda43d028f8290c63ab4ff69542732dc8d"
+    },
+    {
+      "reel_frame": "022735/0260",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/22735/260",
+      "file": "registry/original-022735-0260.pdf",
+      "sha256": "2af26fc97c9631b2618145ac4c34b24275346a44c31657a41b843abafe8e61ed"
+    },
+    {
+      "reel_frame": "023160/0107",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/23160/107",
+      "file": "registry/original-023160-0107.pdf",
+      "sha256": "7eb181a7237a591eebed3a7bb0396b6e38c64fdf83e86f03133e2ad134b99862"
+    },
+    {
+      "reel_frame": "023169/0535",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/23169/535",
+      "file": "registry/original-023169-0535.pdf",
+      "sha256": "bf1e2711016d4f501258c748e6ceb706ea7ea728941bb1138147949ec3be08ab"
+    },
+    {
+      "reel_frame": "024248/0343",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/24248/343",
+      "file": "../round22/on2-24248-0343.pdf",
+      "sha256": "4845fb94a2c7f0a8a821aead129d5bed7aa1995c35c3c3af690381dbc23b3623"
+    },
+    {
+      "reel_frame": "024248/0432",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/24248/432",
+      "file": "../round22/on2-24248-0432.pdf",
+      "sha256": "65c41f05c8f05dc8374a1639cd47fe4360994aebd5cfba739bce289e5f623916"
+    },
+    {
+      "reel_frame": "024396/0838",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/24396/838",
+      "file": "registry/original-024396-0838.pdf",
+      "sha256": "91a413b7ebd72cbdc984c9b4ce479ba94f436872257b21370d68836ff18d84e1"
+    },
+    {
+      "reel_frame": "024429/0383",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/24429/383",
+      "file": "registry/original-024429-0383.pdf",
+      "sha256": "453086e80acf927c7df70d056605797bc3c08e547f78f1f34572520aa926fb4f"
+    },
+    {
+      "reel_frame": "025189/0501",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/25189/501",
+      "file": "registry/original-025189-0501.pdf",
+      "sha256": "6c684ca544f22357fb6209042e7e3e76b2f3b9775718a8d1a0d879d5cb92f726"
+    },
+    {
+      "reel_frame": "025374/0472",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/25374/472",
+      "file": "registry/original-025374-0472.pdf",
+      "sha256": "8e8751e3ce826733a257fee8e460d7c8eebc16b8632d642c7154e9ec8ff38574"
+    },
+    {
+      "reel_frame": "025389/0119",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/25389/119",
+      "file": "registry/original-025389-0119.pdf",
+      "sha256": "8d01f19a90faa19ed5f22f685bd8ae8a813c61656e6f065ade12ff376403a163"
+    },
+    {
+      "reel_frame": "025389/0176",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/25389/176",
+      "file": "registry/original-025389-0176.pdf",
+      "sha256": "3bb73523cf7aaeb7656c2206f9b3607da0476166eea69ff59f9ae6f9226771b1"
+    },
+    {
+      "reel_frame": "025440/0161",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/25440/161",
+      "file": "../round22/admob-25440-0161.pdf",
+      "sha256": "344e4c35b7a0ad2c03a97ccbc27401d3859da11d62ef5dc8a8bc6201bdae514a"
+    },
+    {
+      "reel_frame": "025512/0448",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/25512/448",
+      "file": "../round22/admob-25512-0448.pdf",
+      "sha256": "710f49c53a1dbd0901bce07d5bd41bbe3b40812466da0950a80f463d7cb714c8"
+    },
+    {
+      "reel_frame": "025608/0310",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/25608/310",
+      "file": "registry/original-025608-0310.pdf",
+      "sha256": "73883271b7b7548e4c14495a4fd8be76bd07c73dfc7513db68aecad0f60b397f"
+    },
+    {
+      "reel_frame": "026803/0083",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26803/83",
+      "file": "registry/original-026803-0083.pdf",
+      "sha256": "da3e8f0d9716021849d372a3a0aca03b54e204335712cdf0e39d86099848a36d"
+    },
+    {
+      "reel_frame": "026804/0729",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/26804/729",
+      "file": "registry/original-026804-0729.pdf",
+      "sha256": "c9164160677e590b6ceb1589136fa8b8539d7d393a676aa9e18f9f70bd8db517"
+    },
+    {
+      "reel_frame": "027157/0541",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/27157/541",
+      "file": "registry/original-027157-0541.pdf",
+      "sha256": "13976e2ce6dd9c348ff06c7b57fa26227d11213b75e2b5118a3bf69c82773507"
+    },
+    {
+      "reel_frame": "028925/0778",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28925/778",
+      "file": "registry/original-028925-0778.pdf",
+      "sha256": "a1c377cd264de209ddcf487b1969e481d729b5691cb9283ccf975583c584b8d4"
+    },
+    {
+      "reel_frame": "028925/0801",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28925/801",
+      "file": "registry/original-028925-0801.pdf",
+      "sha256": "11e74258f603b19acc6181fce94a48c482f91e8e67a6637c8a3e9207784a1765"
+    },
+    {
+      "reel_frame": "028925/0876",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28925/876",
+      "file": "registry/original-028925-0876.pdf",
+      "sha256": "b1ecaab7f313ece6aa590d148e2a865815cc586b523b7022ffd618593b10671e"
+    },
+    {
+      "reel_frame": "028925/0896",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28925/896",
+      "file": "registry/original-028925-0896.pdf",
+      "sha256": "c3d01674af4910035a169eb8cb9c5fecf20facea3a2cf0d5f960ecb22b9aff19"
+    },
+    {
+      "reel_frame": "028925/0993",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/28925/993",
+      "file": "registry/original-028925-0993.pdf",
+      "sha256": "760b8c51a808eedeccafb25dd3ae6f09385b9ebb80e724e02ab310b2ea238c1f"
+    },
+    {
+      "reel_frame": "029397/0093",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29397/93",
+      "file": "registry/original-029397-0093.pdf",
+      "sha256": "2f35b305f742c103732fde9c8f6ac6d63fd76bffc3cabdd9e0b5da674d9d6b68"
+    },
+    {
+      "reel_frame": "029397/0164",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29397/164",
+      "file": "registry/original-029397-0164.pdf",
+      "sha256": "00bc2516a4c4d1f918b1372ff344a234898dc396b0c4ec92d3c9fa23ab17a11f"
+    },
+    {
+      "reel_frame": "029397/0171",
+      "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/29397/171",
+      "file": "registry/original-029397-0171.pdf",
+      "sha256": "c7cc7b4fa9d91461ec91976d6616e10d8b9257615230251c9aff2dd0b1254bda"
+    }
+  ],
+  "us_publications": [
+    {
+      "id": "US8824553B2",
+      "application_serial": "10713807",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8824553",
+      "file": "publications/US8824553B2.pdf",
+      "sha256": "13e00f922e4cfbf372002c9b1ea98180307fc6ff21b6024d9c2e2f6c8a656a7a"
+    },
+    {
+      "id": "US20120320989A1",
+      "application_serial": "13599315",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20120320989",
+      "file": "publications/US20120320989A1.pdf",
+      "sha256": "f588fb1247c542fa57f3593009df7323a93adabd138cded55ea739fcf66d1d7b"
+    },
+    {
+      "id": "US20120320978A1",
+      "application_serial": "13599333",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20120320978",
+      "file": "publications/US20120320978A1.pdf",
+      "sha256": "16656dd6f0b6a7c7c56dec89245ee3c155c23c4f6c5cbce6f5fecb15c26bd101"
+    },
+    {
+      "id": "US20120320987A1",
+      "application_serial": "13599345",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20120320987",
+      "file": "publications/US20120320987A1.pdf",
+      "sha256": "cb745c22c0e99ec19fe81edd3284a0f391d354efab616f30151b79953ab18ce8"
+    },
+    {
+      "id": "US20120320991A1",
+      "application_serial": "13599360",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20120320991",
+      "file": "publications/US20120320991A1.pdf",
+      "sha256": "7084f8a585d6758488fbb68c2d089b1a89f1378f1160f6450d39556070ba4b1d"
+    },
+    {
+      "id": "US20120320992A1",
+      "application_serial": "13599371",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20120320992",
+      "file": "publications/US20120320992A1.pdf",
+      "sha256": "3c1dffebebab05a4ad0eaeb5498e47d2a4dca0b6e5bedb768872ae2ffa2d29d6"
+    },
+    {
+      "id": "US8897591B2",
+      "application_serial": "13688608",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8897591",
+      "file": "publications/US8897591B2.pdf",
+      "sha256": "c04412bf5f9bcecb26e59a572add45f90ed3383c3bffb1971129e3bbae41f3a4"
+    },
+    {
+      "id": "US20120001914A1",
+      "application_serial": "13069325",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20120001914",
+      "file": "publications/US20120001914A1.pdf",
+      "sha256": "b8c19e52594aa6caa056b354e8dd71842ae53d24a0a7233114e335bfbad1650b"
+    },
+    {
+      "id": "US20100223123A1",
+      "application_serial": "12715305",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20100223123",
+      "file": "publications/US20100223123A1.pdf",
+      "sha256": "b302a2c857358375094963399e172a06dfdce5f1526e08e1e05a582edde861b0"
+    },
+    {
+      "id": "US20100238268A1",
+      "application_serial": "12724497",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20100238268",
+      "file": "publications/US20100238268A1.pdf",
+      "sha256": "bdd80c1bdfdd8783943932e87e1e39689e7f01e88b2ba2e8dd44dd0d1099d252"
+    },
+    {
+      "id": "US8665318B2",
+      "application_serial": "12724497",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8665318",
+      "file": "publications/US8665318B2.pdf",
+      "sha256": "02621fe5ea316ebe77f099221e47604edf0dbc69b08fea47b0ae0911c1383805"
+    }
+  ],
+  "us_lineage": [
+    {
+      "parent_serial": "10713807",
+      "child_serial": "13599315",
+      "relation": "continuation",
+      "source_publication": "US20120320989A1",
+      "source_locator": "page 1, Related U.S. Application Data"
+    },
+    {
+      "parent_serial": "60469187",
+      "child_serial": "13599315",
+      "relation": "claims_provisional_benefit",
+      "source_publication": "US20120320989A1",
+      "source_locator": "page 1, Related U.S. Application Data"
+    },
+    {
+      "parent_serial": "10713807",
+      "child_serial": "13599333",
+      "relation": "continuation",
+      "source_publication": "US20120320978A1",
+      "source_locator": "page 1, Related U.S. Application Data"
+    },
+    {
+      "parent_serial": "60469187",
+      "child_serial": "13599333",
+      "relation": "claims_provisional_benefit",
+      "source_publication": "US20120320978A1",
+      "source_locator": "page 1, Related U.S. Application Data"
+    },
+    {
+      "parent_serial": "10713807",
+      "child_serial": "13599345",
+      "relation": "continuation",
+      "source_publication": "US20120320987A1",
+      "source_locator": "page 1, Related U.S. Application Data"
+    },
+    {
+      "parent_serial": "60469187",
+      "child_serial": "13599345",
+      "relation": "claims_provisional_benefit",
+      "source_publication": "US20120320987A1",
+      "source_locator": "page 1, Related U.S. Application Data"
+    },
+    {
+      "parent_serial": "10713807",
+      "child_serial": "13599360",
+      "relation": "continuation",
+      "source_publication": "US20120320991A1",
+      "source_locator": "page 1, Related U.S. Application Data"
+    },
+    {
+      "parent_serial": "60469187",
+      "child_serial": "13599360",
+      "relation": "claims_provisional_benefit",
+      "source_publication": "US20120320991A1",
+      "source_locator": "page 1, Related U.S. Application Data"
+    },
+    {
+      "parent_serial": "10713807",
+      "child_serial": "13599371",
+      "relation": "continuation",
+      "source_publication": "US20120320992A1",
+      "source_locator": "page 1, Related U.S. Application Data"
+    },
+    {
+      "parent_serial": "60469187",
+      "child_serial": "13599371",
+      "relation": "claims_provisional_benefit",
+      "source_publication": "US20120320992A1",
+      "source_locator": "page 1, Related U.S. Application Data"
+    },
+    {
+      "parent_serial": "60469187",
+      "child_serial": "10713807",
+      "relation": "claims_provisional_benefit",
+      "source_publication": "US8824553B2",
+      "source_locator": "page 1, Related U.S. Application Data"
+    },
+    {
+      "parent_serial": "12329070",
+      "child_serial": "13688608",
+      "relation": "continuation",
+      "source_publication": "US8897591B2",
+      "source_locator": "page 1, Related U.S. Application Data"
+    },
+    {
+      "parent_serial": "61096147",
+      "child_serial": "13688608",
+      "relation": "claims_provisional_benefit",
+      "source_publication": "US8897591B2",
+      "source_locator": "page 1, Related U.S. Application Data"
+    },
+    {
+      "parent_serial": "61340726",
+      "child_serial": "13069325",
+      "relation": "claims_provisional_benefit",
+      "source_publication": "US20120001914A1",
+      "source_locator": "page 1, Related U.S. Application Data"
+    },
+    {
+      "parent_serial": "61208739",
+      "child_serial": "12715305",
+      "relation": "claims_provisional_benefit",
+      "source_publication": "US20100223123A1",
+      "source_locator": "page 1, Related U.S. Application Data"
+    }
+  ],
+  "epo_publications": [
+    {
+      "id": "EP2230850A2",
+      "application_number": "10156468.0",
+      "filing_date": "2010-03-15",
+      "publication_date": "2010-09-22",
+      "priority_number": "20095273",
+      "priority_office": "FI",
+      "role": "applicant",
+      "entity": "On2 Technologies Finland Oy",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2230850NWA2/document.xml",
+      "file": "publications/EP2230850NWA2.xml",
+      "sha256": "91cb3f4e55152b5d88873c1beb533bf330f7f0ac2de203643c141e20f3ae0c82"
+    },
+    {
+      "id": "EP2230850B1",
+      "application_number": "10156468.0",
+      "filing_date": "2010-03-15",
+      "publication_date": "2017-07-26",
+      "priority_number": "20095273",
+      "priority_office": "FI",
+      "role": "proprietor",
+      "entity": "Google Inc.",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2230850NWB1/document.xml",
+      "file": "publications/EP2230850NWB1.xml",
+      "sha256": "a262efe9e451f14b70274bff7b1098640ca2fb0eda5861909cd2c325932555ae"
+    }
+  ],
+  "name_union_controls": [
+    {
+      "id": "US20100223123A1",
+      "case": "admob",
+      "filing_date": "2010-03-01",
+      "application_serial": "12715305",
+      "in_2010_publication_union": false
+    },
+    {
+      "id": "US20100238268A1",
+      "case": "on2-finland",
+      "filing_date": "2010-03-16",
+      "application_serial": "12724497",
+      "in_2010_publication_union": false
+    },
+    {
+      "id": "US8665318B2",
+      "case": "on2-finland",
+      "filing_date": "2010-03-16",
+      "application_serial": "12724497",
+      "in_2010_publication_union": true,
+      "provider_publication_id": "US-8665318-B2"
+    },
+    {
+      "id": "EP2230850A2",
+      "case": "on2-finland",
+      "filing_date": "2010-03-15",
+      "application_serial": "EP10156468.0",
+      "in_2010_publication_union": false
+    },
+    {
+      "id": "EP2230850B1",
+      "case": "on2-finland",
+      "filing_date": "2010-03-15",
+      "application_serial": "EP10156468.0",
+      "in_2010_publication_union": true,
+      "provider_publication_id": "EP-2230850-B1"
+    }
+  ],
+  "epo_register_transfer": {
+    "application_number": "EP10156468.0",
+    "publication_number": "EP2230850",
+    "from_entity_as_published_in_2010": "On2 Technologies Finland Oy",
+    "to_entity_in_bulletin": "Google Inc.",
+    "transfer_request_received": "2011-10-28",
+    "applicant_change_event_date": "2011-12-02",
+    "registration_notification_dated": "2011-12-06",
+    "applicant_change_bulletin_date": "2012-01-04",
+    "underlying_agreement_execution_date": null,
+    "sources": [
+      {
+        "kind": "register_event_html",
+        "locator": "02.12.2011 / Change - applicant",
+        "url": "https://register-i.epo.org/application?number=EP10156468&lng=en&tab=event",
+        "file": "tmp/epo-register-alternate.html",
+        "sha256": "f64198ef6c29c3a880aa96363bc83fe6fa6fa52351d3e8b10ecb9a983f1e2dfe"
+      },
+      {
+        "kind": "register_file_index_html",
+        "locator": "ESD9FB2S9300FI4 (request) and ESI4R9EW6196FI4 (notification)",
+        "url": "https://register-i.epo.org/application?number=EP10156468&lng=en&tab=doclist",
+        "file": "tmp/epo-register-doclist.html",
+        "sha256": "4326e6b9b794e309c7cdba44808bf12ef6a78976b8879b6330e8f90bf6bb362e"
+      },
+      {
+        "kind": "bulletin_pdf",
+        "locator": "I.12(9), PDF page 529 / printed page 528",
+        "url": "https://www.epo.org/bulletin/downloads/2012/bulletin1201.pdf#page=529",
+        "file": "tmp/epo-bulletin-1201.pdf",
+        "sha256": "a8a3a9671197b857ae0a2ac2e9523a4ef6610c1f1f6eac30a7acef9d6f404e5d"
+      }
+    ]
+  }
+}

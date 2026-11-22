@@ -1,6 +1,6 @@
 # 《企业史记》｜Patent Historiography
 
-**v1.8.0 · Google 2007—2009 专利覆盖、并购与权属 · 2026-11-22**
+**v1.9.0 · Google 2010 专利母集、On2 与 AdMob 资产 · 2026-11-22**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
@@ -11,6 +11,11 @@
 
 
 
+
+## 2026-11-22｜第23轮：Google 2010 专利覆盖、On2 与 AdMob
+
+- 取齐 46 页，按公开号去重为 **2,168 份**。合并后 1996—2010 年累计 **9,617 份公报、6,920 个申请号、3,534 个数据库族标识**。 [第23轮报告](research/23-google-2010-on2-admob-patent-assets.md) · [合并审计](pilots/google-longitudinal/derived/google-1996-2010-combined-audit-2026-11-22.json)
+- 按法人和申请号核对两案 **96 份美国登记、64 个不同申请号**。On2 的两段移转覆盖同一批 26 个 2010 年登记申请号，另核实五件 2012 年同源续案。AdMob 的更名清单与向 Google 让与清单相差一件临时申请，已从公报查明后件的优先权主张。 [资产登记台账](pilots/google-longitudinal/derived/google-2010-on2-admob-asset-register.csv) · [原件与续案索引](pilots/google-longitudinal/derived/google-2010-on2-admob-rights-2026-11-22.json)
 
 ## 2026-11-22｜第22轮：Google 2007—2009 专利覆盖与并购证据
 
