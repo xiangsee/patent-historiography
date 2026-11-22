@@ -132,3 +132,7 @@ GoTo1999主案/2001后续申请族与聚合转让事件被分别追踪；Google2
 ## 2026-11-22｜第28轮：2015 年母集与 Alphabet 重组
 
 增录 123 页并合并至 41,836 份公报。确认 Alphabet 的控股重组、Google Inc. 存续、Verily 业务转入及更名。美国卷页、部分逐件履历和缺项已列表，美国登记拒绝剩余补取，待补全 Google Inc. 转出分页、外围公司卷内清单和境外个案。 [第28轮报告](../research/28-google-2015-alphabet-reorganization-and-patent-title.md)
+
+## 2026-11-22｜第29轮：2016 年母集与 Waymo 独立
+
+取齐 168 页并合并至 50,156 份公报。核实 Waymo 从 X 独立及 Google → Waymo Holding → Waymo LLC 两段产权，完成 1,129 个选定美国卷页和 406 个目标申请履历。主出资协议与境外逐局全量资产仍有缺口。 [第29轮报告](../research/29-google-2016-waymo-spinout-and-patent-title.md)

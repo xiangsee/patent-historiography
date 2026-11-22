@@ -82,3 +82,7 @@ H4 哪些明确投入却未成为产品主线的专利方向被既有企业成�
 ## 2015 年母集与 Alphabet 控股结构
 
 新增 123 页、6,072 份去重公报，合并至 41,836 份。名称命中继续覆盖两个 Google 名称，单独查 Alphabet 及关联主体。存续法人与继任发行人分别入表，从美国登记建立 10-01、10-02 和年末的逐号快照。 [第28轮报告](../../research/28-google-2015-alphabet-reorganization-and-patent-title.md) · [合并统计](derived/google-1996-2015-combined-audit-2026-11-22.json)
+
+## 2016 年母集与 Waymo 独立
+
+新增 168 页、8,320 份去重公报，合并至 50,156 份。Waymo、X 和其他历史名称单独查。Google 与 X 仍持有的申请、Waymo 两段让与及后申请引用旧出资文书的现象以逐号履历佐证。 [第29轮报告](../../research/29-google-2016-waymo-spinout-and-patent-title.md) · [合并统计](derived/google-1996-2016-combined-audit-2026-11-22.json)

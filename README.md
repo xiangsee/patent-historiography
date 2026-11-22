@@ -1,6 +1,6 @@
 # 《企业史记》｜Patent Historiography
 
-**v1.14.0 · Google 2015 专利母集与 Alphabet 重组权属 · 2026-11-22**
+**v1.15.0 · Google 2016 专利母集与 Waymo 权属 · 2026-11-22**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
@@ -11,6 +11,11 @@
 
 
 
+
+## 2026-11-22｜第29轮：Google 2016 与 Waymo 独立
+
+- 168 页取齐 **8,320 份去重公报**，1996—2016 年累计 **50,156 份公报、35,800 个申请号、16,412 个数据库族标识**。 [第29轮研究](research/29-google-2016-waymo-spinout-and-patent-title.md) · [合并审计](pilots/google-longitudinal/derived/google-1996-2016-combined-audit-2026-11-22.json)
+- 核实 **2016-12-13** 业务独立，2017 年两段让与原件均援引 **02-22** 出资协议。逐号核到 **1,117 个美国申请号和 41 个 PCT 条目**经 Waymo Holding 进入 Waymo LLC。 [美国逐号权属表](pilots/google-longitudinal/derived/google-2016-waymo-us-title-evidence.csv) · [卷页与原件索引](pilots/google-longitudinal/derived/google-2016-waymo-rights-2026-11-22.json)
 
 ## 2026-11-22｜第28轮：Google 2015 与 Alphabet 重组
 

@@ -1,0 +1,506 @@
+application_serial,publication_number,reported_publication_date,role,organization_as_published,patentsview_table
+14986813,US9703291B1,2017-07-11,assignee,Waymo LLC,g_assignee_not_disambiguated
+14988968,US9783172B2,2017-10-10,assignee,Waymo LLC,g_assignee_not_disambiguated
+14989026,US9919422B1,2018-03-20,assignee,X Development LLC,g_assignee_not_disambiguated
+14989898,US9555547B1,2017-01-31,assignee,X Development LLC,g_assignee_not_disambiguated
+14991150,US9551992B1,2017-01-24,assignee,Google Inc.,g_assignee_not_disambiguated
+14994902,US10222462B2,2019-03-05,assignee,Waymo LLC,g_assignee_not_disambiguated
+15001367,US9643708B2,2017-05-09,assignee,X Development LLC,g_assignee_not_disambiguated
+15002733,US9594372B1,2017-03-14,assignee,X Development LLC,g_assignee_not_disambiguated
+15002775,US9373045B1,2016-06-21,assignee,Google Inc.,g_assignee_not_disambiguated
+15003526,US9757859B1,2017-09-12,assignee,X Development LLC,g_assignee_not_disambiguated
+15003760,US9666940B2,2017-05-30,assignee,X Development LLC,g_assignee_not_disambiguated
+15004232,US9842602B2,2017-12-12,assignee,Waymo LLC,g_assignee_not_disambiguated
+15006104,US2017213617A1,2017-07-27,applicant,X Development LLC,pg_applicant_not_disambiguated
+15006104,US9947434B2,2018-04-17,assignee,X Development LLC,g_assignee_not_disambiguated
+15006264,US9630316B2,2017-04-25,assignee,X Development LLC,g_assignee_not_disambiguated
+15006290,US9993924B2,2018-06-12,assignee,X Development LLC,g_assignee_not_disambiguated
+15006657,US9910439B1,2018-03-06,assignee,Waymo LLC,g_assignee_not_disambiguated
+15007558,US9744665B1,2017-08-29,assignee,X Development LLC,g_assignee_not_disambiguated
+15007944,US9916259B1,2018-03-13,assignee,Waymo LLC,g_assignee_not_disambiguated
+15008274,US9749984B2,2017-08-29,assignee,X Development LLC,g_assignee_not_disambiguated
+15009621,US10059003B1,2018-08-28,assignee,X Development LLC,g_assignee_not_disambiguated
+15012091,US9545720B1,2017-01-17,assignee,X Development LLC,g_assignee_not_disambiguated
+15013233,US10386480B1,2019-08-20,assignee,Waymo LLC,g_assignee_not_disambiguated
+15013850,US9584214B2,2017-02-28,assignee,X Development LLC,g_assignee_not_disambiguated
+15014508,US10693236B2,2020-06-23,assignee,Waymo LLC,g_assignee_not_disambiguated
+15014618,US9886864B1,2018-02-06,assignee,X Development LLC,g_assignee_not_disambiguated
+15016038,US10090786B2,2018-10-02,assignee,X Development LLC,g_assignee_not_disambiguated
+15016539,US9671784B1,2017-06-06,assignee,WAYMO LLC,g_assignee_not_disambiguated
+15018077,US9727795B1,2017-08-08,assignee,Waymo LLC,g_assignee_not_disambiguated
+15018205,US9594379B1,2017-03-14,assignee,Google Inc.,g_assignee_not_disambiguated
+15019772,US10162044B2,2018-12-25,assignee,X Development LLC,g_assignee_not_disambiguated
+15041883,US10679190B1,2020-06-09,assignee,X Development LLC,g_assignee_not_disambiguated
+15044865,US9537515B2,2017-01-03,assignee,X Development LLC,g_assignee_not_disambiguated
+15046608,US10184544B1,2019-01-22,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15046715,US9590721B2,2017-03-07,assignee,X Development LLC,g_assignee_not_disambiguated
+15046870,US9868212B1,2018-01-16,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15049815,US9914214B1,2018-03-13,assignee,X Development LLC,g_assignee_not_disambiguated
+15050071,US9848335B1,2017-12-19,assignee,X Development LLC,g_assignee_not_disambiguated
+15053024,US9917633B2,2018-03-13,assignee,X Development LLC,g_assignee_not_disambiguated
+15054441,US9915947B1,2018-03-13,assignee,Waymo LLC,g_assignee_not_disambiguated
+15054540,US10082570B1,2018-09-25,assignee,Waymo LLC,g_assignee_not_disambiguated
+15054570,US10191144B2,2019-01-29,assignee,Waymo LLC,g_assignee_not_disambiguated
+15054598,US9963216B1,2018-05-08,assignee,X Development LLC,g_assignee_not_disambiguated
+15054811,US2017247929A1,2017-08-31,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15054811,US9879463B2,2018-01-30,assignee,Waymo LLC,g_assignee_not_disambiguated
+15054958,US9868391B1,2018-01-16,assignee,Waymo LLC,g_assignee_not_disambiguated
+15060346,US9779621B1,2017-10-03,assignee,Waymo LLC,g_assignee_not_disambiguated
+15070425,US9836052B1,2017-12-05,assignee,Waymo LLC,g_assignee_not_disambiguated
+15070852,US10354577B1,2019-07-16,assignee,X Development LLC,g_assignee_not_disambiguated
+15075878,US2016200326A1,2016-07-14,applicant,Google Inc.,pg_applicant_not_disambiguated
+15075878,US9511779B2,2016-12-06,assignee,Google Inc.,g_assignee_not_disambiguated
+15077571,US9493238B2,2016-11-15,assignee,X Development LLC,g_assignee_not_disambiguated
+15079591,US2017277191A1,2017-09-28,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15079591,US9836057B2,2017-12-05,assignee,Waymo LLC,g_assignee_not_disambiguated
+15080027,US10086561B1,2018-10-02,assignee,X Development LLC,g_assignee_not_disambiguated
+15082205,US9823654B2,2017-11-21,assignee,X Development LLC,g_assignee_not_disambiguated
+15083742,US10032947B2,2018-07-24,assignee,X Development LLC,g_assignee_not_disambiguated
+15083742,US2017288079A1,2017-10-05,applicant,X Development LLC,pg_applicant_not_disambiguated
+15083919,US10062803B2,2018-08-28,assignee,X Development LLC,g_assignee_not_disambiguated
+15083919,US2017288087A1,2017-10-05,applicant,X Development LLC,pg_applicant_not_disambiguated
+15084568,US10272827B1,2019-04-30,assignee,Waymo LLC,g_assignee_not_disambiguated
+15084633,US9650123B2,2017-05-16,assignee,X Development LLC,g_assignee_not_disambiguated
+15085239,US9486922B2,2016-11-08,assignee,X Development LLC,g_assignee_not_disambiguated
+15086918,US9809293B2,2017-11-07,assignee,X Development LLC,g_assignee_not_disambiguated
+15087118,US9802638B1,2017-10-31,assignee,Waymo LLC,g_assignee_not_disambiguated
+15087190,US10591656B1,2020-03-17,assignee,X Development LLC,g_assignee_not_disambiguated
+15087390,US9804601B2,2017-10-31,assignee,Waymo LLC,g_assignee_not_disambiguated
+15088372,US9550558B1,2017-01-24,assignee,X Development LLC,g_assignee_not_disambiguated
+15089708,US9950619B1,2018-04-24,assignee,Waymo LLC,g_assignee_not_disambiguated
+15089716,US9849784B1,2017-12-26,assignee,Waymo LLC,g_assignee_not_disambiguated
+15089736,US10140870B1,2018-11-27,assignee,Waymo LLC,g_assignee_not_disambiguated
+15089776,US10093181B1,2018-10-09,assignee,Waymo LLC,g_assignee_not_disambiguated
+15090089,US10678259B1,2020-06-09,assignee,Waymo LLC,g_assignee_not_disambiguated
+15090456,US9580162B2,2017-02-28,assignee,X Development LLC,g_assignee_not_disambiguated
+15090462,US9573670B2,2017-02-21,assignee,X Development LLC,g_assignee_not_disambiguated
+15092013,US10114165B1,2018-10-30,assignee,X Development LLC,g_assignee_not_disambiguated
+15093118,US9987746B2,2018-06-05,assignee,X Development LLC,g_assignee_not_disambiguated
+15094776,US10204278B2,2019-02-12,assignee,Waymo LLC,g_assignee_not_disambiguated
+15096118,US9812609B1,2017-11-07,assignee,X Development LLC,g_assignee_not_disambiguated
+15099203,US10019566B1,2018-07-10,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15130874,US9774221B1,2017-09-26,assignee,X Development LLC,g_assignee_not_disambiguated
+15130880,US10807492B1,2020-10-20,assignee,X Development LLC,g_assignee_not_disambiguated
+15131014,US10078333B1,2018-09-18,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15131354,US9500906B2,2016-11-22,assignee,X Development LLC,g_assignee_not_disambiguated
+15133151,US10344805B1,2019-07-09,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15134570,US9857798B2,2018-01-02,assignee,Waymo LLC,g_assignee_not_disambiguated
+15134963,US9969079B2,2018-05-15,assignee,X Development LLC,g_assignee_not_disambiguated
+15136637,US9630711B2,2017-04-25,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15137120,US2016266581A1,2016-09-15,applicant,Google Inc.,pg_applicant_not_disambiguated
+15137120,US9811091B2,2017-11-07,assignee,Waymo LLC,g_assignee_not_disambiguated
+15137195,US9643709B1,2017-05-09,assignee,X Development LLC,g_assignee_not_disambiguated
+15137227,US9643707B1,2017-05-09,assignee,X Development LLC,g_assignee_not_disambiguated
+15141306,US10177457B1,2019-01-08,assignee,Waymo LLC,g_assignee_not_disambiguated
+15146673,US9558720B2,2017-01-31,assignee,X Development LLC,g_assignee_not_disambiguated
+15146688,US10011019B1,2018-07-03,assignee,X Development LLC,g_assignee_not_disambiguated
+15146692,US10016901B2,2018-07-10,assignee,X Development LLC,g_assignee_not_disambiguated
+15146692,US2017320216A1,2017-11-09,applicant,X Development LLC,pg_applicant_not_disambiguated
+15147762,US9849979B2,2017-12-26,assignee,X Development LLC,g_assignee_not_disambiguated
+15147766,US9783297B2,2017-10-10,assignee,X Development LLC,g_assignee_not_disambiguated
+15148055,US9561794B2,2017-02-07,assignee,X Development LLC,g_assignee_not_disambiguated
+15150756,US9821458B1,2017-11-21,assignee,X Development LLC,g_assignee_not_disambiguated
+15151852,US10011016B1,2018-07-03,assignee,X Development LLC,g_assignee_not_disambiguated
+15151926,US9687983B1,2017-06-27,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15153117,US10475345B2,2019-11-12,assignee,Waymo LLC,g_assignee_not_disambiguated
+15153117,US2016351056A1,2016-12-01,applicant,Google Inc.,pg_applicant_not_disambiguated
+15153694,US9981379B1,2018-05-29,assignee,X Development LLC,g_assignee_not_disambiguated
+15154366,US10377374B1,2019-08-13,assignee,Waymo LLC,g_assignee_not_disambiguated
+15155368,US9827677B1,2017-11-28,assignee,X Development LLC,g_assignee_not_disambiguated
+15155388,US9827678B1,2017-11-28,assignee,X Development LLC,g_assignee_not_disambiguated
+15155636,US9726263B1,2017-08-08,assignee,X Development LLC,g_assignee_not_disambiguated
+15156459,US10039103B2,2018-07-31,assignee,X Development LLC,g_assignee_not_disambiguated
+15156955,US9783113B2,2017-10-10,assignee,Waymo LLC,g_assignee_not_disambiguated
+15157578,US10277007B1,2019-04-30,assignee,Waymo LLC,g_assignee_not_disambiguated
+15158008,US2016267334A1,2016-09-15,applicant,Google Inc.,pg_applicant_not_disambiguated
+15158008,US9558413B2,2017-01-31,assignee,Google Inc.,g_assignee_not_disambiguated
+15158448,US9992480B1,2018-06-05,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15158984,US2017334313A1,2017-11-23,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15158984,US9855860B2,2018-01-02,assignee,Waymo LLC,g_assignee_not_disambiguated
+15159014,US9979480B1,2018-05-22,assignee,X Development LLC,g_assignee_not_disambiguated
+15159111,US9557255B2,2017-01-31,assignee,X Development LLC,g_assignee_not_disambiguated
+15159549,US10155273B1,2018-12-18,assignee,X Development LLC,g_assignee_not_disambiguated
+15160140,US9925718B2,2018-03-27,assignee,X Development LLC,g_assignee_not_disambiguated
+15161556,US9766626B1,2017-09-19,assignee,Waymo LLC,g_assignee_not_disambiguated
+15161613,US9821900B2,2017-11-21,assignee,X Development LLC,g_assignee_not_disambiguated
+15161848,US2017334561A1,2017-11-23,applicant,X Development LLC,pg_applicant_not_disambiguated
+15162389,US10056735B1,2018-08-21,assignee,X Development LLC,g_assignee_not_disambiguated
+15163179,US9827670B1,2017-11-28,assignee,X Development LLC,g_assignee_not_disambiguated
+15164125,US10192010B1,2019-01-29,assignee,X Development LLC,g_assignee_not_disambiguated
+15165160,US9744678B2,2017-08-29,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15165205,US2017341952A1,2017-11-30,applicant,X Development LLC,pg_applicant_not_disambiguated
+15165260,US2017341982A1,2017-11-30,applicant,X Development LLC,pg_applicant_not_disambiguated
+15165260,US9862643B2,2018-01-09,assignee,X Development LLC,g_assignee_not_disambiguated
+15165311,US9915136B2,2018-03-13,assignee,X Development LLC,g_assignee_not_disambiguated
+15165357,US2017342004A1,2017-11-30,applicant,X Development LLC,pg_applicant_not_disambiguated
+15165357,US9914683B2,2018-03-13,assignee,X Development LLC,g_assignee_not_disambiguated
+15165616,US2017267376A1,2017-09-21,applicant,X Development LLC,pg_applicant_not_disambiguated
+15167415,US9784243B2,2017-10-10,assignee,X Development LLC,g_assignee_not_disambiguated
+15170470,US9983590B2,2018-05-29,assignee,WAYMO LLC,g_assignee_not_disambiguated
+15171274,US9908609B1,2018-03-06,assignee,X Development LLC,g_assignee_not_disambiguated
+15171675,US10081102B1,2018-09-25,assignee,X Development LLC,g_assignee_not_disambiguated
+15171955,US11180236B1,2021-11-23,assignee,X Development LLC,g_assignee_not_disambiguated
+15172766,US9981382B1,2018-05-29,assignee,X Development LLC,g_assignee_not_disambiguated
+15173347,US2016283804A1,2016-09-29,applicant,Google Inc.,pg_applicant_not_disambiguated
+15173347,US9767369B2,2017-09-19,assignee,Waymo LLC,g_assignee_not_disambiguated
+15173938,US9932035B1,2018-04-03,assignee,Waymo LLC,g_assignee_not_disambiguated
+15176535,US2016349750A1,2016-12-01,applicant,Google Inc.,pg_applicant_not_disambiguated
+15176535,US9983582B2,2018-05-29,assignee,Waymo LLC,g_assignee_not_disambiguated
+15177047,US10453551B2,2019-10-22,assignee,X Development LLC,g_assignee_not_disambiguated
+15177047,US2017357748A1,2017-12-14,applicant,X Development LLC,pg_applicant_not_disambiguated
+15177314,US9981381B1,2018-05-29,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15177319,US10065311B1,2018-09-04,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15177321,US10173320B1,2019-01-08,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15177323,US10105847B1,2018-10-23,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15177326,US10166676B1,2019-01-01,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15178120,US2017357270A1,2017-12-14,applicant,X Development LLC,pg_applicant_not_disambiguated
+15178120,US9880561B2,2018-01-30,assignee,X Development LLC,g_assignee_not_disambiguated
+15178122,US9718195B1,2017-08-01,assignee,X Development LLC,g_assignee_not_disambiguated
+15178685,US9961333B1,2018-05-01,assignee,X Development LLC,g_assignee_not_disambiguated
+15179585,US2017355460A1,2017-12-14,applicant,X Development LLC,pg_applicant_not_disambiguated
+15184725,US10058997B1,2018-08-28,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15186393,US9855663B1,2018-01-02,assignee,X Development LLC,g_assignee_not_disambiguated
+15186808,US9928431B2,2018-03-27,assignee,Waymo LLC,g_assignee_not_disambiguated
+15187445,US10274386B2,2019-04-30,assignee,X Development LLC,g_assignee_not_disambiguated
+15187445,US2017363464A1,2017-12-21,applicant,X Development LLC,pg_applicant_not_disambiguated
+15187582,US2017361465A1,2017-12-21,applicant,X Development LLC,pg_applicant_not_disambiguated
+15187582,US9868214B2,2018-01-16,assignee,X Development LLC,g_assignee_not_disambiguated
+15188138,US9909887B1,2018-03-06,assignee,Waymo LLC,g_assignee_not_disambiguated
+15191810,US9695912B2,2017-07-04,assignee,X Development LLC,g_assignee_not_disambiguated
+15192830,US10013604B1,2018-07-03,assignee,X Development LLC,g_assignee_not_disambiguated
+15195607,US2017372259A1,2017-12-28,applicant,X Development LLC,pg_applicant_not_disambiguated
+15196090,US10556630B1,2020-02-11,assignee,X Development LLC,g_assignee_not_disambiguated
+15199675,US10029787B1,2018-07-24,assignee,X Development LLC,g_assignee_not_disambiguated
+15202251,US9607582B2,2017-03-28,assignee,X Development LLC,g_assignee_not_disambiguated
+15202262,US9715136B2,2017-07-25,assignee,X Development LLC,g_assignee_not_disambiguated
+15202698,US10093311B2,2018-10-09,assignee,Waymo LLC,g_assignee_not_disambiguated
+15202698,US2018011496A1,2018-01-11,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15203388,US9718544B2,2017-08-01,assignee,X Development LLC,g_assignee_not_disambiguated
+15204315,US9873650B2,2018-01-23,assignee,X Development LLC,g_assignee_not_disambiguated
+15204836,US9869597B1,2018-01-16,assignee,X Development LLC,g_assignee_not_disambiguated
+15205760,US10058995B1,2018-08-28,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15206839,US10490905B2,2019-11-26,assignee,Waymo LLC,g_assignee_not_disambiguated
+15206839,US2018013208A1,2018-01-11,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15209310,US10797460B2,2020-10-06,assignee,Waymo LLC,g_assignee_not_disambiguated
+15209310,US2020274311A1,2020-08-27,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15212967,US10025984B2,2018-07-17,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15212967,US2018018518A1,2018-01-18,applicant,X DEVELOPMENT LLC,pg_applicant_not_disambiguated
+15214231,US9882433B2,2018-01-30,assignee,Waymo LLC,g_assignee_not_disambiguated
+15215890,US9767370B1,2017-09-19,assignee,Waymo LLC,g_assignee_not_disambiguated
+15215974,US10539656B2,2020-01-21,assignee,Waymo LLC,g_assignee_not_disambiguated
+15216145,US10265856B2,2019-04-23,assignee,X Development LLC,g_assignee_not_disambiguated
+15216145,US2018021954A1,2018-01-25,applicant,X Development LLC,pg_applicant_not_disambiguated
+15216199,US10012991B1,2018-07-03,assignee,Waymo LLC,g_assignee_not_disambiguated
+15217298,US11535204B1,2022-12-27,assignee,Waymo LLC,g_assignee_not_disambiguated
+15218560,US10029638B1,2018-07-24,assignee,Waymo LLC,g_assignee_not_disambiguated
+15218882,US9729101B1,2017-08-08,assignee,X Development LLC,g_assignee_not_disambiguated
+15219423,US10224617B2,2019-03-05,assignee,Waymo LLC,g_assignee_not_disambiguated
+15219423,US2018034140A1,2018-02-01,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15219580,US10611269B1,2020-04-07,assignee,WAYMO LLC,g_assignee_not_disambiguated
+15219798,US9659217B2,2017-05-23,assignee,X Development LLC,g_assignee_not_disambiguated
+15220300,US10596703B1,2020-03-24,assignee,X Development LLC,g_assignee_not_disambiguated
+15221555,US10150213B1,2018-12-11,assignee,X Development LLC,g_assignee_not_disambiguated
+15222150,US9981834B2,2018-05-29,assignee,X Development LLC,g_assignee_not_disambiguated
+15222485,US9821466B2,2017-11-21,assignee,X Development LLC,g_assignee_not_disambiguated
+15222568,US2018029235A1,2018-02-01,applicant,X Development LLC,pg_applicant_not_disambiguated
+15222583,US10220511B2,2019-03-05,assignee,X Development LLC,g_assignee_not_disambiguated
+15222583,US2018029227A1,2018-02-01,applicant,X Development LLC,pg_applicant_not_disambiguated
+15222606,US10071856B2,2018-09-11,assignee,X Development LLC,g_assignee_not_disambiguated
+15222606,US2018029797A1,2018-02-01,applicant,X Development LLC,pg_applicant_not_disambiguated
+15222638,US9827683B1,2017-11-28,assignee,X Development LLC,g_assignee_not_disambiguated
+15223062,US9927441B1,2018-03-27,assignee,X Development LLC,g_assignee_not_disambiguated
+15226022,US10009107B2,2018-06-26,assignee,X Development LLC,g_assignee_not_disambiguated
+15226353,US10059006B2,2018-08-28,assignee,X Development LLC,g_assignee_not_disambiguated
+15226387,US10239213B1,2019-03-26,assignee,X Development LLC,g_assignee_not_disambiguated
+15226710,US9975244B1,2018-05-22,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15226717,US9981383B1,2018-05-29,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15226786,US10112706B2,2018-10-30,assignee,X Development LLC,g_assignee_not_disambiguated
+15226997,US9989970B1,2018-06-05,assignee,X Development LLC,g_assignee_not_disambiguated
+15227113,US2018041721A1,2018-02-08,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15227113,US9979906B2,2018-05-22,assignee,Waymo LLC,g_assignee_not_disambiguated
+15227612,US10055667B2,2018-08-21,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15227612,US2018039848A1,2018-02-08,applicant,X Development LLC,pg_applicant_not_disambiguated
+15228305,US10307800B1,2019-06-04,assignee,Waymo LLC,g_assignee_not_disambiguated
+15228328,US10023145B1,2018-07-17,assignee,Waymo LLC,g_assignee_not_disambiguated
+15230412,US10229317B2,2019-03-12,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15230412,US2018039835A1,2018-02-08,applicant,X DEVELOPMENT LLC,pg_applicant_not_disambiguated
+15231719,US10037029B1,2018-07-31,assignee,X Development LLC,g_assignee_not_disambiguated
+15238372,US9690297B1,2017-06-27,assignee,Waymo LLC,g_assignee_not_disambiguated
+15239367,US10496091B1,2019-12-03,assignee,Waymo LLC,g_assignee_not_disambiguated
+15241721,US10035623B1,2018-07-31,assignee,X Development LLC,g_assignee_not_disambiguated
+15242754,US10245726B1,2019-04-02,assignee,X Development LLC,g_assignee_not_disambiguated
+15242875,US9925669B2,2018-03-27,assignee,X Development LLC,g_assignee_not_disambiguated
+15243034,US10189158B2,2019-01-29,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15244063,US9862089B2,2018-01-09,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15244525,US2018060764A1,2018-03-01,applicant,X Development LLC,pg_applicant_not_disambiguated
+15244525,US9984339B2,2018-05-29,assignee,X Development LLC,g_assignee_not_disambiguated
+15244845,US2018060765A1,2018-03-01,applicant,X Development LLC,pg_applicant_not_disambiguated
+15244845,US9965730B2,2018-05-08,assignee,X Development LLC,g_assignee_not_disambiguated
+15247343,US10106124B1,2018-10-23,assignee,Waymo LLC,g_assignee_not_disambiguated
+15255390,US10108194B1,2018-10-23,assignee,X Development LLC,g_assignee_not_disambiguated
+15255696,US10504055B2,2019-12-10,assignee,X Development LLC,g_assignee_not_disambiguated
+15255696,US2018068255A1,2018-03-08,applicant,X Development LLC,pg_applicant_not_disambiguated
+15257021,US10444754B2,2019-10-15,assignee,Waymo LLC,g_assignee_not_disambiguated
+15257021,US2016370801A1,2016-12-22,applicant,Google Inc.,pg_applicant_not_disambiguated
+15257066,US9870002B1,2018-01-16,assignee,X Development LLC,g_assignee_not_disambiguated
+15258324,US10640111B1,2020-05-05,assignee,Waymo LLC,g_assignee_not_disambiguated
+15258396,US9709985B1,2017-07-18,assignee,Waymo LLC,g_assignee_not_disambiguated
+15258747,US2017057602A1,2017-03-02,applicant,X Development LLC,pg_applicant_not_disambiguated
+15258747,US9908593B2,2018-03-06,assignee,X Development LLC,g_assignee_not_disambiguated
+15259783,US2018065805A1,2018-03-08,applicant,X Development LLC,pg_applicant_not_disambiguated
+15259783,US9908696B1,2018-03-06,assignee,X Development LLC,g_assignee_not_disambiguated
+15264184,US2018034408A1,2018-02-01,applicant,X Development LLC,pg_applicant_not_disambiguated
+15265547,US10131053B1,2018-11-20,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15265758,US9895802B1,2018-02-20,assignee,X Development LLC,g_assignee_not_disambiguated
+15266777,US10218075B1,2019-02-26,assignee,Waymo LLC,g_assignee_not_disambiguated
+15268984,US9715232B1,2017-07-25,assignee,X Development LLC,g_assignee_not_disambiguated
+15269649,US2017011360A1,2017-01-12,applicant,X Development LLC,pg_applicant_not_disambiguated
+15269649,US9928487B2,2018-03-27,assignee,X Development LLC,g_assignee_not_disambiguated
+15270799,US10355365B2,2019-07-16,assignee,Waymo LLC,g_assignee_not_disambiguated
+15270799,US2018083363A1,2018-03-22,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15271140,US10502574B2,2019-12-10,assignee,Waymo LLC,g_assignee_not_disambiguated
+15271140,US2018081361A1,2018-03-22,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15271916,US9800973B1,2017-10-24,assignee,X Development LLC,g_assignee_not_disambiguated
+15272112,US10748057B1,2020-08-18,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15273465,US10122995B2,2018-11-06,assignee,X Development LLC,g_assignee_not_disambiguated
+15273465,US2018084242A1,2018-03-22,applicant,X Development LLC,pg_applicant_not_disambiguated
+15276193,US10353395B2,2019-07-16,assignee,X Development LLC,g_assignee_not_disambiguated
+15276193,US2018088586A1,2018-03-29,applicant,X Development LLC,pg_applicant_not_disambiguated
+15277535,US2017017145A1,2017-01-19,applicant,X Development LLC,pg_applicant_not_disambiguated
+15277535,US9778555B2,2017-10-03,assignee,X Development LLC,g_assignee_not_disambiguated
+15278338,US10059334B1,2018-08-28,assignee,Waymo LLC,g_assignee_not_disambiguated
+15278341,US9914452B1,2018-03-13,assignee,Waymo LLC,g_assignee_not_disambiguated
+15278419,US10261512B1,2019-04-16,assignee,Waymo LLC,g_assignee_not_disambiguated
+15282657,US9816822B1,2017-11-14,assignee,X Development LLC,g_assignee_not_disambiguated
+15283328,US10291319B1,2019-05-14,assignee,Waymo LLC,g_assignee_not_disambiguated
+15286153,US10107635B2,2018-10-23,assignee,Waymo LLC,g_assignee_not_disambiguated
+15286153,US2018052000A1,2018-02-22,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15286237,US2017021502A1,2017-01-26,applicant,Google Inc.,pg_applicant_not_disambiguated
+15286237,US9649767B2,2017-05-16,assignee,X Development LLC,g_assignee_not_disambiguated
+15286850,US10415676B1,2019-09-17,assignee,X Development LLC,g_assignee_not_disambiguated
+15287303,US10035262B2,2018-07-31,assignee,X Development LLC,g_assignee_not_disambiguated
+15287343,US9940840B1,2018-04-10,assignee,X Development LLC,g_assignee_not_disambiguated
+15288463,US10311658B2,2019-06-04,assignee,Waymo LLC,g_assignee_not_disambiguated
+15288463,US2018102001A1,2018-04-12,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15289313,US2017021503A1,2017-01-26,applicant,X Development LLC,pg_applicant_not_disambiguated
+15289313,US9802318B2,2017-10-31,assignee,X Development LLC,g_assignee_not_disambiguated
+15290153,US10069562B2,2018-09-04,assignee,X Development LLC,g_assignee_not_disambiguated
+15290153,US2018102843A1,2018-04-12,applicant,X Development LLC,pg_applicant_not_disambiguated
+15292251,US10502830B2,2019-12-10,assignee,Waymo LLC,g_assignee_not_disambiguated
+15292818,US10203696B2,2019-02-12,assignee,Waymo LLC,g_assignee_not_disambiguated
+15292818,US2018032078A1,2018-02-01,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15293503,US10202118B2,2019-02-12,assignee,Waymo LLC,g_assignee_not_disambiguated
+15293503,US2018105174A1,2018-04-19,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15294335,US10396117B2,2019-08-27,assignee,Waymo LLC,g_assignee_not_disambiguated
+15294335,US2018108700A1,2018-04-19,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15294886,US9787048B1,2017-10-10,assignee,Waymo LLC,g_assignee_not_disambiguated
+15295433,US10139829B1,2018-11-27,assignee,Waymo LLC,g_assignee_not_disambiguated
+15295494,US2017106978A1,2017-04-20,applicant,X Development LLC,pg_applicant_not_disambiguated
+15295573,US10749308B2,2020-08-18,assignee,Waymo LLC,g_assignee_not_disambiguated
+15295573,US2018109061A1,2018-04-19,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15295619,US10379540B2,2019-08-13,assignee,Waymo LLC,g_assignee_not_disambiguated
+15295619,US2018107221A1,2018-04-19,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15295995,US10353388B2,2019-07-16,assignee,X Development LLC,g_assignee_not_disambiguated
+15295995,US2018107211A1,2018-04-19,applicant,X Development LLC,pg_applicant_not_disambiguated
+15297013,US2017039020A1,2017-02-09,applicant,X Development LLC,pg_applicant_not_disambiguated
+15297013,US9690535B2,2017-06-27,assignee,X Development LLC,g_assignee_not_disambiguated
+15297579,US9891516B1,2018-02-13,assignee,X Development LLC,g_assignee_not_disambiguated
+15298186,US10277084B1,2019-04-30,assignee,Waymo LLC,g_assignee_not_disambiguated
+15299764,US10146223B1,2018-12-04,assignee,Waymo LLC,g_assignee_not_disambiguated
+15299970,US2018113209A1,2018-04-26,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15331079,US9892327B2,2018-02-13,assignee,Waymo LLC,g_assignee_not_disambiguated
+15331423,US10279480B1,2019-05-07,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15331437,US10493617B1,2019-12-03,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15331556,US2018113210A1,2018-04-26,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15332619,US2017279402A1,2017-09-28,applicant,X Development LLC,pg_applicant_not_disambiguated
+15334231,US10434643B1,2019-10-08,assignee,X Development LLC,g_assignee_not_disambiguated
+15336376,US9948380B1,2018-04-17,assignee,X Development LLC,g_assignee_not_disambiguated
+15337095,US10168690B2,2019-01-01,assignee,X Development LLC,g_assignee_not_disambiguated
+15337095,US2017083005A1,2017-03-23,assignee,X Development LLC,pg_assignee_not_disambiguated
+15337339,US2017043788A1,2017-02-16,applicant,Google Inc.,pg_applicant_not_disambiguated
+15337339,US9663117B2,2017-05-30,assignee,Google Inc.,g_assignee_not_disambiguated
+15337525,US10530209B2,2020-01-07,assignee,Waymo LLC,g_assignee_not_disambiguated
+15337525,US2018123412A1,2018-05-03,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15338798,US10048398B2,2018-08-14,assignee,X Development LLC,g_assignee_not_disambiguated
+15338798,US2018120465A1,2018-05-03,applicant,X Development LLC,pg_applicant_not_disambiguated
+15338834,US9878587B1,2018-01-30,assignee,X Development LLC,g_assignee_not_disambiguated
+15339400,US2017043871A1,2017-02-16,applicant,X Development LLC,pg_applicant_not_disambiguated
+15339400,US9630715B2,2017-04-25,assignee,X Development LLC,g_assignee_not_disambiguated
+15340656,US2017043484A1,2017-02-16,applicant,X Development LLC,pg_applicant_not_disambiguated
+15340656,US9821463B2,2017-11-21,assignee,X Development LLC,g_assignee_not_disambiguated
+15341475,US10330182B2,2019-06-25,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15343483,US10552690B2,2020-02-04,assignee,X Development LLC,g_assignee_not_disambiguated
+15343483,US2018129888A1,2018-05-10,applicant,X Development LLC,pg_applicant_not_disambiguated
+15344007,US10082789B1,2018-09-25,assignee,Waymo LLC,g_assignee_not_disambiguated
+15345508,US10414046B1,2019-09-17,assignee,X Development LLC,g_assignee_not_disambiguated
+15346281,US10191489B1,2019-01-29,assignee,X Development LLC,g_assignee_not_disambiguated
+15346327,US10099759B1,2018-10-16,assignee,X Development LLC,g_assignee_not_disambiguated
+15347389,US2017057510A1,2017-03-02,applicant,Google Inc.,pg_applicant_not_disambiguated
+15347389,US9707966B2,2017-07-18,assignee,Waymo LLC,g_assignee_not_disambiguated
+15348013,US10369693B1,2019-08-06,assignee,X Development LLC,g_assignee_not_disambiguated
+15350209,US2017063444A1,2017-03-02,applicant,X Development LLC,pg_applicant_not_disambiguated
+15350473,US11112237B2,2021-09-07,assignee,Waymo LLC,g_assignee_not_disambiguated
+15350473,US2018135972A1,2018-05-17,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15351822,US10295359B2,2019-05-21,assignee,Waymo LLC,g_assignee_not_disambiguated
+15351822,US2017122766A1,2017-05-04,applicant,Google Inc.,pg_applicant_not_disambiguated
+15351880,US10036648B1,2018-07-31,assignee,Waymo LLC,g_assignee_not_disambiguated
+15352717,US10845470B2,2020-11-24,assignee,Waymo LLC,g_assignee_not_disambiguated
+15352717,US2018136321A1,2018-05-17,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15353500,US9913429B1,2018-03-13,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15353638,US10418856B2,2019-09-17,assignee,X Development LLC,g_assignee_not_disambiguated
+15353638,US2018138748A1,2018-05-17,applicant,X Development LLC,pg_applicant_not_disambiguated
+15354482,US10389181B1,2019-08-20,assignee,X Development LLC,g_assignee_not_disambiguated
+15355285,US11425353B1,2022-08-23,assignee,X Development LLC,g_assignee_not_disambiguated
+15355658,US10042362B2,2018-08-07,assignee,Waymo LLC,g_assignee_not_disambiguated
+15355658,US2018143643A1,2018-05-24,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15356746,US10123255B2,2018-11-06,assignee,X Development LLC,g_assignee_not_disambiguated
+15356746,US2017070944A1,2017-03-09,applicant,X Development LLC,pg_applicant_not_disambiguated
+15357630,US9964632B1,2018-05-08,assignee,Waymo LLC,g_assignee_not_disambiguated
+15357811,US10416629B1,2019-09-17,assignee,X Development LLC,g_assignee_not_disambiguated
+15358729,US11205240B2,2021-12-21,assignee,Waymo LLC,g_assignee_not_disambiguated
+15358729,US2017193627A1,2017-07-06,applicant,Google Inc.,pg_applicant_not_disambiguated
+15358935,US2018141682A1,2018-05-24,applicant,X Development LLC,pg_applicant_not_disambiguated
+15361641,US10091496B2,2018-10-02,assignee,X Development LLC,g_assignee_not_disambiguated
+15361641,US2018152697A1,2018-05-31,applicant,X Development LLC,pg_applicant_not_disambiguated
+15362861,US10277842B1,2019-04-30,assignee,X Development LLC,g_assignee_not_disambiguated
+15363189,US10620310B2,2020-04-14,assignee,Waymo LLC,g_assignee_not_disambiguated
+15363189,US2018149742A1,2018-05-31,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15363212,US2018150083A1,2018-05-31,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15364010,US10355536B1,2019-07-16,assignee,X Development LLC,g_assignee_not_disambiguated
+15364914,US2018152628A1,2018-05-31,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15365249,US2018149137A1,2018-05-31,applicant,X Development LLC,pg_applicant_not_disambiguated
+15366746,US10605984B2,2020-03-31,assignee,Waymo LLC,g_assignee_not_disambiguated
+15366746,US2018156971A1,2018-06-07,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15366830,US2018156199A1,2018-06-07,applicant,X Development LLC,pg_applicant_not_disambiguated
+15367112,USRE47002E,2018-08-21,assignee,Waymo LLC,g_assignee_not_disambiguated
+15367115,USRE46982E,2018-08-07,assignee,Waymo LLC,g_assignee_not_disambiguated
+15367118,USRE46966E,2018-07-24,assignee,Waymo LLC,g_assignee_not_disambiguated
+15367122,USRE47058E,2018-09-25,assignee,Waymo LLC,g_assignee_not_disambiguated
+15367127,USRE46972E,2018-07-31,assignee,Waymo LLC,g_assignee_not_disambiguated
+15368226,US2018155150A1,2018-06-07,applicant,X Development LLC,pg_applicant_not_disambiguated
+15368252,US2018155152A1,2018-06-07,applicant,X Development LLC,pg_applicant_not_disambiguated
+15368579,US10502618B2,2019-12-10,assignee,Waymo LLC,g_assignee_not_disambiguated
+15368579,US2018156659A1,2018-06-07,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15370361,US10317906B2,2019-06-11,assignee,Waymo LLC,g_assignee_not_disambiguated
+15370361,US2017176996A1,2017-06-22,applicant,Google Inc.,pg_applicant_not_disambiguated
+15370924,US10164476B2,2018-12-25,assignee,X Development LLC,g_assignee_not_disambiguated
+15370924,US2018159375A1,2018-06-07,applicant,X Development LLC,pg_applicant_not_disambiguated
+15371595,US2017199523A1,2017-07-13,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15371595,US9740202B2,2017-08-22,assignee,Waymo LLC,g_assignee_not_disambiguated
+15372071,US9933784B1,2018-04-03,assignee,Waymo LLC,g_assignee_not_disambiguated
+15372126,US10052763B1,2018-08-21,assignee,X Development LLC,g_assignee_not_disambiguated
+15374428,US2018160982A1,2018-06-14,applicant,X Development LLC,pg_applicant_not_disambiguated
+15374884,US10366502B1,2019-07-30,assignee,Waymo LLC,g_assignee_not_disambiguated
+15375381,US2017102706A1,2017-04-13,applicant,X Development LLC,pg_applicant_not_disambiguated
+15375381,US9823659B2,2017-11-21,assignee,X Development LLC,g_assignee_not_disambiguated
+15376011,US10035266B1,2018-07-31,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15376254,US10430657B2,2019-10-01,assignee,X Development LLC,g_assignee_not_disambiguated
+15376254,US2018165518A1,2018-06-14,applicant,X Development LLC,pg_applicant_not_disambiguated
+15376651,US2017088259A1,2017-03-30,applicant,X DEVELOPMENT LLC,pg_applicant_not_disambiguated
+15376651,US9994314B2,2018-06-12,assignee,X DEVELOPMENT LLC,g_assignee_not_disambiguated
+15376786,US2018165470A1,2018-06-14,applicant,X Development LLC,pg_applicant_not_disambiguated
+15376845,US10295418B1,2019-05-21,assignee,X Development LLC,g_assignee_not_disambiguated
+15377139,US9947224B2,2018-04-17,assignee,Waymo LLC,g_assignee_not_disambiguated
+15377951,US10942272B2,2021-03-09,assignee,Waymo LLC,g_assignee_not_disambiguated
+15377951,US2018164439A1,2018-06-14,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15378845,US10733506B1,2020-08-04,assignee,Waymo LLC,g_assignee_not_disambiguated
+15379757,US10198641B2,2019-02-05,assignee,Waymo LLC,g_assignee_not_disambiguated
+15381288,US10013773B1,2018-07-03,assignee,Waymo LLC,g_assignee_not_disambiguated
+15381389,US11093819B1,2021-08-17,assignee,Waymo LLC,g_assignee_not_disambiguated
+15383112,US10002986B1,2018-06-19,assignee,Waymo LLC,g_assignee_not_disambiguated
+15383112,US2018175230A1,2018-06-21,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15383198,US9868446B1,2018-01-16,assignee,Waymo LLC,g_assignee_not_disambiguated
+15383317,US10198643B1,2019-02-05,assignee,Waymo LLC,g_assignee_not_disambiguated
+15383648,US10318827B2,2019-06-11,assignee,Waymo LLC,g_assignee_not_disambiguated
+15383648,US2018173971A1,2018-06-21,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15383842,US10001551B1,2018-06-19,assignee,Waymo LLC,g_assignee_not_disambiguated
+15383842,US2018172804A1,2018-06-21,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15384273,US9915937B2,2018-03-13,assignee,X Development LLC,g_assignee_not_disambiguated
+15384782,US10156851B1,2018-12-18,assignee,Waymo LLC,g_assignee_not_disambiguated
+15384841,US9964954B1,2018-05-08,assignee,Waymo LLC,g_assignee_not_disambiguated
+15386691,US10558264B1,2020-02-11,assignee,X Development LLC,g_assignee_not_disambiguated
+15387261,US2018170537A1,2018-06-21,applicant,X Development LLC,pg_applicant_not_disambiguated
+15387446,US10296012B2,2019-05-21,assignee,X Development LLC,g_assignee_not_disambiguated
+15387446,US2018173242A1,2018-06-21,applicant,X Development LLC,pg_applicant_not_disambiguated
+15387476,US2018170491A1,2018-06-21,applicant,X Development LLC,pg_applicant_not_disambiguated
+15387503,US10480947B2,2019-11-19,assignee,X Development LLC,g_assignee_not_disambiguated
+15387503,US2018172450A1,2018-06-21,applicant,X Development LLC,pg_applicant_not_disambiguated
+15387826,US9679206B1,2017-06-13,assignee,Waymo LLC,g_assignee_not_disambiguated
+15388100,US2018181750A1,2018-06-28,applicant,X Development LLC,pg_applicant_not_disambiguated
+15388884,US10009550B1,2018-06-26,assignee,X Development LLC,g_assignee_not_disambiguated
+15389074,US2018072420A1,2018-03-15,applicant,X Development LLC,pg_applicant_not_disambiguated
+15389138,US2018072418A1,2018-03-15,applicant,X Development LLC,pg_applicant_not_disambiguated
+15389290,US2018072404A1,2018-03-15,applicant,X Development LLC,pg_applicant_not_disambiguated
+15389304,US2018072421A1,2018-03-15,applicant,X Development LLC,pg_applicant_not_disambiguated
+15389326,US2018072422A1,2018-03-15,applicant,X Development LLC,pg_applicant_not_disambiguated
+15389338,US10000285B2,2018-06-19,assignee,X Development LLC,g_assignee_not_disambiguated
+15389338,US2018072417A1,2018-03-15,applicant,X Development LLC,pg_applicant_not_disambiguated
+15389648,US10061325B2,2018-08-28,assignee,X Development LLC,g_assignee_not_disambiguated
+15389648,US2017102711A1,2017-04-13,applicant,X Development LLC,pg_applicant_not_disambiguated
+15389699,US10493624B1,2019-12-03,assignee,X Development LLC,g_assignee_not_disambiguated
+15389840,US10459449B2,2019-10-29,assignee,X Development LLC,g_assignee_not_disambiguated
+15389840,US2017108871A1,2017-04-20,applicant,X Development LLC,pg_applicant_not_disambiguated
+15389847,US9749535B1,2017-08-29,assignee,X Development LLC,g_assignee_not_disambiguated
+15389888,US10162058B2,2018-12-25,assignee,X Development LLC,g_assignee_not_disambiguated
+15389888,US2018180740A1,2018-06-28,applicant,X Development LLC,pg_applicant_not_disambiguated
+15390006,US10406687B2,2019-09-10,assignee,X Development LLC,g_assignee_not_disambiguated
+15390006,US2018178382A1,2018-06-28,applicant,X DEVELOPMENT LLC,pg_applicant_not_disambiguated
+15390013,US10363657B2,2019-07-30,assignee,X Development LLC,g_assignee_not_disambiguated
+15390013,US2018178376A1,2018-06-28,applicant,X DEVELOPMENT LLC,pg_applicant_not_disambiguated
+15390043,US9886862B1,2018-02-06,assignee,X Development LLC,g_assignee_not_disambiguated
+15390145,US10279475B2,2019-05-07,assignee,X Development LLC,g_assignee_not_disambiguated
+15390145,US2017106536A1,2017-04-20,applicant,X Development LLC,pg_applicant_not_disambiguated
+15390193,US10292585B1,2019-05-21,assignee,X Development LLC,g_assignee_not_disambiguated
+15390454,US10436906B2,2019-10-08,assignee,Waymo LLC,g_assignee_not_disambiguated
+15390454,US2018180739A1,2018-06-28,applicant,Waymo LLC,pg_applicant_not_disambiguated
+15390460,US2018180421A1,2018-06-28,applicant,X Development LLC,pg_applicant_not_disambiguated
+15391038,US10191545B1,2019-01-29,assignee,X Development LLC,g_assignee_not_disambiguated
+15391389,US2017107974A1,2017-04-20,applicant,X Development LLC,pg_applicant_not_disambiguated
+15392523,US2018180363A1,2018-06-28,applicant,X Development LLC,pg_applicant_not_disambiguated
+15392542,US2018179955A1,2018-06-28,applicant,X Development LLC,pg_applicant_not_disambiguated
+15392571,US10082045B2,2018-09-25,assignee,X Development LLC,g_assignee_not_disambiguated
+15392571,US2018179914A1,2018-06-28,applicant,X Development LLC,pg_applicant_not_disambiguated
+15392653,US2018179960A1,2018-06-28,applicant,X Development LLC,pg_applicant_not_disambiguated
+15392657,US2018179916A1,2018-06-28,applicant,X Development LLC,pg_applicant_not_disambiguated
+15392825,US10512750B1,2019-12-24,assignee,X Development LLC,g_assignee_not_disambiguated
+15392836,US10284982B1,2019-05-07,assignee,X Development LLC,g_assignee_not_disambiguated
+15392927,US2018179917A1,2018-06-28,applicant,X DEVELOPMENT LLC,pg_applicant_not_disambiguated
+15393294,US10784762B1,2020-09-22,assignee,X Development LLC,g_assignee_not_disambiguated
+15393295,US10454341B1,2019-10-22,assignee,X Development LLC,g_assignee_not_disambiguated
+15393377,US10291365B2,2019-05-14,assignee,X Development LLC,g_assignee_not_disambiguated
+15393377,US2018191431A1,2018-07-05,applicant,X Development LLC,pg_applicant_not_disambiguated
+15393714,US10811903B1,2020-10-20,assignee,X Development LLC,g_assignee_not_disambiguated
+15393737,US10386461B1,2019-08-20,assignee,Waymo LLC,g_assignee_not_disambiguated
+15393796,US10386463B1,2019-08-20,assignee,X Development LLC,g_assignee_not_disambiguated
+15393874,US2018187572A1,2018-07-05,applicant,X Development LLC,pg_applicant_not_disambiguated
+15393891,US2018185942A1,2018-07-05,applicant,X Development LLC,pg_applicant_not_disambiguated
+15393955,US10243415B1,2019-03-26,assignee,X Development LLC,g_assignee_not_disambiguated
+15393981,US10490066B2,2019-11-26,assignee,X Development LLC,g_assignee_not_disambiguated
+15393981,US2018190111A1,2018-07-05,applicant,X Development LLC,pg_applicant_not_disambiguated
+15394133,US10381878B1,2019-08-13,assignee,X Development LLC,g_assignee_not_disambiguated
+15394164,US9843160B1,2017-12-12,assignee,X Development LLC,g_assignee_not_disambiguated
+15394377,US2018191747A1,2018-07-05,applicant,X Development LLC,pg_applicant_not_disambiguated
+15394572,US2018187627A1,2018-07-05,applicant,X DEVELOPMENT LLC,pg_applicant_not_disambiguated
+15395040,US10082104B2,2018-09-25,assignee,X Development LLC,g_assignee_not_disambiguated
+15395040,US2018187628A1,2018-07-05,applicant,X Development LLC,pg_applicant_not_disambiguated
+15395208,US11100171B1,2021-08-24,assignee,X Development LLC,g_assignee_not_disambiguated
+15395622,US2018187595A1,2018-07-05,applicant,X DEVELOPMENT LLC,pg_applicant_not_disambiguated
+15395774,US10140720B1,2018-11-27,assignee,X Development LLC,g_assignee_not_disambiguated
+15395803,US10341576B2,2019-07-02,assignee,X Development LLC,g_assignee_not_disambiguated
+15395803,US2018191932A1,2018-07-05,applicant,X Development LLC,pg_applicant_not_disambiguated
+15395996,US2018186464A1,2018-07-05,applicant,X Development LLC,pg_applicant_not_disambiguated
+15396105,US10417781B1,2019-09-17,assignee,X Development LLC,g_assignee_not_disambiguated
+15396399,US2018186448A1,2018-07-05,applicant,X DEVELOPMENT LLC,pg_applicant_not_disambiguated
+15396461,US2018187597A1,2018-07-05,applicant,X Development LLC,pg_applicant_not_disambiguated
+15396476,US10520592B2,2019-12-31,assignee,Waymo LLC,g_assignee_not_disambiguated
+15396476,US2018188359A1,2018-07-05,applicant,Waymo LLC,pg_applicant_not_disambiguated
+29560180,USD817834S,2018-05-15,assignee,Waymo LLC,g_assignee_not_disambiguated
+29560183,USD817835S,2018-05-15,assignee,Waymo LLC,g_assignee_not_disambiguated
+29560186,USD784884S,2017-04-25,assignee,Google Inc.,g_assignee_not_disambiguated
+29566867,USD813245S,2018-03-20,assignee,Waymo LLC,g_assignee_not_disambiguated
+29567764,USD815124S,2018-04-10,assignee,Waymo LLC,g_assignee_not_disambiguated
+29578541,USD796403S,2017-09-05,assignee,Waymo LLC,g_assignee_not_disambiguated
+29581730,USD812070S,2018-03-06,assignee,Waymo LLC,g_assignee_not_disambiguated
+29582394,USD822037S,2018-07-03,assignee,Waymo LLC,g_assignee_not_disambiguated
+29584691,USD831124S,2018-10-16,assignee,X Development LLC,g_assignee_not_disambiguated
+29586313,USD809902S,2018-02-13,assignee,X Development LLC,g_assignee_not_disambiguated
