@@ -1,0 +1,507 @@
+{
+  "by_filing_year": {
+    "2007": {
+      "application_numbers": 827,
+      "earlier_priority_year_rows": 747,
+      "matches_by_assignee_filter": {
+        "Google Inc.": 1104,
+        "Google LLC": 112
+      },
+      "missing_application_rows": 0,
+      "missing_family_rows": 0,
+      "missing_priority_rows": 0,
+      "multiple_assignee_filter_matches": 45,
+      "provider_family_ids": 585,
+      "publication_offices": {
+        "AT": 3,
+        "AU": 40,
+        "BR": 22,
+        "CA": 73,
+        "DE": 1,
+        "DK": 6,
+        "EP": 184,
+        "ES": 1,
+        "FI": 1,
+        "GB": 2,
+        "IL": 7,
+        "JP": 1,
+        "NO": 2,
+        "TW": 2,
+        "US": 577,
+        "WO": 248,
+        "ZA": 1
+      },
+      "publications": 1171
+    },
+    "2008": {
+      "application_numbers": 947,
+      "earlier_priority_year_rows": 886,
+      "matches_by_assignee_filter": {
+        "Google Inc.": 1203,
+        "Google LLC": 131
+      },
+      "missing_application_rows": 0,
+      "missing_family_rows": 0,
+      "missing_priority_rows": 0,
+      "multiple_assignee_filter_matches": 45,
+      "provider_family_ids": 620,
+      "publication_offices": {
+        "AT": 1,
+        "AU": 69,
+        "BR": 28,
+        "CA": 78,
+        "DE": 13,
+        "DK": 1,
+        "EP": 217,
+        "ES": 2,
+        "GB": 2,
+        "HK": 1,
+        "IL": 1,
+        "JP": 1,
+        "TW": 14,
+        "US": 631,
+        "WO": 230
+      },
+      "publications": 1289
+    },
+    "2009": {
+      "application_numbers": 1192,
+      "earlier_priority_year_rows": 1141,
+      "matches_by_assignee_filter": {
+        "Google Inc.": 1533,
+        "Google LLC": 252
+      },
+      "missing_application_rows": 0,
+      "missing_family_rows": 0,
+      "missing_priority_rows": 0,
+      "multiple_assignee_filter_matches": 93,
+      "provider_family_ids": 739,
+      "publication_offices": {
+        "AU": 146,
+        "BR": 36,
+        "CA": 155,
+        "DE": 23,
+        "DK": 4,
+        "EP": 266,
+        "HK": 3,
+        "IL": 4,
+        "IN": 1,
+        "JP": 5,
+        "MY": 1,
+        "NZ": 1,
+        "SG": 1,
+        "TW": 4,
+        "US": 783,
+        "WO": 259
+      },
+      "publications": 1692
+    }
+  },
+  "filings_before": null,
+  "publication_date_snapshots": {
+    "2007-12-31": {
+      "matched_filing_dates_through_cutoff": 1171,
+      "reported_published_after_cutoff": 1059,
+      "reported_published_by_cutoff": 112,
+      "unknown_or_inconsistent_publication_date": 0
+    },
+    "2008-12-31": {
+      "matched_filing_dates_through_cutoff": 2460,
+      "reported_published_after_cutoff": 1871,
+      "reported_published_by_cutoff": 589,
+      "unknown_or_inconsistent_publication_date": 0
+    },
+    "2009-12-31": {
+      "matched_filing_dates_through_cutoff": 4152,
+      "reported_published_after_cutoff": 3003,
+      "reported_published_by_cutoff": 1149,
+      "unknown_or_inconsistent_publication_date": 0
+    }
+  },
+  "query_audits": [
+    {
+      "counts": {
+        "application_numbers": 802,
+        "earlier_priority_year_rows": 683,
+        "missing_application_rows": 0,
+        "missing_family_rows": 0,
+        "missing_priority_rows": 0,
+        "provider_family_ids": 583,
+        "publication_offices": {
+          "AT": 3,
+          "AU": 10,
+          "BR": 19,
+          "CA": 67,
+          "DE": 1,
+          "DK": 5,
+          "EP": 157,
+          "ES": 1,
+          "FI": 1,
+          "GB": 2,
+          "IL": 7,
+          "JP": 1,
+          "NO": 2,
+          "TW": 2,
+          "US": 577,
+          "WO": 248,
+          "ZA": 1
+        },
+        "publications": 1104
+      },
+      "input_sha256_by_batch": {
+        "2007-inc.batch.json": "5f940c8ebd24d3910e6df01e3fec591888e1a7aaa5157a71c0dbf39c3dbcabee"
+      },
+      "page_count": 23,
+      "provider_total": 1104,
+      "query": {
+        "assignee": "Google Inc.",
+        "country_code": null,
+        "filing_date_from": "2007-01-01",
+        "filing_date_to": "2007-12-31",
+        "page_size": 50,
+        "retrieved_on": "2026-11-22",
+        "source": "IPHouse Research search_patents / patents_bulk"
+      },
+      "returned_by_page": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        4
+      ],
+      "sorted_publication_ids_sha256": "4f795580f60d03b8762e8e873881f2862b9b5a7b3624fc11e105d59c677c0679",
+      "sorted_source_publication_ids_sha256": "e776a5059f5015009e7175282b0f72329adc16f6915545a9943c0d9357c3d907"
+    },
+    {
+      "counts": {
+        "application_numbers": 66,
+        "earlier_priority_year_rows": 105,
+        "missing_application_rows": 0,
+        "missing_family_rows": 0,
+        "missing_priority_rows": 0,
+        "provider_family_ids": 36,
+        "publication_offices": {
+          "AU": 30,
+          "BR": 4,
+          "CA": 50,
+          "DK": 1,
+          "EP": 27
+        },
+        "publications": 112
+      },
+      "input_sha256_by_batch": {
+        "2007-llc.batch.json": "d8edd884762e7ef8022be4614990acf249efb2351eeeda793a64afb460b9f06e"
+      },
+      "page_count": 3,
+      "provider_total": 112,
+      "query": {
+        "assignee": "Google LLC",
+        "country_code": null,
+        "filing_date_from": "2007-01-01",
+        "filing_date_to": "2007-12-31",
+        "page_size": 50,
+        "retrieved_on": "2026-11-22",
+        "source": "IPHouse Research search_patents / patents_bulk"
+      },
+      "returned_by_page": [
+        50,
+        50,
+        12
+      ],
+      "sorted_publication_ids_sha256": "43878ef830a6f46d4266643bea5eac7b9e4e666fdfdd276e30d12f329649d2c8",
+      "sorted_source_publication_ids_sha256": "4dc9d5f01429835ec2eff61a6eacac5a6e22c681ce51f8737ddd924c0e01de6f"
+    },
+    {
+      "counts": {
+        "application_numbers": 906,
+        "earlier_priority_year_rows": 807,
+        "missing_application_rows": 0,
+        "missing_family_rows": 0,
+        "missing_priority_rows": 0,
+        "provider_family_ids": 614,
+        "publication_offices": {
+          "AT": 1,
+          "AU": 28,
+          "BR": 26,
+          "CA": 75,
+          "DE": 13,
+          "EP": 187,
+          "ES": 1,
+          "GB": 2,
+          "IL": 1,
+          "JP": 1,
+          "TW": 14,
+          "US": 624,
+          "WO": 230
+        },
+        "publications": 1203
+      },
+      "input_sha256_by_batch": {
+        "2008-inc.batch.json": "c6421a38386b9e6436a8ebd0effa960bc3c47b737c858b905014cc626e27f422"
+      },
+      "page_count": 25,
+      "provider_total": 1203,
+      "query": {
+        "assignee": "Google Inc.",
+        "country_code": null,
+        "filing_date_from": "2008-01-01",
+        "filing_date_to": "2008-12-31",
+        "page_size": 50,
+        "retrieved_on": "2026-11-22",
+        "source": "IPHouse Research search_patents / patents_bulk"
+      },
+      "returned_by_page": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        3
+      ],
+      "sorted_publication_ids_sha256": "4eab75954fcd51a6e396306cd3e44a30d3cffb678f4e29f6f22e00b973e17fb0",
+      "sorted_source_publication_ids_sha256": "64f7d2ad3ae7965b8411c22ee5084ce46ebb9d6e1e2f114a3856b00d62617dd4"
+    },
+    {
+      "counts": {
+        "application_numbers": 79,
+        "earlier_priority_year_rows": 118,
+        "missing_application_rows": 0,
+        "missing_family_rows": 0,
+        "missing_priority_rows": 0,
+        "provider_family_ids": 48,
+        "publication_offices": {
+          "AU": 41,
+          "BR": 2,
+          "CA": 48,
+          "DK": 1,
+          "EP": 30,
+          "ES": 1,
+          "HK": 1,
+          "US": 7
+        },
+        "publications": 131
+      },
+      "input_sha256_by_batch": {
+        "2008-llc.batch.json": "f2dd54f1efcd118f82fe3a68ab0e61fcf73ac3347ef2f1fb67e9e02c222e7928"
+      },
+      "page_count": 3,
+      "provider_total": 131,
+      "query": {
+        "assignee": "Google LLC",
+        "country_code": null,
+        "filing_date_from": "2008-01-01",
+        "filing_date_to": "2008-12-31",
+        "page_size": 50,
+        "retrieved_on": "2026-11-22",
+        "source": "IPHouse Research search_patents / patents_bulk"
+      },
+      "returned_by_page": [
+        50,
+        50,
+        31
+      ],
+      "sorted_publication_ids_sha256": "d7aa51f6da70542703f3790f006042e5f8f019b2bd6c5137a82a730a1ce817fe",
+      "sorted_source_publication_ids_sha256": "4d5f11de996b8e674fae9095e8209bacf2af284be990e7b1c78f5f22427165b0"
+    },
+    {
+      "counts": {
+        "application_numbers": 1122,
+        "earlier_priority_year_rows": 1003,
+        "missing_application_rows": 0,
+        "missing_family_rows": 0,
+        "missing_priority_rows": 0,
+        "provider_family_ids": 730,
+        "publication_offices": {
+          "AU": 56,
+          "BR": 31,
+          "CA": 153,
+          "DE": 23,
+          "DK": 2,
+          "EP": 213,
+          "IL": 4,
+          "IN": 1,
+          "JP": 5,
+          "MY": 1,
+          "NZ": 1,
+          "SG": 1,
+          "TW": 4,
+          "US": 779,
+          "WO": 259
+        },
+        "publications": 1533
+      },
+      "input_sha256_by_batch": {
+        "2009-inc.batch.json": "0af6382ca7555bb71c9a194ce56c250fe2a9dc2c38d1ce91e782c50f224bee0a"
+      },
+      "page_count": 31,
+      "provider_total": 1533,
+      "query": {
+        "assignee": "Google Inc.",
+        "country_code": null,
+        "filing_date_from": "2009-01-01",
+        "filing_date_to": "2009-12-31",
+        "page_size": 50,
+        "retrieved_on": "2026-11-22",
+        "source": "IPHouse Research search_patents / patents_bulk"
+      },
+      "returned_by_page": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        33
+      ],
+      "sorted_publication_ids_sha256": "6bcdffc4a8a67f11229ad3cfa4682b37585aad420834df5ee942270961f3c675",
+      "sorted_source_publication_ids_sha256": "b1472467a1f785c2f40fd4b9034a69f5b60c004d82f1565d7c4e320c4386f0f3"
+    },
+    {
+      "counts": {
+        "application_numbers": 147,
+        "earlier_priority_year_rows": 222,
+        "missing_application_rows": 0,
+        "missing_family_rows": 0,
+        "missing_priority_rows": 0,
+        "provider_family_ids": 80,
+        "publication_offices": {
+          "AU": 90,
+          "BR": 7,
+          "CA": 93,
+          "DK": 2,
+          "EP": 53,
+          "HK": 3,
+          "US": 4
+        },
+        "publications": 252
+      },
+      "input_sha256_by_batch": {
+        "2009-llc.batch.json": "0a544c1d3e7fb9d225d714155482bf169028f38dc16dc4bff17c61cded7564d0"
+      },
+      "page_count": 6,
+      "provider_total": 252,
+      "query": {
+        "assignee": "Google LLC",
+        "country_code": null,
+        "filing_date_from": "2009-01-01",
+        "filing_date_to": "2009-12-31",
+        "page_size": 50,
+        "retrieved_on": "2026-11-22",
+        "source": "IPHouse Research search_patents / patents_bulk"
+      },
+      "returned_by_page": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        2
+      ],
+      "sorted_publication_ids_sha256": "8d31aa16705bdb50d8c6eaab28d13217d063db2022d70d6b2b6b0b14c2c174b9",
+      "sorted_source_publication_ids_sha256": "9eb9d9939a6381abbdd296ed9d54630a4235f28350923418879b528a11414817"
+    }
+  ],
+  "scope": "retrospective provider query matches; no historical ownership or invention attribution",
+  "sorted_publication_ids_sha256": "f0ea1b7d41ac23a7c1db8dd672dfd887e7b518e4b4a335f518cda839d0f39ff3",
+  "tool": "patent_evidence",
+  "tool_version": "0.7.0",
+  "union": {
+    "application_numbers": 2966,
+    "earlier_priority_year_rows": 2774,
+    "matches_by_assignee_filter": {
+      "Google Inc.": 3840,
+      "Google LLC": 495
+    },
+    "missing_application_rows": 0,
+    "missing_family_rows": 0,
+    "missing_priority_rows": 0,
+    "multiple_assignee_filter_matches": 183,
+    "provider_family_ids": 1745,
+    "publication_offices": {
+      "AT": 4,
+      "AU": 255,
+      "BR": 86,
+      "CA": 306,
+      "DE": 37,
+      "DK": 11,
+      "EP": 667,
+      "ES": 3,
+      "FI": 1,
+      "GB": 4,
+      "HK": 4,
+      "IL": 12,
+      "IN": 1,
+      "JP": 7,
+      "MY": 1,
+      "NO": 2,
+      "NZ": 1,
+      "SG": 1,
+      "TW": 20,
+      "US": 1991,
+      "WO": 737,
+      "ZA": 1
+    },
+    "publications": 4152
+  }
+}

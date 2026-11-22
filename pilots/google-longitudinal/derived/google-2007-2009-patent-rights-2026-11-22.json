@@ -1,0 +1,365 @@
+{
+  "retrieved_on": "2026-11-22",
+  "scope": "Selected registry and publication evidence for the named deal roster. Each record applies to its listed properties and dates.",
+  "roster": "google-2007-2009-acquisition-roster.csv",
+  "uspto_original_record_scans": [
+    {
+      "case_id": "adscape",
+      "reel_frame": "019614/0940",
+      "source_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/19614/940",
+      "file": "adscape-19614-0940.pdf",
+      "record_kind": "merger_cover",
+      "date_executed": "2007-03-16",
+      "date_effective": "2007-03-16",
+      "date_recorded": "2007-07-26",
+      "from_entities": [
+        "Adscape Media, Inc."
+      ],
+      "to_entity": "Google Inc.",
+      "us_application_numbers": [
+        "11397733",
+        "11055064"
+      ],
+      "inspected_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10
+      ],
+      "interpretation": "Cover lists Google as receiving party. Delaware certificate shows Neverwinter merged into Adscape, which survived. The certificate alone cannot establish a direct transfer to the parent.",
+      "source_sha256": "1730b035bef2d9cdf322c300889396d772129217f24ad025648c674854ff1b4f"
+    },
+    {
+      "case_id": "greenborder",
+      "reel_frame": "019995/0713",
+      "source_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/19995/713",
+      "file": "greenborder-19995-0713.pdf",
+      "record_kind": "merger_cover",
+      "date_executed": "2007-05-11",
+      "date_effective": "2007-05-11",
+      "date_recorded": "2007-10-23",
+      "from_entities": [
+        "Green Border Technologies, Inc."
+      ],
+      "to_entity": "Google Inc.",
+      "us_application_numbers": [
+        "10971645"
+      ],
+      "inspected_pdf_pages": [
+        1,
+        3,
+        4,
+        7
+      ],
+      "interpretation": "The attached certificate cites the April 27 agreement and states that Tapas merged into Green Border, which survived on May 11. The cover records Google Inc. as receiving party. The certificate alone does not establish a direct transfer to the parent.",
+      "source_sha256": "a4ca9c70b62ad63249451fcb98f5f20cbf876f64693e4cae3cab0eabeb8c0fcb"
+    },
+    {
+      "case_id": "doubleclick",
+      "reel_frame": "021579/0040",
+      "source_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/21579/40",
+      "file": "doubleclick-21579-0040.pdf",
+      "record_kind": "merger",
+      "date_executed": "2008-05-01",
+      "date_effective": "2008-05-01",
+      "date_recorded": "2008-09-24",
+      "from_entities": [
+        "DoubleClick Inc.",
+        "Click Subco Corp.",
+        "Click Holding Corp."
+      ],
+      "to_entity": "Google Inc.",
+      "us_application_numbers": [
+        "11250575"
+      ],
+      "inspected_pdf_pages": [
+        1,
+        4,
+        7,
+        10,
+        11
+      ],
+      "interpretation": "Three post-closing merger documents are attached. The cover lists a single application.",
+      "source_sha256": "95687f4f11272024f31b29f5fad97008f76ef57180dcffed2e4563848954c41d"
+    },
+    {
+      "case_id": "postini",
+      "reel_frame": "022620/0513",
+      "source_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/22620/513",
+      "file": "postini-22620-0513.pdf",
+      "record_kind": "assignment",
+      "date_executed": "2009-03-25",
+      "date_effective": null,
+      "date_recorded": "2009-04-30",
+      "from_entities": [
+        "Postini, Inc."
+      ],
+      "to_entity": "Google Inc.",
+      "us_application_numbers": [
+        "11689634",
+        "09675609"
+      ],
+      "inspected_pdf_pages": [
+        1,
+        2,
+        3,
+        11
+      ],
+      "interpretation": "Cover lists 27 property numbers. The execution and recordation dates are independent of the September 2007 closing.",
+      "source_sha256": "eac2a7621427b931cdbe3114e9afcdc44c8190b04b6cea6f52ba6280f6e7f3e7"
+    },
+    {
+      "case_id": "jaiku",
+      "reel_frame": "022576/0570",
+      "source_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/22576/570",
+      "file": "jaiku-22576-0570.pdf",
+      "record_kind": "assignment",
+      "date_executed": "2009-04-07",
+      "date_effective": null,
+      "date_recorded": "2009-04-21",
+      "from_entities": [
+        "Jaiku Oy"
+      ],
+      "to_entity": "Google Inc.",
+      "us_application_numbers": [
+        "12028066"
+      ],
+      "inspected_pdf_pages": [
+        1,
+        3,
+        6
+      ],
+      "interpretation": "The cover lists 12/028,066 only.",
+      "source_sha256": "4d4c3eb4a179ec4bcc6038e6ce621be6dc3128c208edf5627b33f68a02750a6f"
+    },
+    {
+      "case_id": "on2",
+      "reel_frame": "024248/0343",
+      "source_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/24248/343",
+      "file": "on2-24248-0343.pdf",
+      "record_kind": "merger",
+      "date_executed": "2010-02-19",
+      "date_effective": "2010-02-19",
+      "date_recorded": "2010-04-16",
+      "from_entities": [
+        "On2 Technologies, Inc."
+      ],
+      "to_entity": "On2 Technologies, LLC",
+      "us_application_numbers": [
+        "10713807"
+      ],
+      "inspected_pdf_pages": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "interpretation": "Second-step certificate identifies Oxide LLC as the survivor with the amended name On2 Technologies, LLC.",
+      "source_sha256": "4845fb94a2c7f0a8a821aead129d5bed7aa1995c35c3c3af690381dbc23b3623"
+    },
+    {
+      "case_id": "on2",
+      "reel_frame": "024248/0432",
+      "source_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/24248/432",
+      "file": "on2-24248-0432.pdf",
+      "record_kind": "assignment",
+      "date_executed": "2010-04-16",
+      "date_effective": null,
+      "date_recorded": "2010-04-16",
+      "from_entities": [
+        "On2 Technologies, LLC"
+      ],
+      "to_entity": "Google Inc.",
+      "us_application_numbers": [
+        "10713807"
+      ],
+      "inspected_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "interpretation": "Separately executed assignment, recorded on the same day.",
+      "source_sha256": "65c41f05c8f05dc8374a1639cd47fe4360994aebd5cfba739bce289e5f623916"
+    },
+    {
+      "case_id": "admob",
+      "reel_frame": "025440/0161",
+      "source_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/25440/161",
+      "file": "admob-25440-0161.pdf",
+      "record_kind": "name_change",
+      "date_executed": "2010-05-27",
+      "date_effective": "2010-05-27",
+      "date_recorded": "2010-12-02",
+      "from_entities": [
+        "AdMob, Inc."
+      ],
+      "to_entity": "AdMob Google Inc.",
+      "us_application_numbers": [
+        "11702893"
+      ],
+      "inspected_pdf_pages": [
+        1,
+        3,
+        4,
+        7,
+        8
+      ],
+      "interpretation": "The attached certificate cites the agreement dated 2009-11-07. Marlon merged into AdMob, which survived as AdMob Google Inc.",
+      "source_sha256": "344e4c35b7a0ad2c03a97ccbc27401d3859da11d62ef5dc8a8bc6201bdae514a"
+    },
+    {
+      "case_id": "admob",
+      "reel_frame": "025512/0448",
+      "source_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/25512/448",
+      "file": "admob-25512-0448.pdf",
+      "record_kind": "assignment",
+      "date_executed": "2010-12-10",
+      "date_effective": null,
+      "date_recorded": "2010-12-16",
+      "from_entities": [
+        "AdMob Google Inc."
+      ],
+      "to_entity": "Google Inc.",
+      "us_application_numbers": [
+        "11702893",
+        "61340726"
+      ],
+      "inspected_pdf_pages": [
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "interpretation": "Independent assignment to Google Inc. Cover lists nine property numbers.",
+      "source_sha256": "710f49c53a1dbd0901bce07d5bd41bbe3b40812466da0950a80f463d7cb714c8"
+    },
+    {
+      "case_id": "teracent",
+      "reel_frame": "055047/0905",
+      "source_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/55047/905",
+      "file": "teracent-55047-0905.pdf",
+      "record_kind": "confirmatory_assignment",
+      "date_executed": "2010-07-09",
+      "date_effective": null,
+      "date_recorded": "2021-01-27",
+      "from_entities": [
+        "Teracent Corporation"
+      ],
+      "to_entity": "Google Inc.",
+      "us_application_numbers": [
+        "16102470"
+      ],
+      "inspected_pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "interpretation": "Cover lists continuation 16/102,470. The attached confirmatory assignment, executed in 2010, lists 11/624,618 in Schedule A. An earlier recordation stamp is overprinted. Its separate reel and frame were not independently verified.",
+      "source_sha256": "86138863e1bab89e483a648856c3a36feb01b5cbf6fefd908259df350878aeeb"
+    },
+    {
+      "case_id": "imageamerica",
+      "reel_frame": "019254/0217",
+      "source_url": "https://assignmentcenter.uspto.gov/ipas/search/api/v3/public/download/patent/19254/217",
+      "file": "imageamerica-19254-0217.pdf",
+      "record_kind": "third_party_assignment",
+      "date_executed": "1996-05-20",
+      "date_effective": null,
+      "date_recorded": "2007-05-07",
+      "from_entities": [
+        "Three inventors named on the application"
+      ],
+      "to_entity": "Omni Solutions International Ltd.",
+      "us_application_numbers": [
+        "08738713"
+      ],
+      "inspected_pdf_pages": [
+        1
+      ],
+      "interpretation": "Cover lists patent 5,999,211, whose published application number is 08/738,713. The three execution dates range from 1996-05-08 to 1996-05-20. This later administrative record does not determine subsequent title priority.",
+      "source_sha256": "975605fd04911f39e15c21219f50bc1f8d1d08f0a651b6004c3c54a92e1803a7",
+      "us_patent_numbers_on_cover": [
+        "5999211"
+      ]
+    }
+  ],
+  "epo_native_publications": [
+    {
+      "case_id": "marratech",
+      "publication": "EP1527567A1",
+      "publication_date": "2005-05-04",
+      "epo_application_number": "03733760.7",
+      "role": "applicant",
+      "entity": "Marratech AB",
+      "file": "EP1527567NWA1.xml",
+      "source_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1527567NWA1/document.xml",
+      "source_sha256": "17a83d0108419e9edb62cd699c2587dd4e49ad2cc70a4a2cd08c5e605e1a9136"
+    },
+    {
+      "case_id": "marratech",
+      "publication": "EP1527567B1",
+      "publication_date": "2008-04-02",
+      "epo_application_number": "03733760.7",
+      "role": "proprietor",
+      "entity": "Google Sweden Technique AB",
+      "file": "EP1527567NWB1.xml",
+      "source_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1527567NWB1/document.xml",
+      "source_sha256": "62092e8d3c9897b7ff165febb335781d29c10540e2f5e1c70b4bb1de8d764c0f"
+    }
+  ],
+  "other_primary_sources": [
+    {
+      "case_id": "marratech",
+      "source_type": "Swiss patent gazette",
+      "source_url": "https://www.ige.ch/fileadmin/user_upload/Services_Links/pmmbl/2007/P_2007_22_II.pdf",
+      "use": "Party-change notices name Marratech Teknik AB and Google Sweden Technique AB."
+    },
+    {
+      "case_id": "recaptcha",
+      "source_type": "US issued patent front page",
+      "publication": "US9600648B2",
+      "source_url": "https://patentimages.storage.googleapis.com/f4/b7/86/3fa8ab520bd1c8/US9600648.pdf",
+      "use": "Carnegie Mellon University is listed on the patent front page. Corporate acquisition and patent ownership need separate evidence."
+    }
+  ],
+  "verified_external_publication_controls": [
+    {
+      "case_id": "postini",
+      "publication_number": "US20070162587A1",
+      "filing_date": "2007-03-22",
+      "us_application_number": "11689634",
+      "in_two_name_query_union": false,
+      "publication_index": "https://patents.google.com/patent/US20070162587A1/en"
+    },
+    {
+      "case_id": "admob",
+      "publication_number": "US20080059299A1",
+      "filing_date": "2007-02-06",
+      "us_application_number": "11702893",
+      "in_two_name_query_union": false,
+      "publication_index": "https://patents.google.com/patent/US20080059299A1/en"
+    },
+    {
+      "case_id": "jaiku",
+      "publication_number": "US20080201289A1",
+      "filing_date": "2008-02-08",
+      "us_application_number": "12028066",
+      "in_two_name_query_union": false,
+      "publication_index": "https://patents.google.com/patent/US20080201289A1/en"
+    },
+    {
+      "case_id": "teracent",
+      "publication_number": "US20070260520A1",
+      "filing_date": "2007-01-18",
+      "us_application_number": "11624618",
+      "in_two_name_query_union": false,
+      "publication_index": "https://patents.google.com/patent/US20070260520A1/en"
+    }
+  ]
+}

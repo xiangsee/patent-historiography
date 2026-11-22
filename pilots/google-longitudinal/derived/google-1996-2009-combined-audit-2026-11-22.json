@@ -1,0 +1,84 @@
+{
+  "retrieved_on": "2026-11-22",
+  "window_audits": [
+    "google-1996-2006-name-coverage-2026-11-22.json",
+    "google-2007-2009-name-coverage-2026-11-22.json"
+  ],
+  "source_scope": "retrospective provider query matches; no historical ownership or invention attribution",
+  "query_windows": 13,
+  "pages": 168,
+  "union": {
+    "application_numbers": 5343,
+    "earlier_priority_year_rows": 5089,
+    "matches_by_assignee_filter": {
+      "Google Inc.": 6822,
+      "Google LLC": 1155
+    },
+    "missing_application_rows": 0,
+    "missing_family_rows": 0,
+    "missing_priority_rows": 0,
+    "multiple_assignee_filter_matches": 528,
+    "provider_family_ids": 2774,
+    "publication_offices": {
+      "AR": 2,
+      "AT": 17,
+      "AU": 706,
+      "BR": 179,
+      "CA": 839,
+      "DE": 52,
+      "DK": 24,
+      "EP": 1224,
+      "ES": 14,
+      "FI": 2,
+      "GB": 6,
+      "HK": 9,
+      "IL": 18,
+      "IN": 1,
+      "JP": 11,
+      "MX": 4,
+      "MY": 1,
+      "NO": 20,
+      "NZ": 3,
+      "PL": 1,
+      "SG": 2,
+      "TR": 1,
+      "TW": 28,
+      "US": 3068,
+      "WO": 1213,
+      "ZA": 4
+    },
+    "publications": 7449
+  },
+  "cross_window_overlap": {
+    "publications": 0,
+    "application_numbers": 0,
+    "provider_family_ids": 201
+  },
+  "sorted_publication_ids_sha256": "3bcc14a1c815bddb11352066213283730abdc940848f8036cde5ad52873b390f",
+  "publication_date_snapshots": {
+    "2006-12-31": {
+      "matched_filing_dates_through_cutoff": 3297,
+      "reported_published_after_cutoff": 2334,
+      "reported_published_by_cutoff": 963,
+      "unknown_or_inconsistent_publication_date": 0
+    },
+    "2007-12-31": {
+      "matched_filing_dates_through_cutoff": 4468,
+      "reported_published_after_cutoff": 2947,
+      "reported_published_by_cutoff": 1521,
+      "unknown_or_inconsistent_publication_date": 0
+    },
+    "2008-12-31": {
+      "matched_filing_dates_through_cutoff": 5757,
+      "reported_published_after_cutoff": 3496,
+      "reported_published_by_cutoff": 2261,
+      "unknown_or_inconsistent_publication_date": 0
+    },
+    "2009-12-31": {
+      "matched_filing_dates_through_cutoff": 7449,
+      "reported_published_after_cutoff": 4365,
+      "reported_published_by_cutoff": 3084,
+      "unknown_or_inconsistent_publication_date": 0
+    }
+  }
+}

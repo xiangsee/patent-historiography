@@ -81,3 +81,8 @@
 | PD-031 | 依据公报出版日期回溯版本可见性 | 1999 年底申请日命中 64 份、当时已出版 22 份；两组 EPO 原生 A/B XML 复核著录角色 | 逐件公报对照和历史法律事件的独立公开证据 |
 
 [工具入口](../patent_evidence/README.md#v07-longitudinal-query-coverage-and-publication-dates) · [第21轮研究](../research/21-google-1996-2006-patent-coverage.md)
+
+## 2026-11-22｜2007—2009 实证接续
+
+- PD-030/031 复用于新增 91 页，保留前一轮 77 页的文件哈希。跨段去重合成 7,449 份公报，并核验 201 个数据库族标识跨段重复。
+- PD-032 把交易公告、交割、登记封面、底层合同和专利申请号绑定。9 案 11 份 USPTO 原始登记影像、2 份 EPO 公报具有可复验来源和哈希。保留登记封面与附件角色冲突、续案的后续登记及收购未交割等情形。[第22轮研究](../research/22-google-2007-2009-acquisitions-and-patent-title.md) · [可复跑校验](../scripts/validate_google_2007_2009_coverage.py)
