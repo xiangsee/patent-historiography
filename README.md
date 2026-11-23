@@ -1,6 +1,6 @@
 # 《企业史记》｜Patent Historiography
 
-**v1.15.0 · Google 2016 专利母集与 Waymo 权属 · 2026-11-22**
+**v1.16.0 · Google 2017 专利母集、法人转换与 XXVI 持股 · 2026-11-22**
 
 以专利记录及其他史料为基础，用《史记》完整的**本纪、表、书、世家、列传**五体体系研究企业与产业发展史。不是古文化写作，也不是专利排行榜。**全量专利不是全部创新，五体不是五个彼此独立的栏目。**
 
@@ -11,6 +11,11 @@
 
 
 
+
+## 2026-11-22｜第30轮：Google 2017、法人转换与 XXVI 持股
+
+- 155 页去重为 **7,689 份公报**。1996—2017 年累计 **57,845 份公报、40,849 个申请号、17,724 个数据库族标识**。 [第30轮研究](research/30-google-2017-google-llc-xxvi-and-patent-title.md) · [合并审计](pilots/google-longitudinal/derived/google-1996-2017-combined-audit-2026-11-22.json)
+- XXVI Holdings 于 **2017-09-30** 接手 Google Inc. 股权。特拉华州证书载明 Google LLC 转制在当日 **23:59 EDT** 生效。逐卷对照让与、更正、补登和美国申请号。 [卷页索引](pilots/google-longitudinal/derived/google-2017-xxvi-us-reel-events.csv) · [逐号权属表](pilots/google-longitudinal/derived/google-2017-xxvi-us-title-evidence.csv)
 
 ## 2026-11-22｜第29轮：Google 2016 与 Waymo 独立
 

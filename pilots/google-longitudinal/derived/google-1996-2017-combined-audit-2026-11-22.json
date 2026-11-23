@@ -1,0 +1,117 @@
+{
+  "cross_window_overlap": {
+    "application_numbers": 1,
+    "provider_family_ids": 1463,
+    "publications": 0
+  },
+  "pages": 1198,
+  "previous_combined_audit": "google-1996-2016-combined-audit-2026-11-22.json",
+  "publication_date_snapshots": {
+    "2016-12-31": {
+      "matched_filing_dates_through_cutoff": 50156,
+      "reported_published_after_cutoff": 15480,
+      "reported_published_by_cutoff": 34676,
+      "unknown_or_inconsistent_publication_date": 0
+    },
+    "2017-04-14": {
+      "matched_filing_dates_through_cutoff": 51420,
+      "reported_published_after_cutoff": 14289,
+      "reported_published_by_cutoff": 37131,
+      "unknown_or_inconsistent_publication_date": 0
+    },
+    "2017-09-29": {
+      "matched_filing_dates_through_cutoff": 55229,
+      "reported_published_after_cutoff": 14723,
+      "reported_published_by_cutoff": 40506,
+      "unknown_or_inconsistent_publication_date": 0
+    },
+    "2017-09-30": {
+      "matched_filing_dates_through_cutoff": 55233,
+      "reported_published_after_cutoff": 14727,
+      "reported_published_by_cutoff": 40506,
+      "unknown_or_inconsistent_publication_date": 0
+    },
+    "2017-10-02": {
+      "matched_filing_dates_through_cutoff": 55265,
+      "reported_published_after_cutoff": 14757,
+      "reported_published_by_cutoff": 40508,
+      "unknown_or_inconsistent_publication_date": 0
+    },
+    "2017-10-30": {
+      "matched_filing_dates_through_cutoff": 56135,
+      "reported_published_after_cutoff": 15070,
+      "reported_published_by_cutoff": 41065,
+      "unknown_or_inconsistent_publication_date": 0
+    },
+    "2017-12-31": {
+      "matched_filing_dates_through_cutoff": 57845,
+      "reported_published_after_cutoff": 15220,
+      "reported_published_by_cutoff": 42625,
+      "unknown_or_inconsistent_publication_date": 0
+    }
+  },
+  "query_windows": 29,
+  "retrieved_on": "2026-11-22",
+  "sorted_publication_ids_sha256": "a0043a0f9bf9789ac1e4e1f444eb5ac072a81071589ec9965f63639fc62d594e",
+  "source_scope": "retrospective provider query matches; no historical ownership or invention attribution",
+  "union": {
+    "application_numbers": 40849,
+    "earlier_priority_year_rows": 36282,
+    "matches_by_assignee_filter": {
+      "Google Inc.": 42318,
+      "Google LLC": 16775
+    },
+    "missing_application_rows": 0,
+    "missing_family_rows": 0,
+    "missing_priority_rows": 0,
+    "multiple_assignee_filter_matches": 1248,
+    "provider_family_ids": 17724,
+    "publication_offices": {
+      "AR": 2,
+      "AT": 17,
+      "AU": 2560,
+      "BR": 414,
+      "CA": 2095,
+      "CL": 2,
+      "DE": 1639,
+      "DK": 130,
+      "EP": 8741,
+      "ES": 30,
+      "FI": 25,
+      "FR": 6,
+      "GB": 1482,
+      "GR": 1,
+      "HK": 45,
+      "IE": 27,
+      "IL": 72,
+      "IN": 26,
+      "IT": 2,
+      "JP": 344,
+      "MX": 43,
+      "MY": 1,
+      "NL": 57,
+      "NO": 20,
+      "NZ": 3,
+      "PL": 5,
+      "SG": 66,
+      "TR": 2,
+      "TW": 98,
+      "US": 32778,
+      "WO": 7107,
+      "ZA": 5
+    },
+    "publications": 57845
+  },
+  "window_audits": [
+    "google-1996-2006-name-coverage-2026-11-22.json",
+    "google-2007-2009-name-coverage-2026-11-22.json",
+    "google-2010-name-coverage-2026-11-22.json",
+    "google-2011-name-coverage-2026-11-22.json",
+    "google-2012-name-coverage-2026-11-22.json",
+    "google-2013-name-coverage-2026-11-22.json",
+    "google-2014-name-coverage-2026-11-22.json",
+    "google-2015-name-coverage-2026-11-22.json",
+    "google-2016-name-coverage-2026-11-22.json",
+    "google-2017-name-coverage-2026-11-22.json"
+  ]
+}

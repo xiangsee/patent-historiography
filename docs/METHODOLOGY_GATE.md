@@ -91,3 +91,5 @@ EPO原生EP XML的两份独立专利以及EP0729353的1996 A1/2002 B1/2012 B2原
 第 28 轮为 G3 加入合并证书的法定生效时点与股权承继，为 G4 加入三个权属快照和按执行日／已入卷日期的对照。美国及境外的全量逐件产权仍有缺项，G3、G4 保持 PARTIAL，正式写作保持 HOLD。 [第28轮研究](../research/28-google-2015-alphabet-reorganization-and-patent-title.md)
 
 第 29 轮给 G3 增补项目运营、出资文书约定日期和入卷日期的对读，给 G4 增补 Waymo 两段让与、X 单独受让以及延迟登记和续案链。完整境外组合、主出资协议和逐件产品实施证据仍缺，G3、G4 保持 PARTIAL，正式写作保持 HOLD。 [第29轮研究](../research/29-google-2016-waymo-spinout-and-patent-title.md)
+
+第 30 轮给 G3 增补同一日的股权交接、转换时间与登记时点，给 G4 增补晚年补登、法律主体连续性和不同主体受让的证据链。境外逐国处分及未公开案卷仍有证据缺口，G3、G4 保持 PARTIAL，正式写作保持 HOLD。 [第30轮研究](../research/30-google-2017-google-llc-xxvi-and-patent-title.md)

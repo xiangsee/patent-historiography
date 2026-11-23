@@ -76,6 +76,8 @@ jobs:
         run: python3 scripts/validate_google_2015_alphabet.py
       - name: Google 2016 Waymo spinout and title regression
         run: python3 scripts/validate_google_2016_waymo.py
+      - name: Google 2017 conversion, XXVI equity and patent title regression
+        run: python3 scripts/validate_google_2017_xxvi.py
       - name: Shiji chronology fixture
         run: python3 scripts/check_chronology_examples.py
       - name: Google-Overture claim fixture

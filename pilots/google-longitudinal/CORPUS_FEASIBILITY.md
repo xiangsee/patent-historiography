@@ -86,3 +86,7 @@ H4 哪些明确投入却未成为产品主线的专利方向被既有企业成�
 ## 2016 年母集与 Waymo 独立
 
 新增 168 页、8,320 份去重公报，合并至 50,156 份。Waymo、X 和其他历史名称单独查。Google 与 X 仍持有的申请、Waymo 两段让与及后申请引用旧出资文书的现象以逐号履历佐证。 [第29轮报告](../../research/29-google-2016-waymo-spinout-and-patent-title.md) · [合并统计](derived/google-1996-2016-combined-audit-2026-11-22.json)
+
+## 2026-11-22｜第30轮 2017 年母集
+
+新增 155 页、7,689 份去重公报，合并至 57,845 份。Google Inc.、Google LLC 合并检索，XXVI、Alphabet、Waymo、X、GTH、Verily 和 Terra Bella 相关主体另有探针。登记记录和原始公报按申请号对读。 [第30轮报告](../../research/30-google-2017-google-llc-xxvi-and-patent-title.md) · [合并统计](derived/google-1996-2017-combined-audit-2026-11-22.json)

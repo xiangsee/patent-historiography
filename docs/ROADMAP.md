@@ -136,3 +136,7 @@ GoTo1999主案/2001后续申请族与聚合转让事件被分别追踪；Google2
 ## 2026-11-22｜第29轮：2016 年母集与 Waymo 独立
 
 取齐 168 页并合并至 50,156 份公报。核实 Waymo 从 X 独立及 Google → Waymo Holding → Waymo LLC 两段产权，完成 1,129 个选定美国卷页和 406 个目标申请履历。主出资协议与境外逐局全量资产仍有缺口。 [第29轮报告](../research/29-google-2016-waymo-spinout-and-patent-title.md)
+
+## 2026-11-22｜第30轮：2017 年母集与法人转换
+
+取齐 155 页，合并至 57,845 份公报。并列 FCC 股权交接、特拉华州转换证书、美国原卷与逐号履历。各卷回收状态及尚待补取的卷页写入证据索引。 [第30轮研究](../research/30-google-2017-google-llc-xxvi-and-patent-title.md)

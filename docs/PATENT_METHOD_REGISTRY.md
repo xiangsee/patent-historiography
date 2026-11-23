@@ -121,3 +121,7 @@
 
 - PD-030/031 增加 168 页、8,320 份公报，累积取齐 1,043 页。快照跨到次年的出资与文书执行节点。
 - PD-032 以配对检索找齐资产卷，以正文补编文书所约定日期。逐申请号对账两段让与、同名主体、改错和后续申请。保留登记所见与授予时著录两个证据层。 [第29轮研究](../research/29-google-2016-waymo-spinout-and-patent-title.md) · [复跑校验](../scripts/validate_google_2016_waymo.py)
+
+### 2026-11-22｜第30轮增补
+
+- PD-033 核对转换证书明示时刻、直接持股人与各专利的独立权属。计算晚年补登时保留原标签和登记年，出现受让人、日期或案号更正时核覆原卷。 [第30轮研究](../research/30-google-2017-google-llc-xxvi-and-patent-title.md) · [复跑校验](../scripts/validate_google_2017_xxvi.py)
